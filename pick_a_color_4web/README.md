@@ -25,4 +25,4 @@ pick_a_color_4web
 见[_team_.tsv](https://github.com/{owner}/{repo}/{prj_dir}/_team_/_team.tsv)
 
 
-		成员列表，统计用，一人一行，输入Github 帐户名即可，上面的url超链接请置换{owner}/{repo}/{prj_dir}为项目所在的owner，仓库名称rep及项目名称prj_dir （此行完成後应删）
+		成员列表，统计用，一人一行，输入Github 帐户名即可，上面的url超链接请置换{owner}/{repo}/{prj_dir}为项目所在的所有者owner，仓库名称repo及项目名称prj_dir （此行完成後应删）
