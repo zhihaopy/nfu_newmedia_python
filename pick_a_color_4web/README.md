@@ -17,7 +17,7 @@ pick_a_color_4web
 * [folium](https://github.com/python-visualization/folium)
 * [opencv](http://opencv.org/)
 ### 数据
-* [简中CLDR localenaes](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
+* [简中CLDR localenames](https://github.com/unicode-cldr/cldr-localenames-modern/blob/master/main/zh-Hans/territories.json)
 ### API
 * [github](https://api.github.com/)
 
