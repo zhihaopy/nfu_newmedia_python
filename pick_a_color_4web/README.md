@@ -1,7 +1,11 @@
 pick_a_color_4web
+
+
 		英文项目名称，必需取名合理，是目录名亦是.py後端程序（此行完成後应删）
 # 简介 
 选取的颜色，操练Python语言开发练习：使用flask
+
+
 		中文简介项目内容（此行完成後应删）
 
 ## 输入：
@@ -19,4 +23,6 @@ pick_a_color_4web
 
 ## 作者成员：
 见[_team_.tsv](https://github.com/{owner}/{repo}/{prj_dir}/_team_/_team.tsv)
-		成员列表，统计用，一人一行，输入Github 帐户名即可，上面的url超链接请置换{owner}/{repo}/{prj_dir}为项目所在的owner，仓库名称rep及项目名称prj_dir
+
+
+		成员列表，统计用，一人一行，输入Github 帐户名即可，上面的url超链接请置换{owner}/{repo}/{prj_dir}为项目所在的owner，仓库名称rep及项目名称prj_dir （此行完成後应删）
