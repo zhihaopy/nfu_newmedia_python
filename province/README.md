@@ -1,4 +1,4 @@
-﻿province
+Province abbreviation and its Internet popularity rate 
 
 		
 # 简介 
