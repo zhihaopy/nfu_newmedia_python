@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+   <body style="background-color: #FFC0CB;">
+   <style type="text/css">
+<!--
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+input, label, select, option, textarea, button, fieldset, legend {
+    font-size:12px;
+}
+-->
+</style>
+   <form method='POST' action='/blood4'>
+<table>
+<th colspan="2">请主人好好填写资料，喵：</th>
+<tr><td>姓名：</td><td><input name='user_name' type='TEXT'></td></tr>
+<tr><td>血型：</td><td><input name='blood' type='radio' value=''>A<input name='blood' type='radio' value=''>B<input name='blood' type='radio' value=''>AB<input name='blood' type='radio' value=''>O</td></tr>
+</table>
+<p>准备好了吗，主人：</p>
+<p><input value='喵~' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
