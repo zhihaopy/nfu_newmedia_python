@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>您选取的是：</p>
+<table>
+<tr><td>血型：</td><td>{{ the_country_name }}</td></tr>
+<tr><td>血型性格：</td><td>{{ the_country_code }}</td></tr>
+<tr><td>姓名：</td><td>{{ the_user_name }}</td></tr>
+</table>    
+
+<p>返回以下结果：</p>
+<h3>{{ the_results }}</h3>
+
+{% endblock %}
+
