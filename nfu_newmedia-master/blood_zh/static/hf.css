@@ -11,7 +11,7 @@ body {
   margin-right:     10%;
   padding:          10px 10px 10px 10px;
   text-align：      center
-  margin:opx auto 
+  margin:           opx auto 
 }
 a {
   text-decoration:  underline; 
@@ -58,7 +58,8 @@ color:              ##E0FFFF;
 padding:            5px 5px 2px;
 border-collapse:    collapse;
 border-style:       dashed
-border-width:       8px
+border-width:       15px
+border-radius:      30px 30px 30px 30px
 }
 
 td, th {
@@ -69,6 +70,7 @@ border:             thin dotted gray;
 input[type=text] {
   font-size:        115%;
   width:            30em;
+  background-color: white
 }
 input[type=submit] {
   font-size:        125%;
