@@ -4,9 +4,9 @@
 
 <h2>{{ the_title }}</h2>
 
-<form method='POST' action='/省份搜索'>
+<form method='POST' action='/search_province'>
 <table>
-<p>使用此窗体提交搜索请求：</p>
+<tr><td><p>使用此窗体提交搜索请求：</p></td></tr>
 <tr><td>选取省份</td>
 <td><select name='province'>
 <option value="京">北京市</option>
@@ -45,12 +45,9 @@
 <option value="澳">澳门特别行政区</option>
 </select></td>
 </tr>
-
-
-
 </table>
 <p>准备就绪后, 单击此按钮：</p>
-<p><input value='play！' type='SUBMIT'></p>
+<p><input value='跑吧！' type='SUBMIT'></p>
 </form>
 
 {% endblock %}

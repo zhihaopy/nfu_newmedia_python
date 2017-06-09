@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, escape
-from vsearch import search4letters
+#from vsearch import search4letters
 
 app = Flask(__name__)
 
@@ -10,19 +10,17 @@ def log_request(req: 'flask_request', res: str) -> None:
         print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|')
 
 
-@app.route('/search4', methods=['POST'])
+@app.route('/search_province', methods=['POST'])
 def do_search() -> 'html':
     """Extract the posted data; perform the search; return results."""
     province = request.form['province']
-   
     title = '以下是您的结果：'
-    results = str(search4letters(province))
-    log_request(request, results)
+    #results = str(search4letters(province))
+    #log_request(request, results)
     return render_template('results.html',
                            the_title=title,
-                           the_province=province,
-                        
-                           the_results=results,)
+                           the_province=province)
+                           #the_results=results,)
 
 
 @app.route('/')
