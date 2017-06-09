@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>您提交了以下数据：</p>
+<table>
+<tr><td>省份：</td><td>{{ 省份 }}</td></tr>
+
+</table>
+
+<p>在"{{省份 }}" 中搜索 "{{ 简称 }}",返回以下结果：</p>
+<h3>{{ the_results }}</h3>
+
+{% endblock %}

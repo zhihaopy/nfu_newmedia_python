@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/省份搜索'>
+<table>
+<p>使用此窗体提交搜索请求：</p>
+<tr><td>省份：</td><td><input name='省份' type='TEXT' width='60'></td></tr>
+
+
+</table>
+<p>准备就绪后, 单击此按钮：</p>
+<p><input value='play！' type='SUBMIT'></p>
+</form>
+
+{% endblock %}
