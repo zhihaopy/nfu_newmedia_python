@@ -13,14 +13,14 @@ def log_request(req: 'flask_request', res: str) -> None:
 @app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
     """Extract the posted data; perform the search; return results."""
-    省份 = request.form['省份']
+    province = request.form['province']
    
     title = '以下是您的结果：'
-    results = str(search4letters(省份))
+    results = str(search4letters(province))
     log_request(request, results)
     return render_template('results.html',
                            the_title=title,
-                           the_省份=省份,
+                           the_province=province,
                         
                            the_results=results,)
 
