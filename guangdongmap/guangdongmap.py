@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*- 
-from flask import Flask, render_template, request, escape
+from flask import Flask, render_template, request, escape, url_for, send_file
 from lookup_longitude_latitude import get_img
 
 app = Flask(__name__)
@@ -25,6 +25,15 @@ def entry_page() -> 'html':
     return render_template('entry.html',
                            the_title='广东省城市地图！')
 
+
+# 这里我们接受一个 filename 檔名变量，http://127.0.0.1:5000/img/檔名
+@app.route('/maps/<filename>')  # filename
+def get_image(filename):        # filename
+    # 傳送mimetype="image/"
+    # 假定都是image/png格式
+    import os.path
+    
+    return send_file(os.path.join("maps",filename), mimetype='image/png')
 
 
 if __name__ == '__main__':

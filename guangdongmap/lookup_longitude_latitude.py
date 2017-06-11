@@ -47,7 +47,8 @@ def get_location(cities):
     str1=','.join(z)
     return str1
 
-def get_img(cities):	
+def get_img(cities):
+    path_img = "maps/img.png"
     #高德地图（静态地图）api
     url_api = "http://restapi.amap.com/v3/staticmap"
     parameters={'location':'',
@@ -60,9 +61,9 @@ def get_img(cities):
         data = r.json()
     except:
         data = r.content
-    with open ("img.png", "wb") as f:
+    with open (path_img, "wb") as f:
         f.write(r.content)
-    return f
+    return path_img
 
  #print(location('广东从化'))
 
