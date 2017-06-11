@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>您提交了以下数据：</p>
+<table>
+<tr><td>起始机场: </td><td>{{ the_placeofdeparture }}</td></tr>
+<tr><td>目的机场: </td><td>{{ the_destination }}</td></tr>
+</table>
+
+<p>在百度地图中搜索</p>
+<blockquote></blockquote>
+<p>返回以下结果：</p>
+
+{% endblock %}

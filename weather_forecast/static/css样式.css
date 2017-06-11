@@ -1,0 +1,39 @@
+@charset "UTF-8";  
+	  html,body{
+            height: 100%;
+            color:white;
+            font-family:sans-serif;
+        }
+        body{
+            background:url(bg.jpg) center center;
+            background-size:cover;
+            margin:0;
+            padding:0;
+            position:relative;
+        }
+        #container{
+            width:100%;
+            text-align:center;
+            position:absolute;
+            top:50%;
+            transform: translateY(-50%);
+        }
+        a{
+
+            color:whitesmoke;
+            border:1px solid whitesmoke;
+            border-radius:3px;
+            padding:6px 16px;
+            text-decoration:none;
+        }
+#login_form input {
+    border: 0;
+    BACKGROUND-COLOR: transparent;
+    BORDER-BOTTOM: #ffffff 1px solid;
+    BORDER-LEFT: #ffffff 1px solid;
+    BORDER-RIGHT: #ffffff 1px solid;
+    BORDER-TOP: #ffffff 1px solid;
+    COLOR: #ffffff;
+    HEIGHT: 25px;
+    font-size: 12pt
+}

@@ -40,9 +40,9 @@ def view_the_log() -> 'html':
             contents.append([])
             for item in line.split('|'):
                 contents[-1].append(escape(item))
-    titles = ('Form Data', 'Remote_addr', 'User_agent', 'Results')
+    titles = ('Form Data', 'Remote_addr', 'User_agent', 'Results')       
     return render_template('viewlog.html',
-                           the_title='查看日志',
+                           the_title='您获取了以下的数据：',
                            the_row_titles=titles,
                            the_data=contents,)
 

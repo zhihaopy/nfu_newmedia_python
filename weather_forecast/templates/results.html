@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1 align="center">天气查询系统</h1>
+
+<p align="center"><b>{{the_city}}({{the_lat}}°N,{{the_lon}}°E)</b></p>
+<table align="center" border="1px" cellspacing="0px" bordercolor="white">
+<tr>
+	<td>日夜情况</td> <td>白天：{{the_day_weather}}<br/>夜晚：{{the_night_weather}}</td>
+</tr>
+<tr>
+	<td>温度</td> <td>最高：{{the_max}}°<br/>最低：{{the_min}}° </td>
+</tr>
+<tr>
+	<td>相对湿度</td> <td>{{the_hum}}%RH</td>
+</tr>
+<tr>
+	<td>降水概率</td> <td>{{the_pop}}%</td>
+</tr>
+<tr>
+	<td>降水量</td> <td>{{the_pcpn}}mm</td>
+</tr>
+<tr>
+	<td>风向</td> <td>{{the_dir}}</td>
+</tr>
+<tr>
+	<td>风力</td> <td>{{the_sc}}级</td>
+</tr>
+<tr>
+	<td>日出时间</td> <td>{{the_sun_rise}}</td>
+</tr>
+<tr>
+	<td>日落时间</td> <td>{{the_sun_set}}</td>
+</tr>
+<br/>
+<tr>
+	<td>舒适度</td> <td>{{the_comf}}<br/>{{the_comf_details}}</td>
+</tr>
+<tr>
+	<td>穿衣指数</td> <td>{{the_drsg}}<br/>{{the_drsg_details}}</td>
+</tr>
+<tr>
+	<td>感冒指数</td> <td>{{the_flu}}<br/>{{the_flu_details}}</td>
+</tr>
+<tr>
+	<td>运动指数</td> <td>{{the_sport}}<br/>{{the_sport_details}}</td>
+</tr>
+<tr>
+	<td>旅游指数</td> <td>{{the_trav}}<br/>{{the_trav_details}}</td>
+</tr>
+<tr>
+	<td>紫外线指数</td> <td>{{the_uv}}<br/>{{the_uv_details}}</td>
+</tr>
+<tr><td colspan=2  align="right">更新时间：{{the_update}}</td></tr>
+</table>
+
+{% endblock %}
