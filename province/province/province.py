@@ -2,6 +2,18 @@ from flask import Flask, render_template, request, escape
 #from vsearch import search4letters
 
 app = Flask(__name__)
+    
+#from pprint import pprint
+import requests
+import json
+url_api = "http://restapi.amap.com/v3/config/district"
+parameters = {'keywords': '中国', 
+              'subdistrict': 1,
+              'key': 'ee83ffb0500bcbbe5929a0d58d012e0e'}
+r = requests.get (url_api, params=parameters)
+data = r.json()
+#pprint (data)
+list_province=[x['name'] for x in data['districts'][0]['districts']]
 
 
 def log_request(req: 'flask_request', res: str) -> None:
@@ -28,7 +40,9 @@ def do_search() -> 'html':
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上省份与互联网普及率搜索！')
+                           the_title='欢迎来到网上省份与互联网普及率搜索!',
+						   the_user_province=list_province)
+    
 
 
 @app.route('/viewlog')

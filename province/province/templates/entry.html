@@ -9,40 +9,12 @@
 <tr><td><p>使用此窗体提交搜索请求：</p></td></tr>
 <tr><td>选取省份/直辖市：</td></td>
 <td><select name='province'>
-<option value="京">北京市</option>
-<option value="津">天津市</option>
-<option value="冀">河北省</option>
-<option value="晋">山西省</option>
-<option value="蒙">内蒙古自治区</option>
-<option value="辽">辽宁省</option>
-<option value="吉">吉林省</option>
-<option value="黑">黑龙江省</option>
-<option value="沪">上海市</option>
-<option value="苏">江苏省</option>
-<option value="浙">浙江省</option>
-<option value="皖">安徽省</option>
-<option value="闽">福建省</option>
-<option value="赣">江西省</option>
-<option value="鲁">山东省</option>
-<option value="豫">河南省</option>
-<option value="鄂">湖北省</option>
-<option value="湘">湖南省</option>
-<option value="粤">广东省</option>
-<option value="桂">广西壮族自治区</option>
-<option value="琼">海南省</option>
-<option value="渝">重庆市</option>
-<option value="川">四川省</option>
-<option value="黔">贵州省</option>
-<option value="滇">云南省</option>
-<option value="藏">西藏自治区</option>
-<option value="陕">陕西省</option>
-<option value="甘">甘肃省</option>
-<option value="青">青海省</option>
-<option value="宁">宁夏回族自治区</option>
-<option value="新">新疆维吾尔自治区</option>
-<option value="台">台湾省</option>
-<option value="港">香港特别行政区</option>
-<option value="澳">澳门特别行政区</option>
+     {% for item in the_user_province %}
+	 
+       <option value="{{item}}">{{item}}</option> 
+ 
+     {% endfor %}
+
 </select>
 </td></tr>
 </table>
