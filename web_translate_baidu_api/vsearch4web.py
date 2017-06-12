@@ -1,4 +1,5 @@
- # -*- coding: utf-8 -*- 
+﻿ # -*- coding: utf-8 -*- 
+
 from flask import Flask, render_template, request, escape
 import json
 import hashlib
@@ -30,7 +31,8 @@ def do_search() -> 'html':
 	translate_sign_md5=m.hexdigest()
 #网址参数连接
 	url_1 = 'http://api.fanyi.baidu.com/api/trans/vip/translate?'  
-	url_2 = 'q='+translate_q+'&from=auto&to=zh&appid='+str(translate_appid)+'&salt='+str(translate_salt)+'&sign='+translate_sign_md5
+	url_2 = 'q='+translate_q+'&from='+str(translate_from)+'&to='+str(translate_to)+'&appid='+str(translate_appid)+'&salt='+str
+(translate_salt)+'&sign='+translate_sign_md5
 	url= url_1+url_2
 #网页打开  
 	r=requests.get(url)
