@@ -28,14 +28,10 @@ for line in gd:
     v= {'经度':line_dict[ '经度'], '纬度':line_dict[ '纬度']}
     line_all_dict.update({k:v})
 
-#print(line_all_dict['广东从化'])
-#print(line_all_dict['广东从化']['经度'])
 
 
+#定义经纬度函数
 
-#def get_location(cities):
-    #x=line_all_dict[cities]['经度']
-    #y=line_all_dict[cities]['纬度']  
 def location_x(cities):
     x=line_all_dict[cities]['经度']  
     return x
@@ -47,13 +43,14 @@ def get_location(cities):
     str1=','.join(z)
     return str1
 
+#抓取地图
 def get_img(cities):
-    path_img = "maps/img.png"
+    path_img = ("maps/{img}.png".format(img=cities))
     #高德地图（静态地图）api
     url_api = "http://restapi.amap.com/v3/staticmap"
     parameters={'location':'',
                 'zoom':10,
-                'size':'750*500',
+                'size':'1000*600',
                 'key': 'ee83ffb0500bcbbe5929a0d58d012e0e'}
     parameters['location']=get_location(cities)
     r = requests.get(url_api, params=parameters)
@@ -65,18 +62,3 @@ def get_img(cities):
         f.write(r.content)
     return path_img
 
- #print(location('广东从化'))
-
- 
-#高德地图（静态地图）api
-#url_api = ("http://restapi.amap.com/v3/staticmap?location={c}&zoom=10&size=750*300&markers=mid,,A:{c}&key=d8756bc8eedb5021a2e9fe9833418e90".format(c=location(city))
-#r = requests.get(url_api)
-
-
-#import folium
-#map_osm = folium.Map(location=[x, y], zoom_start=14)
-#folium.Marker([x, y], 
- #             popup="广东从化", 
- #             icon=folium.Icon(color='red',icon='info-sign')
- #            ).add_to(map_osm)
-#map_osm.save('map.html')

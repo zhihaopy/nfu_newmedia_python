@@ -14,16 +14,17 @@ guangdongmap
 用户得到输出结果为：
 ## 从输入到输出，本组作品使用了：
 ### 模块
-* folium
-* lxml
+
+* requests
+
+
 
 ### 数据
 * [简中CLDR localenames](http://www.cnblogs.com/zhangqs008/archive/2011/05/09/2341138.html)
 ### API
-* http://lbs.amap.com/api/webservice/guide/api/district
+* http://lbs.amap.com/api/webservice/guide/api/staticmaps
 
 ## 作者成员：
 见[_team_.tsv](_team_/_team_.tsv)
-
-
-		
+###数据参考
+https://github.com/zza2205260/Python-sphinx
