@@ -1,7 +1,8 @@
 body {
   font-family:      Verdana, Geneva, Arial, sans-serif;
   font-size:        medium;
-  background-color: tan;
+  background:       url(ditu.jpg) center center;
+  background-size:  cover;
   margin-top:       5%;
   margin-bottom:    5%;
   margin-left:      10%;
