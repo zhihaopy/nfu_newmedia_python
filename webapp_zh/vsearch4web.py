@@ -1,13 +1,7 @@
 from flask import Flask, render_template, request, escape
-#from vsearch import search4letters
+from vsearch import search4letters
 
 app = Flask(__name__)
-    
-#from pprint import pprint
-import json
-with open ('data/province_code_name.json') as fp:
-    data = json.load(fp)
-list_province=[v for k,v in data.items()]
 
 
 def log_request(req: 'flask_request', res: str) -> None:
@@ -16,17 +10,19 @@ def log_request(req: 'flask_request', res: str) -> None:
         print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|')
 
 
-@app.route('/search_province', methods=['POST'])
+@app.route('/search4', methods=['POST'])
 def do_search() -> 'html':
     """Extract the posted data; perform the search; return results."""
-    province = request.form['province']
+    phrase = request.form['phrase']
+    letters = request.form['letters']
     title = '以下是您的结果：'
-    #results = str(search4letters(province))
-    #log_request(request, results)
+    results = str(search4letters(phrase, letters))
+    log_request(request, results)
     return render_template('results.html',
                            the_title=title,
-                           the_province=province)
-                           #the_results=results,)
+                           the_phrase=phrase,
+                           the_letters=letters,
+                           the_results=results,)
 
 
 @app.route('/')
@@ -34,9 +30,7 @@ def do_search() -> 'html':
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上省份简称与互联网普及率搜索!',
-						   the_user_province=list_province)
-    
+                           the_title='欢迎来到网上 汉语找介词！')
 
 
 @app.route('/viewlog')
@@ -48,13 +42,12 @@ def view_the_log() -> 'html':
             contents.append([])
             for item in line.split('|'):
                 contents[-1].append(escape(item))
-    titles = ('Form Data', 'Remote_addr', 'User_agent', 'Results')       
+    titles = ('表单内容', '访问者IP', '浏览器', '运行结果')
     return render_template('viewlog.html',
-                           the_title='您获取了以下的数据：',
+                           the_title='查看日志',
                            the_row_titles=titles,
                            the_data=contents,)
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-
