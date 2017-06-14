@@ -4,16 +4,10 @@ from flask import Flask, render_template, request, escape
 app = Flask(__name__)
     
 #from pprint import pprint
-import requests
 import json
-url_api = "http://restapi.amap.com/v3/config/district"
-parameters = {'keywords': '中国', 
-              'subdistrict': 1,
-              'key': 'ee83ffb0500bcbbe5929a0d58d012e0e'}
-r = requests.get (url_api, params=parameters)
-data = r.json()
-#pprint (data)
-list_province=[x['name'] for x in data['districts'][0]['districts']]
+with open ('data/province_code_name.json') as fp:
+    data = json.load(fp)
+list_province=[v for k,v in data.items()]
 
 
 def log_request(req: 'flask_request', res: str) -> None:
