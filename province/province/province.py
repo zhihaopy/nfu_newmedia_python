@@ -13,7 +13,7 @@ parameters = {'keywords': '中国',
 r = requests.get (url_api, params=parameters)
 data = r.json()
 #pprint (data)
-list_province=[x['name'] for x in data['districts'][0]['districts']]
+list_province=[x['name'] for x in data['districts']['districts']]
 
 
 def log_request(req: 'flask_request', res: str) -> None:
