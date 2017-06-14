@@ -34,7 +34,7 @@ def do_search() -> 'html':
 def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
-                           the_title='欢迎来到网上省份简称与互联网普及率搜索!',
+                           the_title='欢迎来到网上省份与互联网普及率搜索!',
 						   the_user_province=list_province)
     
 
@@ -57,4 +57,3 @@ def view_the_log() -> 'html':
 
 if __name__ == '__main__':
     app.run(debug=True)
-
