@@ -1,7 +1,7 @@
 pick_a_color_4web
 
 
-	Blood Type And Personality.py	英文项目名称，必需取名合理，是目录名亦是.py後端程序（此行完成後应删）
+	Blood Type And Personality.py
 # 简介 
 选取的颜色，操练Python语言开发练习：使用flask
 		
