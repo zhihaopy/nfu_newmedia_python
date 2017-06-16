@@ -17,13 +17,13 @@ def entry_page() -> 'html':
     """Display this webapp's HTML form."""
     return render_template('entry.html',
                            the_list_items = c_list ,
-                           the_title='欢迎来到网上选血型！。')
+                           the_title='欢迎来到血型性格分析！')
 
 @app.route('/pick_a_blood', methods=['POST'])
 def pick_a_color() -> 'html':
     """提取用户web 请求POST方法提交的数据（输入），不执行任何动作（处理），直接返回（输出）。"""
     user_blood_name = request.form['user_blood']	
-    user_blood_code = c_dict_reverse['user_blood_name']	
+    user_blood_code = c_dict_reverse[user_blood_name]	
     return render_template('results.html',
                            the_title = '以下是您血型所属性格：',
                            the_blood_code = user_blood_code,

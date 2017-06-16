@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*- 
-# 函数化，以备模块
+# 函数化，以备import 调用模块（module）
 
-def get_blood_name(fn='data\\blood.tsv'):
+def get_blood_name(fn='data\blood.tsv'):
    import csv
    with open(fn, 'r', encoding='utf8') as csvfile:
        reader = csv.DictReader(csvfile, fieldnames=['c_code', 'c_name'], delimiter='\t')
@@ -19,3 +19,7 @@ def blood_name(c_code=''):
     c_name =  d.get(c_code, None)
     return (c_name)
 
+#測試   
+print (blood_name('CN'))
+
+ 

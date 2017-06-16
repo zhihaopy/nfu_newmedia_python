@@ -3,9 +3,15 @@
 {% block body %}
 
 <h2>{{ the_title }}</h2>
+   <body style="background-color: #FFC0CB;">
+   <style type="text/css">
 
+</style> 
+  <table>
+ <th colspan="2">请主人好好填写资料，喵：</th>
+<font face='圆幼'size="9px"color="#FF1493">请主人好好填写资料，喵：</font ></th>
+  <tr><td>姓名：</td><td><input name='user_name' type='TEXT'></td></tr>
 <form method='POST' action='/pick_a_blood'>
-<table>
 <th colspan="2">请选取你的血型：</th>
 <tr><td>血型: </td><td>
   <select name='user_blood'>
@@ -16,7 +22,7 @@
 </td></tr>
 </table>
 <p>准备就绪后, 单击此按钮：</p>
-<p><input value='搞吧！' type='SUBMIT'></p>
+<p><input value='开始！' type='SUBMIT'></p>
 </form>
 
 {% endblock %}
