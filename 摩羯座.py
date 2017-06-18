@@ -3,6 +3,8 @@
 
 # In[1]:
 
+# 使用requests爬 sogou 微信 搜索 
+### 以下文件內容，注意：(A) 请求参数及用法 及 (B) 服务地址 
 import requests 
 from requests.utils import urlparse, urlunparse, quote
 
