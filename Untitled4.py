@@ -12,16 +12,16 @@ from requests.utils import urlparse, urlunparse, quote
 # In[11]:
 
 # 反向工程
-url_A血型与性格_文章 = "http://www.otwodna.com/xxzt/xxxg_008.htm"
-urlp_文章 = urlparse(url_A血型与性格_文章)._asdict()
+url_狮子座性格_文章 = "狮子座个性 - 第一星座网  http://www.d1xz.net/astro/Leo/art11645.aspx"
+urlp_文章 = urlparse(url_狮子座性格_文章)._asdict()
 urlp_文章
 
 
 # In[12]:
 
 # 反向工程
-url_A血型与性格_公眾 = "http://mp.weixin.qq.com/s/TGX7wYvcGhO9HYyOrM36Ow"
-urlp_公眾 = urlparse(url_A血型与性格_公眾)._asdict()
+url_狮子座性格_公眾 = "http://mp.weixin.qq.com/s/_hwWY_2pFZGFKny-n6FGxg"
+urlp_公眾 = urlparse(url_狮子座性格_公眾)._asdict()
 urlp_公眾
 
 
@@ -46,7 +46,7 @@ print ( parse_qsl(urlp_文章['query']) )
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 1,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'A血型与性格'}
+              'query':'狮子座性格'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -89,7 +89,7 @@ pd.DataFrame(content)
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 2,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'血型与性格'}
+              'query':'狮子座性格'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -151,16 +151,16 @@ content['account']
 # In[48]:
 
 # 反向工程
-url_O血型与性格_文章 = "http://wenda.so.com/q/1362784839063654"
-urlp_文章 = urlparse(url_O血型与性格_文章)._asdict()
+url_处女座性格_文章 = "http://www.ankangwang.com/shierxingzuo/chunvzuo/94031.html"
+urlp_文章 = urlparse(url_处女座性格_文章)._asdict()
 urlp_文章
 
 
 # In[49]:
 
 # 反向工程
-url_O血型与性格_公眾 = "http://mp.weixin.qq.com/s/gUupCbJVNydiEp1Uth4tuQ"
-urlp_公眾 = urlparse(url_O血型与性格_公眾)._asdict()
+url_处女座性格_公眾 = "http://mp.weixin.qq.com/s/cO0_vk8WU_RXKrbTndS__Q"
+urlp_公眾 = urlparse(url_处女座性格_公眾)._asdict()
 urlp_公眾
 
 
@@ -185,7 +185,7 @@ print ( parse_qsl(urlp_文章['query']) )
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 1,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'O血型与性格'}
+              'query':'处女座性格'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -228,7 +228,7 @@ pd.DataFrame(content)
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 2,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'O血型与性格'}
+              'query':'处女座性格'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -260,7 +260,7 @@ xpaths = { 'url':    '//div[@class="txt-box"]/h3/a[starts-with(@uigs,"article_ti
            'title':  '//div[@class="txt-box"]/h3/a[starts-with(@uigs,"article_title")]',
            'snippet':'//div[@class="txt-box"]/p[contains(@id,"summary")]',
            'account_url':  '//div[@class="txt-box"]/div[@class="s-p"]/a[@class="account"]/@href',
-           'account':      '//div[@class="txt-box"]/div[@class="s-p"]/a[@class="account"]',
+            'account':      '//div[@class="txt-box"]/div[@class="s-p"]/a[@class="account"]',
          }
 
 content = {}
@@ -290,16 +290,16 @@ content['account']
 # In[62]:
 
 # 反向工程
-url_AB血型与性格_文章 = "http://www.12ky.com/c/astro/16195.html"
-urlp_文章 = urlparse(url_AB血型与性格_文章)._asdict()
+url_天秤座性格_文章 = "https://www.azg168.com/astro/Libra/179301.html"
+urlp_文章 = urlparse(url_天秤座性格_文章)._asdict()
 urlp_文章
 
 
 # In[63]:
 
 # 反向工程
-url_AB血型与性格_公眾 = "http://mp.weixin.qq.com/s/dRnV8OOXkLIV_m9vbHgVoA"
-urlp_公眾 = urlparse(url_AB血型与性格_公眾)._asdict()
+url_天秤座性格_公眾 = "http://mp.weixin.qq.com/s/_EuApm_FNASYEFMpmPiIkg"
+urlp_公眾 = urlparse(url_天秤座性格_公眾)._asdict()
 urlp_公眾
 
 
@@ -324,7 +324,7 @@ print ( parse_qsl(urlp_文章['query']) )
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 1,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'AB血型与性格'}
+              'query':'天秤座性格'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -367,7 +367,7 @@ pd.DataFrame(content)
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 2,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'AB血型与性格'}
+              'query':'天秤座性格'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -429,16 +429,16 @@ content['account']
 # In[75]:
 
 # 反向工程
-url_B血型与性格_文章 = "http://blog.sina.com.cn/s/blog_606fc0300100dzm0.html"
-urlp_文章 = urlparse(url_B血型与性格_文章)._asdict()
+url_天蝎座性格_文章 = "http://www.xingzuo360.cn/12xingzuoxingge/19131.html"
+urlp_文章 = urlparse(url_天蝎座性格_文章)._asdict()
 urlp_文章
 
 
 # In[76]:
 
 # 反向工程
-url_B血型与性格_公眾 = "https://mp.weixin.qq.com/s/CONzpDTiuJFz0EaZll-n5A"
-urlp_公眾 = urlparse(url_B血型与性格_公眾)._asdict()
+url_天蝎座性格_公眾 = "http://mp.weixin.qq.com/s/1i79K5_kOAyZngbNhZWMDA"
+urlp_公眾 = urlparse(url_天蝎座性格_公眾)._asdict()
 urlp_公眾
 
 
@@ -463,7 +463,7 @@ print ( parse_qsl(urlp_文章['query']) )
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 1,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'B血型与性格'}
+              'query':'天蝎座性格'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -506,7 +506,7 @@ pd.DataFrame(content)
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 2,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'B血型与性格'}
+              'query':'天蝎座性格'}
 r = requests.get (url_api, params=parameters)
 
 
