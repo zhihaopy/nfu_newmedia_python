@@ -10,21 +10,23 @@ from requests.utils import urlparse, urlunparse, quote
 # In[2]:
 
 # 反向工程
-url_AB血型_文章 = "http://weixin.sogou.com/weixin?type=2&s_from=input&query=AB%E8%A1%80%E5%9E%8B&ie=utf8&_sug_=n&_sug_type_="
-urlp_文章 = urlparse(url_AB血型_文章)._asdict()
+url_射手座_文章 = "http://weixin.sogou.com/weixin?type=2&s_from=input&query=%E5%B0%84%E6%89%8B%E5%BA%A7&ie=utf8&_sug_=n&_sug_type_="urlp_文章 = urlparse(url_射手座_文章)._asdict()
+urlp_文章 = urlparse(url_射手座_文章)._asdict()
 urlp_文章
+
+
+# In[4]:
 
 
 # In[3]:
 
 # 反向工程
-url_AB血型_公眾 = "http://weixin.sogou.com/weixin?type=1&s_from=input&query=AB%E8%A1%80%E5%9E%8B&ie=utf8&_sug_=n&_sug_type_="
-urlp_公眾 = urlparse(url_AB血型_公眾)._asdict()
+url_射手座_公眾 = "http://weixin.sogou.com/weixin?type=1&s_from=input&query=%E5%B0%84%E6%89%8B%E5%BA%A7&ie=utf8&_sug_=n&_sug_type_="
+urlp_公眾 = urlparse(url_射手座_公眾)._asdict()
 urlp_公眾
 
 
 # In[4]:
-
 import inspect
 for x in urlp_公眾.keys():
     if urlp_文章[x]==urlp_公眾[x]:
@@ -44,7 +46,7 @@ print ( parse_qsl(urlp_文章['query']) )
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 1,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'AB血型'}
+              'query':'射手座'}
 r = requests.get (url_api, params=parameters)
 
 
@@ -87,7 +89,7 @@ pd.DataFrame(content)
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 2,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'AB血型'}
+              'query':'射手座'}
 r = requests.get (url_api, params=parameters)
 
 
