@@ -10,16 +10,16 @@ from requests.utils import urlparse, urlunparse, quote
 # In[2]:
 
 # 反向工程 
-url_O血型_文章 = "http://weixin.sogou.com/weixin?type=2&s_from=input&query=O%E8%A1%80%E5%9E%8B&ie=utf8&_sug_=n&_sug_type_=" 
-urlp_文章 = urlparse(url_O血型_文章)._asdict() 
+url_摩羯座_文章 = "http://weixin.sogou.com/weixin?type=2&s_from=input&query=%E6%91%A9%E7%BE%AF%E5%BA%A7&ie=utf8&_sug_=n&_sug_type_=" 
+urlp_文章 = urlparse(url_摩羯座_文章)._asdict() 
 urlp_文章 
 
 
 # In[3]:
 
 # 反向工程
-url_O血型_公眾 = "http://weixin.sogou.com/weixin?type=1&s_from=input&query=O%E8%A1%80%E5%9E%8B&ie=utf8&_sug_=n&_sug_type_="
-urlp_公眾 = urlparse(url_O血型_公眾)._asdict()
+url_摩羯座_公眾 = "http://weixin.sogou.com/weixin?type=1&s_from=input&query=%E6%91%A9%E7%BE%AF%E5%BA%A7&ie=utf8&_sug_=n&_sug_type_="
+urlp_公眾 = urlparse(url_摩羯座_公眾)._asdict()
 urlp_公眾
 
 
@@ -44,7 +44,7 @@ print ( parse_qsl(urlp_文章['query']) )
 
 url_api = "http://weixin.sogou.com/weixin" 
 parameters = {'type': 1,      # 公眾  type = 1  ;     文章  type = 2   
-            'query':'O血型'} 
+            'query':'摩羯座'} 
 r = requests.get (url_api, params=parameters) 
 
 
@@ -60,8 +60,7 @@ html = r.content.decode('utf-8')
 #selector = html.HTML(html) 
 selector = document_fromstring(html) 
 
- 
-# Xpath  not found yet 
+ # Xpath  not found yet 
 
  
 xpaths = { 'url':    '//div[@class="txt-box"]/h3/a[starts-with(@uigs,"article_title")]/@href', 
@@ -90,7 +89,7 @@ pd.DataFrame(content)
 
 url_api = "http://weixin.sogou.com/weixin" 
 parameters = {'type': 2,      # 公眾  type = 1  ;     文章  type = 2   
-               'query':'O血型'} 
+               'query':'摩羯座'} 
 r = requests.get (url_api, params=parameters) 
 
 
