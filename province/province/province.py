@@ -50,11 +50,10 @@ def view_the_log() -> 'html':
                 contents[-1].append(escape(item))
     titles = ('Form Data', 'Remote_addr', 'User_agent', 'Results')       
     return render_template('viewlog.html',
-                           the_title='您获取了以下的数据：',
+                           the_title='用户您获取了以下的数据：',
                            the_row_titles=titles,
                            the_data=contents,)
 
 
 if __name__ == '__main__':
     app.run(debug=True)
-
