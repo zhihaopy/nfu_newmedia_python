@@ -11,9 +11,10 @@ list_province=[v for k,v in data.items()]
 
 def get_data():
 	df=pd.DataFrame.from_csv("fsnd_data.tsv",encoding='utf8',sep='\t')
+	int_pr=df.query("zb=='A0G0H05'")[['reg','sj','data']]
+	temp=df[['reg','sj','data']].set_index('reg').to_dict()['data']
+	return temp
         
-
-
 def log_request(req: 'flask_request', res: str) -> None:
     """Log details of the web request and the results."""
     with open('vsearch.log', 'a') as log:
