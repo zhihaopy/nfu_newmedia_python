@@ -26,12 +26,11 @@ def do_search() -> 'html':
     """Extract the posted data; perform the search; return results."""
     province = request.form['province']
     title = '以下是您的结果：'
-    #results = str(search4letters(province))
-    #log_request(request, results)
+    result=get_data()  
     return render_template('results.html',
                            the_title=title,
                            the_province=province)
-                           #the_results=results,)
+                           the_results=results,)
 
 
 @app.route('/')
