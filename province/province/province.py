@@ -9,6 +9,10 @@ with open ('data/province_code_name.json') as fp:
     data = json.load(fp)
 list_province=[v for k,v in data.items()]
 
+def get_data():
+	df=pd.DataFrame.from_csv("fsnd_data.tsv",encoding='utf8',sep='\t')
+        
+
 
 def log_request(req: 'flask_request', res: str) -> None:
     """Log details of the web request and the results."""
