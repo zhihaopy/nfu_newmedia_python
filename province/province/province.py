@@ -1,14 +1,20 @@
 from flask import Flask, render_template, request, escape
+import json
+import pandas as pd
 #from vsearch import search4letters
 
 app = Flask(__name__)
-    
-#from pprint import pprint
-import json
+ 
 with open ('data/province_code_name.json') as fp:
-    data = json.load(fp)
-list_province=[v for k,v in data.items()]
+    data = json.load(fp)    
+    list_province = [v for k,v in data.items()]
+    
 
+def get_data():
+    df = pd.DataFrame.from_csv("fsnd_data.tsv", encoding='utf8', sep='\t')
+    int_pr = df.query("zb=='A0G0H05'")[['reg','sj', 'data']]
+    temp = df[['reg','sj','data']].set_index('reg').to_dict()['data']
+    return temp
 
 def log_request(req: 'flask_request', res: str) -> None:
     """Log details of the web request and the results."""
@@ -21,11 +27,12 @@ def do_search() -> 'html':
     """Extract the posted data; perform the search; return results."""
     province = request.form['province']
     title = '以下是您的结果：'
-    #results = str(search4letters(province))
-    #log_request(request, results)
+    results = get_data()
     return render_template('results.html',
                            the_title=title,
-                           the_province=province)
+                           the_province=province,
+						   the_results = results[110000]
+						   )
                            #the_results=results,)
 
 
