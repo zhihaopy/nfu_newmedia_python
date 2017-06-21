@@ -1,5 +1,4 @@
-
-gaiProvince abbreviation and its Internet popularity rate 
+Internet penetration rate in provinces 
 
 		
 # 简介 
