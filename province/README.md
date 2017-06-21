@@ -1,8 +1,8 @@
-Province abbreviation and its Internet popularity rate 
+gaiProvince abbreviation and its Internet popularity rate 
 
 		
 # 简介 
-网上搜索省份简称及其该省的互联网普及率.我们组用到大数据，跑出省份代码，将其的tsv挡转化为字典，然后转化为列表，再跑代码。即得出答案。
+网上搜索省份简称及其该省的互联网普及率.我们组用到大数据，跑出省份代码，将其的tsv挡转化为字典，然后转化为列表，再跑代码。即得出答案。网址： http://127.0.0.1:5000/
 
 
 		
