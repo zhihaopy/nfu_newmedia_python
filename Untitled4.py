@@ -228,7 +228,7 @@ pd.DataFrame(content)
 
 url_api = "http://weixin.sogou.com/weixin"
 parameters = {'type': 2,      # 公眾  type = 1  ;     文章  type = 2  
-              'query':'处女座'}
+              'query':'处女座性格'}
 r = requests.get (url_api, params=parameters)
 
 
