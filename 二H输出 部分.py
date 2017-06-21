@@ -5,7 +5,7 @@
 
 class constellation_list_name (object):
     
-    def _int_(self,fn='data\constellation.tsv'):
+  def _int_(self,fn='data\constellation.tsv'):
         import csv
         with open(fn,'r',encoding='utf8')as csvfile:
             reader = csv.Dictreader(csvfile,filednames=['c_code','c_name'],delimiter='\t')
@@ -30,7 +30,7 @@ class constellation_list_name (object):
 
 # In[53]:
 
-blood=[]
+blood=['白羊座','金牛座','双子座','巨蟹座','狮子座','处女座','天秤座','天蝎座','射手座','摩羯座','水瓶座','双鱼座']
 
 
 # In[55]:
