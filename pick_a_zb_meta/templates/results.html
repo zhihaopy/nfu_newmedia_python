@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>您选取的指标是：</p>
+<table>
+<tr><td>代码：</td><td>{{ the_zb }}</td></tr>
+<tr><td>名称：</td><td>{{ the_zb_cname }}</td></tr>
+<tr><td>说明：</td><td>{{ the_zb_exp |safe}}</td></tr>
+<tr><td>备注：</td><td>{{ the_zb_memo |safe}}</td></tr>
+<tr><td>数据单位：</td><td>{{ the_zb_unit |safe}}</td></tr>
+</table>
+
+{% endblock %}
