@@ -1,4 +1,4 @@
- # -*- coding: utf-8 -*- 
+__main__ # -*- coding: utf-8 -*- 
 from flask import Flask, render_template, request, escape
 
 app = Flask(__name__)
@@ -19,5 +19,5 @@ def pick_a_color() -> 'html':
                            the_color = user_color,
                            )
 
-if __name__ == '':
+if __name__ == '__main__':
     app.run(debug=True)
