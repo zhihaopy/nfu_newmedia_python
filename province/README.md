@@ -1,4 +1,5 @@
- Internet penetration rate in provinces 
+
+Internet penetration rate in provinces 
 
 		
 # 简介 
@@ -15,6 +16,7 @@
 ### 模块
 *pandas 大数据，将数据转化为tsv档,再将它转为字典。弄成列表，将每个省份与十年数据对接起来。
 *requests
+json
 ### 数据
 *[国家数据统计局官网](http://data.stats.gov.cn/easyquery.htm?cn=E0103)'fsnd_data.tsv'	'province_code_name.json',本组并未使用API
 Web App动作描述
