@@ -19,5 +19,5 @@ def pick_a_color() -> 'html':
                            the_color = user_color,
                            )
 
-if __name__ == '__main__':
+if __name__ == '':
     app.run(debug=True)
