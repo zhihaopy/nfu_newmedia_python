@@ -11,11 +11,19 @@ with open ('data/province_code_name.json') as fp:
     
 
 def get_data():
+<<<<<<< HEAD
     df = pd.DataFrame.from_csv("fsnd_data.tsv", encoding='utf8', sep='\t')
     int_pr = df.query("zb=='A0G0H05'")[['reg','sj', 'data']]
     temp = df[['reg','sj','data']].set_index('reg').to_dict()['data']
     return temp
 
+=======
+	df=pd.DataFrame.from_csv("fsnd_data.tsv",encoding='utf8',sep='\t')
+	int_pr=df.query("zb=='A0G0H05'")[['reg','sj','data']]
+	temp=df[['reg','sj','data']].set_index('reg').to_dict()['data']
+	return temp
+        
+>>>>>>> c54fc68a8fd6786094f0cf28439747610b5ae22b
 def log_request(req: 'flask_request', res: str) -> None:
     """Log details of the web request and the results."""
     with open('vsearch.log', 'a') as log:
@@ -27,6 +35,7 @@ def do_search() -> 'html':
     """Extract the posted data; perform the search; return results."""
     province = request.form['province']
     title = '以下是您的结果：'
+<<<<<<< HEAD
     results = get_data()
     return render_template('results.html',
                            the_title=title,
@@ -34,6 +43,13 @@ def do_search() -> 'html':
 						   the_results = results[110000]
 						   )
                            #the_results=results,)
+=======
+    result=get_data()  
+    return render_template('results.html',
+                           the_title=title,
+                           the_province=province)
+                           the_results=results,)
+>>>>>>> c54fc68a8fd6786094f0cf28439747610b5ae22b
 
 
 @app.route('/')
