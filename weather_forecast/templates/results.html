@@ -1,0 +1,113 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1 align="center">天气查询系统</h1>
+<p align="center"><b>{{the_city}}({{the_lat}}°N,{{the_lon}}°E)</b></p>
+<table  style="table-layout:fixed;" align="center" border="1px" cellspacing="0px" bordercolor="white" >
+<tr bgcolor="#2ca9e1">
+	<th width="100">天气信息</th>
+	<th width="300">{{the_date}}</th>
+	<th width="300">{{the_date2}}</th>
+	<th width="300">{{the_date3}}</th>
+</tr>
+
+<tr bgcolor="#89c3eb">
+	<td width="100">日夜情况</td> 
+	<td width="150">白天：{{the_day_weather}}<br/>夜晚：{{the_night_weather}}</td>
+	<td width="150">白天：{{the_day_weather2}}<br/>夜晚：{{the_night_weather2}}</td>
+	<td width="150">白天：{{the_day_weather3}}<br/>夜晚：{{the_night_weather3}}</td>
+</tr>
+	
+<tr bgcolor="#89c3eb">
+	<td width="100">温度</td> 
+	<td width="150">最高：{{the_max}}°<br/>最低：{{the_min}}° </td>
+	<td width="150">最高：{{the_max2}}°<br/>最低：{{the_min2}}° </td>
+	<td width="150">最高：{{the_max3}}°<br/>最低：{{the_min3}}° </td>
+</tr>
+
+<tr bgcolor="#89c3eb">
+	<td width="100">相对湿度</td> 
+	<td width="150">{{the_hum}}%RH</td>
+	<td width="150">{{the_hum2}}%RH</td>
+	<td width="150">{{the_hum3}}%RH</td>
+</tr>
+
+<tr bgcolor="#89c3eb">
+	<td width="100">降水概率</td> 
+	<td width="150">{{the_pop}}%</td>
+	<td width="150">{{the_pop2}}%</td>
+	<td width="150">{{the_pop3}}%</td>
+</tr>
+
+<tr bgcolor="#89c3eb">
+	<td width="100">降水量</td> 
+	<td width="150">{{the_pcpn}}mm</td>
+	<td width="150">{{the_pcpn2}}mm</td>
+	<td width="150">{{the_pcpn3}}mm</td>
+</tr>
+
+<tr>
+	<td width="100">风向</td> 
+	<td width=“150”>{{the_dir}}</td>
+	<td width=“150”>{{the_dir2}}</td>
+	<td width=“150”>{{the_dir3}}</td>
+</tr>
+
+<tr>
+	<td width=“100”>风力</td> 
+	<td width=“150”>{{the_sc}}级</td>
+	<td width=“150”>{{the_sc2}}级</td>
+	<td width=“150”>{{the_sc3}}级</td>
+</tr>
+
+<tr>
+	<td width="100">日出时间</td> 
+	<td width="150">{{the_sun_rise}}</td>
+	<td width="150">{{the_sun_rise2}}</td>
+	<td width="150">{{the_sun_rise3}}</td>
+</tr>
+
+<tr>
+	<td width="100">日落时间</td> 
+	<td width="150">{{the_sun_set}}</td>
+	<td width="150">{{the_sun_set2}}</td>
+	<td width="150">{{the_sun_set2}}</td>
+</tr>
+
+<tr>
+	<td width="100">舒适度</td> 
+	<td width="250" colspan=3>{{the_comf}}<br/>{{the_comf_details}}</td>
+</tr>
+
+<tr>
+	<td width="100">穿衣指数</td> 
+	<td width="250" colspan=3>{{the_drsg}}<br/>{{the_drsg_details}}</td>
+</tr>
+
+<tr>
+	<td width="100">感冒指数</td> 
+	<td width="250" colspan=3>{{the_flu}}<br/>{{the_flu_details}}</td>
+</tr>
+
+<tr>
+	<td width="100">运动指数</td> 
+	<td width="250" colspan=3>{{the_sport}}<br/>{{the_sport_details}}</td>
+</tr>
+
+<tr>
+	<td width="100">旅游指数</td> 
+	<td width="250" colspan=3>{{the_trav}}<br/>{{the_trav_details}}</td>
+</tr>
+
+<tr>
+	<td width="100">紫外线指数</td> 
+	<td width="250" colspan=3>{{the_uv}}<br/>{{the_uv_details}}</td>
+</tr>
+
+<tr>
+<td width="250" colspan=4  align="right">更新时间：{{the_update}}&nbsp;</td>
+</tr>
+</table>
+
+{% endblock %}
