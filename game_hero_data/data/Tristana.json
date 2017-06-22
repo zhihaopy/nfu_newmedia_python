@@ -1,0 +1,174 @@
+{
+    "data": [
+        {
+            "id": "Tristana",
+            "image": {
+                "full": "Tristana.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 96,
+                "y": 0
+            },
+            "info": {
+                "attack": 9,
+                "defense": 3,
+                "difficulty": 3,
+                "magic": 5
+            },
+            "key": "18",
+            "name": "\u9ea6\u6797\u70ae\u624b",
+            "passive": {
+                "description": "\u5d14\u4e1d\u5854\u5a1c\u7684\u653b\u51fb\u8ddd\u79bb\u548c\u3010\u7206\u70b8\u706b\u82b1\u3011\u53ca\u3010\u6bc1\u706d\u5c04\u51fb\u3011\u7684\u65bd\u6cd5\u8ddd\u79bb\u589e\u52a0\uff08\u6bcf\u5347\u4e00\u7ea7\u589e\u52a07\uff09",
+                "image": {
+                    "full": "Tristana_DrawABead.png"
+                },
+                "name": "\u7784\u51c6\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/r/N/7GOmbUCsarN.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7GOmbUCsarN&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/x/0/8/x01127e1c08.html",
+                    "id": "001",
+                    "name": "\u7c89\u8272\u841d\u8389 \u5d14\u4e1d\u5854\u5a1c",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x01127e1c08&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/z/0/9/z01129sukt9.html",
+                    "id": "002",
+                    "name": "\u5723\u8bde\u7cbe\u7075 \u5d14\u4e1d\u5854\u5a1c ",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=z01129sukt9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_n00100OSjG0.html",
+                    "id": "003",
+                    "name": "\u70c8\u7130\u96c4\u5fc3 \u5d14\u4e1d\u5854\u5a1c",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n00100OSjG0&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_u0010jLnePD.html",
+                    "id": "004",
+                    "name": "\u6e38\u51fb\u961f\u5458 \u5d14\u4e1d\u5854\u5a1c",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0010jLnePD&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_A0010IFcfhg.html",
+                    "id": "005",
+                    "name": "\u7ea6\u5fb7\u5c14\u6d77\u8d3c\u56e2 \u5d14\u4e1d\u5854\u5a1c",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=A0010IFcfhg&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/q/0/t/q0104t6nv0t.html",
+                    "id": "006",
+                    "name": "\u706b\u7bad\u8fbe\u4eba \u5d14\u4e1d\u5854\u5a1c",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0104t6nv0t&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/i/0/z/i01729yeyfz.html",
+                    "id": "010",
+                    "name": "\u9a6f\u9f99\u70ae\u624b \u5d14\u4e1d\u5854\u5a1c",
+                    "num": 10,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i01729yeyfz&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Tristana_Q",
+                    "image": {
+                        "full": "Tristana_Q.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6025\u901f\u5c04\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a<br>\u4e3b\u52a8\uff1a\u63d0\u5347\u5d14\u4e1d\u5854\u5a1c30/50/70/90/110%\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed5\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a20/20/20/20/20\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "Tristana_W",
+                    "image": {
+                        "full": "Tristana_W.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u706b\u7bad\u8df3\u8dc3\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a<br>\u5d14\u4e1d\u5854\u5a1c\u671d\u5730\u9762\u5f00\u706b\uff0c\u8df3\u8dc3\u81f3\u76ee\u6807\u533a\u57df\uff0c\u843d\u5730\u9020\u621060/110/160/210/260(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u5e76\u51cf\u901f\u9644\u8fd1\u654c\u4eba60%\uff0c\u6301\u7eed1/1.5/2/2.5/3\u79d2\u3002<br>\u83b7\u5f97\u51fb\u6740\u6216\u52a9\u653b\u7684\u540c\u65f6\uff0c\u6216\u8005\u5728\u82f1\u96c4\u8eab\u4e0a\u53e0\u6ee1\u3010\u7206\u70b8\u706b\u82b1\u3011\u5c42\u6570\u5e76\u5f15\u7206\u65f6\uff0c\u3010\u706b\u7bad\u8df3\u8dc3\u3011\u4f1a\u91cd\u7f6e\u51b7\u5374\u65f6\u95f4\u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a22/20/18/16/14\u79d2<br>\u6d88\u8017\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Tristana_E",
+                    "image": {
+                        "full": "Tristana_E.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7206\u70b8\u706b\u82b1\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a<br>\u88ab\u52a8\uff1a\u5f53\u654c\u4eba\u88ab\u5d14\u4e1d\u5854\u5a1c\u51fb\u6740\u65f6\u4f1a\u7206\u70b8\uff0c\u5bf9\u9644\u8fd1\u654c\u4eba\u9020\u621050/75/100/125/150(+0.25*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u4e3b\u52a8\uff1a\u5728\u76ee\u6807\u654c\u4eba\u6216\u9632\u5fa1\u5854\u4e0a\u653e\u7f6e\u4e00\u4e2a4\u79d2\u540e\u7206\u70b8\u7684\u7535\u706b\u82b1\uff0c\u7206\u70b8\u65f6\u5bf9\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u621060/70/80/90/100\uff08+0.5/0.65/0.8/0.95/1.1*\u989d\u5916AD\uff09\uff08+0.5*AP\uff09\u70b9\u7269\u7406\u4f24\u5bb3\u3002\u5d14\u65af\u5854\u5a1c\u7684\u653b\u51fb\u548c\u6280\u80fd\u4f1a\u4f7f\u7535\u706b\u82b1\u7684\u4f24\u5bb3\u63d0\u534730%\uff0c\u6700\u591a\u53ef\u53e0\u52a04\u5c42\u3002<br><br>\u5728\u53e0\u6ee14\u5c42\u65f6\uff0c\u7535\u706b\u82b1\u4f1a\u7acb\u523b\u7206\u70b8\u3002\u5982\u679c\u7528\u5728\u9632\u5fa1\u5854\u4e0a\uff0c\u90a3\u4e48\u7206\u70b8\u534a\u5f84\u4f1a\u7ffb\u500d\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/15.5/15/14.5/14\u79d2<br>\u6d88\u8017\uff1a50/60/70/80/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Tristana_R",
+                    "image": {
+                        "full": "Tristana_R.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6bc1\u706d\u5c04\u51fb\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5d14\u4e1d\u5854\u5a1c\u88c5\u586b\u5de8\u578b\u52a0\u519c\u70ae\u5f39\u653b\u51fb\u76ee\u6807\u5355\u4f4d\uff0c\u9020\u6210 300/400/500(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\u5e76\u5c06\u76ee\u6807\u53ca\u76ee\u6807\u5468\u56f4\u7684\u5355\u4f4d\u51fb\u9000 600/800/1000 \u8ddd\u79bb\u3002<br>\u65bd\u6cd5\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/85/70\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman",
+                "Assassin"
+            ],
+            "title": "\u5d14\u4e1d\u5854\u5a1c",
+            "trait": {
+                "adc": {
+                    "add-point": "WEEQEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3006;3153;1053;3086",
+                        "3006;3031;3035;3046;3153;3072",
+                        "3006;3031;3035;3046;3153;3026"
+                    ]
+                },
+                "zd": {
+                    "add-point": "EWEWEREWEWRWQQQRQQ",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3020;3089",
+                        "3020;3128;3089;3100;3157;3135",
+                        "3020;3026;3089;3100;3157;3135"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

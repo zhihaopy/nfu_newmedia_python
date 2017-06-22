@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "id": "Nautilus",
+            "image": {
+                "full": "Nautilus.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 48,
+                "y": 0
+            },
+            "info": {
+                "attack": 4,
+                "defense": 6,
+                "difficulty": 6,
+                "magic": 6
+            },
+            "key": "111",
+            "name": "\u6df1\u6d77\u6cf0\u5766",
+            "passive": {
+                "description": "\u8bfa\u63d0\u52d2\u65af\u7684\u666e\u901a\u653b\u51fb\u4f1a\u9020\u6210\u989d\u5916\u76848\uff08\u6bcf\u5347\u4e00\u7ea7\u589e\u52a06\uff09\u70b9\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u5b9a\u4f4f\u4ed6\u7684\u76ee\u68070.5/0.75/1/1.25\uff08\u5728\u7b49\u7ea71/6/11/16\u65f6\u53d8\u5316\uff09\u79d2\u3002<br><br>\u8fd9\u4e2a\u7279\u6548\u53ea\u80fd\u57289/8/7/6(\u5728\u7b49\u7ea71/6/11/16\u65f6\u53d8\u5316)\u79d2\u5185\u5bf9\u76f8\u540c\u76ee\u6807\u751f\u6548\u4e00\u6b21\u3002",
+                "image": {
+                    "full": "Nautilus_StaggeringBlow.png"
+                },
+                "name": "\u6392\u5c71\u5012\u6d77\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/9/g/J/9KKqbtENogJ.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=9KKqbtENogJ&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_d0102920pz2.html",
+                    "id": "001",
+                    "name": "\u5931\u843d\u5927\u9646 \u8bfa\u63d0\u52d2\u65af",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0102920pz2&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_k0102zkupj6.html",
+                    "id": "002",
+                    "name": "\u5730\u5e95\u8ff7\u57ce \u8bfa\u63d0\u52d2\u65af",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0102zkupj6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/j/0/1/j0106huhmj1.html",
+                    "id": "003",
+                    "name": "\u5b87\u822a\u5458 \u8bfa\u63d0\u52d2\u65af",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j0106huhmj1&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=c0145kyyf8n",
+                    "id": "004",
+                    "name": "\u5149\u660e\u9a91\u58eb \u8bfa\u63d0\u52d2\u65af",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0145kyyf8n&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "NautilusAnchorDrag",
+                    "image": {
+                        "full": "NautilusAnchorDrag.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u758f\u901a\u822a\u9053\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u8bfa\u63d0\u52d2\u65af\u5411\u524d\u731b\u63b7\u4ed6\u7684\u8239\u951a\u3002\u5982\u679c\u5b83\u51fb\u4e2d\u4e86\u4e00\u4e2a\u654c\u65b9\u5355\u4f4d\uff0c\u8bfa\u63d0\u52d2\u65af\u5c31\u4f1a\u5c06\u4ed6\u81ea\u5df1\u548c\u76ee\u6807\u5438\u5230\u4e00\u8d77\uff0c\u540c\u65f6\u9020\u621060/105/150/195/240(+0.75*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5c06\u76ee\u6807\u6682\u65f6\u6655\u7729\u3002<br><br>\u5982\u679c\u5b83\u51fb\u4e2d\u4e86\u5730\u5f62\uff0c\u8bfa\u63d0\u52d2\u65af\u5219\u4f1a\u628a\u81ea\u5df1\u62c9\u5230\u8239\u951a\u5904\uff0c\u540c\u65f6\u8be5\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u51cf\u5c1150%\u3002<br>\u8ddd\u79bb\uff1a950<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10\u79d2<br>\u6d88\u8017\uff1a60/70/80/90/100 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "NautilusPiercingGaze",
+                    "image": {
+                        "full": "NautilusPiercingGaze.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6cf0\u5766\u4e4b\u6012\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u8bfa\u63d0\u52d2\u65af\u7528\u9ed1\u6697\u7684\u80fd\u91cf\u5c06\u81ea\u8eab\u73af\u7ed5\uff0c\u540c\u65f6\u83b7\u5f97\u4e00\u4e2a\u80fd\u591f\u5438\u653665/70/75/80/85\uff08+9/11/13/15/17%\u6700\u5927\u751f\u547d\u503c\uff09\u70b9\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u62a4\u76fe\u6700\u591a\u6301\u7eed10/10/10/10/10\u79d2\u3002<br><br>\u5728\u62a4\u76fe\u6301\u7eed\u671f\u95f4\uff0c\u8bfa\u63d0\u52d2\u65af\u7684\u666e\u901a\u653b\u51fb\u4f1a\u5bf9\u8eab\u8fb9\u7684\u6240\u6709\u654c\u4eba\u65bd\u52a0\u4e00\u4e2a\u6301\u7eed\u4f24\u5bb3\u6548\u679c\u3002\u8fd9\u4e2a\u6548\u679c\u4f1a\u57282\u79d2\u91cc\u9020\u6210\u517130/40/50/60/70(+0.4*AP)\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a350<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/18/18/18/18\u79d2<br>\u6d88\u8017\uff1a80/80/80/80/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "NautilusSplashZone",
+                    "image": {
+                        "full": "NautilusSplashZone.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6697\u6d41\u6d8c\u52a8\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u8bfa\u63d0\u52d2\u65af\u731b\u51fb\u5730\u9762\uff0c\u4f7f\u5728\u4ed6\u9644\u8fd1\u7684\u571f\u5730\u7206\u70b8\u4e09\u6b21\u3002\u6bcf\u6b21\u7206\u70b8\u90fd\u4f1a\u5bf9\u654c\u4eba\u9020\u621055/85/115/145/175<br>(+0.3*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u4ed6\u4eec30/35/40/45/50%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed1.5\u79d2\u3002\u8fd9\u4e2a\u51cf\u901f\u6548\u679c\u4f1a\u9010\u6e10\u8870\u51cf\u3002<br><br>\u4e00\u4e2a\u5355\u4f4d\u53ef\u4ee5\u88ab\u591a\u4e2a\u7206\u70b8\u6240\u51fb\u4e2d\uff0c\u4f46\u989d\u5916\u7684\u7206\u70b8\u5bf9\u4ed6\u4eec\u7684\u4f24\u5bb3\u4f1a\u51cf\u5c1150/50/50/50/50%\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/6.5/6/5.5/5 \u79d2<br>\u6d88\u8017\uff1a40/50/60/70/80\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "NautilusGrandLine",
+                    "image": {
+                        "full": "NautilusGrandLine.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6df1\u6d77\u51b2\u51fb\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "8\u670818\u65e56.16\u7248\u672c\u66f4\u65b0<br>\u8bfa\u63d0\u52d2\u65af\u5c06\u4e00\u675f\u51b2\u51fb\u6ce2\u6253\u8fdb\u571f\u91cc\uff0c\u6765\u8ffd\u51fb\u654c\u65b9\u82f1\u96c4\u3002\u8fd9\u675f\u51b2\u51fb\u6ce2\u4f1a\u5bf9\u88ab\u5b83\u7a7f\u8fc7\u7684\u654c\u4eba\u9020\u6210125/175/225(+0.4*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5c06\u4ed6\u4eec\u51fb\u98de\u81f3\u534a\u7a7a\u4e2d\uff0c\u7136\u540e\u4f7f\u4ed6\u4eec\u6655\u77291/1.5/2\u79d2<br>\u3002<br>\u51b2\u51fb\u6ce2\u4f1a\u5728\u547d\u4e2d\u76ee\u6807\u65f6\u7206\u70b8\uff0c\u540c\u65f6\u9020\u6210200/325/450(+0.8*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u4f7f\u76ee\u6807\u88ab\u51fb\u98de\u81f3\u534a\u7a7a\u4e2d\u5e76\u6655\u77291/1.5/2\u79d2<br>\u8ddd\u79bb\uff1a850<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a140/110/80\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Tank",
+                "Fighter"
+            ],
+            "title": "\u8bfa\u63d0\u52d2\u65af",
+            "trait": {
+                "dy": {
+                    "add-point": "WEQWWRWEWEREEQQRQQ",
+                    "eq-recommond": [
+                        "1039;2003:5;3341",
+                        "3207;3117;3068",
+                        "3117;3068;3083;3207;3143;3025",
+                        "3111;3068;3083;3207;3143;3025"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "id": "Lulu",
+            "image": {
+                "full": "Lulu.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 432,
+                "y": 48
+            },
+            "info": {
+                "attack": 4,
+                "defense": 5,
+                "difficulty": 7,
+                "magic": 7
+            },
+            "key": "117",
+            "name": "\u4ed9\u7075\u5973\u5deb",
+            "passive": {
+                "description": "\u76ae\u514b\u65af\u671d\u7740\u9732\u9732\u6b63\u5728\u653b\u51fb\u7684\u76ee\u6807\u53d1\u5c04\u4e00\u9635\u75313\u9897\u98de\u5f39\u7ec4\u6210\u7684\u5f39\u5e55\uff0c\u603b\u5171\u9020\u62109\uff08\u6bcf\u5347\u4e24\u7ea7\u589e\u52a012\uff09\uff08+0.15*AP\uff09\u70b9\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8fd9\u4e9b\u98de\u5f39\u4f1a\u81ea\u52a8\u5bfb\u654c\uff0c\u4f46\u4f1a\u88ab\u5176\u5b83\u5355\u4f4d\u6240\u683c\u6321\u3002<br><br>\u7490\u7490\u7684\u6bcf\u6b21\u666e\u653b\u90fd\u4f1a\u8ba9\u76ae\u514b\u65af\u89e6\u53d1\u8d21\u54c1\u6548\u679c\uff08\u6765\u81ea\u3010\u7a83\u6cd5\u4e4b\u5203\u3011\u7cfb\u5217\uff09",
+                "image": {
+                    "full": "Lulu_PixFaerieCompanion.png"
+                },
+                "name": "\u76ae\u514b\u65af\uff0c\u4ed9\u7075\u4f19\u4f34\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/9/P/Y/9vevkR7x2PY.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=9vevkR7x2PY&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/x/0/c/x01021wixvc.html",
+                    "id": "001",
+                    "name": "\u7cd6\u679c\u5973\u5deb \u7490\u7490",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x01021wixvc&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/g/g01026wej9g.html",
+                    "id": "002",
+                    "name": "\u90aa\u6076\u5973\u5deb \u7490\u7490",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g01026wej9g&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/u/0/5/u010817vrf5.html",
+                    "id": "003",
+                    "name": "\u9a6f\u9f99\u5973\u5deb \u7490\u7490",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u010817vrf5&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/m/0/9/m00137tqss9.html",
+                    "id": "004",
+                    "name": "\u5bd2\u51ac\u7cbe\u7075 \u7490\u7490",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m00137tqss9&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=w0156qe2549",
+                    "id": "005",
+                    "name": "\u6cf3\u6c60\u6d3e\u5bf9 \u7490\u7490",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w0156qe2549&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "LuluQ",
+                    "image": {
+                        "full": "LuluQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u95ea\u8000\u957f\u67aa\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7490\u7490\u548c\u76ae\u514b\u65af\u5404\u81ea\u53d1\u5c04\u4e00\u4e2a\u7a7f\u523a\u98de\u5f39\uff0c\u5bf9\u547d\u4e2d\u7684\u654c\u4eba\u9020\u6210 80/125/170/215/260(+0.5*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5bf9\u540e\u7eed\u7684\u6240\u6709\u654c\u4eba\u9020\u621070%\u9b54\u6cd5\u4f24\u5bb3\u3002\u88ab\u547d\u4e2d\u7684\u654c\u4eba\u4f1a\u88ab\u51cf\u901f 80/80/80/80/80%\uff0c\u8fd9\u4e2a\u51cf\u901f\u6548\u679c\u4f1a\u57282\u79d2\u91cc\u9010\u6e10\u8870\u51cf\u3002<br><br>\u4e00\u4e2a\u654c\u4eba\u53ea\u4f1a\u53d7\u5230\u4e00\u4e2a\u98de\u5f39\u7684\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a925<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/7/7/7/7\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "LuluW",
+                    "image": {
+                        "full": "LuluW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5947\u601d\u5999\u60f3\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5bf9\u53cb\u519b\u65bd\u653e\uff1a\u76ee\u6807\u53cb\u519b\u4f1a\u589e\u52a0 30/30/30/30/30(+0.05*AP)% \u7684\u79fb\u52a8\u901f\u5ea6\u548c25/30/35/40/45%\uff088\u670818\u65e56.16\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a15/20/25/30/35%\uff09\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed3/3.25/3.5/3.75/4\u79d2\u3002<br><br>\u5bf9\u654c\u4eba\u65bd\u653e\uff1a\u5c06\u4e00\u540d\u654c\u65b9\u82f1\u96c4\u53d8\u5f62 1.25/1.5/1.75/2/2.25 \u79d2\uff0c\u8ba9\u4ed6\u65e0\u6cd5\u653b\u51fb\u6216\u65bd\u6cd5\uff0c\u5e76\u5c06\u4ed6\u7684\u57fa\u7840\u79fb\u52a8\u901f\u5ea6\u51cf\u5c1160/60/60/60/60\u3002<br>\u8ddd\u79bb\uff1a650<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/15/14/13/12\u79d2\uff088\u670818\u65e56.16\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a18/16.5/15/13.5/12\u79d2\uff09<br>\u6d88\u8017\uff1a65/65/65/65/65 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "LuluE",
+                    "image": {
+                        "full": "LuluE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5e2e\u5fd9\uff0c\u76ae\u514b\u65af\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5bf9\u53cb\u519b\u65bd\u653e\uff1a\u547d\u4ee4\u76ae\u514b\u65af\u8df3\u5230\u4e00\u540d\u53cb\u519b\u8eab\u4e0a\uff0c\u4e4b\u540e\u4f1a\u8ddf\u968f\u5e76\u534f\u52a9\u76ee\u6807\uff08\u800c\u4e0d\u662f\u7490\u7490\uff09\u8fdb\u884c\u653b\u51fb\uff0c\u6301\u7eed6/6/6/6/6\u79d2\u3002\u5982\u679c\u53cb\u519b\u76ee\u6807\u662f\u82f1\u96c4\uff0c\u90a3\u4e48\u76ae\u514b\u65af\u4f1a\u4e3a\u76ee\u6807\u63d0\u4f9b\u4e00\u5c42\u62b5\u632180/120/160/200/240(+0.6*AP)\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u6301\u7eed 6/6/6/6/6\u79d2\u3002<br><br>\u5bf9\u654c\u4eba\u65bd\u653e\uff1a\u76ae\u514b\u65af\u5bf9\u76ee\u6807\u654c\u4eba\u9020\u6210 80/110/140/170/200(+0.4*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u4e4b\u540e\u4f1a\u8ddf\u968f\u5e76\u63d0\u4f9b\u76ee\u6807\u7684\u89c6\u91ce\uff0c\u6301\u7eed 4/4/4/4/4 \u79d2\u3002 <br>\u8ddd\u79bb\uff1a650<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a60/70/80/90/100 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "LuluR",
+                    "image": {
+                        "full": "LuluR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u72c2\u91ce\u751f\u957f\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u7490\u7490\u8ba9\u5979\u7684\u53cb\u519b\u53d8\u5927\uff0c\u51fb\u98de\u76ee\u6807\u9644\u8fd1\u7684\u654c\u4eba\u3002\u57287/7/7\u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\uff0c\u5979\u7684\u53cb\u519b\u4f1a\u83b7\u5f97300/450/600(+0.5*AP)\u70b9\u751f\u547d\u503c\u52a0\u6210\uff0c\u5e76\u4f7f\u9644\u8fd1\u7684\u654c\u519b\u51cf\u901f30/45/60%\u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a110/95/80\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Support",
+                "Mage"
+            ],
+            "title": "\u7490\u7490",
+            "trait": {
+                "fz": {
+                    "add-point": "QWEQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "3301;2043;2003;3340",
+                        "3117;3105;2045;3069",
+                        "3069;2045;3190;3143;3117;3290",
+                        "3069;3290;2045;3190;3158;3143"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QEQWQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3028;3020;3100",
+                        "3174;3020;3135;3115;3100;3089",
+                        "3174;3020;3135;3165;3100;3157"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

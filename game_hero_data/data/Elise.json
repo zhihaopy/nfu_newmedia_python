@@ -1,0 +1,153 @@
+{
+    "data": [
+        {
+            "id": "Elise",
+            "image": {
+                "full": "Elise.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 384,
+                "y": 48
+            },
+            "info": {
+                "attack": 6,
+                "defense": 5,
+                "difficulty": 8,
+                "magic": 7
+            },
+            "key": "60",
+            "name": "\u8718\u86db\u5973\u7687",
+            "passive": {
+                "description": "\u4eba\u7c7b\u5f62\u6001\uff1a\u6bcf\u5f53\u4f0a\u8389\u4e1d\u7684\u6280\u80fd\u547d\u4e2d\u4e00\u540d\u654c\u4eba\u65f6\uff0c\u5c31\u4f1a\u6709\u4e00\u53ea\u5c0f\u8718\u86db\u51c6\u5907\u5c31\u7eea\u3002\u6700\u591a\u53ef\u53ec\u55242/3/4\uff08\u5728\u7b49\u7ea71/7/13\u65f6\u53d8\u5316\uff09\u53ea\u5c0f\u8718\u86db\u3002<br><br>\u8718\u86db\u5f62\u6001\uff1a\u666e\u653b\u9020\u6210\u989d\u591610\uff08+0.3*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u5e76\u56de\u590d\u81ea\u8eab10\uff08+0.1*AP\uff09\u751f\u547d\u503c\u3002",
+                "image": {
+                    "full": "ElisePassive.png"
+                },
+                "name": "\u8718\u86db\u7fa4\u96c6\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/y/i/x/y01076qkdix.html?start=1",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y01076qkdix&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/w/0/v/w0112egnlev.html",
+                    "id": "001",
+                    "name": "\u6b7b\u4ea1\u7efd\u653e \u4f0a\u8389\u4e1d",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w0112egnlev&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/z/o0122kibkcz.html",
+                    "id": "002",
+                    "name": "\u80dc\u5229\u5973\u795e \u4f0a\u8389\u4e1d",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0122kibkcz&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/u/0/h/u01413wv43h.html",
+                    "id": "003",
+                    "name": "\u8165\u7ea2\u4e4b\u6708 \u4f0a\u8389\u4e1d",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u01413wv43h&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/x/page/m0318bhx62z.html",
+                    "id": "004",
+                    "name": "SKT T1 \u4f0a\u8389\u4e1d",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0318bhx62z&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "EliseHumanQ",
+                    "image": {
+                        "full": "EliseHumanQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u795e\u7ecf\u6bd2\u7d20 / \u5267\u6bd2\u4e4b\u8707\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u795e\u7ecf\u6bd2\u7d20\uff1a\u9020\u6210\u76f8\u5f53\u4e8e40/75/110/145/180\u52a0\u4e0a\u76ee\u6807\u5f53\u524d\u751f\u547d\u503c4%(+0.03%*AP)\u7684\u9b54\u6cd5\u4f24\u5bb3\u3002\u5bf9\u91ce\u602a\u6700\u591a\u9020\u621050/75/100/125/150\u989d\u5916\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a625<br><br>\u5267\u6bd2\u4e4b\u8707\uff1a\u7528\u5267\u6bd2\u4e4b\u8707\u523a\u5411\u4e00\u4e2a\u76ee\u6807\uff0c\u9020\u621060/100/140/180/220\u52a0\u4e0a\u76f8\u5f53\u4e8e\u76ee\u6807\u5df2\u635f\u5931\u751f\u547d\u503c8%\uff08+0.03%*AP\uff09\u7684\u9b54\u6cd5\u4f24\u5bb3\u3002\u5bf9\u91ce\u602a\u6700\u591a\u9020\u621075/100/125/150/175\u989d\u5916\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2|6/6/6/6/6\u79d2<br>\u6d88\u8017\uff1a80/85/90/95/100 \u6cd5\u529b|\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "EliseHumanW",
+                    "image": {
+                        "full": "EliseHumanW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u81ea\u7206\u8718\u86db / \u63a0\u884c\u72c2\u66b4\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u81ea\u7206\u8718\u86db\uff1a\u53ec\u5524\u4e00\u4e2a\u6ce8\u6ee1\u6bd2\u6db2\u7684\u5c0f\u8718\u86db\u722c\u5411\u76ee\u6807\u533a\u57df\uff0c\u5e76\u5728\u9760\u8fd1\u4e00\u4e2a\u654c\u4eba\u6216\u80053\u79d2\u540e\u7206\u70b8\uff0c\u9020\u621060/110/160/210/260(+0.8*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8ddd\u79bb\uff1a950<br><br>\u63a0\u884c\u72c2\u66b4\uff1a\u88ab\u52a8\u6280\u80fd\uff1a\u5c0f\u8718\u86db\u4eec\u83b7\u5f975%/10%/15%/20%/25%\u653b\u51fb\u901f\u5ea6\u52a0\u6210\u3002<br><br>\u4e3b\u52a8\u6280\u80fd\uff1a\u4e3a\u4f0a\u8389\u4e1d\u548c\u5979\u7684\u5c0f\u8718\u86db\u4eec\u63d0\u534760%/80%/100%/120%/140%\u7684\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed3\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2|12/12/12/12/12\u79d2<br>\u6d88\u8017\uff1a60/70/80/90/100 \u6cd5\u529b|\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "EliseHumanE",
+                    "image": {
+                        "full": "EliseHumanE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7ed3\u8327 / \u76d8\u4e1d\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ed3\u8327\uff1a\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u654c\u4eba\u9020\u62101.6/1.7/1.8/1.9/2 \u79d2\u6655\u7729\u6548\u679c\uff0c\u5e76\u4e14\u5982\u679c\u8fd9\u540d\u654c\u4eba\u4e0d\u5728\u6f5c\u884c\u72b6\u6001\u4e0b\uff0c\u5c31\u4f1a\u66b4\u9732\u5728\u5df1\u65b9\u89c6\u91ce\u4e2d\u3002<br>\u65bd\u6cd5\u8ddd\u79bb\uff1a750<br><br>\u76d8\u4e1d\uff1a\u5bf9\u654c\u4eba\u65bd\u653e\uff1a\u4f0a\u8389\u4e1d\u548c\u5979\u7684\u5c0f\u8718\u86db\u62c9\u5347\u81f3\u7a7a\u4e2d\uff0c\u7136\u540e\u964d\u843d\u5230\u76ee\u6807\u654c\u4eba\u8eab\u4e0a\u3002\u5728\u843d\u5730\u540e\u76845\u79d2\u91cc\uff0c\u4f7f\u4f0a\u8389\u4e1d\u8718\u86db\u5f62\u6001\u4e0b\u7684\u666e\u653b\u6240\u9644\u5e26\u7684\u989d\u5916\u4f24\u5bb3\u548c\u6cbb\u7597\u6548\u679c\u63d0\u534740/55/70/85/100%<br><br>\u5bf9\u5730\u9762\u65bd\u653e\uff1a\u4f0a\u8389\u4e1d\u548c\u5979\u7684\u5c0f\u8718\u86db\u4eec\u62c9\u5347\u81f3\u7a7a\u4e2d\uff0c\u5e76\u4e14\u65e0\u6cd5\u88ab\u9009\u53d6\uff0c\u6301\u7eed2\u79d2\u3002\u5979\u53ef\u4ee5\u518d\u6b21\u65bd\u653e\u76d8\u4e1d\u6765\u964d\u843d\u5230\u9644\u8fd1\u4e00\u540d\u654c\u4eba\u8eab\u4e0a\u3002<br><br>\u5f39\u9053\u901f\u5ea6\uff1a1600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/13/12/11/10\u79d2|26/23/20/17/14\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b|\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "EliseR",
+                    "image": {
+                        "full": "EliseR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8718\u86db\u5f62\u6001\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f0a\u8389\u4e1d\u53d8\u6210\u4e00\u53ea\u51f6\u6076\u7684\u8718\u86db\uff0c\u83b7\u5f97\u86db\u5f62\u6280\u80fd\u5e76\u53ec\u5524\u5979\u7684\u5c0f\u8718\u86db\u4eec\u3002<br><br>\u8718\u86db\u5f62\u6001\uff1a\u4f0a\u8389\u4e1d\u7684\u6bcf\u6b21\u653b\u51fb\u9020\u621010/20/30(+0.3*AP)\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u83b7\u5f9725/25/25\u79fb\u52a8\u901f\u5ea6\u3002<br><br>\u5c0f\u8718\u86db\uff1a\u5c0f\u8718\u86db\u4eec\u670910/15/20/25(+0.15*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u6240\u53d7\u7684\u6765\u81ea\u7fa4\u4f53\u6280\u80fd\u7684\u4f24\u5bb3\u4f1a\u51cf\u5c1120/20/20%\u3002\u6700\u591a\u53ef\u5b58\u57282/3/4\u53ea\u5c0f\u8718\u86db\u3002<br>\u5c0f\u8718\u86db\u7684\u62a4\u7532\uff1a30/50/70/90\u3002<br>\u5c0f\u8718\u86db\u7684\u9b54\u6cd5\u6297\u6027\uff1a50/70/90/110\u3002<br>\u5c0f\u8718\u86db\u7684\u79fb\u52a8\u901f\u5ea6\uff1a355<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Fighter"
+            ],
+            "title": "\u4f0a\u8389\u4e1d",
+            "trait": {
+                "dy": {
+                    "add-point": "QWEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3136;3020;3725",
+                        "3725;3020;3151;3116;3001;3026",
+                        "3725;3020;3151;3068;3143;3026"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "2041;2003:3;3340",
+                        "3020;3136",
+                        "3020;3151;3116;3001;3083;3026",
+                        "3020;3151;3026;3001;3068;3143"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

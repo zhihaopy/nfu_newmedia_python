@@ -1,0 +1,150 @@
+{
+    "data": [
+        {
+            "id": "Karthus",
+            "image": {
+                "full": "Karthus.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 336,
+                "y": 0
+            },
+            "info": {
+                "attack": 2,
+                "defense": 2,
+                "difficulty": 8,
+                "magic": 10
+            },
+            "key": "30",
+            "name": "\u6b7b\u4ea1\u9882\u5531\u8005",
+            "passive": {
+                "description": "\u5728\u6b7b\u4ea1\u65f6\uff0c\u5361\u5c14\u8428\u65af\u4f1a\u5316\u4e3a\u4e00\u4e2a\u7075\u4f53\uff0c\u80fd\u591f\u5728\u63a5\u4e0b\u6765\u76847\u79d2\u91cc\u7ee7\u7eed\u65bd\u653e\u6280\u80fd\u3002",
+                "image": {
+                    "full": "Lich_Defied.png"
+                },
+                "name": "\u6b7b\u4ea1\u5951\u7ea6\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/7/4/r/7XLajYW5Q4r.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7XLajYW5Q4r&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_h0100tvrpwy.html",
+                    "id": "001",
+                    "name": "\u5e7d\u7075\u5e7b\u5f71 \u5361\u5c14\u8428\u65af",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0100tvrpwy&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/9/o0104dh2xo9.html",
+                    "id": "002",
+                    "name": "\u81ea\u7531\u5973\u795e \u5361\u5c14\u8428\u65af",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0104dh2xo9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_i0101p4671b.html",
+                    "id": "003",
+                    "name": "\u6b7b\u795e \u5361\u5c14\u8428\u65af",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0101p4671b&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/d/k01123mgsmd.html",
+                    "id": "004",
+                    "name": "\u4e94\u6740\u6447\u6eda\u4e3b\u5531 \u5361\u5c14\u8428\u65af",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k01123mgsmd&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=a0136efodmc",
+                    "id": "005",
+                    "name": "Fnatic \u5361\u5c14\u8428\u65af",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a0136efodmc&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "LayWaste",
+                    "image": {
+                        "full": "LayWaste.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8352\u829c\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5728\u5361\u5c14\u8428\u65af\u7684\u6307\u9488\u4f4d\u7f6e\u65bd\u653e\u4e00\u6b21\u6709\u5ef6\u8fdf\u7684\u7206\u70b8\u9b54\u6cd5\u3002\u57280.5\u79d2\u540e\uff0c\u8303\u56f4\u5185\u7684\u6bcf\u4e2a\u654c\u4eba\u90fd\u4f1a\u53d7\u523040/60/80/100/120(+0.3*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5982\u679c\u8303\u56f4\u5185\u53ea\u67091\u4e2a\u654c\u4eba\uff0c\u90a3\u4e48\u6b64\u6280\u80fd\u4f1a\u5bf9\u8fd9\u540d\u654c\u4eba\u9020\u6210\u53cc\u500d\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a875<br><br>\u51b7\u5374\u65f6\u95f4\uff1a1/1/1/1/1\u79d2<br>\u6d88\u8017\uff1a20/26/32/38/44 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "WallOfPain",
+                    "image": {
+                        "full": "WallOfPain.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u75db\u82e6\u4e4b\u5899\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5728\u76ee\u6807\u533a\u57df\u521b\u9020\u4e00\u4e2a\u6301\u7eed5/5/5/5/5\u79d2\u7684\u5899\u4f53\u3002\u7a7f\u8fc7\u5899\u4f53\u7684\u654c\u4eba\u4f1a\u88ab\u51cf\u5c1115/15/15/15/15%\u7684\u9b54\u6cd5\u6297\u6027\uff0c\u4ee5\u53ca40/50/60/70/80%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed5/5/5/5/5\u79d2\uff08\u4f46\u51cf\u901f\u6548\u679c\u4f1a\u968f\u65f6\u95f4\u6301\u7eed\u8870\u51cf\uff09\u3002<br><br>12\u670815\u65e54.44\u7248\u672c\u66f4\u65b0\uff1a\u51cf\u901f\u6548\u679c\u4f1a\u57281\u79d2\u540e\u8870\u51cf\u4e00\u534a<br>\u8ddd\u79bb\uff1a800/900/1000/1100/1200<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/18/18/18/18\u79d2<br>\u6d88\u8017\uff1a100/100/100/100/100 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Defile",
+                    "image": {
+                        "full": "Defile.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u4eb5\u6e0e\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5173\u95ed\uff1a\u5f53\u5361\u5c14\u8428\u65af\u51fb\u6740\u4e00\u4e2a\u5355\u4f4d\u65f6\uff0c\u4ed6\u4f1a\u56de\u590d20/27/34/41/48\u6cd5\u529b\u3002<br><br>\u5f00\u542f\uff1a\u6bcf\u79d2\u6d88\u801730/42/54/66/78\u6cd5\u529b\uff0c\u6765\u5bf9\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u6210\u6bcf\u79d230/50/70/90/110(+0.2*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a550<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a0.5/0.5/0.5/0.5/0.5\u79d2<br>\u6bcf\u79d2\u6d88\u8017\uff1a30/42/54/66/78 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FallenOne",
+                    "image": {
+                        "full": "FallenOne.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5b89\u9b42\u66f2\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5728\u5f15\u5bfc3\u79d2\u540e\uff0c\u5361\u5c14\u8428\u65af\u4f1a\u5bf9\u6240\u6709\u654c\u65b9\u82f1\u96c4\uff08\u65e0\u89c6\u8ddd\u79bb\uff09\u9020\u6210250/400/550(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a\u5168\u5c4f<br><br>\u51b7\u5374\u65f6\u95f4\uff1a200/180/160\u79d2<br>\u6d88\u8017\uff1a150/175/200 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage"
+            ],
+            "title": "\u5361\u5c14\u8428\u65af",
+            "trait": {
+                "zd": {
+                    "add-point": "QEQWQRQEQEREWEWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3027;3157;3020;3003",
+                        "3027;3157;3020;3003;3135;3089",
+                        "3027;3157;3020;3116;3001;3089"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

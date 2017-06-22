@@ -1,0 +1,165 @@
+{
+    "data": [
+        {
+            "id": "Rammus",
+            "image": {
+                "full": "Rammus.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 0,
+                "y": 48
+            },
+            "info": {
+                "attack": 4,
+                "defense": 10,
+                "difficulty": 5,
+                "magic": 5
+            },
+            "key": "33",
+            "name": "\u62ab\u7532\u9f99\u9f9f",
+            "passive": {
+                "description": "\u62c9\u83ab\u65af\u5c0625%\u7684\u62a4\u7532\u503c\u8f6c\u5316\u4e3a\u653b\u51fb\u529b\u3002",
+                "image": {
+                    "full": "Armordillo_ScavengeArmor.png"
+                },
+                "name": "\u9525\u523a\u7532\u58f3\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/A/u/7RqzaRhFhAu.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7RqzaRhFhAu&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/q/6/f0112w6cjq6.html",
+                    "id": "001",
+                    "name": "\u56fd\u738b \u62c9\u83ab\u65af",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f0112w6cjq6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/x/0/e/x0104of2rie.html",
+                    "id": "002",
+                    "name": "\u94ec\u91d1\u94e0\u7532 \u62c9\u83ab\u65af",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x0104of2rie&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_n0101cvxlbm.html",
+                    "id": "003",
+                    "name": "\u7194\u706b\u4e4b\u5fc3 \u62c9\u83ab\u65af",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0101cvxlbm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_f0100xg1l0u.html",
+                    "id": "004",
+                    "name": "\u6781\u5ea6\u6df1\u5bd2 \u62c9\u83ab\u65af",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f0100xg1l0u&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/n/0/m/n0102x8wlxm.html",
+                    "id": "005",
+                    "name": "\u5fcd\u9f9f \u62c9\u83ab\u65af",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0102x8wlxm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/e/0/f/e0105hkrckf.html",
+                    "id": "006",
+                    "name": "\u5168\u91d1\u5c5e\u72c2\u6f6e \u62c9\u83ab\u65af",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0105hkrckf&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/w/0/0/w01491da540.html",
+                    "id": "007",
+                    "name": "\u5723\u91d1\u7532\u866b \u62c9\u83ab\u65af",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w01491da540&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "PowerBall",
+                    "image": {
+                        "full": "PowerBall.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u52a8\u529b\u51b2\u523a\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u62c9\u83ab\u65af\u7f29\u6210\u7403\u72b6\u8fdb\u884c\u7ffb\u6eda\uff0c\u57287/7/7/7/7\u79d2\u91cc\u4e0d\u65ad\u52a0\u901f\uff0c\u5bf9\u649e\u51fb\u70b9\u9644\u8fd1\u7684\u654c\u4eba\u9020\u6210 100/150/200/250/300(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\u548c\u51fb\u9000\u6548\u679c\uff0c\u5e76\u51cf\u5c11\u4ed6\u4eec20/25/30/35/40%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed2/2/2/2/2\u79d2\uff0812\u670815\u65e54.44\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a3/3/3/3/3\u79d2\uff09\u3002<br><br>\u6fc0\u6d3b\u5c16\u523a\u9632\u5fa1\u5c06\u4f1a\u57281\u79d2\u540e\u79fb\u9664\u8be5\u6548\u679c\u3002<br><br>\u82f1\u96c4\u7684\u547d\u4e2d\u5224\u5b9a\u534a\u5f84\uff1a 250\uff0812\u670815\u65e54.44\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a325\uff09<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/14.5/13/11.5/10\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "DefensiveBallCurl",
+                    "image": {
+                        "full": "DefensiveBallCurl.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5c16\u523a\u9632\u5fa1\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u62c9\u83ab\u65af\u8fdb\u5165\u9632\u5fa1\u72b6\u6001\uff0c\u6301\u7eed 6/6/6/6/6 \u79d2\uff0c\u63d0\u9ad8 40/60/80/100/120\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\u5e76\u5411\u653b\u51fb\u8005\u53cd\u5f39 25/35/45/55/65(+0.1*\u5f00\u542f\u6280\u80fd\u540e\u603b\u62a4\u7532)\u70b9\u7684\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8fd9\u4e2a\u6280\u80fd\u4f1a\u83b7\u5f97\u76f8\u5f53\u4e8e 10/10/10/10/10% \u62a4\u7532\u503c\u7684\u4f24\u5bb3\u3002<br><br>\u6fc0\u6d3b\u52a8\u529b\u51b2\u523a\u5c06\u4f1a\u57281\u79d2\u540e\u79fb\u9664\u8be5\u6548\u679c\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/14/14/14/14\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "PuncturingTaunt",
+                    "image": {
+                        "full": "PuncturingTaunt.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7834\u7532\u5632\u8bbd\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u62c9\u83ab\u65af\u5632\u8bbd\u4e00\u4e2a\u654c\u65b9\u5355\u4f4d\u4f7f\u5176\u9c81\u83bd\u7684\u653b\u51fb\u3002\u51cf\u4f4e\u5176\u62a4\u75325/10/15/20/25\u5e76\u5f3a\u5236\u76ee\u6807\u653b\u51fb\u81ea\u5df1\uff0c\u6301\u7eed 1.25/1.5/1.75/2/2.25 \u79d2\u3002<br>\u8ddd\u79bb\uff1a325<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Tremors2",
+                    "image": {
+                        "full": "Tremors2.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5730\u52a8\u5c71\u6447\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u62c9\u83ab\u65af\u65bd\u653e\u6bc1\u706d\u9707\u8361\u6ce2\uff0c\u6bcf\u79d2\u5bf9\u9644\u8fd1\u7684\u5355\u4f4d\u548c\u5efa\u7b51\u7269\u9020\u6210 65/130/195(+0.3*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6301\u7eed 8/8/8 \u79d2\u3002<br>\u8ddd\u79bb\uff1aaoe:300<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/80/60 \u79d2\uff084\u670812\u65e56.7\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a60/60/60\u79d2\uff09<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Tank",
+                "Fighter"
+            ],
+            "title": "\u62c9\u83ab\u65af",
+            "trait": {
+                "dy": {
+                    "add-point": "WEQEEREWEWRWWQQRQQ",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3047;3143;3068;3725",
+                        "3065;3143;3068;3110;3047;3075",
+                        "3065;3143;3068;3083;3047;3075"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

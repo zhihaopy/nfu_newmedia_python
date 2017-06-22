@@ -1,0 +1,164 @@
+{
+    "data": [
+        {
+            "id": "Caitlyn",
+            "image": {
+                "full": "Caitlyn.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 0,
+                "y": 48
+            },
+            "info": {
+                "attack": 8,
+                "defense": 2,
+                "difficulty": 4,
+                "magic": 2
+            },
+            "key": "51",
+            "name": "\u76ae\u57ce\u5973\u8b66",
+            "passive": {
+                "description": "\u51ef\u7279\u7433\u4f1a\u5bf9\u4e2d\u4e86\u5979\u7684\u9677\u9631\u6216\u7ef3\u7f51\u7684\u76ee\u6807\u8fdb\u884c\u3010\u7206\u5934\u3011\u3002\u6b64\u5916\uff0c\u5979\u6bcf\u8fdb\u884c\u51e0\u6b21\u666e\u653b\u5c31\u4f1a\u83b7\u5f97\u4e00\u6b21\u514d\u8d39\u7684\u3010\u7206\u5934\u3011\uff1b\u5728\u8349\u4e1b\u4e2d\uff0c\u6bcf\u6b21\u666e\u653b\u4f1a\u53e0\u52a02\u5c42\u7206\u5934\u5145\u80fd\u6570\u3002<br><br>\u7206\u5934\uff1a<br>\u5bf9\u82f1\u96c4\u9020\u6210+50%\u653b\u51fb\u529b\u7684\u989d\u5916\u4f24\u5bb3\uff0c\u53ef\u901a\u8fc7\u66b4\u51fb\u51e0\u7387\u548c\u66b4\u51fb\u4f24\u5bb3\u63d0\u5347<br>\u5bf9\u5c0f\u5175\u9020\u6210250%\u603b\u4f24\u5bb3<br>\u5728\u653b\u51fb\u4e2d\u4e86\u9677\u9631\u548c\u7ef3\u7f51\u7684\u76ee\u6807\u65f6\uff0c\u653b\u51fb\u8ddd\u79bb\u7ffb\u500d<br><br>\u79ef\u6512\u7206\u5934\u6240\u9700\u7684\u653b\u51fb\u6b21\u6570\uff1a6",
+                "image": {
+                    "full": "Caitlyn_Headshot.png"
+                },
+                "name": "\u7206\u5934\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/8/A/B/8xOkrwTLhAB.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=8xOkrwTLhAB&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_l0100hbexcf.html",
+                    "id": "001",
+                    "name": "\u62b5\u6297\u519b\u5929\u4f7f \u51ef\u7279\u7433",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0100hbexcf&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_e01000rsu9v.html",
+                    "id": "002",
+                    "name": "\u8352\u91ce\u6cbb\u5b89\u5b98 \u51ef\u7279\u7433",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e01000rsu9v&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/w/y01023aaunw.html",
+                    "id": "003",
+                    "name": "\u53e4\u5893\u4e3d\u5f71 \u51ef\u7279\u7433",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y01023aaunw&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/v/p/6/v01128dmep6.html",
+                    "id": "004",
+                    "name": "\u51b0\u539f\u72d9\u51fb \u51ef\u7279\u7433",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=v01128dmep6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/r/0/p/r0106bxk4gp.html",
+                    "id": "005",
+                    "name": "\u5973\u8b66\u72d9\u51fb \u51ef\u7279\u7433",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0106bxk4gp&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=j0135oju4f8",
+                    "id": "006",
+                    "name": "\u94c1\u8840\u72d9\u51fb\u624b \u51ef\u7279\u7433",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j0135oju4f8&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/g/0/r/g01777bndyr.html",
+                    "id": "010",
+                    "name": "\u7389\u51c0\u591c\u53c9 \u51ef\u7279\u7433",
+                    "num": 10,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g01777bndyr&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "CaitlynPiltoverPeacemaker",
+                    "image": {
+                        "full": "CaitlynPiltoverPeacemaker.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u548c\u5e73\u4f7f\u8005\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u51ef\u7279\u7433\u52a0\u901f\u8f6c\u52a8\u6b65\u67aa\uff0c1\u79d2\u540e\u5c04\u51fa\u4e00\u9897\u72ed\u7a84\u7684\u7a7f\u523a\u5f39\uff0c\u9020\u6210 30/70/110/150/190 (+1.3/1.4/1.5/1.6/1.7*\u603bAD)\u7269\u7406\u4f24\u5bb3\u3002\u5728\u547d\u4e2d\u4efb\u4f55\u5355\u4f4d\u540e\uff0c\u5b83\u4f1a\u7efd\u5f00\u4e3a\u4e00\u4e2a\u66f4\u5bbd\u7684\u5f39\u4f53\uff0c\u4f46\u4f24\u5bb3\u503c\u51cf\u5c1133%\uff08\u9884\u8ba1\u4e8e5.24\u751f\u6548\uff09\u3002<br><br>\u603b\u4f1a\u5bf9\u88ab\u9677\u9631\u66b4\u9732\u7684\u76ee\u6807\u9020\u6210\u5168\u989d\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a1250<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u6d88\u8017\uff1a50/60/70/80/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "CaitlynYordleTrap",
+                    "image": {
+                        "full": "CaitlynYordleTrap.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7ea6\u5fb7\u5c14\u8bf1\u6355\u5668\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5e03\u7f6e\u4e00\u4e2a\u9677\u9631\uff0c\u9677\u9631\u53ef\u4ee5\u675f\u7f1a\u654c\u65b9\u82f1\u96c42\u79d2\u5e76\u5c06\u76ee\u6807\u66b4\u9732\u5728\u5df2\u65b9\u89c6\u91ce\u5185\u3002<br><br>\u9677\u9631\u53ef\u4ee5\u6301\u7eed90\u79d2\u3002\u6700\u591a\u53ef\u4ee5\u67093/3/4/4/5\u4e2a\u9677\u9631\u540c\u65f6\u5b58\u5728\u3002<br><br>\u3010\u7206\u5934\u3011\u4f1a\u5bf9\u4e2d\u4e86\u9677\u9631\u7684\u7684\u654c\u4eba\u989d\u5916\u9020\u621030/70/110/150/190 (+0.7*AD)\u4f24\u5bb3\u3002<br><br>\u5145\u80fd\u8ba1\u65f6\u5668\uff1a45/32.5/20/12.5/10\u79d2<br><br>\u65e0\u51b7\u5374<br>\u6d88\u8017\uff1a20/20/20/20/20 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "CaitlynEntrapment",
+                    "image": {
+                        "full": "CaitlynEntrapment.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "90\u53e3\u5f84\u7ef3\u7f51\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u51ef\u7279\u7433\u53d1\u5c04\u4e00\u5f20\u7ef3\u7f51\uff0c\u540c\u65f6\u81ea\u8eab\u56e0\u540e\u5750\u529b\u800c\u88ab\u51fb\u9000\u3002\u7ef3\u7f51\u9020\u621070/110/150/190/230 (+0.8*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u547d\u4e2d\u7684\u9996\u4e2a\u654c\u65b9\u76ee\u680750%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed1\u79d2<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/14.5/13/11.5/10\u79d2<br>\u6d88\u8017\uff1a75/75/75/75/75 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "CaitlynAceintheHole",
+                    "image": {
+                        "full": "CaitlynAceintheHole.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8ba9\u5b50\u5f39\u98de\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u51ef\u7279\u7433\u82b1\u8d391\u79d2\u65f6\u95f4\u6765\u7cbe\u5fc3\u51c6\u5907\u5b8c\u7f8e\u4e00\u51fb\uff0c\u5bf92000/2500/3000\u5c04\u7a0b\u8303\u56f4\u5185\u76ee\u6807\u82f1\u96c4\u9020\u6210250/475/700(+2*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002\u4f46\u5176\u5b83\u654c\u65b9\u82f1\u96c4\u80fd\u4e3a\u76ee\u6807\u82f1\u96c4\u62e6\u622a\u5b50\u5f39\u3002<br><br>\u8ddd\u79bb\uff1a2000/2500/3000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a90/75/60\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman"
+            ],
+            "title": "\u51ef\u7279\u7433",
+            "trait": {
+                "adc": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3006;3072",
+                        "3006;3031;3072;3046;3153;3035",
+                        "3006;3031;3072;3046;3026;3035"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

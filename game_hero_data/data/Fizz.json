@@ -1,0 +1,158 @@
+{
+    "data": [
+        {
+            "id": "Fizz",
+            "image": {
+                "full": "Fizz.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 144,
+                "y": 96
+            },
+            "info": {
+                "attack": 6,
+                "defense": 4,
+                "difficulty": 8,
+                "magic": 7
+            },
+            "key": "105",
+            "name": "\u6f6e\u6c50\u6d77\u7075",
+            "passive": {
+                "description": "\u83f2\u5179\u7684\u7075\u5de7\u8eab\u624b\u80fd\u4f7f\u4ed6\u5728\u79fb\u52a8\u65f6\u5ffd\u7565\u5355\u4f4d\u7684\u78b0\u649e\u4f53\u79ef\uff0c\u5e76\u4e14\u51cf\u514d4/6/8/10/12/14\uff08\u5728\u7b49\u7ea71/4/7/10/13/16\u65f6\u6539\u53d8\uff09\u70b9\u6765\u81ea\u666e\u901a\u653b\u51fb\u7684\u4f24\u5bb3\u3002",
+                "image": {
+                    "full": "FizzPassive.png"
+                },
+                "name": "\u4f36\u4fd0\u6597\u58eb\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/8/C/C/894YY55E6CC.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=894YY55E6CC&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/0/o/f01028c8voo.html",
+                    "id": "001",
+                    "name": "\u5931\u843d\u5927\u9646 \u83f2\u5179",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f01028c8voo&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/c/0/f/c0102tkfi4f.html",
+                    "id": "002",
+                    "name": "\u82d4\u539f\u730e\u624b \u83f2\u5179",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0102tkfi4f&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_l0101nrfthz.html",
+                    "id": "003",
+                    "name": "\u6d77\u725b\u730e\u624b \u83f2\u5179",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0101nrfthz&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=p00147z8moe",
+                    "id": "004",
+                    "name": "\u865a\u7a7a\u6d77\u7075 \u83f2\u5179",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p00147z8moe&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=d0160g43tg1",
+                    "id": "005",
+                    "name": "\u5154\u5b9d\u5b9d \u83f2\u5179",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0160g43tg1&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/0/i/d0198wl752i.html",
+                    "id": "006",
+                    "name": "\u94f6\u6cb3\u9b54\u88c5\u673a\u795e \u83f2\u5179",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0198wl752i&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "FizzPiercingStrike",
+                    "image": {
+                        "full": "FizzPiercingStrike.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6dd8\u6c14\u6253\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u83f2\u5179\u5f84\u76f4\u51b2\u5411\u4ed6\u7684\u76ee\u6807\uff0c\u9020\u6210\u666e\u653b\u4f24\u5bb3\u52a0\u4e0a 10/25/40/55/70(+0.35*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\u3002\u8fd9\u4e2a\u6280\u80fd\u53ef\u4ee5\u89e6\u53d1\u653b\u51fb\u7279\u6548\u3002<br>\u8ddd\u79bb\uff1a550<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FizzSeastonePassive",
+                    "image": {
+                        "full": "FizzSeastonePassive.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6d77\u77f3\u4e09\u53c9\u621f\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\u6548\u679c\uff1a\u83f2\u5179\u7684\u653b\u51fb\u4f1a\u6495\u88c2\u4ed6\u7684\u654c\u4eba\uff0c\u5728 3/3/3/3/3 \u79d2\u91cc\u5bf9\u76ee\u6807\u6301\u7eed\u9020\u621020/30/40/50/60(+0.45*AP)+\u76ee\u6807\u5df2\u635f\u5931\u751f\u547d\u503c4/4.5/5/5.5/6%\uff086\u670821\u65e56.12\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a4/5/6/7/8%\uff09\u9b54\u6cd5\u4f24\u5bb3\u3002 (\u5bf9\u5c0f\u5175\u6700\u591a\u9020\u6210 300 \u4f24\u5bb3)<br><br>\u4e3b\u52a8\u6548\u679c\uff1a\u5728 5/5/5/5/5 \u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\uff0c\u83f2\u5179\u7684\u653b\u51fb\u4f1a\u9020\u6210\u989d\u5916\u768410/15/20/25/30(+0.3*AP)\u7684\u9b54\u6cd5\u4f24\u5bb3\uff0c\u4e0d\u518d\u65bd\u52a0\u91cd\u4f24\u6548\u679c\uff0c\u5c06\u76ee\u6807\u5373\u5c06\u53d7\u5230\u7684\u6cbb\u7597\u6548\u679c\u51cf\u534a\u3002<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FizzJump",
+                    "image": {
+                        "full": "FizzJump.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u53e4\u7075/\u7cbe\u602a\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u83f2\u5179\u8df3\u5230\u957f\u77db\u4e0a\uff0c\u671d\u7740\u4f60\u7684\u6307\u9488\u65b9\u5411\u8fdb\u884c\u79fb\u52a8\uff0c\u5e76\u4e14\u65e0\u6cd5\u88ab\u9009\u5b9a\uff0c\u968f\u540e\u4f1a\u731b\u51fb\u5730\u9762\uff0c\u5bf9\u5468\u56f4\u7684\u654c\u4eba\u9020\u6210 70/120/170/220/270(+0.75*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u4ed6\u4eec 40/45/50/55/60% \u7684\u901f\u5ea6\uff0c\u6301\u7eed2\u79d2\u3002<br><br>\u5f53\u83f2\u5179\u5728\u957f\u77db\u4e0a\u65f6\uff0c\u91cd\u65b0\u6fc0\u6d3b\u6b64\u6280\u80fd\u4f1a\u8ba9\u83f2\u5179\u518d\u6b21\u671d\u7740\u4f60\u7684\u6307\u9488\u65b9\u5411\u8df3\u8dc3\uff0c\u5e76\u5bf9\u5c0f\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u6210 70/120/170/220/270(+0.75*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u800c\u4e0d\u4f1a\u731b\u51fb\u5730\u9762\u3002<br>\u8ddd\u79bb\uff1a400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10 \u79d2\uff086\u670821\u65e56.12\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a16/14/12/10/8\u79d2\uff09<br>\u6d88\u8017\uff1a90/100/110/120/130 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FizzMarinerDoom",
+                    "image": {
+                        "full": "FizzMarinerDoom.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5de8\u9ca8\u5f3a\u88ad\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u83f2\u5179\u671d\u7740\u76ee\u6807\u533a\u57df\u653e\u51fa\u4e00\u6761\u9b54\u6cd5\u5c0f\u9c7c\uff0c\u5c0f\u9c7c\u4f1a\u7f20\u4f4f\u88ab\u5b83\u547d\u4e2d\u7684\u654c\u65b9\u82f1\u96c4\uff0c\u51cf\u5c11\u4ed6 50/60/70% \u7684\u79fb\u52a8\u901f\u5ea6\u3002\u5982\u679c\u5c0f\u9c7c\u6ca1\u6709\u547d\u4e2d\u654c\u4eba\uff0c\u5219\u4f1a\u5728\u5730\u4e0a\u6301\u7eed\u5f88\u77ed\u7684\u65f6\u95f4\uff0c\u7f20\u4f4f\u4ece\u5b83\u8eab\u8fb9\u8d70\u8fc7\u7684\u654c\u65b9\u82f1\u96c4\u3002<br><br>\u5728 1.5/1.5/1.5 \u79d2\u4e4b\u540e\uff0c\u4e00\u6761\u9ca8\u9c7c\u5c31\u4f1a\u4ece\u5927\u5730\u4e4b\u4e2d\u94bb\u51fa\u6765\uff0c\u5bf9\u5927\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u6210 200/325/450(+1*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51fb\u98de\u88ab\u5c0f\u9c7c\u6240\u7f20\u4f4f\u7684\u76ee\u6807\uff0c\u5c06\u5176\u5b83\u654c\u4eba\u51fb\u5f00\uff0c\u5e76\u51cf\u5c11\u6240\u6709\u88ab\u547d\u4e2d\u7684\u654c\u4eba 50/60/70% \u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed 1.5 \u79d2\u3002<br><br>\u83f2\u5179\u5bf9\u88ab\u9ca8\u9c7c\u6807\u8bb0\u7684\u82f1\u96c4\u9020\u6210\u7684\u9b54\u6cd5\u4f24\u5bb3\u63d0\u534720%\u3002\u3010\u5de8\u9ca8\u5f3a\u88ad\u3011\u672c\u8eab\u4e0d\u4f1a\u4eab\u53d7\u8fd9\u4e2a\u589e\u76ca\u3002<br>\u8ddd\u79bb\uff1a1275<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/85/70\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Assassin",
+                "Fighter"
+            ],
+            "title": "\u83f2\u5179",
+            "trait": {
+                "zd": {
+                    "add-point": "EWQEEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3020;3100;3191",
+                        "3020;3100;3089;3157;3135;3128",
+                        "3020;3100;3089;3157;3135;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

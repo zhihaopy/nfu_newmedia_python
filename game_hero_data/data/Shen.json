@@ -1,0 +1,167 @@
+{
+    "data": [
+        {
+            "id": "Shen",
+            "image": {
+                "full": "Shen.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 384,
+                "y": 48
+            },
+            "info": {
+                "attack": 3,
+                "defense": 9,
+                "difficulty": 3,
+                "magic": 3
+            },
+            "key": "98",
+            "name": "\u66ae\u5149\u4e4b\u773c",
+            "passive": {
+                "description": "\u5728\u65bd\u653e\u4e00\u6b21\u6280\u80fd\u540e\uff0c\u614e\u4f1a\u83b7\u5f97\u4e00\u5c42\u5438\u653672[+0.14*\u989d\u5916\u751f\u547d\u503c]\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u6301\u7eed2.5\u79d2\uff08\u51b7\u5374\u65f6\u95f4\uff1a10\u79d2\uff09\u3002\u5982\u679c\u6280\u80fd\u6210\u529f\u5730\u5bf9\u4e00\u540d\u53cb\u65b9\u82f1\u96c4\u6216\u654c\u65b9\u82f1\u96c4\u4ea7\u751f\u4f5c\u7528\uff0c\u90a3\u4e48\u8fd9\u4e2a\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u5c31\u4f1a\u51cf\u5c114.5\u79d2\u3002<br><br>\u614e\u7684\u67e5\u514b\u62c9\u7684\u5916\u89c2\u662f\u4e00\u628a\u9b42\u5203\uff0c\u4ed6\u53ef\u4ee5\u7528\u6280\u80fd\u6765\u64cd\u63a7\u5b83\u3002",
+                "image": {
+                    "full": "Shen_KiStrike.png"
+                },
+                "name": "\u5fcd\u6cd5\uff01\u6c14\u5408\u76fe\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/c/T/7rPHVpRxIcT.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7rPHVpRxIcT&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/a/y0104u33iha.html",
+                    "id": "001",
+                    "name": "\u6781\u5bd2 \u614e",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0104u33iha&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/e/0/h/e0104hobuqh.html",
+                    "id": "002",
+                    "name": "\u708e\u7206 \u614e",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0104hobuqh&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/t/i0104wahqft.html",
+                    "id": "003",
+                    "name": "\u4e3b\u6cbb\u533b\u5e08 \u614e",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0104wahqft&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_x0100pyu9nq.html",
+                    "id": "004",
+                    "name": "\u9b3c\u6b66\u8005 \u614e",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x0100pyu9nq&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/a/0/o/a0112dre51o.html",
+                    "id": "005",
+                    "name": "\u6218\u56fd\u5927\u540d \u614e",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a0112dre51o&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTU4MzI4OTYw.html",
+                    "id": "006",
+                    "name": "\u6697\u6740\u661f \u614e",
+                    "num": 6,
+                    "source": "http://player.youku.com/player.php/sid/XNTU4MzI4OTYw/v.swf"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "ShenVorpalStar",
+                    "image": {
+                        "full": "ShenVorpalStar.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u66ae\u5203\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u614e\u53ec\u56de\u4ed6\u7684\u9b42\u5203\u5e76\u62d6\u52a8\u5b83\u3002\u5982\u679c\u9b42\u5203\u5728\u53ec\u56de\u9014\u4e2d\u4e0e\u654c\u65b9\u82f1\u96c4\u4ea7\u751f\u4e86\u78b0\u649e\uff0c\u90a3\u4e48\u8be5\u654c\u65b9\u82f1\u96c4\u5728\u9003\u79bb\u614e\u7684\u65f6\u5019\u4f1a\u88ab\u51cf\u901f35/35/35/35/35%\uff0c\u6301\u7eed2/2/2/2/2\u79d2\u3002 <br><br>\u614e\u7684\u4e0b3\u6b21\u653b\u51fb\u9020\u62103/3.5/4/4.5/5(+0.02*AP)%\u76ee\u6807\u6700\u5927\u751f\u547d\u503c\u7684\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\u3002\u5982\u679c\u9b42\u5203\u66fe\u4e0e\u4e00\u540d\u654c\u65b9\u82f1\u96c4\u76f8\u78b0\u649e\uff0c\u90a3\u4e48\u8fd9\u4e9b\u653b\u51fb\u7684\u4f24\u5bb3\u503c\u4f1a\u53d8\u4e3a5/5.5/6/6.5/7(+0.02*AP)%\u76ee\u6807\u6700\u5927\u751f\u547d\u503c\uff0c\u5e76\u63d0\u4f9b+50/50/50/50/50%\u653b\u51fb\u901f\u5ea6\u52a0\u6210\u3002 <br><br>\u6bcf\u6b21\u653b\u51fb\u90fd\u4f1a\u5bf9\u91ce\u602a\u548c\u5c0f\u5175\u9020\u621030/50/70/90/110\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3(\u6700\u5927\u4f24\u5bb3\uff1a75/100/125/150/175)\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/7.25/6.5/5.75/5\u79d2<br>\u6d88\u8017\uff1a140/130/120/110/100 \u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "ShenFeint",
+                    "image": {
+                        "full": "ShenFeint.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u9b42\u4f51\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u614e\u7684\u9b42\u5203\u4f1a\u521b\u5efa\u4e00\u4e2a\u6301\u7eed1.75\u79d2\u7684\u9632\u5fa1\u7ed3\u754c\u3002\u539f\u672c\u4f1a\u547d\u4e2d\u7ed3\u754c\u5185\u7684\u614e\u6216\u53cb\u65b9\u82f1\u96c4\u7684\u653b\u51fb\u90fd\u4f1a\u88ab\u683c\u6321\u3002 <br><br>\u5982\u679c\u7ed3\u754c\u5185\u6ca1\u6709\u4efb\u4f55\u82f1\u96c4\u53ef\u4ee5\u4fdd\u62a4\uff0c\u90a3\u4e48\u7075\u5203\u5c06\u4e0d\u4f1a\u6fc0\u6d3b\uff0c\u76f4\u5230\u4e00\u4e2a\u53cb\u65b9\u82f1\u96c4\u8fdb\u5165\u6216\u7ecf\u8fc72\u79d2\u4e3a\u6b62\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16.5/14/12.5/11\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40 \u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "ShenShadowDash",
+                    "image": {
+                        "full": "ShenShadowDash.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u5f71\u7f1a\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u7528\u3010E\u5965\u4e49\uff01\u5f71\u7f1a\u3011\u6216\u3010Q\u5965\u4e49\uff01\u66ae\u5203\u3011\u9020\u6210\u4f24\u5bb3\u65f6\u4f1a\u56de\u590d\u80fd\u91cf\u3002 <br><br>\u4e3b\u52a8\uff1a\u614e\u671d\u7740\u4e00\u4e2a\u65b9\u5411\u51b2\u523a\uff0c\u5bf9\u6cbf\u9014\u7684\u654c\u65b9\u82f1\u96c4\u9020\u621050/75/100/125/150[+0.12*\u989d\u5916\u751f\u547d\u503c]\u7269\u7406\u4f24\u5bb3\u548c1.5\u79d2\u7684\u5632\u8bbd\u6548\u679c\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10<br>\u6d88\u8017\uff1a180/180/180/180/180\u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "ShenStandUnited",
+                    "image": {
+                        "full": "ShenStandUnited.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u79d8\u5965\u4e49\uff01\u6148\u60b2\u5ea6\u9b42\u843d\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u614e\u4e3a\u76ee\u6807\u53cb\u65b9\u82f1\u96c4\u63d0\u4f9b\u4e00\u5c42\u5438\u6536250/550/850(+1.35*AP)\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u62a4\u76fe\u6301\u7eed5\u79d2\u3002\u5728\u5f15\u5bfc3\u79d2\u540e\uff0c\u614e\u548c\u4ed6\u7684\u9b42\u5203\u4f1a\u4f20\u9001\u5230\u53cb\u65b9\u82f1\u96c4\u8eab\u8fb9\u3002<br><br>\u8ddd\u79bb\uff1a\u5168\u5c4f<br><br>\u51b7\u5374\u65f6\u95f4 \uff1a 180/150/120<br>"
+                }
+            ],
+            "tags": [
+                "Tank",
+                "Fighter"
+            ],
+            "title": "\u614e",
+            "trait": {
+                "dy": {
+                    "add-point": "QWEQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3111;3068;3725",
+                        "3111;3068;3065;3143;3153;3725",
+                        "3047;3068;3065;3143;3725;3075"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3068;3067;1001",
+                        "3068;3065;3143;3022;3153;3111",
+                        "3068;3065;3143;3083;3075;3111"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

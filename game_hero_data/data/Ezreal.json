@@ -1,0 +1,188 @@
+{
+    "data": [
+        {
+            "id": "Ezreal",
+            "image": {
+                "full": "Ezreal.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 0,
+                "y": 96
+            },
+            "info": {
+                "attack": 7,
+                "defense": 2,
+                "difficulty": 8,
+                "magic": 6
+            },
+            "key": "81",
+            "name": "\u63a2\u9669\u5bb6",
+            "passive": {
+                "description": "\u4f0a\u6cfd\u745e\u5c14\u7684\u4efb\u4f55\u6280\u80fd\u5728\u51fb\u4e2d\u76ee\u6807\u540e\uff0c\u90fd\u4f1a\u57286\u79d2\u5185\u63d0\u9ad8\u4ed610%\u7684\u653b\u51fb\u901f\u5ea6\uff08\u8be5\u6548\u679c\u6700\u591a\u53ef\u53e0\u52a05\u6b21\uff09\u3002",
+                "image": {
+                    "full": "Ezreal_RisingSpellForce.png"
+                },
+                "name": "\u5492\u80fd\u9ad8\u6da8\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/8/0/7oZBGtKCQ80.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7oZBGtKCQ80&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/u/0/p/u0104d0l7mp.html",
+                    "id": "001",
+                    "name": "\u5192\u9669\u7cbe\u795e \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0104d0l7mp&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/0/8/d01044v1mu8.html",
+                    "id": "002",
+                    "name": "\u8db3\u7403\u5148\u751f \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d01044v1mu8&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_s0100w1ntnk.html",
+                    "id": "003",
+                    "name": "\u51b0\u5ddd\u52c7\u8005 \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0100w1ntnk&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/c/0/e/c0104t4r5ve.html",
+                    "id": "004",
+                    "name": "\u5931\u843d\u7684\u4e16\u754c \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0104t4r5ve&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_r0101gvjgcm.html",
+                    "id": "005",
+                    "name": "\u672a\u6765\u6218\u58eb \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0101gvjgcm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/u/0/p/u0119ib2njp.html",
+                    "id": "006",
+                    "name": "\u6697\u6740\u661f \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0119ib2njp&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/5/5ieprrdejqzxbu4.html?vid=k0014bf2761",
+                    "id": "007",
+                    "name": "\u5149\u6267\u4e8b \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0014bf2761&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/u/0/l/u01530ao74l.html",
+                    "id": "008",
+                    "name": "\u9ed1\u6843\u7687\u724c \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 8,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u01530ao74l&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/x/page/m03192ms4p0.html?start=16",
+                    "id": "009",
+                    "name": "\u7535\u73a9 \u4f0a\u6cfd\u745e\u5c14",
+                    "num": 9,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m03192ms4p0&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "EzrealMysticShot",
+                    "image": {
+                        "full": "EzrealMysticShot.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u79d8\u672f\u5c04\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f0a\u6cfd\u745e\u5c14\u53d1\u5c04\u4e00\u679a\u80fd\u91cf\u5f39\uff0c\u9020\u621035/55/75/95/115(+1.1*\u603bAD)(+0.4*AP)\u7269\u7406\u4f24\u5bb3\uff08\u89e6\u53d1\u653b\u51fb\u9644\u5e26\u6548\u679c\uff09\u3002<br><br>\u5982\u679c\u5b83\u51fb\u4e2d\u4e00\u4e2a\u654c\u65b9\u5355\u4f4d\uff0c\u90a3\u4e48\u5b83\u5c06\u51cf\u5c11\u4f0a\u6cfd\u745e\u5c14\u6240\u6709\u6280\u80fd1.5\u79d2\u7684\u51b7\u5374\u65f6\u95f4\u3002<br>\u8ddd\u79bb\uff1a1150<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6.5/6/5.5/5/4.5\u79d2<br>\u6d88\u8017\uff1a28/31/34/37/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "EzrealEssenceFlux",
+                    "image": {
+                        "full": "EzrealEssenceFlux.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7cbe\u534e\u8dc3\u52a8\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f0a\u6cfd\u745e\u5c14\u53d1\u5c04\u4e00\u9053\u80fd\u91cf\u6ce2\uff0c\u5bf9\u654c\u65b9\u82f1\u96c4\u9020\u621070/115/160/205/250(+0.8*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u5982\u679c\u4f0a\u6cfd\u745e\u5c14\u6216\u53cb\u65b9\u82f1\u96c4\u88ab\u8fd9\u9053\u6ce2\u7eb9\u547d\u4e2d\uff0c\u90a3\u4e48\u4f1a\u63d0\u534720/25/30/35/40%\u7684\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed5\u79d2\u3002<br>\u8ddd\u79bb\uff1a1000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/9/9/9/9\u79d2<br>\u6d88\u8017\uff1a50/60/70/80/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "EzrealArcaneShift",
+                    "image": {
+                        "full": "EzrealArcaneShift.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u672f\u8dc3\u8fc1\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f0a\u6cfd\u745e\u5c14\u4f20\u9001\u5230\u4e34\u8fd1\u7684\u76ee\u6807\u533a\u57df\uff0c\u5e76\u5411\u6700\u8fd1\u7684\u654c\u65b9\u5355\u4f4d\u53d1\u5c04\u81ea\u52a8\u8ffd\u8e2a\u7684\u9b54\u6cd5\u7bad\uff0c\u9020\u621075/125/175/225/275(+0.75*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a475<br><br>\u51b7\u5374\u65f6\u95f4\uff1a19/17.5/16/14.5/13\u79d2<br>\u6d88\u8017\uff1a90/90/90/90/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "EzrealTrueshotBarrage",
+                    "image": {
+                        "full": "EzrealTrueshotBarrage.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7cbe\u51c6\u5f39\u5e55\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f0a\u6cfd\u745e\u5c14\u5f15\u5bfc1\u79d2\u540e\u5411\u76ee\u6807\u533a\u57df\u91ca\u653e\u80fd\u91cf\u6ce2\uff0c\u5bf9\u7a7f\u8fc7\u7684\u654c\u4eba\u9020\u6210350/500/650(+1*\u989d\u5916AD)(+0.9*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u7136\u800c\uff0c\u6bcf\u7a7f\u900f\u4e00\u4e2a\u5355\u4f4d\u540e\u9012\u51cf10/10/10%\u3002\uff08\u6700\u4f4e\u9020\u621030/30/30%\u4f24\u5bb3\uff09\u3002<br>\u8ddd\u79bb\uff1a\u5168\u5c4f<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/120/120\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman",
+                "Mage"
+            ],
+            "title": "\u4f0a\u6cfd\u745e\u5c14",
+            "trait": {
+                "adc": {
+                    "add-point": "QEQWQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3078;3006",
+                        "3078;3072;3031;3006;3139;3035",
+                        "3078;3072;3031;3006;3026;3035"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QWEWWRWEWEREEQQRQQ",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3100;3158",
+                        "3100;3089;3174;3135;3041;3158",
+                        "3100;3089;3174;3135;3026;3158"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

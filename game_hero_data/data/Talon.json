@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "id": "Talon",
+            "image": {
+                "full": "Talon.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 384,
+                "y": 96
+            },
+            "info": {
+                "attack": 9,
+                "defense": 3,
+                "difficulty": 6,
+                "magic": 1
+            },
+            "key": "91",
+            "name": "\u5200\u950b\u4e4b\u5f71",
+            "passive": {
+                "description": "\u6cf0\u9686\u7684\u57fa\u7840\u653b\u51fb\u5c06\u5bf9\u4efb\u4f55\u88ab\u51cf\u901f\u3001\u88ab\u6655\u7729\u3001\u88ab\u56fa\u5b9a\u6216\u8005\u88ab\u538b\u5236\u7684\u654c\u4eba\u9020\u621010%\u7684\u989d\u5916\u4f24\u5bb3\u3002",
+                "image": {
+                    "full": "TalonMercy.png"
+                },
+                "name": "\u601c\u60af\u4e4b\u5fc3\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/p/6/x/p01004spf6x.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p01004spf6x&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_o010010y5i5.html",
+                    "id": "001",
+                    "name": "\u523a\u5ba2\u4fe1\u6761 \u6cf0\u9686",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o010010y5i5&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/0/8/f0102dqrmy8.html",
+                    "id": "002",
+                    "name": "\u8840\u8272\u7cbe\u9510 \u6cf0\u9686",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f0102dqrmy8&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/x/0/w/x01127d8w4w.html",
+                    "id": "003",
+                    "name": "\u94f6\u9f99\u88c1\u51b3 \u6cf0\u9686",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x01127d8w4w&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/f/0/t/f0153cweidt.html",
+                    "id": "004",
+                    "name": "SSW \u6cf0\u9686",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f0153cweidt&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "TalonNoxianDiplomacy",
+                    "image": {
+                        "full": "TalonNoxianDiplomacy.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u523a\u5ba2\u8be1\u9053\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cf0\u9686\u7684\u4e0b\u6b21\u653b\u51fb\u9020\u6210\u989d\u5916\u768430/60/90/120/150(+0.3*\u989d\u5916AD)\u70b9\u7269\u7406\u4f24\u5bb3\u3002\u5982\u679c\u76ee\u6807\u662f\u654c\u65b9\u82f1\u96c4\uff0c\u4f1a\u88ab\u65bd\u52a0\u6d41\u8840\u6548\u679c\u3002\u5728\u6548\u679c\u6301\u7eed\u76846\u79d2\u5185\uff0c\u76ee\u6807\u4f1a\u6301\u7eed\u53d7\u5230\u517110/20/30/40/50(+1*\u989d\u5916AD)\u70b9\u7684\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u4e14\u5176\u4f4d\u7f6e\u4f1a\u88ab\u66b4\u9732\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/7/6/5/4\u79d2<br>\u6d88\u8017\uff1a40/45/50/55/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TalonRake",
+                    "image": {
+                        "full": "TalonRake.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u65a9\u8349\u9664\u6839\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cf0\u9686\u5411\u524d\u65b9\u6247\u5f62\u533a\u57df\u53d1\u5c04\u56de\u65cb\u98de\u5200\uff0c\u5bf9\u7a7f\u8fc7\u7684\u654c\u4eba\u9020\u621030/55/80/105/130(+0.6*\u989d\u5916AD)\u70b9\u7684\u7269\u7406\u4f24\u5bb3\u3002\u6b64\u5916\uff0c\u88ab\u51fb\u4e2d\u7684\u654c\u4eba\u5c06\u4f1a\u51cf\u5c1120/25/30/35/40%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed2\u79d2\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TalonCutthroat",
+                    "image": {
+                        "full": "TalonCutthroat.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5272\u5589\u4e4b\u6218\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cf0\u9686\u4f20\u9001\u5230\u654c\u65b9\u76ee\u6807\u5916\u4fa7\uff0c\u4f7f\u76ee\u6807\u51cf\u901f99%\uff0c\u6301\u7eed0.25\u79d2\uff0c\u5e76\u4f7f\u6cf0\u9686\u5bf9\u76ee\u6807\u9020\u6210\u7684\u4f24\u5bb3\u63d0\u53473/6/9/12/15%\uff0c\u6301\u7eed3/3/3/3/3\u79d2\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10\u79d2<br>\u6d88\u8017\uff1a35/40/45/50/55 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TalonShadowAssault",
+                    "image": {
+                        "full": "TalonShadowAssault.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6697\u5f71\u7a81\u88ad\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cf0\u9686\u7529\u51fa\u4e00\u5708\u98de\u5200\u5e76\u8fdb\u5165\u9690\u5f62\u72b6\u6001\uff0c\u79fb\u52a8\u901f\u5ea6\u589e\u52a040%\uff0c\u6301\u7eed2.5\u79d2\u3002\u5f53\u6cf0\u9686\u73b0\u8eab\u65f6\uff0c\u98de\u5200\u98de\u56de\u5230\u6cf0\u9686\u6240\u5728\u7684\u4f4d\u7f6e\u3002\u6bcf\u5f53\u98de\u5200\u7a7f\u8fc7\u4e00\u4e2a\u654c\u4eba\u65f6\uff0c\u90fd\u4f1a\u5bf9\u8be5\u654c\u4eba\u9020\u6210120/170/220(+0.75*\u989d\u5916AD)\u70b9\u7684\u7269\u7406\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a650<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/80/60\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Assassin",
+                "Fighter"
+            ],
+            "title": "\u6cf0\u9686",
+            "trait": {
+                "zd": {
+                    "add-point": "WQEWWRWQWQRQQEEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "1055;3134;1037;1001",
+                        "3071;3072;3035;3156;3117;3153",
+                        "3071;3072;3035;3156;3117;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

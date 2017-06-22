@@ -1,0 +1,174 @@
+{
+    "data": [
+        {
+            "id": "Pantheon",
+            "image": {
+                "full": "Pantheon.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 336,
+                "y": 0
+            },
+            "info": {
+                "attack": 9,
+                "defense": 4,
+                "difficulty": 5,
+                "magic": 3
+            },
+            "key": "80",
+            "name": "\u6218\u4e89\u4e4b\u738b",
+            "passive": {
+                "description": "\u6bcf\u653b\u51fb\u6216\u65bd\u6cd54\u6b21\u540e\uff0c\u6f58\u68ee\u5c31\u53ef\u4ee5\u683c\u6321\u4e0b\u4e00\u6b21\u666e\u901a\u653b\u51fb\u6216\u9632\u5fa1\u5854\u653b\u51fb\u3002",
+                "image": {
+                    "full": "Pantheon_AOZ.png"
+                },
+                "name": "\u5723\u76fe\u5e87\u62a4\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/7/c/m/76FADWrC2cm.html?start=97",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=76FADWrC2cm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/0/i0104v5whk0.html",
+                    "id": "001",
+                    "name": "\u65af\u5df4\u8fbe\u4e4b\u9b42 \u6f58\u68ee",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0104v5whk0&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/a/y01048xx1ba.html",
+                    "id": "002",
+                    "name": "\u4e07\u4eba\u654c \u6f58\u68ee",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y01048xx1ba&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/m/0/b/m0104usbbmb.html",
+                    "id": "003",
+                    "name": "\u82f1\u4ed9\u5ea7\u73c0\u5c14\u4fee\u65af \u6f58\u68ee",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0104usbbmb&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_q0100wincbd.html",
+                    "id": "004",
+                    "name": "\u94a2\u94c1\u610f\u5fd7 \u6f58\u68ee",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0100wincbd&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/h/i0105pe3cbh.html",
+                    "id": "005",
+                    "name": "\u5927\u590f\u6b66\u58eb \u6f58\u68ee",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0105pe3cbh&auto=1"
+                },
+                {
+                    "displayUrl": "",
+                    "id": "006",
+                    "name": "\u5c60\u9f99\u52c7\u58eb \u6f58\u68ee",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0128cy2vdr&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/r/0/v/r0168kyhtwv.html",
+                    "id": "007",
+                    "name": "\u4e27\u5c38\u6740\u624b \u6f58\u68ee",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0168kyhtwv&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Pantheon_Throw",
+                    "image": {
+                        "full": "Pantheon_Throw.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u957f\u77db\u98de\u63b7\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u6f58\u68ee\u5c06\u957f\u77db\u731b\u63b7\u5411\u4e00\u4e2a\u654c\u65b9\u76ee\u6807\uff08\u5efa\u7b51\u7269\u9664\u5916\uff09\uff0c\u9020\u621065/105/145/185/225(+1.4*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4/4/4\u79d2<br>\u6d88\u8017\uff1a45/45/45/45/45 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Pantheon_LeapBash",
+                    "image": {
+                        "full": "Pantheon_LeapBash.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5723\u76fe\u6253\u51fb\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u6f58\u68ee\u8df3\u5411\u76ee\u6807\u82f1\u96c4\u3001\u5c0f\u5175\u6216\u91ce\u602a\uff0c\u9020\u621050/75/100/125/150(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u6655\u7729\u76ee\u68071/1/1/1/1\u79d2\uff0c\u540c\u65f6\u7acb\u523b\u5237\u65b0\u5723\u76fe\u5e87\u62a4\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/12/11/10/9\u79d2<br>\u6d88\u8017\uff1a55/55/55/55/55 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Pantheon_Heartseeker",
+                    "image": {
+                        "full": "Pantheon_Heartseeker.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7a7f\u5fc3\u957f\u77db\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\u6548\u679c\uff1a\u6f58\u68ee\u7684\u666e\u901a\u653b\u51fb\u548c\u957f\u77db\u98de\u63b7\uff0c\u5bf9\u751f\u547d\u503c\u4f4e\u4e8e15/15/15/15/15%\u7684\u654c\u4eba\u5c06100%\u9020\u6210\u66b4\u51fb\u3002\u666e\u653b\u66b4\u51fb\u4f24\u5bb3\u4e3a200%\uff0c\u957f\u77db\u98de\u63b7\u7684\u66b4\u51fb\u4f24\u5bb3\u4e3a150%\u3002<br><br>\u4e3b\u52a8\u6548\u679c\uff1a\u6f58\u68ee\u4f7f\u7528\u957f\u77db\u5411\u524d\u65b9\u9525\u5f62\u8303\u56f4\u53d1\u52a83/3/3/3/3\u8fde\u51fb\uff0c\u5171\u9020\u621080/130/180/230/280(+3*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002(\u5bf9\u5c0f\u5175\u548c\u91ce\u602a\u9020\u621060%\u4f24\u5bb3)\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u6d88\u8017\uff1a45/50/55/60/65 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Pantheon_GrandSkyfall_Jump",
+                    "image": {
+                        "full": "Pantheon_GrandSkyfall_Jump.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5815\u5929\u4e00\u51fb\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u6f58\u68ee\u84c4\u79ef\u529b\u91cf\u817e\u7a7a\u800c\u8d77\uff0c\u6570\u79d2\u540e\u8f70\u51fb\u76ee\u6807\u533a\u57df\uff0c\u843d\u5730\u65f6\u5bf9\u76ee\u6807\u533a\u57df\u4e2d\u5fc3\u7684\u654c\u4eba\u9020\u6210400/700/1000(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\uff08\u5bf9\u8fb9\u7f18\u533a\u57df\u53ea\u9020\u621050/50/50%\u4f24\u5bb3\uff09\uff0c\u5e76\u4f7f\u4ed6\u4eec\u51cf\u901f35/35/35%\uff0c\u6301\u7eed1\u79d2\u3002<br><br>\u5982\u679c\u6f58\u68ee\u53d6\u6d88\u4e86\u6b64\u6280\u80fd\u7684\u5f15\u5bfc\uff0c\u90a3\u4e48\u3010R\u5815\u5929\u4e00\u51fb\u3011\u7684\u51b7\u5374\u65f6\u95f4\u4f1a\u53d8\u4e3a30/30/30\u79d2\u3002<br>\u65bd\u6cd5\u8ddd\u79bb\uff1a5500<br><br>\u51b7\u5374\u65f6\u95f4\uff1a150/135/120\u79d2<br>\u6d88\u8017\uff1a125/125/125 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Assassin"
+            ],
+            "title": "\u6f58\u68ee",
+            "trait": {
+                "dy": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3117;3134;3707",
+                        "3117;3071;3026;3707;3035;3143",
+                        "3117;3068;3026;3707;3035;3143"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "2041;2003:3;3340",
+                        "3117;3134",
+                        "3117;3071;3026;3072;3035;3143",
+                        "3117;3068;3026;3072;3035;3143"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

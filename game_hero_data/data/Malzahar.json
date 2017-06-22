@@ -1,0 +1,151 @@
+{
+    "data": [
+        {
+            "id": "Malzahar",
+            "image": {
+                "full": "Malzahar.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 96,
+                "y": 96
+            },
+            "info": {
+                "attack": 2,
+                "defense": 2,
+                "difficulty": 6,
+                "magic": 9
+            },
+            "key": "90",
+            "name": "\u865a\u7a7a\u5148\u77e5",
+            "passive": {
+                "description": "\u5982\u679c\u739b\u5c14\u624e\u54c8\u572830/24/18/12\u79d2(\u4e8e1/6/11/16\u7ea7) \u91cc\u6ca1\u6709\u53d7\u5230\u4efb\u4f55\u4f24\u5bb3\u6216\u88ab\u63a7\u5236\uff0c\u4ed6\u5c31\u4f1a\u83b7\u5f9790%\u4f24\u5bb3\u51cf\u514d\u5e76\u514d\u75ab\u63a7\u5236\u6548\u679c\uff0c\u8fd9\u4e2a\u6548\u679c\u5728\u627f\u53d7\u4e86\u4f24\u5bb3\u6216\u683c\u6321\u4e86\u4e00\u6b21\u63a7\u5236\u6548\u679c\u540e\u4ecd\u7136\u4f1a\u6b8b\u75590.25\u79d2\u3002<br><br>\u6765\u81ea\u7ebf\u4e0a\u5c0f\u5175\u7684\u4f24\u5bb3\u4e0d\u4f1a\u88ab\u8fd9\u4e2a\u6548\u679c\u6240\u51cf\u514d\uff0c\u4f46\u4e5f\u4e0d\u4f1a\u89e6\u53d1\u6216\u91cd\u7f6e\u8fd9\u4e2a\u6548\u679c\u7684\u51b7\u5374\u65f6\u95f4\u3002",
+                "image": {
+                    "full": "AlZahar_SummonVoidling.png"
+                },
+                "name": "\u865a\u7a7a\u7a7f\u8d8a\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/8/O/W/88FVHk3VxOW.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=88FVHk3VxOW&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/v/0/t/v0112r8iq2t.html",
+                    "id": "001",
+                    "name": "\u5143\u8001\u8bae\u4f1a \u739b\u5c14\u624e\u54c8",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=v0112r8iq2t&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTc5NTg3NTMy.html",
+                    "id": "002",
+                    "name": "\u6697\u5f71\u738b\u5b50 \u739b\u5c14\u624e\u54c8",
+                    "num": 2,
+                    "source": "http://player.youku.com/player.php/sid/XNTc5NTg3NTMy/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/w/0/d/w01126ekh8d.html",
+                    "id": "003",
+                    "name": "\u9b54\u7075 \u739b\u5c14\u624e\u54c8",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w01126ekh8d&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_m0101xb6nj8.html",
+                    "id": "004",
+                    "name": "\u81f3\u9ad8\u541b\u738b \u739b\u5c14\u624e\u54c8",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0101xb6nj8&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/l/0/q/l0142uohw2q.html",
+                    "id": "005",
+                    "name": "\u51b0\u96ea\u8282 \u739b\u5c14\u624e\u54c8",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0142uohw2q&auto=1"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "AlZaharCalloftheVoid",
+                    "image": {
+                        "full": "AlZaharCalloftheVoid.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u865a\u7a7a\u53ec\u5524\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u739b\u5c14\u624e\u54c8\u5f00\u542f\u4e24\u6247\u901a\u5f80\u865a\u7a7a\u7684\u4f20\u9001\u95e8\uff0c\u5728\u77ed\u6682\u7684\u5ef6\u8fdf\u540e\uff0c\u80fd\u91cf\u5c31\u4f1a\u4ece\u865a\u7a7a\u4e4b\u4e2d\u55b7\u53d1\uff0c\u5e76\u4e14\u5728\u4e24\u9053\u4f20\u9001\u95e8\u4e4b\u95f4\u5bf9\u6d41\uff0c\u5bf9\u51fb\u4e2d\u7684\u654c\u4eba\u9020\u6210 70/110/150/190/230(+0.7*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\u5e76\u4f7f\u5176\u6c89\u9ed8 1/1.25/1.5/1.75/2 \u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>\u6d88\u8017\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "AlZaharNullZone",
+                    "image": {
+                        "full": "AlZaharNullZone.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u865a\u7a7a\u866b\u7fa4\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u53ec\u5524\u4e00\u4e2a\u6301\u7eed12\u79d2\u7684\u865a\u7075\u6765\u4e0e\u9644\u8fd1\u654c\u4eba\u4f5c\u6218\u3002<br><br>\u865a\u7075\u9996\u6b21\u653b\u51fb\u82f1\u96c4\u6216\u91ce\u602a\u3001\u6216\u53c2\u4e0e\u51fb\u6740\u4e86\u4e00\u4e2a\u5355\u4f4d\u65f6\uff0c\u739b\u5c14\u624e\u54c8\u5c31\u4f1a\u53ec\u5524\u51fa\u4e00\u4e2a\u65b0\u7684\u865a\u7075\u3002\u5f53\u739b\u5c14\u624e\u54c8\u67093\u4e2a\u6216\u4ee5\u4e0a\u7684\u865a\u7075\u5728\u573a\u65f6\uff0c\u5b83\u4eec\u4f1a\u83b7\u5f9750%\u653b\u51fb\u901f\u5ea6\u52a0\u6210\u3002<br><br>\u865a\u7075\u8be6\u7ec6\u8d44\u6599\uff1a<br>\u653b\u51fb\u9020\u6210\uff08+0.3/0.325/0.35/0.375/0.4*AD\uff09\u7269\u7406\u4f24\u5bb3\u52a0\u4e0a10/15/20/25/30(+0.1*AP)\u9b54\u6cd5\u4f24\u5bb3\uff08\u5bf9\u91ce\u602a\u9020\u621075%\u4f24\u5bb3\uff09<br>\u5bf9\u751f\u547d\u503c25%\u7684\u7ebf\u4e0a\u5c0f\u5175\u9020\u6210\u4e09\u500d\u4f24\u5bb3<br>\u865a\u7075\u7684\u5269\u4f59\u6301\u7eed\u65f6\u95f4\u5c11\u4e8e4\u79d2\u65f6\u5c31\u4e0d\u4f1a\u53ec\u5524\u65b0\u865a\u7075\u4e86\u3002<br>\u4f18\u5148\u653b\u51fb\u4e2d\u4e86\u3010R\u51a5\u5e9c\u4e4b\u63e1\u3011\u6216\u3010E\u715e\u661f\u5e7b\u8c61\u3011\u7684\u76ee\u6807\uff0c\u5e76\u4e14\u5728\u63a5\u8fd1\u8fd9\u4e9b\u76ee\u6807\u65f6\u63d0\u5347100%\u79fb\u52a8\u901f\u5ea6\u3002<br>\u5176\u4ed6\u60c5\u51b5\u4e0b\u9ed8\u8ba4\u653b\u51fb\u6700\u8fd1\u7684\u654c\u4eba\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a20/19/18/17/16\u79d2<br>\u6cd5\u529b\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "AlZaharMaleficVisions",
+                    "image": {
+                        "full": "AlZaharMaleficVisions.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u715e\u661f\u5e7b\u8c61\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u57284\u79d2\u91cc\u5bf9\u4e00\u540d\u654c\u4eba\u6301\u7eed\u9020\u6210\u517180/115/150/185/220\uff08+0.7*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u3002\u5728\u6b64\u671f\u95f4\uff0c\u5bf9\u76ee\u6807\u4f7f\u7528\u3010Q\u865a\u7a7a\u53ec\u5524\u3011\u548c\u3010R\u51a5\u5e9c\u4e4b\u63e1\u3011\u4f1a\u5237\u65b0\u5e7b\u60f3\u7684\u6301\u7eed\u65f6\u95f4\u3002<br><br>\u5982\u679c\u76ee\u6807\u88ab\u51fb\u6740\uff0c\u739b\u5c14\u624e\u54c8\u4f1a\u83b7\u5f97\uff08+2%\u6700\u5927\u6cd5\u529b\u503c\uff09\u5e76\u4e14\u5e7b\u60f3\u4f1a\u4f20\u64ad\u5230\u6700\u8fd1\u7684\u654c\u4eba\u8eab\u4e0a\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a15/13/11/9/7\u79d2<br>\u6d88\u8017\uff1a 60/70/80/90/100 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "AlZaharNetherGrasp",
+                    "image": {
+                        "full": "AlZaharNetherGrasp.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u51a5\u5e9c\u4e4b\u63e1\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u739b\u5c14\u624e\u54c8\u538b\u5236\u4e00\u540d\u654c\u65b9\u82f1\u96c4\uff0c\u6301\u7eed2.5\u79d2\u5e76\u5728\u76ee\u6807\u9644\u8fd1\u521b\u5efa\u4e00\u4e2a\u5145\u6ee1\u8d1f\u80fd\u91cf\u7684\u5730\u5e26\uff0c\u6bcf\u79d2\u5bf9\u9644\u8fd1\u654c\u4eba\u9020\u6210\u4ed6\u4eec5%/7%/9%\uff08+0.01*AP%\uff09\u6700\u5927\u751f\u547d\u503c\u7684\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6301\u7eed5\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/100/80\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Assassin"
+            ],
+            "title": "\u739b\u5c14\u624e\u54c8",
+            "trait": {
+                "zd": {
+                    "add-point": "QEEWEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3027;1058;3020;2043",
+                        "3027;3151;3089;3135;3157;3020",
+                        "3027;3135;3157;3089;3020;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

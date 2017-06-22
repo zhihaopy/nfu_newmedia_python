@@ -1,0 +1,137 @@
+{
+    "data": [
+        {
+            "id": "Quinn",
+            "image": {
+                "full": "Quinn.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 432,
+                "y": 0
+            },
+            "info": {
+                "attack": 9,
+                "defense": 4,
+                "difficulty": 7,
+                "magic": 2
+            },
+            "key": "133",
+            "name": "\u5fb7\u739b\u897f\u4e9a\u4e4b\u7ffc",
+            "passive": {
+                "description": "\u6bcf\u8fc78\u79d2\uff0c\u534e\u6d1b\u5c31\u4f1a\u5c06\u9644\u8fd1\u7684\u4e00\u540d\u654c\u4eba\u6807\u8bb0\u4e3a\u6613\u635f\u72b6\u6001\uff0c\u5e76\u4f7f\u5176\u66b4\u9732\u5728\u89c6\u91ce\u5185\uff0c\u6301\u7eed4\u79d2\u3002\u594e\u56e0\u5bf9\u8fd9\u540d\u76ee\u6807\u7684\u4e0b\u6b21\u653b\u51fb\u4f1a\u9020\u621015-105 (\u4e8e\u7b49\u7ea71-18)\uff08+1.16 - 1.5*\u603bAD\uff08\u4e8e\u7b49\u7ea71-18\uff09\uff09\u7684\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u3010\u4fb5\u6270\u3011\u7684\u51b7\u5374\u65f6\u95f4\u53ef\u901a\u8fc7\u66b4\u51fb\u51e0\u7387\u6765\u7f29\u77ed\u3002",
+                "image": {
+                    "full": "Quinn_Passive.png"
+                },
+                "name": "\u4fb5\u6270\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/o/0/a/o0012vbtg7a.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0012vbtg7a&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/w/0/e/w01114h0p4e.html",
+                    "id": "001",
+                    "name": "\u8840\u7fbd\u51e4\u51f0 \u594e\u56e0",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w01114h0p4e&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/j/0/d/j0130w61q3d.html",
+                    "id": "002",
+                    "name": "\u52c7\u6562\u7684\u5fc3 \u594e\u56e0",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j0130w61q3d&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=i0158jrs7l2",
+                    "id": "003",
+                    "name": "\u6b7b\u4ea1\u4e4b\u9e70 \u594e\u56e0",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0158jrs7l2&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "QuinnQ",
+                    "image": {
+                        "full": "QuinnQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u70ab\u76ee\u653b\u52bf\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u534e\u6d1b\u6cbf\u76f4\u7ebf\u98de\u51fa\uff0c\u5728\u547d\u4e2d\u7b2c\u4e00\u4e2a\u654c\u4eba\u65f6\u505c\u4e0b\uff0c\u5e76\u5c06\u5176\u6807\u8bb0\u4e3a\u6613\u635f\u72b6\u6001\u3002\u968f\u540e\u534e\u6d1b\u4f1a\u5bf9\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u621020/45/70/95/120(+0.8/0.9/1.0/1.1/1.2*\u603bAD) \uff08+0.5*\u6cd5\u672f\u5f3a\u5ea6\uff09\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u5982\u679c\u9996\u8981\u76ee\u6807\u4e0d\u662f\u82f1\u96c4\uff0c\u5219\u4f1a\u65e0\u6cd5\u653b\u51fb1.5\u79d2\u3002<br><br>\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u76ee\u6807\u65bd\u52a0\u6301\u7eed2\u79d2\u7684\u3010\u77ed\u89c6\u3011\u6548\u679c\uff0c\u79fb\u9664\u53cb\u65b9\u89c6\u91ce\u5e76\u5c06\u5b83\u7684\u89c6\u91ce\u8ddd\u79bb\u964d\u4f4e\u81f3300<br><br>\u51b7\u5374\u65f6\u95f4\uff1a11/10.5/10/9.5/9<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "QuinnW",
+                    "image": {
+                        "full": "QuinnW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u654f\u9510\u611f\u77e5\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u653b\u51fb\u4e00\u540d\u6613\u635f\u76ee\u6807\uff0c\u5c06\u4f1a\u4f7f\u594e\u56e0\u7684\u653b\u51fb\u901f\u5ea6\u63d0\u548c\u79fb\u52a8\u901f\u5ea6\u63d0\u534720/25/30/35/40%\uff0c\u6301\u7eed2\u79d2\u3002<br><br>\u4e3b\u52a8\uff1a\u534e\u6d1b\u4f1a\u4f7f\u5468\u56f4\u4e00\u5927\u7247\u533a\u57df\u7684\u6218\u4e89\u8ff7\u96fe\u6d88\u6563\uff0c\u6301\u7eed2/2/2/2/2\u79d2\u3002<br>\u8ddd\u79bb\uff1a2100<br><br>\u51b7\u5374\u65f6\u95f4\uff1a50/45/40/35/30\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "QuinnE",
+                    "image": {
+                        "full": "QuinnE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u65cb\u7fd4\u63a0\u6740\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u594e\u56e0\u51b2\u5411\u4e00\u540d\u654c\u4eba\uff0c\u9020\u621040/70/100/130/160(+0.2*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u8ba9\u534e\u6d1b\u5c06\u8fd9\u4e2a\u654c\u4eba\u6807\u8bb0\u4e3a\u6613\u635f\u72b6\u6001\u3002<br><br>\u5728\u63a5\u89e6\u5230\u76ee\u6807\u7684\u540c\u65f6\uff0c\u594e\u56e0\u4f1a\u5411\u540e\u7a7a\u7ffb\uff0c\u8fdb\u884c\u77ed\u6682\u7684\u4f4d\u79fb\u5e76\u4f7f\u76ee\u6807\u51cf\u901f50%\uff08\u51cf\u901f\u6548\u679c\u4f1a\u57281.5\u79d2\u91cc\u6301\u7eed\u8870\u51cf\uff09<br><br>\u534e\u6d1b\u767b\u573a\u65f6\uff1a\u53d1\u52a8\u4e00\u6b21\u76f8\u540c\u7684\u653b\u52bf\uff0c\u4f46\u4e0d\u4f1a\u6807\u8bb0\u76ee\u6807\uff0c\u6216\u4ece\u76ee\u6807\u5904\u8dc3\u5f00\u3002<br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/11/10/9/8\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "QuinnR",
+                    "image": {
+                        "full": "QuinnR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6df1\u5165\u654c\u540e\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u594e\u56e0\u53ec\u5524\u534e\u6d1b\u4e0b\u6765\u534f\u52a9\u5979\u3002\u57282\u79d2\u7684\u5f15\u5bfc\u540e\uff0c\u4ed6\u4eec\u4f1a\u8054\u6210\u4e00\u4f53\uff0c\u83b7\u5f97100%\u603b\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\uff0c\u5e76\u4e14\u53ef\u4ee5\u5728\u3010\u6df1\u5165\u654c\u540e\u3011\u7ed3\u675f\u65f6\u6216\u4f5c\u51fa\u8fdb\u653b\u884c\u4e3a\u65f6\u91ca\u653e\u3010\u9e70\u7ffc\u5929\u7fd4\u3011\u3002<br><br>\u627f\u53d7\u82f1\u96c4\u6216\u9632\u5fa1\u5854\u7684\u4f24\u5bb3\u4f1a\u8ba9\u3010\u6df1\u5165\u654c\u540e\u3011\u8fdb\u5165\u4e3a\u65f63\u79d2\u7684\u51b7\u5374\u9636\u6bb5\u3002<br><br>\u3010\u9e70\u7ffc\u5929\u7fd4\u3011\u4e3b\u52a8\uff1a\u594e\u56e0\u548c\u534e\u6d1b\u5bf9\u9644\u8fd1\u7684\u654c\u4eba\u9020\u6210\uff08+1*\u603bAD\uff09\u7269\u7406\u4f24\u5bb3\uff0c\u540c\u65f6\u534e\u6d1b\u8fd4\u56de\u7a7a\u4e2d\u3002<br><br>\u5728\u3010\u6df1\u5165\u654c\u540e\u3011\u6301\u7eed\u671f\u95f4\uff1a<br>\u505a\u51fa\u8fdb\u653b\u884c\u4e3a\u4f1a\u91ca\u653e\u3010\u9e70\u7ffc\u5929\u7fd4\u3011\u5e76\u4f7f\u534e\u6d1b\u8fd4\u56de\u7a7a\u4e2d\u3002<br>\u82f1\u96c4\u4f24\u5bb3\uff0c\u9632\u5fa1\u5854\u4f24\u5bb3\u548c\u7981\u9522\u6548\u679c\u90fd\u4f1a\u5bfc\u81f4\u534e\u6d1b\u8fd4\u56de\u7a7a\u4e2d\u3002\u6240\u6709\u5176\u5b83\u4f24\u5bb3\u4f1a\u77ed\u6682\u4f7f\u8fd9\u5bf9\u642d\u6863\u51cf\u901f\u3002<br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a3/3/3\u79d2<br>\u6d88\u8017\uff1a50/50/50 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman",
+                "Fighter"
+            ],
+            "title": "\u594e\u56e0",
+            "trait": {
+                "adc": {
+                    "add-point": "QWEQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3153;3087;3006",
+                        "3153;3087;3035;3072;3031;3006",
+                        "3153;3087;3035;3026;3031;3006"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

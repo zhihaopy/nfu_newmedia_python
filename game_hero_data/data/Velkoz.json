@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "id": "Velkoz",
+            "image": {
+                "full": "Velkoz.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 336,
+                "y": 96
+            },
+            "info": {
+                "attack": 2,
+                "defense": 2,
+                "difficulty": 8,
+                "magic": 10
+            },
+            "key": "161",
+            "name": "\u865a\u7a7a\u4e4b\u773c",
+            "passive": {
+                "description": "\u7ef4\u514b\u5179\u7684\u57fa\u7840\u6280\u80fd\u4f1a\u5bf9\u547d\u4e2d\u7684\u654c\u4eba\u65bd\u52a0\u6709\u673a\u4f53\u89e3\u6784\u6548\u679c\uff0c\u6301\u7eed7\u79d2\u3002\u666e\u653b\u4f1a\u5237\u65b0\u3010\u89e3\u6784\u3011\u6548\u679c\uff0c\u4f46\u4e0d\u4f1a\u65b0\u589e\u5c42\u6570\u3002\u547d\u4e2d\u540c\u5df2\u654c\u4eba\u7684\u7b2c\u4e09\u4e2a\u6280\u80fd\u5c06\u89e3\u6784\u8be5\u540d\u654c\u4eba\uff0c\u9020\u621033 - 169 (\u4e8e1-18\u7ea7)\uff08+0.3*AP\uff09\u771f\u5b9e\u4f24\u5bb3\u3002",
+                "image": {
+                    "full": "Velkoz_Passive.png"
+                },
+                "name": "\u6709\u673a\u4f53\u89e3\u6784\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=h0125fc21vr",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://player.youku.com/player.php/sid/XNjg3MjE4MjE2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/v/0/1/v01259ib6d1.html",
+                    "id": "001",
+                    "name": "\u6218\u5730\u673a\u7532 \u7ef4\u514b\u5179",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=v01259ib6d1&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/96pvuc7rtid027u.html?vid=x0145g91efm",
+                    "id": "002",
+                    "name": "\u82cd\u7a79\u4e4b\u5149 \u7ef4\u514b\u5179",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x0145g91efm&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/u/q/o/u0187yrsdqo.html",
+                    "id": "003",
+                    "name": "\u8fd9\u8d27\u4e0d\u662f\u7ef4\u514b\u5179",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0187yrsdqo&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "VelkozQ",
+                    "image": {
+                        "full": "VelkozQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7b49\u79bb\u5b50\u88c2\u53d8\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ef4\u514b\u5179\u53d1\u5c04\u4e00\u675f\u7b49\u79bb\u5b50\uff0c\u9020\u621080/120/160/200/240(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4f7f\u76ee\u6807\u51cf\u901f70%\uff0c\u8fd9\u4e2a\u51cf\u901f\u6548\u679c\u4f1a\u57281/1.4/1.8/2.2/2.6 \u79d2\u91cc\u6301\u7eed\u8870\u51cf\u3002<br><br>\u518d\u6b21\u65bd\u653e\u6b64\u6280\u80fd\uff0c\u6216\u8005\u547d\u4e2d\u4e00\u540d\u654c\u4eba\u540e\uff0c\u7b49\u79bb\u5b50\u675f\u4f1a\u5782\u76f4\u5206\u88c2\u6210\u4e24\u675f\u3002<br><br>\u7528\u8fd9\u4e2a\u6280\u80fd\u51fb\u6740\u4e00\u4e2a\u5355\u4f4d\uff0c\u5c31\u4f1a\u8fd4\u8fd850%\u6cd5\u529b\u6d88\u8017\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/7/7/7/7\u79d2<br>\u6d88\u8017\uff1a40/45/50/55/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VelkozW",
+                    "image": {
+                        "full": "VelkozW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u865a\u7a7a\u88c2\u9699\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ef4\u514b\u5179\u5f00\u542f\u4e00\u9053\u865a\u7a7a\u88c2\u9699\uff0c\u9020\u621030/50/70/90/110(+0.15*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u5728\u77ed\u6682\u7684\u5ef6\u8fdf\u540e\uff0c\u88c2\u9699\u4f1a\u989d\u5916\u9020\u621045/75/105/135/165(+0.25*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u4e24\u6b21\u547d\u4e2d\u90fd\u4f1a\u589e\u52a0\u4e00\u5c42\u6709\u673a\u4f53\u89e3\u6784\u6548\u679c\u3002<br><br>\u6bcf\u6b21\u65bd\u653e\u3010W\u865a\u7a7a\u88c2\u9699\u3011\u65f6\u4f1a\u67092\u79d2\u51b7\u5374\u65f6\u95f4\u3002<br><br>\u6bcf\u5c42\u5145\u80fd18/17/16/15/14\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VelkozE",
+                    "image": {
+                        "full": "VelkozE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6784\u9020\u5206\u89e3\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ef4\u514b\u5179\u5206\u89e3\u9644\u8fd1\u7684\u4e00\u4e2a\u533a\u57df\uff0c\u5728\u77ed\u6682\u7684\u5ef6\u8fdf\u540e\uff0c\u9020\u621070/100/130/160/190(+0.3*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5c06\u547d\u4e2d\u7684\u654c\u4eba\u51fb\u98de0.75\u79d2\u3002<br><br>\u7ef4\u514b\u5179\u8fd1\u5904\u7684\u4efb\u4f55\u654c\u4eba\u5728\u88ab\u547d\u4e2d\u540e\uff0c\u5c06\u88ab\u7565\u5fae\u51fb\u9000\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/15/14/13/12\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VelkozR",
+                    "image": {
+                        "full": "VelkozR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u751f\u547d\u5f62\u6001\u74e6\u89e3\u5c04\u7ebf\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u89e3\u6784\u654c\u4eba\u7684\u540c\u65f6\u4f1a\u7814\u7a76\u8be5\u654c\u4eba7\u79d2\u3002\u666e\u653b\u548c\u6240\u6709\u6280\u80fd\u90fd\u4f1a\u5237\u65b0\u3010\u7814\u7a76\u3011\u6548\u679c<br><br>\u4e3b\u52a8\uff1a\u7ef4\u514b\u5179\u5f15\u5bfc\u4e00\u675f\u80fd\u91cf\u5c04\u7ebf\u8ddf\u968f\u9f20\u6807\u6307\u9488\uff0c\u6301\u7eed2.5\u79d2\uff0c\u6700\u591a\u9020\u6210\u5171450/625/800\uff086\u67088\u65e56.11\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a500/725/950\uff09\uff08+1.125*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u5e76\u4f7f\u547d\u4e2d\u7684\u5355\u4f4d\u51cf\u901f20%\u3002<br><br>\u5bf9\u5df2\u88ab\u7814\u7a76\u7684\u5355\u4f4d\u9020\u6210\u771f\u5b9e\u4f24\u5bb3\u3002<br><br>\u5904\u4e8e\u5c04\u7ebf\u4e2d\u7684\u654c\u4eba\u6bcf0.7\u79d2\u79ef\u7d2f\u4e00\u5c42\u3010\u6709\u673a\u4f53\u89e3\u6784\u3011\u5c42\u6570(\u6700\u591a3\u5c42)<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/110/80\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage"
+            ],
+            "title": "\u7ef4\u514b\u5179",
+            "trait": {
+                "zd": {
+                    "add-point": "WEQWWRWQWQRQQEEREE",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3020;3028;3089",
+                        "3020;3174;3089;3135;3165;3157",
+                        "3020;3174;3089;3135;3166;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

@@ -1,0 +1,137 @@
+{
+    "data": [
+        {
+            "id": "Jayce",
+            "image": {
+                "full": "Jayce.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 240,
+                "y": 0
+            },
+            "info": {
+                "attack": 8,
+                "defense": 4,
+                "difficulty": 8,
+                "magic": 3
+            },
+            "key": "126",
+            "name": "\u672a\u6765\u5b88\u62a4\u8005",
+            "passive": {
+                "description": "\u6bcf\u65bd\u653e\u4e00\u6b21\u53d8\u5f62\u65f6\uff0c\u6770\u65af\u90fd\u4f1a\u63d0\u9ad840\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed1.25\u79d2\uff0c\u5e76\u4e14\u5728\u79fb\u52a8\u65f6\u65e0\u89c6\u5355\u4f4d\u7684\u78b0\u649e\u4f53\u79ef\u3002",
+                "image": {
+                    "full": "Jayce_Passive.png"
+                },
+                "name": "\u6d77\u514b\u65af\u79d1\u6280\u7535\u5bb9\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/q/s/y/q0102vbd2sy.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0102vbd2sy&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTc2ODIxOTA4.html",
+                    "id": "001",
+                    "name": "\u5168\u91d1\u5c5e\u72c2\u6f6e \u6770\u65af",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNTc2ODIxOTA4/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTEzOTkwMjQ4.html?from=y1.2-1-99.3.1-1.1-1-1-0",
+                    "id": "002",
+                    "name": "\u8537\u8587\u7ec5\u58eb \u6770\u65af",
+                    "num": 2,
+                    "source": "http://player.youku.com/player.php/sid/XNTEzOTkwMjQ4/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/j/g01513libhj.html",
+                    "id": "003",
+                    "name": "\u5929\u542f\u9a91\u58eb \u6770\u65af",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g01513libhj&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "JayceToTheSkies",
+                    "image": {
+                        "full": "JayceToTheSkies.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u82cd\u7a79\u4e4b\u8dc3/\u7535\u80fd\u9707\u8361\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u8df3\u5411\u4e00\u540d\u654c\u4eba\uff0c\u5bf9\u654c\u4eba\u9020\u6210 40 / 80 / 120 / 160 / 200 / 240(+1.2*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u654c\u4eba30/35/40/45/50/55% \u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed 2/2/2/2/2 \u79d2\u3002<br><br>\u7535\u80fd\u9707\u8361\u70ae\u5f62\u6001\uff1a\u53d1\u5c04\u4e00\u56e2\u7535\u7403\uff0c\u5728\u547d\u4e2d\u4e00\u540d\u654c\u4eba\u6216\u8005\u5230\u8fbe\u6700\u5927\u5c04\u7a0b\u540e\u7206\u70b8\uff0c\u5bf9\u7206\u70b8\u533a\u57df\u5185\u7684\u6240\u6709\u654c\u4eba\u9020\u621070/120/170/220/270/320(+1.2*\u989d\u5916AD)\u70b9\u7269\u7406\u4f24\u5bb3<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/14/12/10/8/6 \u79d2\\8/8/8/8/8/8\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40/40\u6cd5\u529b\\55/60/65/70/75/80"
+                },
+                {
+                    "description": "",
+                    "id": "JayceStaticField",
+                    "image": {
+                        "full": "JayceStaticField.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u95ea\u7535\u9886\u57df/\u8d85\u80fd\u7535\u8377\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u5728\u6218\u9524\u5f62\u6001\u4e0b\uff0c\u6bcf\u6b21\u653b\u51fb\u4f1a\u83b7\u5f97 6/8/10/12/14 \u6cd5\u529b\u3002<br><br>\u4e3b\u52a8\uff1a\u521b\u9020\u4e00\u4e2a\u7535\u5b50\u5149\u73af\uff0c\u5728 4/4/4/4/4 \u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\u5bf9\u5468\u56f4\u7684\u654c\u4eba\u9020\u6210100/160/220/280/340/400 (+1*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8d85\u80fd\u7535\u8377\u70ae\u5f62\u6001\uff1a\u653b\u51fb\u901f\u5ea6\u63d0\u5347\u81f3\u6700\u5927\u503c\uff0c\u6bcf\u79d2\u653b\u51fb2.5\u6b21\uff0c\u6301\u7eed3\u6b21\u653b\u51fb\uff0c\u6bcf\u6b21\u653b\u51fb\u4f24\u5bb3\uff1a70/78/86/94/102/110%\u603b\u653b\u51fb\u529b\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10/10\u79d2\\13/11.4/9.8/8.2/6.6/5 \u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40/40 \u6cd5\u529b\\40/40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JayceThunderingBlow",
+                    "image": {
+                        "full": "JayceThunderingBlow.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u96f7\u9706\u4e00\u51fb/\u52a0\u901f\u4e4b\u95e8\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u96f7\u9706\u4e00\u51fb\u9524\u5f62\u6001\uff1a\u5bf9\u76ee\u6807\u9020\u621040/70/100/130/160(+1*\u989d\u5916AD)\u70b9\u9644\u52a08/10.4/12.8/15.2/17.6/20%\u6700\u5927\u751f\u547d\u503c\u7684\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5c06\u5176\u51fb\u9000\u4e00\u5c0f\u6bb5\u8ddd\u79bb(\u5bf9\u91ce\u602a\u6700\u591a\u9020\u6210200/300/400/500/600\u70b9\u4f24\u5bb3)\u3002<br><br>\u52a0\u901f\u4e4b\u95e8\u70ae\u5f62\u6001\uff1a\u5c55\u5f00\u52a0\u901f\u4e4b\u95e8\uff0c\u6240\u6709\u7a7f\u8fc7\u5b83\u7684\u53cb\u519b\u90fd\u4f1a\u589e\u52a0\u79fb\u52a8\u901f\u5ea630/35/40/45/50/55%\uff0c\u6301\u7eed3\u79d2\u3002\u5982\u679c\u7535\u80fd\u9707\u8361\u7a7f\u8fc7\u52a0\u901f\u95e8\uff0c\u5c06\u5927\u5e45\u63d0\u9ad8\u5f39\u9053\u901f\u5ea6\u548c\u5c04\u7a0b\uff0c\u5e76\u4e14\u989d\u5916\u9020\u621040%\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a15/14/13/12/11/10 \u79d2\\16/16/16/16/16/16\u79d2<br>\u6d88\u8017\uff1a40/50/60/70/80/90\u6cd5\u529b\\50/50/50/50/50/50\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JayceStanceHtG",
+                    "image": {
+                        "full": "JayceStanceHtG.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u53d8\u5f62\uff1a\u58a8\u4e18\u5229\u4e4b\u9524/\u53d8\u5f62\uff1a\u58a8\u4e18\u5229\u4e4b\u70ae\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u53d8\u5f62\uff1a\u58a8\u4e18\u5229\u4e4b\u9524 \u9524\u5f62\u6001\uff1a \u5c06\u58a8\u4e18\u5229\u4e4b\u70ae\u53d8\u6210\u58a8\u4e18\u5229\u4e4b\u9524\uff0c\u83b7\u5f97\u65b0\u7684\u6280\u80fd\uff0c\u6c38\u4e45\u63d0\u53475/10/15\u70b9\u62a4\u7532\u548c\u9b54\u6297;\u4e0b\u6b21\u653b\u51fb\u9020\u6210\u989d\u591620/60/100\u70b9\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u53d8\u5f62\uff1a\u58a8\u4e18\u5229\u4e4b\u70ae \u70ae\u5f62\u6001\uff1a \u5c06\u58a8\u4e18\u5229\u4e4b\u9524\u53d8\u6210\u58a8\u4e18\u5229\u4e4b\u70ae\uff0c\u83b7\u5f97\u65b0\u7684\u6280\u80fd\u548c\u8fdc\u7a0b\u653b\u51fb\u80fd\u529b;\u4e0b\u6b21\u653b\u51fb\u51cf\u5c11\u76ee10/15/20%\u62a4\u7532\u548c\u9b54\u6297\uff0c\u6301\u7eed5\u79d2\u3002<br><br>\u5c06\u57285/10/15\u7ea7\u65f6\u81ea\u52a8\u5347\u7ea7<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6\u79d2\u3002<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Marksman"
+            ],
+            "title": "\u6770\u65af",
+            "trait": {
+                "sd": {
+                    "add-point": "QEQWQWQWQRREWWEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3158;3004;3035;3134",
+                        "3158;3142;3072;3035;3004;3026",
+                        "3102;3078;3022;3156;3143;3140"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

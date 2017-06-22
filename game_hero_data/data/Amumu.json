@@ -1,0 +1,181 @@
+{
+    "data": [
+        {
+            "id": "Amumu",
+            "image": {
+                "full": "Amumu.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 192,
+                "y": 0
+            },
+            "info": {
+                "attack": 2,
+                "defense": 6,
+                "difficulty": 4,
+                "magic": 8
+            },
+            "key": "32",
+            "name": "\u6b87\u4e4b\u6728\u4e43\u4f0a",
+            "passive": {
+                "description": "\u963f\u6728\u6728\u7684\u666e\u901a\u653b\u51fb\u4f1a\u51cf\u5c11\u76ee\u680715/20/25\uff08\u5728\u7b49\u7ea71/7/13\u65f6\u53d8\u5316\uff09\u7684\u9b54\u6cd5\u6297\u6027\uff0c\u6301\u7eed3\u79d2\u3002",
+                "image": {
+                    "full": "SadMummy_CorpseExplosion.png"
+                },
+                "name": "\u8bc5\u5492\u4e4b\u89e6\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/7/P/m/7OdjoGEsnPm.html?start=1",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7OdjoGEsnPm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_g0102htu244.html",
+                    "id": "001",
+                    "name": "\u6cd5\u8001 \u963f\u6728\u6728",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0102htu244&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/e/0/q/e0104q2a6rq.html",
+                    "id": "002",
+                    "name": "\u72c2\u6b22 \u963f\u6728\u6728",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0104q2a6rq&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/0/w/f0104lp1dlw.html",
+                    "id": "003",
+                    "name": "\u60c5\u7eea\u6447\u6eda \u963f\u6728\u6728",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f0104lp1dlw&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/2/i01125j36x2.html",
+                    "id": "004",
+                    "name": "\u963f\u6728\u6728:\u201c\u4e3b\u4eba\u4e0d\u8981\u6211\u4e86\u201d",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i01125j36x2&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/m/0/z/m0112df26hz.html",
+                    "id": "005",
+                    "name": "\u738b\u5b50\u4e0d\u662f\u6211 \u963f\u6728\u6728",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0112df26hz&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_c0100uao9h7.html",
+                    "id": "006",
+                    "name": "\u5c0f\u5c0f\u9a91\u58eb \u963f\u6728\u6728",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0100uao9h7&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/0/v/f0104sb578v.html",
+                    "id": "007",
+                    "name": "\u6b87\u4e4b\u673a\u5668\u4eba \u963f\u6728\u6728",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f0104sb578v&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/t/0/t/t01486bdkqt.html",
+                    "id": "008",
+                    "name": "\u60ca\u609a\u6d3e\u5bf9 \u963f\u6728\u6728",
+                    "num": 8,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=t01486bdkqt&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "BandageToss",
+                    "image": {
+                        "full": "BandageToss.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7ef7\u5e26\u7275\u5f15\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5411\u76ee\u6807\u533a\u57df\u6295\u63b7\u7c98\u7a20\u7684\u7ef7\u5e26\uff0c\u82e5\u51fb\u4e2d\u654c\u4eba\u4f1a\u5c06\u963f\u6728\u6728\u81ea\u5df1\u62c9\u5411\u76ee\u6807\uff0c\u6655\u7729\u4ed6\u4eec\uff0c\u9020\u621080/130/180/230/280(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a1100<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/14/12/10/8\u79d2<br>\u6d88\u8017\uff1a80/90/100/110/120 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "AuraofDespair",
+                    "image": {
+                        "full": "AuraofDespair.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7edd\u671b\u5149\u73af\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u6fc0\u6d3b\uff1a\u9644\u8fd1\u7684\u654c\u4eba\u6bcf\u79d2\u5c06\u53d7\u52308/12/16/20/24\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u6bcf\u79d2\u635f\u5931\u4ed6\u4eec1/1.5/2/2.5/3(+0.01*AP)%\u7684\u6700\u5927\u751f\u547d\u503c\u3002<br>\u8ddd\u79bb\uff1a300<br><br>\u51b7\u5374\u65f6\u95f4\uff1a1/1/1/1/1\u79d2<br>\u6d88\u8017\uff1a8/8/8/8/8 \u6cd5\u529b\u6bcf\u79d2"
+                },
+                {
+                    "description": "",
+                    "id": "Tantrum",
+                    "image": {
+                        "full": "Tantrum.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u963f\u6728\u6728\u7684\u6124\u6012\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u51cf\u5c11\u963f\u6728\u6728\u53d7\u5230\u7684\u7269\u7406\u4f24\u5bb32/4/6/8/10\u3002<br><br>\u4e3b\u52a8\uff1a\u963f\u6728\u6728\u5bf9\u5468\u56f4\u7684\u5355\u4f4d\u9020\u621075/100/125/150/175(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u6bcf\u6b21\u963f\u6728\u6728\u88ab\u653b\u51fb\uff0c\u8be5\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u51cf\u5c110.5\u79d2\u3002<br>\u8ddd\u79bb\uff1a400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u6d88\u8017\uff1a35/35/35/35/35 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "CurseoftheSadMummy",
+                    "image": {
+                        "full": "CurseoftheSadMummy.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6728\u4e43\u4f0a\u4e4b\u5492\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u963f\u6728\u6728\u7528\u7ef7\u5e26\u5c06\u5468\u56f4\u654c\u65b9\u5355\u4f4d\u901a\u901a\u7f20\u4f4f\uff0c\u9020\u6210 150/250/350(+0.8*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5bfc\u81f4\u4ed6\u4eec\u65e0\u6cd5\u653b\u51fb\u6216\u79fb\u52a82\u79d2\u3002<br>\u8ddd\u79bb\uff1a550<br><br>\u51b7\u5374\u65f6\u95f4\uff1a150/130/110\u79d2<br>\u6d88\u8017\uff1a100/150/200 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Tank",
+                "Mage"
+            ],
+            "title": "\u963f\u6728\u6728",
+            "trait": {
+                "dy": {
+                    "add-point": "EWQEEREWEWRWWQQRQQ",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3047;3725;3068",
+                        "3047;3725;3068;3116;3143;3001",
+                        "3047;3725;3068;3102;3143;3001"
+                    ]
+                },
+                "sd": {
+                    "add-point": "EQEWEREWEWRWWQQRQQ",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3047;3068",
+                        "3047;3068;3143;3116;3001;3075",
+                        "3047;3068;3143;3102;3001;3075"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

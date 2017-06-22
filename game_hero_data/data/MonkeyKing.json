@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "id": "MonkeyKing",
+            "image": {
+                "full": "MonkeyKing.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 288,
+                "y": 96
+            },
+            "info": {
+                "attack": 8,
+                "defense": 5,
+                "difficulty": 3,
+                "magic": 2
+            },
+            "key": "62",
+            "name": "\u9f50\u5929\u5927\u5723",
+            "passive": {
+                "description": "\u5468\u56f4\u6bcf\u4e2a\u654c\u65b9\u82f1\u96c4\u90fd\u4f1a\u589e\u52a0\u5b59\u609f\u7a7a4/6/8(\u5f53\u7b49\u7ea71/7/13\u65f6\u53d8\u5316)\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027",
+                "image": {
+                    "full": "MonkeyKingStoneSkin.png"
+                },
+                "name": "\u91d1\u521a\u4e0d\u574f\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/8/L/q/8T2j1KDT6Lq.html?start=4",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=8T2j1KDT6Lq&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_M0010GwA6B6.html",
+                    "id": "001",
+                    "name": "\u4e09\u6627\u771f\u706b \u5b59\u609f\u7a7a",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=M0010GwA6B6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_p01008h8oen.html",
+                    "id": "002",
+                    "name": "\u6597\u6218\u80dc\u4f5b \u5b59\u609f\u7a7a",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p01008h8oen&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/p/0/o/p0112guw52o.html",
+                    "id": "003",
+                    "name": "\u5b9a\u6d77\u795e\u73cd \u5b59\u609f\u7a7a",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p0112guw52o&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=y01377egi61",
+                    "id": "004",
+                    "name": "\u5730\u72f1\u884c\u8005 \u5b59\u609f\u7a7a",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y01377egi61&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/r/0/o/r0177hdqhvo.html",
+                    "id": "005",
+                    "name": "\u7f8e\u7334\u738b \u5b59\u609f\u7a7a",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0177hdqhvo&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "MonkeyKingDoubleAttack",
+                    "image": {
+                        "full": "MonkeyKingDoubleAttack.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7c89\u788e\u6253\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5b59\u609f\u7a7a\u7684\u4e0b\u6b21\u653b\u51fb\u63d0\u5347125/125/125/125/125\u8ddd\u79bb\uff0c\u9020\u621030/60/90/120/150(+1.1*\u603bAD)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u654c\u4eba10/15/20/25/30%\u62a4\u7532\uff0c\u6301\u7eed3\u79d2\u3002<br><br>11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a\u5728\u8bd5\u56fe\u53d6\u6d88\u3010Q-\u7c89\u788e\u6253\u51fb\u3011\u7684\u653b\u51fb\u65f6\uff0c\u5c06\u4e0d\u518d\u5bfc\u81f4\u505c\u6ede\u53cd\u5e94<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/8/7/6/5\u79d2<br>\u6cd5\u529b\u6d88\u8017\uff1a40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "MonkeyKingDecoy",
+                    "image": {
+                        "full": "MonkeyKingDecoy.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u771f\u5047\u7334\u738b\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5b59\u609f\u7a7a\u8fdb\u5165\u9690\u5f62\u72b6\u6001\uff0c\u6301\u7eed1.5\u79d2\uff0c\u7559\u4e0b\u4e00\u4e2a\u65e0\u6cd5\u63a7\u5236\u7684\u66ff\u8eab\u30021.5\u79d2\u540e\u66ff\u8eab\u4f1a\u5bf9\u654c\u4eba\u9020\u621070/115/160/205/250(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a325<br>11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a\u5b59\u609f\u7a7a\u7684\u3010W-\u771f\u5047\u7334\u738b\u3011\u73b0\u5728\u4f1a\u663e\u793a\u5047\u7684\u84ddBUFF\u3001\u7ea2BUFF\u548c\u7537\u7235BUFF<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "MonkeyKingNimbus",
+                    "image": {
+                        "full": "MonkeyKingNimbus.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u817e\u4e91\u7a81\u51fb\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5b59\u609f\u7a7a\u51b2\u5411\u76ee\u6807\u654c\u4eba\uff0c\u53d8\u51fa\u6700\u591a2\u4e2a\u5206\u8eab\uff0c\u653b\u51fb\u9644\u8fd1\u76ee\u6807\u3002\u5bf9\u6bcf\u4e2a\u51fb\u4e2d\u7684\u76ee\u6807\u9020\u621060/105/150/195/240(+0.8*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002\u51fb\u4e2d\u76ee\u6807\u540e\uff0c\u5b59\u609f\u7a7a\u589e\u52a030/35/40/45/50%\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed4/4/4/4/4\u79d2\u3002<br>\u8ddd\u79bb\uff1a650\uff0caoe:325\u3002<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/8/8/8/8\u79d2<br>\u6d88\u8017\uff1a45/50/55/60/65 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "MonkeyKingSpinToWin",
+                    "image": {
+                        "full": "MonkeyKingSpinToWin.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5927\u95f9\u5929\u5bab\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5b59\u609f\u7a7a\u4f38\u5c55\u91d1\u7b8d\u68d2\uff0c\u4e0d\u65ad\u65cb\u8f6c\uff0c\u6bcf\u79d2\u5bf9\u654c\u4eba\u9020\u621020/110/200(+1.1*\u603bAD)\u7269\u7406\u4f24\u5bb3\u5e76\u5c06\u5176\u51fb\u98de\u3002\u5728\u6b64\u671f\u95f4\uff0c\u5b59\u609f\u7a7a\u7684\u901f\u5ea6\u4e0d\u65ad\u589e\u52a0\uff0c\u6301\u7eed4\u79d2\u3002<br>\u8ddd\u79bb\uff1a315<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/105/90\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "title": "\u5b59\u609f\u7a7a",
+            "trait": {
+                "dy": {
+                    "add-point": "QEWEEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3713;3047;3134",
+                        "3047;3725;3071;3074;3143;3065",
+                        "3047;3071;3143;3068;3035;3065"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QEWEEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "1054;3111;3134",
+                        "3111;3071;3143;3078;3083;3035",
+                        "3111;3071;3143;3065;3083;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

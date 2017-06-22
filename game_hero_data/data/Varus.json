@@ -1,0 +1,158 @@
+{
+    "data": [
+        {
+            "id": "Varus",
+            "image": {
+                "full": "Varus.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 432,
+                "y": 0
+            },
+            "info": {
+                "attack": 7,
+                "defense": 3,
+                "difficulty": 6,
+                "magic": 4
+            },
+            "key": "110",
+            "name": "\u60e9\u6212\u4e4b\u7bad",
+            "passive": {
+                "description": "\u6bcf\u51fb\u6740\u6216\u534f\u52a9\u51fb\u6740\u4e00\u540d\u654c\u65b9\u82f1\u96c4\u540e\uff0c\u7ef4\u9c81\u65af\u5c31\u4f1a\u83b7\u5f9740%\u7684\u653b\u51fb\u901f\u5ea6\u52a0\u6210\uff0c\u6301\u7eed6\u79d2\u3002<br><br>\u6bcf\u6740\u6b7b\u4e00\u4e2a\u5c0f\u5175\u6216\u91ce\u602a\uff0c\u7ef4\u9c81\u65af\u5c31\u4f1a\u83b7\u5f9720%\u7684\u653b\u51fb\u901f\u5ea6\u52a0\u6210\uff0c\u6301\u7eed3\u79d2\u3002",
+                "image": {
+                    "full": "VarusPassive.png"
+                },
+                "name": "\u590d\u4ec7\u4e4b\u6b32\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_n01005y5cdg.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n01005y5cdg&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_i01021he3we.html",
+                    "id": "001",
+                    "name": "\u591c\u9b54\u6c34\u6676 \u97e6\u9c81\u65af",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i01021he3we&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/x/0/y/x01086kavky.html",
+                    "id": "002",
+                    "name": "\u82cd\u7a79\u4e4b\u5149 \u97e6\u9c81\u65af",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x01086kavky&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/h/0/d/h0014hdojod.html",
+                    "id": "003",
+                    "name": "\u767d\u8272\u6b7b\u795e \u97e6\u9c81\u65af",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0014hdojod&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=m01453bhv8j",
+                    "id": "004",
+                    "name": "\u89c5\u5fc3\u5c04\u624b \u97e6\u9c81\u65af",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m01453bhv8j&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/n/0/f/n0172gj6ohf.html",
+                    "id": "005",
+                    "name": "\u97e6\u9c81\u65af\u00b7\u8fc5\u7bad",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0172gj6ohf&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/u/0/w/u0304xxepnw.html",
+                    "id": "006",
+                    "name": "\u6b7b\u5146\u661f \u97e6\u9c81\u65af ",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0304xxepnw&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "VarusQ",
+                    "image": {
+                        "full": "VarusQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7a7f\u523a\u4e4b\u7bad\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7b2c\u4e00\u6b21\u65bd\u653e\uff1a\u97e6\u9c81\u65af\u5f00\u59cb\u84c4\u529b\uff0c\u6162\u6162\u5730\u63d0\u9ad8\u4ed6\u4e0b\u6b21\u5c04\u51fb\u7684\u5c04\u7a0b\u548c\u4f24\u5bb3\u3002<br><br>\u7b2c\u4e8c\u6b21\u65bd\u653e\uff1a\u97e6\u9c81\u65af\u5c06\u7bad\u5c04\u51fa\uff0c\u5bf9\u654c\u4eba\u9020\u621010/47/83/120/157(+1*\u603bAD)\u523015/70/125/180/235(+1.6*\u603bAD)\u7269\u7406\u4f24\u5bb3\uff0c\u6bcf\u51fb\u4e2d\u4e00\u540d\u654c\u4eba\uff0c\u4f24\u5bb3\u5c31\u4f1a\u964d\u4f4e15%\uff08\u6700\u5c1133%\u4f24\u5bb3\uff09<br><br>\u5728\u84c4\u529b\u9636\u6bb5\u65f6\uff0c\u97e6\u9c81\u65af\u7684\u79fb\u52a8\u901f\u5ea6\u51cf\u5c1120%\u3002\u84c4\u529b\u8d85\u8fc74\u79d2\uff0c\u5219\u7a7f\u523a\u4e4b\u7bad\u5c06\u4f1a\u65bd\u653e\u5931\u8d25\uff0c\u4f46\u4f1a\u8fd4\u8fd8\u4e00\u534a\u7684\u6cd5\u529b\u6d88\u8017\u3002<br>\u8ddd\u79bb\uff1a850-1475<br>\u84c4\u529b\u5f00\u59cb\u65f6\u8ba1\u7b97\u51b7\u5374\u65f6\u95f4\uff0c\u800c\u4e0d\u662f\u7bad\u77e2\u5c04\u51fa\u540e<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/14/12/10/8\u79d2<br>\u6d88\u8017\uff1a70/75/80/85/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VarusW",
+                    "image": {
+                        "full": "VarusW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u67af\u840e\u7bad\u888b\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\u6548\u679c\uff1a\u97e6\u9c81\u65af\u7684\u666e\u901a\u653b\u51fb\u4f1a\u9020\u6210\u989d\u5916\u768410/14/18/22/26(+0.25*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u65bd\u52a0\u67af\u840e\u6548\u679c\uff0c\u67af\u840e\u6301\u7eed6\u79d2(\u53ef\u53e0\u52a03\u5c42)\u3002<br><br>\u97e6\u9c81\u65af\u7684\u5176\u5b83\u6280\u80fd\u5c06\u4f1a\u5f15\u7206\u67af\u840e\u6548\u679c\uff0c\u6bcf\u5c42\u6548\u679c\u4f1a\u9020\u6210\u76f8\u5f53\u4e8e\u76ee\u6807\u6700\u5927\u751f\u547d\u503c2/2.75/3.5/4.25/5%(+0.02%*AP)\u7684\u9b54\u6cd5\u4f24\u5bb3\uff08\u5bf9\u91ce\u602a\u7684\u6700\u5927\u4f24\u5bb3\u4e3a360\uff09\u3002<br><br><br>"
+                },
+                {
+                    "description": "",
+                    "id": "VarusE",
+                    "image": {
+                        "full": "VarusE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6076\u7075\u7bad\u96e8\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u97e6\u9c81\u65af\u5c04\u51fa\u4e00\u9635\u7bad\u96e8\uff0c\u9020\u621065/100/135/170/205(+0.6*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u6c61\u67d3\u5730\u9762\uff0c\u6c61\u67d3\u6548\u679c\u6301\u7eed4\u79d2\u3002<br><br>\u88ab\u6c61\u67d3\u7684\u5730\u9762\u5c06\u4f1a\u51cf\u6162\u654c\u4eba25/30/35/40/45%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u5e76\u964d\u4f4e\u4ed6\u4eec50%\u7684\u6cbb\u7597\u548c\u56de\u590d\u6548\u679c\u3002<br>\u8ddd\u79bb\uff1a925<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10\u79d2<br>\u6d88\u8017\uff1a80/80/80/80/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VarusR",
+                    "image": {
+                        "full": "VarusR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8150\u8d25\u9501\u94fe\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a<br>\u97e6\u9c81\u65af\u6295\u63b7\u51fa\u4e00\u4e2a\u8150\u8d25\u85e4\u8513\uff0c\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u654c\u65b9\u82f1\u96c4\u9020\u6210100/175/250(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5c06\u76ee\u6807\u7981\u95222\u79d2\u3002<br><br>\u968f\u540e\u8150\u8d25\u4f1a\u5411\u9644\u8fd1\u672a\u88ab\u611f\u67d3\u7684\u82f1\u96c4\u8513\u5ef6\u3002\u5982\u679c\u8150\u8d25\u85e4\u8513\u63a5\u89e6\u5230\u4e86\u672a\u88ab\u611f\u67d3\u7684\u82f1\u96c4\uff0c\u5c31\u4f1a\u4f7f\u5176\u627f\u53d7\u76f8\u540c\u7684\u4f24\u5bb3\u5e76\u88ab\u7981\u9522\u3002\u88ab\u7981\u9522\u7684\u5355\u4f4d\u4f1a\u57283\u79d2\u91cc\u6301\u7eed\u83b7\u5f97\u51713\u5c42\u3010\u67af\u840e\u3011\u5c42\u6570\u3002<br><br>\u5f39\u4f53\u5bbd\u5ea6\uff1a 120<br>\u8ddd\u79bb\uff1a1075<br><br>\u51b7\u5374\u65f6\u95f4\uff1a110/90/70\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman",
+                "Mage"
+            ],
+            "title": "\u97e6\u9c81\u65af",
+            "trait": {
+                "adc": {
+                    "add-point": "EWEQEREWEWRWWQQRQQ",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3006;3153;3031",
+                        "3006;3153;3046;3035;3031;3072",
+                        "3006;3153;3046;3035;3031;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

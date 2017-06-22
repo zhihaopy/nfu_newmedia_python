@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}({{ the_cname }})</h2>
+
+<embed src='{{ output_vidio }}' height='700' width='1050'/>
+<table>
+<tr><td  width="120">{{output_skill_passive_name }}</td><td>{{ output_skill_passive_description|safe }}</td></tr>
+<tr><td  width="120">{{output_skill_1_name}}</td><td>{{ output_skill_1_tooltip|safe }}</td></tr>
+<tr><td  width="120">{{output_skill_2_name}}</td><td>{{_name}}{{ output_skill_2_tooltip|safe }}</td></tr>
+<tr><td  width="120">{{output_skill_3_name}}</td><td>{{_name}}{{ output_skill_3_tooltip|safe }}</td></tr>
+<tr><td  width="150">{{output_skill_4_name}}</td><td>{{_name}}{{ output_skill_4_tooltip|safe }}</td></tr>
+</table>
+
+{% endblock %}

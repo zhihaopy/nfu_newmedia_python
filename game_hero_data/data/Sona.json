@@ -1,0 +1,165 @@
+{
+    "data": [
+        {
+            "id": "Sona",
+            "image": {
+                "full": "Sona.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 192,
+                "y": 96
+            },
+            "info": {
+                "attack": 5,
+                "defense": 2,
+                "difficulty": 1,
+                "magic": 8
+            },
+            "key": "37",
+            "name": "\u7434\u745f\u4ed9\u5973",
+            "passive": {
+                "description": "\u5a11\u5a1c\u6bcf\u65bd\u653e3\u6b21\u5e38\u89c4\u6280\u80fd\uff0c\u5979\u7684\u4e0b\u6b21\u666e\u901a\u653b\u51fb\u5c31\u4f1a\u9020\u621015-235 (\u4e8e1-18\u7ea7)(+0.4*AP)\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u6839\u636e\u5a11\u5a1c\u6700\u540e\u6fc0\u6d3b\u7684\u4e50\u7ae0\u6765\u9644\u52a0\u7279\u6b8a\u6548\u679c\u3002<br><br>\u65ad\u594f\uff1a\u9020\u6210\u989d\u5916\u768414\uff08+0.08*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u6e10\u5f31\uff1a\u76ee\u6807\u9020\u6210\u7684\u4f24\u5bb3\u51cf\u5c1125%\uff08+0.04%*AP\uff09\uff0c\u6301\u7eed3\u79d2\u3002<br>\u8282\u594f\uff1a\u76ee\u6807\u88ab\u51cf\u901f40%\uff08+0.04%*AP\uff09\uff0c\u6301\u7eed2\u79d2\u3002",
+                "image": {
+                    "full": "Sona_PowerChordCharged.png"
+                },
+                "name": "\u80fd\u91cf\u548c\u5f26\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/7/C/4/7MfNr27bxC4.html?start=3",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7MfNr27bxC4&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/h/0/x/h0104x00j2x.html",
+                    "id": "001",
+                    "name": "\u7f2a\u65af\u5973\u795e \u5a11\u5a1c",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0104x00j2x&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_t0101uwf3ae.html",
+                    "id": "002",
+                    "name": "\u4e94\u6740\u6447\u6eda\u952e\u76d8\u624b \u5a11\u5a1c",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=t0101uwf3ae&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/h/g0119cm923h.html",
+                    "id": "003",
+                    "name": "\u5e73\u5b89\u591c\u5973\u795e \u5a11\u5a1c",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0119cm923h&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/c/i0112so5utc.html",
+                    "id": "004",
+                    "name": "\u53e4\u7434\u4f59\u97f5 \u5a11\u5a1c",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0112so5utc&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/0/j/f01069h0yyj.html",
+                    "id": "005",
+                    "name": "\u7535\u73a9\u5973\u795e \u5a11\u5a1c",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f01069h0yyj&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/c/0/6/c0147ehuwv6.html",
+                    "id": "006",
+                    "name": "DJ \u5a11\u5a1c",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0147ehuwv6&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/h/0/w/h0183oa83lw.html",
+                    "id": "007",
+                    "name": "\u751c\u5fc3\u5b9d\u8d1d \u5a11\u5a1c",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0183oa83lw&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "SonaHymnofValor",
+                    "image": {
+                        "full": "SonaHymnofValor.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u82f1\u52c7\u8d5e\u7f8e\u8bd7\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e3b\u52a8\uff1a\u5bf9\u6700\u8fd1\u7684\u4e24\u4e2a\u654c\u4eba\uff08\u82f1\u96c4\u4f18\u5148\uff09\u9020\u621040/70/100/130/160\uff08+0.5*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u5e76\u5c06\u5979\u7684\u80fd\u91cf\u548c\u5f26\u52a0\u6210\u6539\u4e3a\u65ad\u594f\u3002<br><br>\u65cb\u5f8b\uff1a\u5a11\u5a1c\u83b7\u5f97\u4e00\u4e2a\u6301\u7eed3\u79d2\u7684\u5149\u73af\u3002\u8fdb\u5165\u5149\u73af\u7684\u53cb\u519b\u6240\u8fdb\u884c\u7684\u4e0b\u4e00\u6b21\u666e\u653b\u5c06\u9020\u621020/30/40/50/60(+0.2*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/8/8/8/8 \u79d2<br>\u6d88\u8017\uff1a45/50/55/60/65 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "SonaAriaofPerseverance",
+                    "image": {
+                        "full": "SonaAriaofPerseverance.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u575a\u6bc5\u548f\u53f9\u8c03\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e3b\u52a8\uff1a\u4e3a\u5a11\u5a1c\u548c\u9644\u8fd1\u6700\u8fd1\u7684\u4e00\u540d\u53cb\u519b\u82f1\u96c4\u6cbb\u759735/55/75/95/115  (+0.25*AP)\u751f\u547d\u503c\u5e76\u5c06\u5979\u7684\u80fd\u91cf\u548c\u5f26\u52a0\u6210\u6539\u4e3a\u6e10\u5f31\u3002<br><br>\u65cb\u5f8b\uff1a\u5a11\u5a1c\u83b7\u5f97\u4e00\u4e2a\u6301\u7eed3\u79d2\u7684\u5149\u73af\u3002\u8fdb\u5165\u5149\u73af\u7684\u53cb\u519b\u4f1a\u83b7\u5f97\u4e00\u5c42\u5438\u653630/55/80/105/130(+0.3*AP)\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u6301\u7eed1.5\u79d2\u3002<br><br>\u8ddd\u79bb\uff1a1000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a80/85/90/95/100"
+                },
+                {
+                    "description": "",
+                    "id": "SonaSongofDiscord",
+                    "image": {
+                        "full": "SonaSongofDiscord.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8fc5\u6377\u594f\u9e23\u66f2\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "8\u670818\u65e56.16\u7248\u672c\u66f4\u65b0\uff1a<br>\u4e3b\u52a8\uff1a\u4e3a\u5a11\u5a1c\u63d0\u4f9b\u79fb\u52a8\u901f\u5ea6\u52a0\u621010/11/12/13/14%\uff08+0.06%*AP\uff09\uff0c\u6301\u7eed7\u79d2\uff08\u6216\u53d7\u5230\u4f24\u5bb3\u4e3a\u6b62\uff09\u5e76\u5c06\u5979\u7684\u80fd\u91cf\u548c\u5f26\u52a0\u6210\u6539\u4e3a\u8282\u594f\u3002<br><br>\u65cb\u5f8b\uff1a\u5a11\u5a1c\u83b7\u5f97\u4e00\u4e2a\u6301\u7eed3\u79d2\u7684\u5149\u73af\u3002\u8fdb\u5165\u5149\u73af\u7684\u53cb\u519b\u5c06\u83b7\u5f9710/11/12/13/14%\uff08+0.06%*AP\uff09\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed3\u79d2\u3002<br><br>\u5a11\u5a1c\u7684\u81ea\u6211\u79fb\u901f\u52a0\u6210\u5c06\u81f3\u5c11\u6301\u7eed3\u79d2\u3002<br>\u8ddd\u79bb\uff1a1000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2<br>\u6d88\u8017\uff1a65/65/65/65/65 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "SonaCrescendo",
+                    "image": {
+                        "full": "SonaCrescendo.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u72c2\u821e\u7ec8\u4e50\u7ae0\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e3b\u52a8\uff1a\u7528\u4e0d\u53ef\u62b5\u6297\u7684\u97f3\u7b26\u8feb\u4f7f\u654c\u65b9\u82f1\u96c4\u6655\u7729\u5e76\u8df3\u821e1.5\u79d2\uff0c\u540c\u65f6\u9020\u6210150/250/350(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u88ab\u52a8\uff1a\u4f7f\u5a11\u5a1c\u7684\u57fa\u7840\u6280\u80fd\u7684\u57fa\u7840\u51b7\u5374\u65f6\u95f4\u51cf\u5c1110/25/40%\uff088\u670818\u65e56.16\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a20/30/40%\uff09\u3002<br><br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a140/120/100\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Support",
+                "Mage"
+            ],
+            "title": "\u5a11\u5a1c",
+            "trait": {
+                "fz": {
+                    "add-point": "QWQEQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "3301;2003;2043;3340",
+                        "3069;3028;2045;3158",
+                        "3158;3174;3069;3190;3222;3083",
+                        "3158;3190;2045;3069;3083;3222"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

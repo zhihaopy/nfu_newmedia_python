@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "id": "Karma",
+            "image": {
+                "full": "Karma.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 288,
+                "y": 0
+            },
+            "info": {
+                "attack": 1,
+                "defense": 7,
+                "difficulty": 8,
+                "magic": 8
+            },
+            "key": "43",
+            "name": "\u5929\u542f\u8005",
+            "passive": {
+                "description": "\u5361\u5c14\u739b\u6bcf\u7528\u6280\u80fd\u4f24\u5bb3\u5230\u654c\u65b9\u82f1\u96c4\u65f6\uff0c\u68b5\u5492\u7684\u51b7\u5374\u65f6\u95f4\u5c31\u4f1a\u51cf\u5c112/2.5/3\u79d2\uff08\u57281/7/13\u7ea7\u65f6\u53d8\u5316\uff09\u3002\u5361\u5c14\u739b\u7684\u666e\u901a\u653b\u51fb\u4e5f\u6709\u6b64\u6548\u679c\uff0c\u4f46\u51cf\u5c11\u7684\u51b7\u5374\u65f6\u95f4\u4e3a 1/1.25/1.5\u79d2\uff08\u57281/7/13\u7ea7\u65f6\u53d8\u5316\uff09\u3002",
+                "image": {
+                    "full": "Karma_Passive.png"
+                },
+                "name": "\u805a\u80fd\u4e4b\u708e\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTM2Njk4NTcy.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://player.youku.com/player.php/sid/XNTM2Njk4NTcy/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTI5NDkzNDky.html",
+                    "id": "001",
+                    "name": "\u65e5\u5195\u5973\u795e \u5361\u5c14\u739b",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNTI5NDkzNDky/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTI5NTIwMzAw.html?from=y1.2-1-99.3.1-1.1-1-1-0",
+                    "id": "002",
+                    "name": "\u6a31\u82b1\u4e71\u821e \u5361\u5c14\u739b",
+                    "num": 2,
+                    "source": "http://player.youku.com/player.php/sid/XNTI5NTIwMzAw/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTI5NDczNTc2.html",
+                    "id": "003",
+                    "name": "\u4f20\u7edf\u670d\u9970 \u5361\u5c14\u739b",
+                    "num": 3,
+                    "source": "http://player.youku.com/player.php/sid/XNTI5NDczNTc2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/q/0/h/q0136ikg93h.html",
+                    "id": "004",
+                    "name": "\u83b2\u82b1\u4e4b\u4ee4 \u5361\u5c14\u739b",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0136ikg93h&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/h/0/p/h016636lycp.html",
+                    "id": "005",
+                    "name": "\u5149\u660e\u9a91\u58eb \u5361\u5c14\u739b",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h016636lycp&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "KarmaQ",
+                    "image": {
+                        "full": "KarmaQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5fc3\u7075\u70c8\u7130\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5361\u5c14\u739b\u5411\u524d\u65b9\u53d1\u5c04\u4e00\u679a\u7075\u80fd\u6cd5\u7403\u3002\u8fd9\u679a\u6cd5\u7403\u4f1a\u5728\u547d\u4e2d\u7b2c\u4e00\u4e2a\u654c\u4eba\u65f6\u7206\u70b8\uff0c\u5bf9\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u621080/125/170/215/260(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u548c25%\u51cf\u901f\u6548\u679c\uff0c\u6301\u7eed1.5\u79d2\u3002<br><br>\u68b5\u5492\u589e\u6548\u2014\u7075\u5149\u95ea\u8000\uff1a\u9020\u621025/75/125/175(+0.3*AP)\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u5728\u78b0\u649e\u533a\u57df\u6216\u8005\u6700\u5927\u5c04\u7a0b\u5904\u7559\u4e0b\u4e00\u5708\u706b\u73af\uff0c \u4f7f\u654c\u4eba\u51cf\u901f50%\u3002\u57281.5\u79d2\u540e\uff0c\u706b\u73af\u4f1a\u55b7\u53d1\uff0c\u5bf9\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u621050/150/250/350(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a950<br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/6.5/6/5.5/5\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "KarmaSpiritBind",
+                    "image": {
+                        "full": "KarmaSpiritBind.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u575a\u5b9a\u4e0d\u79fb\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5728\u5361\u5c14\u739b\u548c\u76ee\u6807\u654c\u65b9\u82f1\u96c4\u4e4b\u95f4\u642d\u8d77\u4e00\u6761\u7075\u94fe\uff0c\u8ba9\u4ed6\u4eec\u66b4\u9732\u5728\u89c6\u91ce\u5185\uff0c\u57282\u79d2\u91cc\u6301\u7eed\u9020\u6210\u517160/110/160/210/260(+0.9*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u5982\u679c\u7075\u94fe\u57281/1.25/1.5/1.75/2\u79d2\u540e\u672a\u88ab\u7834\u574f\uff0c\u90a3\u4e48\u76ee\u6807\u82f1\u96c4\u5c31\u4f1a\u88ab\u675f\u7f1a\u5728\u539f\u5730\u3002<br><br>\u68b5\u5492\u589e\u6548\u2014\u7115\u53d1:\u6cbb\u6108\u5361\u5c14\u739b\u5df2\u635f\u5931\u751f\u547d\u503c\u768420%(+0.01%*AP)\u3002\u5982\u679c\u7075\u94fe\u6ca1\u6709\u65ad\u88c2\uff0c\u5979\u4f1a\u518d\u6b21\u83b7\u5f97\u5df2\u635f\u5931\u751f\u547d\u503c\u768420%(+0.01%*AP)\u7684\u6cbb\u7597\u6548\u679c\u3002\u589e\u52a0\u575a\u5b9a\u4e0d\u79fb\u7684\u675f\u7f1a\u65f6\u95f40.5/0.5/0.75/0.75\u79d2\u3002<br>\u8ddd\u79bb\uff1a800<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "KarmaSolKimShield",
+                    "image": {
+                        "full": "KarmaSolKimShield.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9f13\u821e\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u76ee\u6807\u53cb\u519b\u83b7\u5f97\u4e00\u5c42\u6301\u7eed4\u79d2\u7684\u62a4\u76fe\u548c\u6301\u7eed1.5\u79d2\u768440/45/50/55/60%\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\u3002\u62a4\u76fe\u80fd\u5438\u6536 /100/130/160/190 (+0.5*AP)\u4f24\u5bb3\u3002<br><br>\u68b5\u5492\u589e\u6548\u2014\u8511\u89c6\uff1a\u62a4\u76fe\u6ee1\u6ea2\u7740\u80fd\u91cf\uff0c\u5438\u6536\u989d\u5916\u768430/100/170/240 (+0.6*AP)\u4f24\u5bb3\u3002\u5979\u7684\u76ee\u6807\u5468\u56f4\u7684\u53cb\u65b9\u82f1\u96c4\u4f1a\u83b7\u5f97\u4e00\u5c42\u62a4\u76fe\uff08\u62a4\u76fe\u751f\u547d\u503c\u76f8\u5f53\u4e8e\u521d\u59cb\u76ee\u6807\u7684\u62a4\u76fe\u503c\u768450%\uff09\u3002\u6240\u6709\u83b7\u5f97\u4e86\u8511\u89c6\u7684\u62a4\u76fe\u7684\u82f1\u96c4\u8fd8\u4f1a\u83b7\u5f9740/45/50/55/60%\u7684\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\uff0c\u6301\u7eed1.5\u79d2<br>\u8ddd\u79bb\uff1a800<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9.5/9/8.5/8\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80\u6cd5\u529b\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "KarmaMantra",
+                    "image": {
+                        "full": "KarmaMantra.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u68b5\u5492\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5361\u5c14\u739b\u57288\u79d2\u5185\u65bd\u653e\u7684\u4e0b\u4e2a\u6280\u80fd\u4f1a\u83b7\u5f97\u5f3a\u5316\uff0c\u9020\u6210\u989d\u5916\u7279\u6548\u3002<br><br>\u7075\u5149\u95ea\u8000\uff1a\u9020\u6210\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u7559\u4e0b\u4e00\u5708\u706b\u73af\uff0c\u4e25\u91cd\u51cf\u6162\u654c\u4eba\u7684\u901f\u5ea6\uff0c\u5e76\u5728\u77ed\u6682\u7684\u5ef6\u65f6\u540e\u9020\u6210\u4f24\u5bb3\u3002<br><br>\u7115\u53d1\uff1a\u5361\u5c14\u739b\u6cbb\u7597\u81ea\u8eab\u7684\u4e00\u90e8\u5206\u5df2\u635f\u5931\u751f\u547d\u503c\u3002\u5982\u679c\u76ee\u6807\u6ca1\u6709\u6253\u7834\u7075\u94fe\uff0c\u7981\u9522\u65f6\u957f\u4f1a\u83b7\u5f97\u5ef6\u957f\uff0c\u5e76\u4e14\u5361\u5c14\u739b\u4f1a\u518d\u6b21\u6cbb\u7597\u81ea\u8eab\u7684\u4e00\u90e8\u5206\u5df2\u635f\u5931\u751f\u547d\u503c\u3002<br><br>\u8511\u89c6\uff1a\u5361\u5c14\u739b\u7684\u65bd\u6cd5\u76ee\u6807\u4f1a\u83b7\u5f97\u52a0\u5f3a\u7248\u62a4\u76fe\uff0c\u5e76\u4e14\u5468\u56f4\u7684\u53cb\u65b9\u82f1\u96c4\u4f1a\u83b7\u5f97\u62a4\u76fe\u548c\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a45/45/45\u79d2<br>"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Support"
+            ],
+            "title": "\u5361\u5c14\u739b",
+            "trait": {
+                "fz": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "3301;2043;2003;3341",
+                        "2045;3020;3069;3190",
+                        "3020;3069;3151;3089;3222;3116",
+                        "3020;3069;3151;3190;3222;3116"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QWQEQRQQWWRWWEEREE",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3020;3174",
+                        "3020;3174;3089;3151;3157;3135",
+                        "3020;3174;3089;3151;3065;3135"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

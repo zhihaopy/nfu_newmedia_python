@@ -1,0 +1,167 @@
+{
+    "data": [
+        {
+            "id": "Kennen",
+            "image": {
+                "full": "Kennen.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 48,
+                "y": 48
+            },
+            "info": {
+                "attack": 6,
+                "defense": 4,
+                "difficulty": 5,
+                "magic": 7
+            },
+            "key": "85",
+            "name": "\u72c2\u66b4\u4e4b\u5fc3",
+            "passive": {
+                "description": "\u51ef\u5357\u7684\u6280\u80fd\u4f1a\u5bf9\u654c\u4eba\u65bd\u52a0\u4e00\u5c42\u6301\u7eed6\u79d2\u7684\u3010\u5fcd\u6cd5\uff01\u96f7\u7f1a\u5370\u3011\u3002\u5f53\u654c\u4eba\u8eab\u4e0a\u7684\u3010\u5fcd\u6cd5\uff01\u96f7\u7f1a\u5370\u3011\u8fbe\u52303\u5c42\u65f6\uff0c\u5c31\u4f1a\u88ab\u6655\u7729\uff0c\u4e0e\u6b64\u540c\u65f6\uff0c\u51ef\u5357\u4f1a\u6062\u590d25\u70b9\u80fd\u91cf\u503c\u3002<br><br>\u57286\u79d2\u4e4b\u5185\u91cd\u590d\u89e6\u53d1\u7684\u8bdd\uff0c\u6655\u7729\u6548\u679c\u4f1a\u8870\u51cf\u3002",
+                "image": {
+                    "full": "Kennen_MarkOfStorm.png"
+                },
+                "name": "\u5fcd\u6cd5\uff01\u96f7\u7f1a\u5370\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/0/n/d01008xqkpn.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d01008xqkpn&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/r/0/0/r01045a7ky0.html",
+                    "id": "001",
+                    "name": "\u7ea2\u8272\u5f57\u661f \u51ef\u5357",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r01045a7ky0&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/l/0/c/l0104nb8ufc.html",
+                    "id": "002",
+                    "name": "\u94f6\u8272\u95ea\u7535 \u51ef\u5357",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0104nb8ufc&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/m/0/z/m0104kqf9ez.html",
+                    "id": "003",
+                    "name": "\u7a7a\u624b\u9053 \u51ef\u5357",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0104kqf9ez&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/q/0/v/q0102v7rytv.html",
+                    "id": "004",
+                    "name": "\u533b\u5b66\u535a\u58eb \u51ef\u5357",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0102v7rytv&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_l0101etbsqz.html",
+                    "id": "005",
+                    "name": "\u523a\u5ba2\u4fe1\u6761 \u51ef\u5357",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0101etbsqz&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/e/0/2/e01848iejd2.html",
+                    "id": "006",
+                    "name": "\u8165\u7ea2\u4e4b\u6708 \u51ef\u5357",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e01848iejd2&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "KennenShurikenHurlMissile1",
+                    "image": {
+                        "full": "KennenShurikenHurlMissile1.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u5343\u9e1f\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u51ef\u5357\u5411\u76ee\u6807\u533a\u57df\u6295\u63b7\u624b\u91cc\u5251\uff0c\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u654c\u4eba\u9020\u621075/115/155/195/235(+0.75*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a950<br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/7/6/5/4\u79d2<br>\u6d88\u8017\uff1a60/55/50/45/40 \u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "KennenBringTheLight",
+                    "image": {
+                        "full": "KennenBringTheLight.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u7535\u5203\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u51ef\u5357\u6bcf\u653b\u51fb4\u6b21\uff0c\u7b2c5\u6b21\u653b\u51fb\u5c31\u4f1a\u9644\u52a0 40/50/60/70/80% \u653b\u51fb\u529b\u7684\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e3a\u76ee\u6807\u65bd\u52a0\u4e00\u5c42\u3010\u5fcd\u6cd5\uff01\u96f7\u7f1a\u5370\u3011\u3002<br><br>\u4e3b\u52a8\uff1a\u91ca\u653e\u3010W\u5965\u4e49\uff01\u7535\u5203\u3011\uff0c\u5bf9\u9644\u8fd1\u6240\u6709\u88ab\u65bd\u52a0\u4e86\u3010\u5fcd\u6cd5\uff01\u96f7\u7f1a\u5370\u3011\u7684\u654c\u4eba\u9020\u6210 65/95/125/155/185(+0.55*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5bf9\u5176\u989d\u5916\u65bd\u52a0\u4e00\u5c42\u3010\u5fcd\u6cd5\uff01\u96f7\u7f1a\u5370\u3011\u3002<br>\u8ddd\u79bb\uff1a750<br>\u5965\u4e49\uff01\u7535\u5203\u73b0\u5728\u4f1a\u547d\u4e2d\u3010R\u79d8\u5965\u4e49\uff01\u4e07\u96f7\u5929\u7262\u5f15\u3011\u4e2d\u7684\u6240\u6709\u654c\u4eba\uff0c\u6b64\u5916\uff0c\u76ee\u6807\u8fd8\u4f1a\u88ab\u65bd\u52a0\u3010\u5fcd\u6cd5\uff01\u96f7\u7f1a\u5370\u3011\uff08\u4e0d\u4f1a\u53e0\u4e24\u5c42\uff0c\u5426\u5219\u5c31\u592a\u75af\u72c2\u4e86\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/12/10/8/6\u79d2<br>\u6d88\u8017:40/40/40/40/40 \u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "KennenLightningRush",
+                    "image": {
+                        "full": "KennenLightningRush.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u96f7\u94e0\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u51ef\u5357\u5feb\u901f\u79fb\u52a8\uff0c\u79fb\u52a8\u901f\u5ea6\u63d0\u5347335\uff0c\u5e76\u53ef\u4ee5\u7a7f\u8d8a\u5355\u4f4d\uff0c\u5bf9\u6cbf\u9014\u7684\u654c\u4eba\u9020\u6210 85/125/165/205/245(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6301\u7eed2\u79d2\u3002\u6b64\u5916,\u51ef\u5357\u5c06\u83b7\u5f9710/20/30/40/50\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\u52a0\u6210\uff0c\u6301\u7eed4\u79d2\u3002<br><br>\u5982\u679c\u51ef\u5357\u7a7f\u8fc7\u4e00\u4e2a\u654c\u4eba\uff0c\u5219\u4f1a\u56de\u590d40\u70b9\u80fd\u91cf\u503c\uff0c\u4f46\u8be5\u6548\u679c\u53ea\u80fd\u83b7\u5f97\u4e00\u6b21\u3002\u3010E\u5965\u4e49\uff01\u96f7\u94e0\u3011\u5bf9\u5c0f\u5175\u7684\u4f24\u5bb3\u51cf\u534a\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u6d88\u8017\uff1a100/95/90/85/80 \u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "KennenShurikenStorm",
+                    "image": {
+                        "full": "KennenShurikenStorm.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u79d8\u5965\u4e49\uff01\u4e07\u96f7\u5929\u7262\u5f15\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u53ec\u5524\u4e00\u96353\u79d2\u7684\u9b54\u6cd5\u98ce\u66b4\uff0c\u6bcf0.5 \u79d2\u4f1a\u968f\u673a\u5bf9\u51ef\u5357\u9644\u8fd1\u7684\u4efb\u610f\u4e00\u540d\u654c\u65b9\u82f1\u96c4\u9020\u621080/145/210(+0.4*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u3010\u79d8\u5965\u4e49\uff01\u4e07\u96f7\u5929\u7262\u5f15\u3011\u57280.5\u79d2\u91cc\u4e0d\u4f1a\u91cd\u590d\u547d\u4e2d\u76f8\u540c\u82f1\u96c4\uff0c\u5e76\u4e14\u6700\u591a\u53ef\u547d\u4e2d\u76f8\u540c\u82f1\u96c4\u4e09\u6b21\u3002<br>\u8ddd\u79bb\uff1a550<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/120/120\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Marksman"
+            ],
+            "title": "\u51ef\u5357",
+            "trait": {
+                "sd": {
+                    "add-point": "QWQEQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3020;3116",
+                        "3157;3151;3089;3116;3020;3135",
+                        "3157;3116;3151;3020;3102;3143"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QWEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3157;3020;1011",
+                        "3157;3151;3089;3116;3020;3135",
+                        "3157;3116;3151;3020;3102;3001"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

@@ -1,0 +1,181 @@
+{
+    "data": [
+        {
+            "id": "Kayle",
+            "image": {
+                "full": "Kayle.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 0,
+                "y": 48
+            },
+            "info": {
+                "attack": 6,
+                "defense": 6,
+                "difficulty": 5,
+                "magic": 7
+            },
+            "key": "10",
+            "name": "\u5ba1\u5224\u5929\u4f7f",
+            "passive": {
+                "description": "\u5f53\u51ef\u5c14\u653b\u51fb\u4e00\u4e2a\u654c\u65b9\u82f1\u96c4\uff0c\u76ee\u6807\u635f\u59313%\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\uff0c\u6301\u7eed5\u79d2\u3002\u6b64\u6548\u679c\u6700\u591a\u53ef\u53e0\u52a05\u6b21\u3002",
+                "image": {
+                    "full": "Kayle_Passive.png"
+                },
+                "name": "\u5723\u7130\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/w/I/7YEK56YK4wI.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7YEK56YK4wI&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/p/0/t/p01128wg0ot.html",
+                    "id": "001",
+                    "name": "\u94f6\u767d\u5ba1\u5224 \u51ef\u5c14",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p01128wg0ot&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/0/l/d0104pj6qpl.html",
+                    "id": "002",
+                    "name": "\u672b\u4e16\u5929\u4f7f \u51ef\u5c14",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0104pj6qpl&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_m0101xa5c5h.html",
+                    "id": "003",
+                    "name": "\u5927\u5929\u4f7f\u957f\u7c73\u8fe6\u52d2 \u51ef\u5c14",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0101xa5c5h&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_o01014jn7c9.html",
+                    "id": "004",
+                    "name": "\u6218\u573a\u5973\u6b66\u795e \u51ef\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o01014jn7c9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_j01019edmfu.html",
+                    "id": "005",
+                    "name": "\u5723\u5149\u5ba1\u5224 \u51ef\u5c14",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j01019edmfu&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/g/m/d0012k3l7gm.html",
+                    "id": "006",
+                    "name": "\u94a2\u94c1\u4e4b\u7ffc \u51ef\u5c14",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0012k3l7gm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=y0134uoa02c",
+                    "id": "007",
+                    "name": "\u9632\u66b4\u5929\u4f7f \u51ef\u5c14",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0134uoa02c&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/s/0/a/s01958qasoa.html",
+                    "id": "008",
+                    "name": "\u94a2\u94c1\u5ba1\u5224\u5b98 \u51ef\u5c14",
+                    "num": 8,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s01958qasoa&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "JudicatorReckoning",
+                    "image": {
+                        "full": "JudicatorReckoning.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6e05\u7b97\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5f15\u7206\u4e00\u4e2a\u76ee\u6807\uff0c\u9020\u621060/110/160/210/260(+1*\u989d\u5916AD)(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u51cf\u5c11\u76ee\u680735/40/45/50/55%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed4\u79d2\uff0c\u5e76\u65bd\u52a0\u4e00\u5c42\u5723\u7130\u6548\u679c\u3002<br>\u8ddd\u79bb\uff1a650<br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/8/8/8/8\u79d2<br>\u6d88\u8017\uff1a70/75/80/85/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JudicatorDivineBlessing",
+                    "image": {
+                        "full": "JudicatorDivineBlessing.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u795e\u5723\u795d\u798f\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u795d\u798f\u4e00\u540d\u53cb\u519b\u82f1\u96c4\uff0c\u4e3a\u76ee\u6807\u6062\u590d60/105/150/195/240(+0.45*AP)\u751f\u547d\u503c\uff0c\u5e76\u8ba9\u76ee\u6807\u7684\u79fb\u52a8\u901f\u5ea6\u63d0\u9ad818/21/24/27/30%(+0.07%*AP)\uff0c\u52a0\u901f\u6548\u679c\u6301\u7eed3/3/3/3/3\u79d2\u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a15/15/15/15/15\u79d2<br>\u6d88\u8017\uff1a60/70/80/90/100 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JudicatorRighteousFury",
+                    "image": {
+                        "full": "JudicatorRighteousFury.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6b63\u4e49\u4e4b\u6012\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u51ef\u5c14\u7684\u666e\u653b\u5728\u547d\u4e2d\u65f6\u9644\u52a010/15/20/25/30 (+0.15*AP)\u9b54\u6cd5\u4f24\u5bb3<br><br>\u51ef\u5c14\u5c06\u5c04\u7a0b\u63d0\u9ad8400\uff0c\u6301\u7eed10\u79d2\uff0c\u5e76\u4e14\u6bcf\u6b21\u666e\u901a\u653b\u51fb\u4f1a\u9020\u6210\u989d\u5916\u768420/30/40/50/60(+0.3*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u5c5e\u4e8e\u653b\u51fb\u7279\u6548\u3002<br>\u76ee\u6807\u5468\u56f4\u7684\u654c\u4eba\u4f1a\u53d7\u523020/30/40/50/60(+0.2,0.25,0.3,0.35,0.4*\u603bAD)(+0.3*AP) \u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a\u5c04\u7a0b\u589e\u52a0400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/16/16/16/16\u79d2<br>\u6d88\u8017\uff1a45/45/45/45/45 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JudicatorIntervention",
+                    "image": {
+                        "full": "JudicatorIntervention.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u795e\u5723\u5e87\u62a4\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u8ba9\u51ef\u5c14\u7684\u76ee\u6807\u6c90\u6d74\u5728\u4e00\u9053\u5723\u5149\u4e4b\u4e2d\uff0c2/2.5/3\u79d2\u5185\u514d\u75ab\u6240\u6709\u7c7b\u578b\u7684\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/90/80\u79d2<br>\u6d88\u8017\uff1a0/0/0"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Support"
+            ],
+            "title": "\u51ef\u5c14",
+            "trait": {
+                "fz": {
+                    "add-point": "EQWQQRWQQWRWWEEREE",
+                    "eq-recommond": [
+                        "3301;2003;2043;3340",
+                        "2049;3301",
+                        "3047;2045;3069;3190;3115;3050",
+                        "3047;2045;3069;3190;3222;3050"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QEQWQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "1001;3115;3100",
+                        "3020;3115;3089;3135;3100;3085",
+                        "3020;3115;3089;3135;3100;3157"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

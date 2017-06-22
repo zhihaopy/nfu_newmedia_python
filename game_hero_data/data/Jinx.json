@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "id": "Jinx",
+            "image": {
+                "full": "Jinx.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 240,
+                "y": 96
+            },
+            "info": {
+                "attack": 9,
+                "defense": 2,
+                "difficulty": 9,
+                "magic": 4
+            },
+            "key": "222",
+            "name": "\u66b4\u8d70\u841d\u8389",
+            "passive": {
+                "description": "\u5f53\u4e00\u540d\u82f1\u96c4\u3001\u4e00\u5ea7\u9632\u5fa1\u5854\u6216\u4e00\u5ea7\u53ec\u5524\u6c34\u6676\u5728\u88ab\u91d1\u514b\u4e1d\u653b\u51fb\u540e\u7684\u4e09\u79d2\u5185\u9635\u4ea1\u6216\u5012\u584c\u7684\u8bdd\uff0c\u91d1\u514b\u4e1d\u5c31\u4f1a\u83b7\u5f97175%\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\u548c15%\u603b\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed6\u79d2\u3002<br><br>\u540e\u7eed\u7684\u51fa\u53d1\u4f1a\u8ba9\u91d1\u514b\u4e1d\u66f4\u52a0\u5174\u594b\uff0c\u53e0\u52a0\u653b\u51fb\u901f\u5ea6\u52a0\u6210\uff08\u6700\u5927\u5c42\u6570\uff1a\u5feb\u5f97\u98de\u8d77\uff09\u3002",
+                "image": {
+                    "full": "Jinx_Passive.png"
+                },
+                "name": "\u7f6a\u6076\u5feb\u611f\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/1/o0119hdgla1.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0119hdgla1&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNjE5MDY3NDI4.html",
+                    "id": "001",
+                    "name": "\u9ed1\u5e2e\u72c2\u82b1 \u91d1\u514b\u4e1d",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNjE5MDY3NDI4/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/96pvuc7rtid027u.html?vid=r0145alxeke",
+                    "id": "002",
+                    "name": "\u795e\u9f99\u70c8\u7130 \u91d1\u514b\u4e1d",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0145alxeke&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/f/0/z/f0168vcaiiz.html",
+                    "id": "003",
+                    "name": "\u4e27\u5c38\u6740\u624b \u91d1\u514b\u4e1d",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f168vcaiiz&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "JinxQ",
+                    "image": {
+                        "full": "JinxQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u67aa\u70ae\u4ea4\u54cd\u66f2\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u91d1\u514b\u4e1d\u5207\u6362\u6b66\u5668\u3002<br><br>\u9c7c\u9aa8\u5934-\u706b\u7bad\u53d1\u5c04\u5668\uff1a\u666e\u901a\u653b\u51fb\u4f1a\u5bf9\u76ee\u6807\u548c\u76ee\u6807\u8eab\u8fb9\u7684\u6240\u6709\u654c\u4eba\u9020\u6210110%\u7684\u4f24\u5bb3\uff0c\u653b\u51fb\u8ddd\u79bb\u63d0\u534775/100/125/150/175\uff0c\u4f46\u5f00\u706b\u51cf\u616215%\uff0c\u5e76\u4e14\u8017\u8d39\u6cd5\u529b\u503c\u3002<br><br>\u7830\u7830\u67aa-\u8f7b\u673a\u67aa\uff1a\u666e\u901a\u653b\u51fb\u4f1a\u83b7\u5f97\u653b\u51fb\u901f\u5ea6\u52a0\u6210\uff0c\u6301\u7eed2.5\u79d2\u3002\u653b\u901f\u52a0\u6210\u53ef\u53e0\u52a03\u6b21\uff0c\u603b\u653b\u901f\u52a0\u6210\u4e3a 30/40/50/60/70%\uff08\u52a0\u6210\u4f1a\u6839\u636e\u6b64\u6280\u80fd\u7b49\u7ea7\u548c\u91d1\u514b\u4e1d\u7684\u7b49\u7ea7\u6765\u589e\u957f\uff09\u3002\u53e0\u52a0\u6548\u679c\u5728\u540c\u4e00\u65f6\u95f4\u53ea\u4f1a\u6d88\u8017\u4e00\u5c42\uff0c\u5e76\u4e14\u5728\u91d1\u514b\u4e1d\u5207\u6362\u81f3\u706b\u7bad\u53d1\u5c04\u5668\u540e\uff0c\u53ea\u6709\u7b2c\u4e00\u6b21\u653b\u51fb\u4f1a\u4eab\u53d7\u52a0\u901f\u6548\u679c\u3002<br><br>\u8f7b\u673a\u67aa\u73b0\u5728\u6839\u636e\u91d1\u514b\u4e1d\u7684\u7b49\u7ea7\u83b7\u5f970/2/4/6/8/10/15/20/25/30/35/40/45/50/55/60/65/70% \u7684\u989d\u5916\u653b\u51fb\u901f\u5ea6<br><br>\u51b7\u5374\u65f6\u95f4\uff1a1/1/1/1/1\u79d2<br>\u6d88\u8017\uff1a\u6bcf\u53d1\u706b\u7bad\u6d88\u801720\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JinxW",
+                    "image": {
+                        "full": "JinxW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9707\u8361\u7535\u78c1\u6ce2\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u91d1\u514b\u4e1d\u53d1\u5c04\u4e00\u675f\u9707\u8361\u6ce2\uff0c\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u76ee\u6807\u9020\u621010/60/110/160/210(+1.4*\u603bad)\u7269\u7406\u4f24\u5bb3\uff0c\u8ba9\u975e\u6f5c\u884c\u7684\u76ee\u6807\u66b4\u9732\u5728\u89c6\u91ce\u5185\uff0c\u5e76\u8ba9\u76ee\u6807\u51cf\u901f30/40/50/60/70%\uff0c\u51cf\u901f\u6548\u679c\u6301\u7eed2\u79d2\u3002<br>\u8ddd\u79bb\uff1a1450<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u6d88\u8017\uff1a50/60/70/80/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JinxE",
+                    "image": {
+                        "full": "JinxE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u56bc\u706b\u8005\u624b\u96f7\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u91d1\u514b\u4e1d\u6254\u51fa3\u9897\u9677\u9631\u624b\u96f7\u3002\u624b\u96f7\u4e00\u65e6\u5e03\u7f6e\u5b8c\u6bd5\uff0c\u5c31\u4f1a\u5728\u63a5\u89e6\u5230\u654c\u65b9\u82f1\u96c4\u65f6\u7206\u70b8\uff0c\u5c06\u654c\u65b9\u82f1\u96c4\u675f\u7f1a1.5\u79d2\uff0c\u5e76\u57281.5\u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\u5bf9\u5468\u56f4\u7684\u654c\u4eba\u9020\u6210\u517180/135/190/245/300(+1*ap)\u9b54\u6cd5\u4f24\u5bb3\u3002\u624b\u96f7\u6301\u7eed5\u79d2\u3002<br>\u8ddd\u79bb\uff1a950<br><br>\u51b7\u5374\u65f6\u95f4\uff1a24/22/20/18/16\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JinxRWrapper",
+                    "image": {
+                        "full": "JinxRWrapper.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8d85\u7a76\u6781\u6b7b\u795e\u98de\u5f39\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u91d1\u514b\u4e1d\u53d1\u5c04\u4e00\u679a\u98de\u5f39\u3002\u5728\u53d1\u5c04\u540e\u7684\u4e00\u79d2\u91cc\uff0c\u98de\u5f39\u7684\u4f24\u5bb3\u4f1a\u6839\u636e\u98de\u884c\u7684\u8ddd\u79bb\u800c\u6301\u7eed\u589e\u52a0\u3002\u98de\u5f39\u4f1a\u5728\u9996\u6b21\u547d\u4e2d\u654c\u65b9\u82f1\u96c4\u540e\u7206\u70b8\uff0c\u5bf9\u76ee\u6807\u9020\u621025/35/45(+0.1*\u989d\u5916ad)\u5230250/350/450(+1*\u989d\u5916ad)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u9644\u5e26\u76f8\u5f53\u4e8e\u76ee\u6807\u5df2\u635f\u5931\u751f\u547d\u503c\u768425/30/35%\u7684\u989d\u5916\u4f24\u5bb3\u3002\u9644\u8fd1\u7684\u654c\u4eba\u4e5f\u4f1a\u53d7\u523080%\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a\u5168\u5c4f<br><br>\u51b7\u5374\u65f6\u95f4\uff1a90/75/60\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman"
+            ],
+            "title": "\u91d1\u514b\u4e1d",
+            "trait": {
+                "adc": {
+                    "add-point": "WQWEWRWQWQRQQEEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3072;3046;3006",
+                        "3072;3046;3031;3035;3006;3153",
+                        "3072;3046;3031;3035;3006;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

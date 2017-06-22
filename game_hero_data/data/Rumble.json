@@ -1,0 +1,137 @@
+{
+    "data": [
+        {
+            "id": "Rumble",
+            "image": {
+                "full": "Rumble.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 192,
+                "y": 48
+            },
+            "info": {
+                "attack": 3,
+                "defense": 6,
+                "difficulty": 8,
+                "magic": 8
+            },
+            "key": "68",
+            "name": "\u673a\u68b0\u516c\u654c",
+            "passive": {
+                "description": "\u5f53\u5170\u535a\u7684\u70ed\u91cf\u8fbe\u523050%\u65f6\uff0c\u4ed6\u5904\u4e8e\u5371\u9669\u6e29\u5ea6\u72b6\u6001\uff0c\u6240\u6709\u7684\u57fa\u7840\u6280\u80fd\u90fd\u80fd\u83b7\u5f97\u989d\u5916\u6548\u679c\u3002<br><br>\u5f53\u70ed\u91cf\u8fbe\u5230100%\u65f6\uff0c\u5c31\u4f1a\u8fdb\u5165\u8fc7\u70ed\u72b6\u6001\uff0c\u57fa\u7840\u653b\u51fb\u589e\u52a025(\u6bcf\u5347\u4e00\u7ea7\u589e\u52a05)\uff08+0.3*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5728\u51b7\u5374\u76846\u79d2\u5185\u65e0\u6cd5\u65bd\u653e\u6280\u80fd\u3002",
+                "image": {
+                    "full": "Rumble_Junkyard Titan1.png"
+                },
+                "name": "\u673a\u68b0\u91cd\u7ec4\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/9/A/T/9Q7lnGb4hAT.html?start=50",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=9Q7lnGb4hAT&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/0/g0102mh0mz0.html",
+                    "id": "001",
+                    "name": "\u70ed\u5e26\u4e1b\u6797 \u5170\u535a",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0102mh0mz0&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/w/o0112dt39nw.html",
+                    "id": "002",
+                    "name": "\u72ec\u773c\u6d77\u76d7 \u5170\u535a",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0112dt39nw&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=m0014wm4fu8",
+                    "id": "003",
+                    "name": "\u94f6\u6cb3\u9b54\u88c5\u673a\u795e \u5170\u535a",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0014wm4fu8&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "RumbleFlameThrower",
+                    "image": {
+                        "full": "RumbleFlameThrower.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7eb5\u706b\u76db\u5bb4\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "4\u670826\u65e56.8\u7248\u672c\u66f4\u65b0\uff1a<br>\u5170\u535a\u671d\u654c\u4eba\u55b7\u706b\uff0c\u57283\u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\u5bf9\u9525\u5f62\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u6210\u517175/135/195/255/315(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u5371\u9669\u6e29\u5ea6\u52a0\u6210\uff1a\u9020\u621050%\u989d\u5916\u4f24\u5bb3\u3002<br><br>\u8ddd\u79bb\uff1a 600<br><br>\u5224\u5b9a\u9891\u7387\uff1a0.25\u79d2<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "RumbleShield",
+                    "image": {
+                        "full": "RumbleShield.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7834\u788e\u62a4\u76fe\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5170\u535a\u5f00\u542f\u4e00\u4e2a\u6301\u7eed2\u79d2\u7684\u80fd\u5438\u653650/80/110/140/170(+0.4*AP)\u4f24\u5bb3\u7684\u62a4\u76fe\u3002\u5170\u535a\u8fd8\u4f1a\u989d\u5916\u589e\u52a010/15/20/25/30%\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed1\u79d2\u3002<br><br>\u5371\u9669\u6e29\u5ea6\u52a0\u6210\uff1a\u62a4\u76fe\u751f\u547d\u503c\u548c\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\u63d0\u534750%\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "RumbleGrenade",
+                    "image": {
+                        "full": "RumbleGrenade.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7535\u5b50\u9c7c\u53c9\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5170\u535a\u7528\u6700\u591a\u4e24\u628a\u9c7c\u53c9\u5c04\u51fb\u654c\u4eba\uff0c\u9020\u621045/70/95/120/145(+0.4*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51cf\u901f\u654c\u4eba15/20/25/30/35%\uff0c\u6301\u7eed2\u79d2\u3002<br><br>\u5371\u9669\u6e29\u5ea6\u52a0\u6210\uff1a\u4f24\u5bb3\u548c\u51cf\u901f\u767e\u5206\u6bd4\u63d0\u534750%\u3002<br><br>\u8ddd\u79bb\uff1a850<br><br>\u6bcf\u5c42\u5145\u80fd\u65f6\u95f4\uff1a5\u79d2<br>\u6d88\u8017\uff1a\u6bcf\u5c42\u5145\u80fd10\u70ed\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "RumbleCarpetBomb",
+                    "image": {
+                        "full": "RumbleCarpetBomb.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6052\u6e29\u707c\u70e7\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5170\u535a\u671d\u76ee\u6807\u533a\u57df\u53d1\u5c04\u4e00\u6392\u706b\u7bad\uff0c\u5236\u9020\u4e00\u6761\u6301\u7eed5\u79d2\u7684\u71c3\u70e7\u5c0f\u5f84\u3002\u8303\u56f4\u5185\u7684\u654c\u4eba\u6bcf\u79d2\u4f1a\u53d7\u5230130/185/240(+0.3*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u79fb\u52a8\u901f\u5ea6\u51cf\u5c1135%\u3002<br><br>\u901a\u8fc7\u70b9\u51fb\u5e76\u5c06\u9f20\u6807\u76f4\u7ebf\u62d6\u52a8\uff0c\u4f60\u53ef\u4ee5\u63a7\u5236\u653b\u51fb\u7684\u65bd\u653e\u4f4d\u7f6e\u3002<br><br>\u4e0d\u518d\u5bf9\u4e0d\u80fd\u88ab\u6307\u5b9a\u7684\u654c\u4eba\u9020\u6210\u4f24\u5bb3<br><br>\u8d77\u59cb\u70b9\u73b0\u5728\u79bb\u9f20\u6807\u6307\u9488\u8fd1\u4e86150\u8ddd\u79bb<br>\u8ddd\u79bb\uff1a1750<br><br>\u51b7\u5374\u65f6\u95f4\uff1a110/100/90\u79d2\uff084\u670826\u65e56.8\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a120/110/100 \u79d2\uff09<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Mage"
+            ],
+            "title": "\u5170\u535a",
+            "trait": {
+                "sd": {
+                    "add-point": "EQWQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "1001;3136;3116",
+                        "3020;3151;3116;3089;3157;3135",
+                        "3020;3151;3116;3143;3157;3001"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

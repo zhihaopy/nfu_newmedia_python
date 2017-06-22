@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "id": "Viktor",
+            "image": {
+                "full": "Viktor.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 144,
+                "y": 48
+            },
+            "info": {
+                "attack": 2,
+                "defense": 5,
+                "difficulty": 9,
+                "magic": 9
+            },
+            "key": "112",
+            "name": "\u673a\u68b0\u5148\u9a71",
+            "passive": {
+                "description": "\u7ef4\u514b\u6258\u5728\u6e38\u620f\u5f00\u59cb\u65f6\u4f1a\u5e26\u7740\u6d77\u514b\u65af\u6838\u5fc3\u539f\u578b\uff0c\u8fd9\u4e2a\u88c5\u5907\u53ef\u4ee5\u5347\u7ea73\u6b21\uff0c\u5e76\u5728\u5347\u7ea7\u65f6\u589e\u5f3a\u7ef4\u514b\u6258\u7684\u6280\u80fd\u3002",
+                "image": {
+                    "full": "ViktorEvolvingTechnology.png"
+                },
+                "name": "\u5149\u8363\u8fdb\u5316\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/0/6/d0103gblfj6.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0103gblfj6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_d0102gefpfe.html",
+                    "id": "001",
+                    "name": "\u5168\u91d1\u5c5e\u72c2\u6f6e \u7ef4\u514b\u6258",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0102gefpfe&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_k0102hkces9.html",
+                    "id": "002",
+                    "name": "\u521d\u53f7\u673a \u7ef4\u514b\u6258",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0102hkces9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/b/0/i/b0117kji9fi.html",
+                    "id": "003",
+                    "name": "\u9020\u7269\u4e3b \u7ef4\u514b\u6258",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=b0117kji9fi&auto=1"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "ViktorPowerTransfer",
+                    "image": {
+                        "full": "ViktorPowerTransfer.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8679\u5438\u80fd\u91cf\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ef4\u514b\u6258\u5f15\u7206\u4e00\u540d\u654c\u65b9\u5355\u4f4d\uff0c\u9020\u621060/80/100/120/140(+0.4*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u540c\u65f6\u4e3a\u7ef4\u514b\u6258\u751f\u6210\u4e00\u4e2a\u6700\u591a\u53ef\u5438\u6536(+8%\u603b\u6cd5\u529b)\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u6301\u7eed2.5\u79d2\u3002<br><br>\u7ef4\u514b\u6258\u7684\u4e0b\u6b21\u666e\u901a\u653b\u51fb\u4f1a\u9020\u621020/40/60/80/100(+0.5*AP)\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\u3002(\u989d\u5916\u4f24\u5bb3\u4f1a\u968f\u7ef4\u514b\u6258\u7684\u7b49\u7ea7\u800c\u83b7\u5f97\u6210\u957f)\u3002<br><br>\u589e\u5f3a\u2014\u589e\u538b\uff1a\u7ef4\u514b\u6258\u83b7\u5f9730%\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed2.5\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/7/6/5/4\u79d2<br>\u6d88\u8017\uff1a45/50/55/60/65\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "ViktorGravitonField",
+                    "image": {
+                        "full": "ViktorGravitonField.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u91cd\u529b\u573a\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ef4\u514b\u6258\u653e\u51fa\u4e00\u4e2a\u6301\u7eed4\u79d2\u7684\u91cd\u529b\u9650\u5236\u8bbe\u5907\uff0c\u51cf\u7f13\u654c\u4eba28%/32%/36%/40%/44%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u5e76\u4e14\u6bcf0.5\u79d2\u90fd\u4f1a\u5806\u53e0\u4e00\u6b21\u6548\u679c\u3002\u5728\u8fbe\u52303\u5c42\u5806\u53e0\u6548\u679c\u65f6\uff0c\u76ee\u6807\u4f1a\u88ab\u6655\u77291.5\u79d2\u3002<br><br>\u589e\u5f3a-\u5185\u7206\uff1a\u88ab\u91cd\u529b\u573a\u6655\u7729\u7684\u654c\u4eba\u4f1a\u88ab\u62c9\u5230\u91cd\u529b\u573a\u7684\u4e2d\u5fc3\u3002<br>\u8ddd\u79bb\uff1a625<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a17/16/15/14/13\u79d2<br>\u6d88\u8017\uff1a65/65/65/65/65 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "ViktorDeathRay",
+                    "image": {
+                        "full": "ViktorDeathRay.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6b7b\u4ea1\u5c04\u7ebf\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ef4\u514b\u6258\u7528\u4ed6\u7684\u673a\u68b0\u81c2\u53d1\u5c04\u4e00\u675f\u6df7\u4e71\u5149\u7ebf\uff0c\u7b14\u76f4\u5730\u5207\u5272\u6218\u573a\uff0c\u6cbf\u9014\u5bf9\u884c\u8fdb\u8def\u4e0a\u7684\u654c\u4eba\u9020\u621070/110/150/190/230(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u589e\u5f3a\u2014\u4f59\u9707\uff1a\u5c04\u7ebf\u7167\u8fc7\u7684\u5730\u65b9\u4f1a\u4ea7\u751f\u7206\u70b8\uff0c\u9020\u621020/60/100/140/180(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/12/11/10/9\u79d2<br>\u6d88\u8017\uff1a70/80/90/100/110 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "ViktorChaosStorm",
+                    "image": {
+                        "full": "ViktorChaosStorm.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6df7\u4e71\u98ce\u66b4\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u7ef4\u514b\u6258\u671d\u76ee\u6807\u533a\u57df\u53d1\u5c04\u4e00\u679a\u5947\u70b9\uff0c\u9020\u6210150/250/350(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u5e76\u6253\u65ad\u654c\u4eba\u7684\u5f15\u5bfc\u6280\u80fd\u3002<br><br>\u7ef4\u514b\u6258\u53ef\u4ee5\u57283\u79d2\u91cc\u91cd\u65b0\u5b9a\u4f4d\u5947\u70b9\uff0c\u5947\u70b9\u4f1a\u653e\u7535\uff0c\u6bcf2\u79d2\u5bf9\u9644\u8fd1\u7684\u654c\u4eba\u9020\u6210150/250/350(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u5947\u70b9\u79bb\u7ef4\u514b\u6258\u8d8a\u8fdc\uff0c\u5219\u79fb\u52a8\u901f\u5ea6\u8d8a\u6162\u3002<br><br>\u589e\u5f3a\u2014\u901f\u7387\uff1a\u6df7\u4e71\u98ce\u66b4\u7684\u79fb\u52a8\u52a0\u5feb20%\u3002<br><br>8\u670818\u65e56.16\u7248\u672c\u66f4\u65b0\uff1a<br>\u6700\u5927\u79fb\u52a8\u901f\u5ea6\uff1a450 \u21d2 400<br>\u6700\u5c0f\u79fb\u52a8\u901f\u5ea6\uff1a170 \u21d2 200<br>\u79fb\u52a8\u901f\u5ea6\u5f00\u59cb\u8870\u51cf\u8ddd\u79bb\uff1a350\u7801\u21d2 300\u7801<br>\u6700\u5c0f\u79fb\u52a8\u901f\u5ea6\u4e0a\u9650\u8ddd\u79bb\uff1a950\u7801 \u21d2 900\u7801<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/110/100\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage"
+            ],
+            "title": "\u7ef4\u514b\u6258",
+            "trait": {
+                "zd": {
+                    "add-point": "QEEWEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3198;3020;3089",
+                        "3198;3089;3151;3116;3165;3020",
+                        "3198;3089;3151;3116;3157;3020"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

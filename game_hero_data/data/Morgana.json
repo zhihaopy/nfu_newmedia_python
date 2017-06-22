@@ -1,0 +1,165 @@
+{
+    "data": [
+        {
+            "id": "Morgana",
+            "image": {
+                "full": "Morgana.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 384,
+                "y": 96
+            },
+            "info": {
+                "attack": 1,
+                "defense": 6,
+                "difficulty": 6,
+                "magic": 8
+            },
+            "key": "25",
+            "name": "\u5815\u843d\u5929\u4f7f",
+            "passive": {
+                "description": "\u83b7\u5f9710%/15%/20%\uff08\u5728\u7b49\u7ea71/7/13\u65f6\u53d8\u5316\uff09\u7684\u6cd5\u672f\u5438\u8840\u3002",
+                "image": {
+                    "full": "FallenAngel_Empathize.png"
+                },
+                "name": "\u7075\u9b42\u5438\u53d6\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/n/k/7bTMRdaTKnk.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7bTMRdaTKnk&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_f0101wmbrco.html",
+                    "id": "001",
+                    "name": "\u6740\u622e\u5929\u4f7f\u6614\u62c9 \u83ab\u7518\u5a1c",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f0101wmbrco&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/h/0/9/h0112xnitn9.html",
+                    "id": "002",
+                    "name": "\u5730\u72f1\u53a8\u623f \u83ab\u7518\u5a1c",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0112xnitn9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_s0100tb0504.html",
+                    "id": "003",
+                    "name": "\u5200\u950b\u5973\u738b \u83ab\u7518\u5a1c",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0100tb0504&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/c/0/d/c0112yzca7d.html",
+                    "id": "004",
+                    "name": "\u9ed1\u8272\u8346\u68d8 \u83ab\u7518\u5a1c",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0112yzca7d&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/s/0/z/s0115w0ondz.html",
+                    "id": "005",
+                    "name": "\u9b3c\u9b42\u65b0\u5a18 \u83ab\u7518\u5a1c",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0115w0ondz&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=i0138xr810o",
+                    "id": "006",
+                    "name": "\u80dc\u5229\u5973\u795e \u83ab\u7518\u5a1c",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0138xr810o&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/l/0/k/l0177ny71pk.html",
+                    "id": "010",
+                    "name": "\u7d2b\u91d1\u7f57\u5239 \u83ab\u7518\u5a1c",
+                    "num": 10,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0177ny71pk&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "DarkBindingMissile",
+                    "image": {
+                        "full": "DarkBindingMissile.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6697\u4e4b\u7981\u9522\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5411\u76ee\u6807\u533a\u57df\u5c04\u51fa\u4e00\u679a\u5145\u6ee1\u6697\u9ed1\u80fd\u91cf\u7684\u98de\u5f39\uff0c\u5c06\u7b2c\u4e00\u4e2a\u78b0\u5230\u7684\u654c\u4eba\u675f\u7f1a2/2.25/2.5/2.75/3\u79d2\uff0c\u9020\u6210 80/135/190/245/300(+0.9*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a1175<br><br>\u51b7\u5374\u65f6\u95f4\uff1a11/11/11/11/11\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TormentedSoil",
+                    "image": {
+                        "full": "TormentedSoil.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u75db\u82e6\u8150\u8680\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u8bc5\u5492\u4e00\u5757\u533a\u57df\uff0c\u6301\u7eed5\u79d2\u3002\u533a\u57df\u5185\u7684\u654c\u4eba\u6bcf\u79d2\u90fd\u5c06\u53d7\u523016/32/48/64/80(+0.22*AP)\u523024/48/72/96/120 (+0.33*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u8fd9\u4e2a\u4f24\u5bb3\u53d6\u51b3\u4e8e\u654c\u4eba\u5df2\u635f\u5931\u7684\u751f\u547d\u503c\u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a70/85/100/115/130 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "BlackShield",
+                    "image": {
+                        "full": "BlackShield.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9ed1\u6697\u4e4b\u76fe\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e3a\u53cb\u519b\u82f1\u96c4\u65bd\u653e\u4fdd\u62a4\u76fe\uff0c\u6301\u7eed5/5/5/5/5\u79d2\u3002\u4fdd\u62a4\u76fe\u4f1a\u5438\u653670/140/210/280/350(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5728\u62a4\u76fe\u88ab\u6253\u7834\u524d\u963b\u6321\u9650\u5236\u6280\u80fd\u3002<br>\u8ddd\u79bb\uff1a750<br><br>\u51b7\u5374\u65f6\u95f4\uff1a23/21/19/17/15\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "SoulShackles",
+                    "image": {
+                        "full": "SoulShackles.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7075\u9b42\u9563\u94d0\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5bf9\u9644\u8fd1\u7684\u654c\u65b9\u82f1\u96c4\u5957\u4e0a\u6697\u9ed1\u67b7\u9501\uff0c\u5bf9\u4ed6\u4eec\u9020\u6210150/225/300(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u548c20%\u7684\u51cf\u901f\u6548\u679c\uff0c\u6301\u7eed3\u79d2\u30023\u79d2\u540e\uff0c\u4ed6\u4eec\u4f1a\u989d\u5916\u53d7\u5230150/225/300(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u5e76\u88ab\u6655\u77291.5/1.5/1.5\u79d2\u3002<br><br>\u654c\u65b9\u82f1\u96c4\u53ea\u8981\u4ece\u83ab\u7518\u5a1c\u7684\u8eab\u8fb9\u9003\u79bb\uff0c\u5c31\u53ef\u4ee5\u7834\u574f\u8fd9\u4e2a\u67b7\u9501\u3002<br>\u8ddd\u79bb\uff1a625<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/110/100\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Support"
+            ],
+            "title": "\u83ab\u7518\u5a1c",
+            "trait": {
+                "zd": {
+                    "add-point": "QWWEWRWQWQRQQEEREE",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3157;3020;3001",
+                        "3020;3001;3157;3135;3089;3151",
+                        "3020;3001;3157;3135;3089;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

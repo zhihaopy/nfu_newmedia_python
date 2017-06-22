@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "id": "Gnar",
+            "image": {
+                "full": "Gnar.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 336,
+                "y": 96
+            },
+            "info": {
+                "attack": 6,
+                "defense": 5,
+                "difficulty": 8,
+                "magic": 5
+            },
+            "key": "150",
+            "name": "\u7eb3\u5c14",
+            "passive": {
+                "description": "\u7eb3\u5c14\u5728\u6218\u6597\u72b6\u6001\u4e0b\uff0c\u4ee5\u53ca\u8fdb\u884c\u653b\u51fb\u65f6\u90fd\u4f1a\u4ea7\u751f\u6012\u6c14\u3002\u5728\u6012\u6c14\u8fbe\u5230\u6700\u5927\u503c\u65f6\uff0c\u7eb3\u5c14\u7684\u4e0b\u4e00\u4e2a\u6280\u80fd\u4f1a\u4f7f\u4ed6\u53d8\u5f62\uff0c\u6539\u53d8\u4ed6\u7684\u6280\u80fd\u548c\u5c5e\u6027\uff0c\u6301\u7eed15\u79d2\uff083\u67085\u65e54.24\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a19\uff09(\u5907\u6ce8\uff1a\u8bf4\u660e\u6587\u672c\u4e00\u76f4\u8bf4\u662f15\u79d2\uff0c\u4f46\u5b9e\u9645\u4e0a\u4e4b\u524d\u90fd\u662f19\u79d2)\u3002\u5982\u679c\u6ee1\u6012\u7684\u7eb3\u5c14\u5728\u4e00\u5b9a\u65f6\u95f4\u5185\u6ca1\u6709\u65bd\u653e\u4efb\u4f55\u6280\u80fd\uff0c\u4e5f\u4f1a\u81ea\u52a8\u53d8\u5f62\u3002<br><br>\u5c0f\u578b\u7eb3\u5c14\uff1a\uff089 + (1-15\u65f6\u6bcf\u7ea7+1 / 16-18\u7ea7\u65f6\u6bcf\u7ea7+2)\uff09\u79fb\u52a8\u901f\u5ea6\uff0c400 - 500 (\u4e8e1-18\u7ea7)\uff087\u67085\u65e56.13\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a400 - 485 (\u4e8e1-18\u7ea7) \uff09\u653b\u51fb\u8ddd\u79bb\uff0c\u5f53\u524d\u7b49\u7ea7*4.5%\u653b\u51fb\u901f\u5ea6\u3002<br><br>\u5de8\u578b\u7eb3\u5c14\uff1a\u5f53\u524d\u7b49\u7ea7*40\u751f\u547d\u503c\uff0c\u5f53\u524d\u7b49\u7ea7*2\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\uff0c2\uff08\u5f53\u524d\u7b49\u7ea7*2\uff09\u751f\u547d\u56de\u590d/5\u79d2\uff0c4\uff08+\u5f53\u524d\u7b49\u7ea7*2\uff09\u57fa\u7840\u653b\u51fb\u529b\u3002<br>\u201c\u75b2\u60eb\u201d\u51cf\u76ca\u6301\u7eed\u65f6\u957f\uff1a15\u79d2",
+                "image": {
+                    "full": "Gnar_Passive.png"
+                },
+                "name": "\u72c2\u6012\u57fa\u56e0\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/r/0/e/r0134rklyqe.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0134rklyqe&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=m0134i7ip7i",
+                    "id": "001",
+                    "name": "\u6700\u540e\u4e00\u53ea\u6050\u9f99 \u7eb3\u5c14",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0134i7ip7i&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=j01576slx2s",
+                    "id": "002",
+                    "name": "\u840c\u4fa6\u63a2 \u55b5\u5c14\u6469\u65af",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j01576slx2s&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/i/0/n/i0173knm1rn.html",
+                    "id": "003",
+                    "name": "\u51b0\u96ea\u517d \u7eb3\u5c14",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0173knm1rn&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/r/0/m/r0300ton1vm.html",
+                    "id": "004",
+                    "name": "\u72c2\u72ee \u7eb3\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0300ton1vm&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Gnar_Q",
+                    "image": {
+                        "full": "Gnar_Q.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6295\u63b7\u56de\u529b\u6807 / \u6295\u63b7\u987d\u77f3\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5c0f\u578b\u7eb3\u5c14\uff1a\u6254\u51fa\u4e00\u4e2a\u56de\u529b\u6807\uff0c\u56de\u529b\u6807\u80fd\u9020\u62105/35/65/95/125(+1.15*\u603bAD)\u7269\u7406\u4f24\u5bb3\uff0c\u4ee5\u53ca15/20/25/30/35%\u7684\u79fb\u52a8\u51cf\u901f\u6548\u679c\uff0c\u51cf\u901f\u6301\u7eed2\u79d2\u3002\u56de\u529b\u6807\u5728\u547d\u4e2d\u7b2c\u4e00\u4e2a\u654c\u4eba\u540e\u4f1a\u6298\u8fd4\uff0c\u5bf9\u540e\u7eed\u76ee\u6807\u9020\u621050%\u4f24\u5bb3\u3002\u6bcf\u4e2a\u654c\u4eba\u53ea\u4f1a\u88ab\u51fb\u4e2d\u4e00\u6b21\u3002<br><br>\u5de8\u578b\u7eb3\u5c14\uff1a\u6254\u51fa\u4e00\u9897\u77f3\u5934\uff0c\u77f3\u5934\u4f1a\u5728\u547d\u4e2d\u654c\u4eba\u540e\u505c\u4e0b\uff0c\u5bf9\u88ab\u547d\u4e2d\u76ee\u6807\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u62105/45/85/125/165 (+1.2*\u603bAD)\u7269\u7406\u4f24\u5bb3\u548c\u51cf\u901f\u6548\u679c\u3002<br><br>\u5982\u679c\u7eb3\u5c14\u63a5\u4f4f\u4e86\u4ed6\u7684\u56de\u529b\u6807\u6216\u662f\u6361\u8d77\u4e86\u4ed6\u7684\u77f3\u5934\uff0c\u90a3\u4e48\u8fd9\u4e2a\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u4f1a\u51cf\u5c1145%\u3002<br><br>\u56de\u5f39\u8ddd\u79bb\uff1a3000\uff087\u67085\u65e56.13\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a2500\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a20/17.5/15/12.5/10\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "Gnar_W",
+                    "image": {
+                        "full": "Gnar_W.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u4ea2\u594b /  \u75db\u6bb4\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5c0f\u578b\u7eb3\u5c14\uff1a\u88ab\u52a8\uff1a\u5bf9\u76f8\u540c\u76ee\u6807\u7684\u6bcf\u7b2c\u4e09\u6b21\u653b\u51fb\u6216\u65bd\u6cd5\uff0c\u90fd\u4f1a\u9020\u6210\u989d\u5916\u768415/25/35/45/55\uff087\u67085\u65e56.13\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a10/20/30/40/50\uff09(+1*AP)+\u76ee\u6807\u6700\u5927\u751f\u547d\u503c\u76846/8/10/12/14%\u7684\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e3a\u7eb3\u5c14\u63d0\u4f9b%\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\uff0c\u8be5\u79fb\u901f\u52a0\u6210\u4f1a\u57283\u79d2\u91cc\u6301\u7eed\u8870\u51cf(\u5bf9\u91ce\u602a\u7684\u6700\u5927\u4f24\u5bb3\uff1a100/150/200/250/300\u3002<br><br>\u5de8\u578b\u7eb3\u5c14\uff1a\u4f7f\u4e00\u4e2a\u8303\u56f4\u5185\u7684\u654c\u4eba\u6655\u77291.25\u79d2\uff0c\u5e76\u9020\u621025/45/65/85/105(+1*\u603bAD)\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u7eb3\u5c14\u5728\u4ece\u5de8\u578b\u53d8\u6210\u5c0f\u578b\u65f6\uff0c\u4f1a\u83b7\u5f97\u3010W\u4ea2\u594b\u3011\u7684\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\u3002<br><br>\u75db\u6bb4\u51b7\u5374\u65f6\u95f4\uff1a15/13/11/9/7 \u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "Gnar_E",
+                    "image": {
+                        "full": "Gnar_E.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8f7b\u8df3 / \u731b\u8e0f\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5c0f\u578b\u7eb3\u5c14\uff1a\u8df3\u5230\u4e00\u4e2a\u533a\u57df\uff0c\u83b7\u5f9720/30/40/50/60%\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed3\u79d2\u3002\u5982\u679c\u7eb3\u5c14\u843d\u5230\u4e00\u4e2a\u76ee\u6807\u4e0a\uff0c\u90a3\u4e48\u4ed6\u4f1a\u7ee7\u7eed\u5411\u66f4\u8fdc\u5904\u5f39\u8df3\u3002\u9020\u621020/60/100/140/180\uff08+\u7eb3\u5c14\u7684\u6700\u5927\u751f\u547d\u503c\u76846%\uff09\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u4e14\u5982\u679c\u843d\u5230\u654c\u65b9\u8eab\u4e0a\uff0c\u8fd8\u4f1a\u5bf9\u8fd9\u4e2a\u654c\u4eba\u9020\u6210\u77ed\u6682\u7684\u51cf\u901f\u6548\u679c\u3002<br><br>\u5de8\u578b\u7eb3\u5c14\uff1a\u8df3\u5230\u4e00\u4e2a\u533a\u57df\uff0c\u5e76\u5728\u7740\u9646\u65f6\u5bf9\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u621020/60/100/140/180\uff08\u7eb3\u5c14\u7684\u6700\u5927\u751f\u547d\u503c\u76846%\uff09\u7269\u7406\u4f24\u5bb3\u3002\u6b63\u597d\u4f4d\u4e8e\u7eb3\u5c14\u843d\u70b9\u5904\u7684\u654c\u4eba\u5c06\u4f1a\u88ab\u77ed\u6682\u51cf\u901f\u3002<br><br>\u5982\u679c\u3010E\u731b\u8e0f\u3011\u88ab\u7528\u6765\u53d8\u5f62\uff0c\u90a3\u4e48\u7eb3\u5c14\u5c06\u4ecd\u80fd\u8fdb\u884c\u5f39\u8df3\u3002<br><br>\u8ddd\u79bb\uff1a475<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16.5/15/13.5/12\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "GnarBig_R",
+                    "image": {
+                        "full": "Gnar_R.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5450\u554a\uff01\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5c0f\u578b\u7eb3\u5c14\uff1a\u88ab\u52a8\uff1a\u4f7f\u3010W\u4ea2\u594b\u3011\u7684\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\u63d0\u5347\u81f345/60/75%\u3002<br><br>\u5de8\u578b\u7eb3\u5c14\uff1a\u5c06\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u671d\u7740\u4e00\u4e2a\u7279\u5b9a\u65b9\u5411\u9707\u51fb\uff0c\u9020\u6210200/300/400(+0.2*\u989d\u5916AD)\uff08+0.5*AP\uff09\u7269\u7406\u4f24\u5bb3\u548c60%\u51cf\u901f\u6548\u679c\uff0c\u51cf\u901f\u6301\u7eed1.25/1.5/1.75\u79d2\u3002\u6240\u6709\u88ab\u9707\u5230\u5899\u4e0a\u7684\u654c\u4eba\u90fd\u4f1a\u627f\u53d7\u6b64\u6280\u80fd150%\u7684\u4f24\u5bb3\uff0c\u5e76\u53d7\u5230\u6655\u7729\u6548\u679c\u800c\u4e0d\u662f\u51cf\u901f\u6548\u679c\u3002<br><br>4.22\u7248\u672c\u65b0\u529f\u80fd\uff1a\u5c06\u63a5\u4f4f\u56de\u529b\u6807\u65f6\u7684\u51b7\u5374\u65f6\u95f4\u8fd4\u8fd8\u63d0\u5347\u81f350/55/60%<br>\u8ddd\u79bb\uff1a590<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/100/80\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Marksman"
+            ],
+            "title": "\u8ff7\u5931\u4e4b\u7259",
+            "trait": {
+                "sd": {
+                    "add-point": "QEWQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3078;3047;3068",
+                        "3078;3047;3153;3068;3102;3143",
+                        "3078;3047;3068;3143;3102;3065"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

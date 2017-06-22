@@ -1,0 +1,153 @@
+{
+    "data": [
+        {
+            "id": "Trundle",
+            "image": {
+                "full": "Trundle.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 144,
+                "y": 0
+            },
+            "info": {
+                "attack": 7,
+                "defense": 6,
+                "difficulty": 5,
+                "magic": 2
+            },
+            "key": "48",
+            "name": "\u5de8\u9b54\u4e4b\u738b",
+            "passive": {
+                "description": "\u6bcf\u5f53\u9644\u8fd1\u6709\u4e00\u4e2a\u654c\u65b9\u5355\u4f4d\u6b7b\u4ea1\uff0c\u7279\u6717\u5fb7\u5c14\u90fd\u4f1a\u56de\u590d\u751f\u547d\u503c\uff0c\u56de\u590d\u7684\u751f\u547d\u503c\u76f8\u5f53\u4e8e\u8be5\u654c\u65b9\u5355\u4f4d\u6700\u5927\u751f\u547d\u503c\u76842%/3%/4%(\u5f53\u7b49\u7ea71\u30017\u300113\u65f6\u53d8\u5316)\u3002<br><br>\u8ddd\u79bb\uff1a1400",
+                "image": {
+                    "full": "Trundle_Passive.png"
+                },
+                "name": "\u56fd\u738b\u7684\u8d21\u54c1\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/l/0/f/l0114y2yhnf.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0114y2yhnf&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTUwMTA1Mjk2.html?from=y1.2-1-99.3.2-2.1-1-1-1",
+                    "id": "001",
+                    "name": "\u91cc\u5c14\u51fb\u7403\u624b  \u7279\u6717\u5fb7\u5c14",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNTUwMTA1Mjk2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTUwMTA0MTA0.html?from=y1.2-1-106.3.1-2.1-1-1-0",
+                    "id": "002",
+                    "name": "\u5783\u573e\u573a  \u7279\u6717\u5fb7\u5c14",
+                    "num": 2,
+                    "source": "http://player.youku.com/player.php/sid/XNTUwMTA0MTA0/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTUyMTMzNzQ4.html",
+                    "id": "003",
+                    "name": "\u4f20\u7edf\u9020\u578b \u7279\u6717\u5fb7\u5c14",
+                    "num": 3,
+                    "source": "http://player.youku.com/player.php/sid/XNTUyMTMzNzQ4/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=q0140qdsxpy",
+                    "id": "004",
+                    "name": "\u5de1\u903b\u8b66\u5b98 \u7279\u6717\u5fb7\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0140qdsxpy&auto=1"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "TrundleTrollSmash",
+                    "image": {
+                        "full": "TrundleTrollSmash.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5229\u9f7f\u6495\u54ac\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7279\u6717\u5fb7\u5c14\u7684\u4e0b\u6b21\u653b\u51fb\u4f1a\u6495\u54ac\u654c\u65b9\u76ee\u6807\uff0c\u9020\u621020/40/60/80/100(+1,1.05,1.1,1.15,1.2*\u603bAD)\u7269\u7406\u4f24\u5bb3\u548c\u77ed\u6682\u7684\u51cf\u901f\u6548\u679c\u3002<br><br>\u8be5\u653b\u51fb\u4f1a\u589e\u52a0\u7279\u6717\u5fb7\u5c1420/25/30/35/40\u653b\u51fb\u529b\uff0c\u6301\u7eed8\u79d2\uff0c\u800c\u654c\u4eba\u5219\u51cf\u5c11\u5176\u589e\u52a0\u503c\u4e00\u534a\u7684\u653b\u51fb\u529b\u3002<br>\u8ddd\u79bb\uff1a300<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4/4/4\u79d2<br>\u6d88\u8017\uff1a30/30/30/30/30 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "trundledesecrate",
+                    "image": {
+                        "full": "trundledesecrate.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u51b0\u5c01\u9886\u57df\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u7279\u6717\u5fb7\u5c14\u7528\u5bd2\u51b0\u8986\u76d6\u76ee\u6807\u533a\u57df8\u79d2\uff0c\u540c\u65f6\u83b7\u5f9720/25/30/35/40%\u79fb\u52a8\u901f\u5ea6\uff0c20/35/50/65/80%\u653b\u51fb\u901f\u5ea6\uff0c\u5e76\u4e14\u4f1a\u4ece\u6240\u6709\u7684\u6cbb\u7597\u548c\u56de\u590d\u624b\u6bb5\u4e2d\u83b7\u5f9720%\u7684\u989d\u5916\u6cbb\u7597\u6548\u679c\u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a15/15/15/15/15\u79d2<br>\u6d88\u8017\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TrundleCircle",
+                    "image": {
+                        "full": "TrundleCircle.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5bd2\u51b0\u4e4b\u67f1\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u7279\u6717\u5fb7\u5c14\u5728\u76ee\u6807\u5730\u70b9\u53ec\u5524\u5bd2\u51b0\u4e4b\u67f1\uff0c\u4ee4\u6240\u6709\u4eba\u65e0\u6cd5\u901a\u8fc7\uff0c\u5e76\u51cf\u7f13\u9644\u8fd1\u654c\u65b9\u5355\u4f4d30/35/40/45/50%\u79fb\u52a8\u901f\u5ea6\u3002<br>\u8ddd\u79bb\uff1a1000<br>\u51fb\u9000\u8ddd\u79bb\uff1a225<br><br>\u51b7\u5374\u65f6\u95f4\uff1a23/20/17/14/11\u79d2<br>\u6d88\u8017\uff1a75/75/75/75/75 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TrundlePain",
+                    "image": {
+                        "full": "TrundlePain.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5f3a\u6743\u81f3\u4e0a\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u7279\u6717\u5fb7\u5c14\u5438\u53d6\u76ee\u680720/27.5/35%\uff087\u67082\u65e54.32\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a20/24/28\uff09(+0.02*AP)%\u7684\u6700\u5927\u751f\u547d\u503c\u548c40/40/40%\u62a4\u7532\u548c\u9b54\u6297\uff0c\u5176\u4e2d\u4e00\u534a\u4f1a\u7acb\u523b\u5438\u53d6\u6389\uff0c\u53e6\u4e00\u534a\u4f1a\u57284/4/4\u79d2\u91cc\u6301\u7eed\u5077\u53d6\u3002<br><br>\u5728\u5438\u53d6\u6548\u679c\u7ed3\u675f\u540e\uff0c\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\u4f1a\u57284/4/4\u79d2\u540e\u8fd4\u8fd8\u7ed9\u76ee\u6807\u3002<br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a110/90/70<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "title": "\u7279\u6717\u5fb7\u5c14",
+            "trait": {
+                "dy": {
+                    "add-point": "QWEQQRQEQEREWEWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3725;1001",
+                        "3065;3143;3074;3153;3117;3725",
+                        "3065;3143;3074;3068;3117;3725"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWEQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1054;2003;3341",
+                        "3074;1011;1001",
+                        "3047;3074;3143;3065;3068;3153",
+                        "3047;3074;3143;3065;3068;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

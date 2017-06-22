@@ -1,0 +1,172 @@
+{
+    "data": [
+        {
+            "id": "FiddleSticks",
+            "image": {
+                "full": "FiddleSticks.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 48,
+                "y": 96
+            },
+            "info": {
+                "attack": 2,
+                "defense": 3,
+                "difficulty": 5,
+                "magic": 9
+            },
+            "key": "9",
+            "name": "\u672b\u65e5\u4f7f\u8005",
+            "passive": {
+                "description": "\u8d39\u5fb7\u63d0\u514b\u4f1a\u5728\u7ad9\u7acb\u4e0d\u52a81.5\u79d2\u540e\u83b7\u5f97\u3010\u6050\u60e7\u964d\u4e34\u3011\u6548\u679c\u3002\u5b9a\u8eab\u7c7b\u63a7\u5236\u6548\u679c\u4f1a\u91cd\u7f6e\u8ba1\u65f6\u5668\u3002\u5982\u679c\u8d39\u5fb7\u63d0\u514b\u643a\u5e26\u7740\u3010\u6050\u60e7\u964d\u4e34\u3011\u6548\u679c\uff0c\u5728\u4ed6\u79fb\u52a8\u65f6\u4f1a\u83b7\u5f97\u989d\u5916\u7684\u79fb\u52a8\u901f\u5ea6\u3002<br><br>\u6301\u7eed\u65f6\u95f4\uff1a1.5\u79d2<br>\u79fb\u52a8\u901f\u5ea6\uff1a25/30/35/40% (\u4e8e1/6/11/16\u7ea7)",
+                "image": {
+                    "full": "Fiddlesticks_Paranoia.png"
+                },
+                "name": "\u6050\u60e7\u964d\u4e34\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/7/1/7/7yZT4cMJa17.html?start=1",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7yZT4cMJa17&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/w/0/o/w01045m336o.html",
+                    "id": "001",
+                    "name": "\u5e7d\u9b42 \u8d39\u5fb7\u63d0\u514b",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w01045m336o&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/c/0/c/c0104751n3c.html",
+                    "id": "002",
+                    "name": "\u8054\u5408\u738b\u56fd \u8d39\u5fb7\u63d0\u514b",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0104751n3c&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/v/0/f/v0104ib717f.html",
+                    "id": "003",
+                    "name": "\u8352\u91ce\u5e7d\u7075 \u8d39\u5fb7\u63d0\u514b",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=v0104ib717f&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/u/0/4/u0112ovu0x4.html",
+                    "id": "004",
+                    "name": "\u5357\u74dc\u5934 \u8d39\u5fb7\u63d0\u514b",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0112ovu0x4&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_o0101lr8pr5.html",
+                    "id": "005",
+                    "name": "\u94c1\u94a9\u8239\u957f \u8d39\u5fb7\u63d0\u514b",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0101lr8pr5&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/x/g0119aym8qx.html",
+                    "id": "006",
+                    "name": "\u60ca\u609a\u6d3e\u5bf9 \u8d39\u5fb7\u63d0\u514b",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0119aym8qx&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/a/0/9/a0112babnz9.html",
+                    "id": "007",
+                    "name": "\u7cd6\u679c\u4f7f\u5f92 \u8d39\u5fb7\u63d0\u514b",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a0112babnz9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=h01517lg4rg",
+                    "id": "008",
+                    "name": "\u91cd\u751f\u4e4b\u6c99 \u8d39\u5fb7\u63d0\u514b",
+                    "num": 8,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h01517lg4rg&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Terrify",
+                    "image": {
+                        "full": "Terrify.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6050\u60e7\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7528\u53ef\u6015\u7684\u5e7b\u89c9\u4fb5\u88ad\u76ee\u6807\uff0c\u65bd\u52a0\u3010\u6050\u60e7\u964d\u4e34\u3011\u6548\u679c\uff0c\u5e76\u4f7f\u76ee\u6807\u53d7\u5230\u6301\u7eed1.25/1.5/1.75/2/2.25\u79d2\u7684\u6050\u60e7\u6548\u679c\u5e76\u4ee5\u53d7\u635f\u7684\u901f\u5ea6\u9003\u79bb\u8d39\u5fb7\u63d0\u514b\u3002<br><br>\u65bd\u6cd5\u8ddd\u79bb\uff1a525<br><br>\u51b7\u5374\u65f6\u95f4\uff1a15/14/13/12/11\u79d2<br>\u6d88\u8017\uff1a65/65/65/65/65 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Drain",
+                    "image": {
+                        "full": "Drain.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u751f\u547d\u5438\u53d6\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u6bcf\u79d2\u5bf9\u76ee\u6807\u5355\u4f4d\u9020\u621060/90/120/150/180(+0.45*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u8be5\u6280\u80fd\u6240\u9020\u6210\u7684\u4f24\u5bb3\u503c\u768460/65/70/75/80%\u4f1a\u8f6c\u5316\u4e3a\u8d39\u5fb7\u63d0\u514b\u7684\u751f\u547d\u503c\u3002<br>\u6700\u591a\u6301\u7eed5\u79d2\u3002<br>\u7275\u5f15\u8ddd\u79bb\uff1a650<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/3.75/3.5/3.25/3\u79d2<br>\u6d88\u8017\uff1a80/90/100/110/120 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FiddlesticksDarkWind",
+                    "image": {
+                        "full": "FiddlesticksDarkWind.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9ed1\u6697\u4e4b\u98ce\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u671d\u4e00\u4e2a\u76ee\u6807\u654c\u4eba\u53d1\u5c04\u4e00\u4e2a\u4f1a\u5f39\u8df3\u7684\u9b54\u6cd5\u5f39\uff0c\u9020\u621065/85/105/125/145(+0.45*AP)\u9b54\u6cd5\u4f24\u5bb3\u548c1.2\u79d2\u6c89\u9ed8\u6548\u679c\uff0c\u7136\u540e\u5f39\u8df3\u5230\u4e00\u4e2a\u65b0\u7684\u76ee\u6807\u4e0a\uff08\u5bf9\u5c0f\u5175\u548c\u91ce\u602a\u9020\u6210150%\u4f24\u5bb3\uff09\u3002<br><br>\u3010\u9ed1\u6697\u4e4b\u98ce\u3011\u6700\u591a\u5f39\u5c046\u6b21\u5e76\u4f1a\u4f18\u5148\u5f39\u5411\u672a\u88ab\u547d\u4e2d\u8fc7\u7684\u654c\u4eba\u3002\u53ef\u4ee5\u591a\u6b21\u5f39\u5411\u540c\u4e00\u4e2a\u76ee\u6807\uff0c\u4f46\u53ea\u9020\u62101\u6b21\u6c89\u9ed8\u6548\u679c\u3002<br>\u8ddd\u79bb\uff1a750<br><br>\u51b7\u5374\u65f6\u95f4\uff1a15/14/13/12/11\u79d2<br>\u6d88\u8017\uff1a50/60/70/80/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Crowstorm",
+                    "image": {
+                        "full": "Crowstorm.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7fa4\u9e26\u98ce\u66b4\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u541f\u55311.5\u79d2\u540e\u5c06\u8d39\u5fb7\u63d0\u514b\u4f20\u9001\u5230\u76ee\u6807\u4f4d\u7f6e\uff0c\u5e76\u53ec\u5524\u4e00\u7fa4\u4e4c\u9e26\u805a\u96c6\u5230\u8d39\u5fb7\u63d0\u514b\u8eab\u8fb95\u79d2\uff0c\u5bf9\u8303\u56f4\u5185\u654c\u4eba\u6bcf\u79d2\u9020\u6210125/225/325(+0.45*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a800<br><br>\u51b7\u5374\u65f6\u95f4\uff1a150/140/130\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Support"
+            ],
+            "title": "\u8d39\u5fb7\u63d0\u514b",
+            "trait": {
+                "dy": {
+                    "add-point": "WEQQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3117;3713;3191",
+                        "3041;3117;3157;3724;3135;3102",
+                        "3158;3716;3116;3157;3001;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

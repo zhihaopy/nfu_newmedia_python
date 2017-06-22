@@ -1,0 +1,137 @@
+{
+    "data": [
+        {
+            "id": "Swain",
+            "image": {
+                "full": "Swain.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 288,
+                "y": 96
+            },
+            "info": {
+                "attack": 2,
+                "defense": 6,
+                "difficulty": 5,
+                "magic": 9
+            },
+            "key": "50",
+            "name": "\u7b56\u58eb\u7edf\u9886",
+            "passive": {
+                "description": "\u65af\u7ef4\u56e0\u6bcf\u6740\u6b7b\u4e00\u4e2a\u5355\u4f4d\uff0c\u5c31\u4f1a\u56de\u590d\uff089+1*\u82f1\u96c4\u7b49\u7ea7\uff09\u6cd5\u529b\u3002\u5728\u83b7\u5f97\u4e00\u6b21\u51fb\u6740\u6216\u8005\u52a9\u653b\u65f6\uff0c\u4ed6\u4f1a\u56de\u590d\uff08\u6700\u5927\u6cd5\u529b\u503c\u76849%\uff09\u3002",
+                "image": {
+                    "full": "SwainCarrionRenewal.png"
+                },
+                "name": "\u8150\u8089\u518d\u751f\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/A/i/7A3FoPwceAi.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7A3FoPwceAi&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_i0102x971ab.html",
+                    "id": "001",
+                    "name": "\u5317\u9886\u524d\u7ebf \u65af\u7ef4\u56e0",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0102x971ab&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/l/0/r/l0112geeanr.html",
+                    "id": "002",
+                    "name": "\u6d77\u8d3c\u53c2\u8c0b \u65af\u7ef4\u56e0",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0112geeanr&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/9/i0105qam3q9.html",
+                    "id": "003",
+                    "name": "\u7edd\u4ee3\u667a\u5c06 \u65af\u7ef4\u56e0",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0105qam3q9&auto=1"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "SwainDecrepify",
+                    "image": {
+                        "full": "SwainDecrepify.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6076\u9e26\u6765\u88ad\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u78a7\u7fe0\u4e1d\u5728\u76ee\u6807\u533a\u57df\u7740\u9646\uff0c\u6301\u7eed4\u79d2\u5e76\u653b\u51fb\u6700\u8fd1\u7684\u654c\u4eba\uff08\u4f18\u5148\u653b\u51fb\u82f1\u96c4\uff09\uff0c\u6bcf\u79d2\u9020\u621030/47.5/65/82.5/100(+0.3*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4f7f\u76ee\u6807\u51cf\u901f20/25/30/35/40%\u3002\u5bf9\u5c0f\u5175\u7684\u4f24\u5bb3\u7ffb\u500d\u3002<br><br>\u78a7\u7fe0\u4e1d\u4f1a\u5728\u5f53\u524d\u76ee\u6807\u8d70\u8fdc\u6216\u6b7b\u4ea1\u65f6\u5bfb\u627e\u65b0\u7684\u76ee\u6807\u3002\u5982\u679c\u9644\u8fd1\u6709\u4e2d\u4e86\u82e6\u96be\u6298\u78e8\u7684\u654c\u4eba\uff0c\u90a3\u4e48\u8fd9\u4e2a\u654c\u4eba\u4f1a\u7acb\u523b\u6210\u4e3a\u78a7\u7fe0\u4e1d\u7684\u76ee\u6807\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/13/12/11/10\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "SwainShadowGrasp",
+                    "image": {
+                        "full": "SwainShadowGrasp.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9e26\u722a\u4e4b\u7f1a\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u65af\u7ef4\u56e0\u6807\u8bb0\u76ee\u6807\u533a\u57df\uff0c\u5728\u77ed\u6682\u5ef6\u65f6\u540e\uff0c\u5de8\u722a\u6293\u4f4f\u654c\u65b9\u5355\u4f4d\uff0c\u9020\u6210 80/85/90/95/100(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u675f\u7f1a\u654c\u4eba1/1.25/1.5/1.75/2\u79d2 \u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10\u79d2<br>\u6d88\u8017\uff1a80/90/100/110/120 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "SwainTorment",
+                    "image": {
+                        "full": "SwainTorment.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u82e6\u96be\u6298\u78e8\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u65af\u7ef4\u56e0\u6298\u78e8\u4ed6\u7684\u76ee\u6807\uff0c\u9020\u6210 50/80/110/140/170(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6301\u7eed 4 \u79d2\u3002\u5728\u6298\u78e8\u8fc7\u7a0b\u4e2d\uff0c\u65af\u7ef4\u56e0\u5bf9\u76ee\u6807\u9020\u6210\u7684\u4f24\u5bb3\u4f1a\u589e\u52a020%\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a65/70/75/80/85 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "SwainMetamorphism",
+                    "image": {
+                        "full": "SwainMetamorphism.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u90aa\u9e26\u9644\u4f53\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5f00\u542f\uff1a\u65af\u7ef4\u56e0\u5316\u8eab\u4e3a\u4e00\u53ea\u5de8\u9e26\uff0c\u6bcf\u79d2\u653e\u51fa\u6700\u591a5\u4e2a\u5c0f\u4e4c\u9e26\u53bb\u653b\u51fb\u9644\u8fd1\u7684\u654c\u4eba\uff0c\u4f18\u5148\u653b\u51fb\u82f1\u96c4\u3002\u6bcf\u4e2a\u5c0f\u4e4c\u9e26\u9020\u621050/70/90(+0.2*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u57fa\u4e8e\u4f24\u5bb3\u503c\u6765\u6cbb\u7597\u65af\u7ef4\u56e0\uff08\u6cbb\u7597\u91cf\uff1a\u5bf9\u82f1\u96c420/30/40 (+0.12*AP)\uff0c\u5bf9\u5c0f\u5175\u548c\u91ce\u602a 8/11/13 (+0.03*AP)\u3002\u5c0f\u4e4c\u9e26\u4eec\u4e0d\u4f1a\u57281\u79d2\u91cc\u91cd\u590d\u653b\u51fb\u76f8\u540c\u76ee\u6807\u3002<br><br>\u7ef4\u6301\u3010R\u7fa4\u9e26\u9644\u4f53\u3011\u6240\u6d88\u8017\u7684\u6cd5\u529b\u6bcf\u79d2\u90fd\u4f1a\u63d0\u9ad85\u3002<br><br>\u91cd\u65b0\u65bd\u653e\u65f6\u7684\u9996\u6b21\u505c\u6b62\u65f6\u95f4\uff1a2 \u79d2\uff087\u67085\u65e56.13\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a0.5 \u79d2\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a20/20/20\u79d2<br>\u6d88\u8017\uff1a25\u6cd5\u529b\uff08\u6bcf\u79d2\u589e\u52a05/6/7\u6cd5\u529b\uff09"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Fighter"
+            ],
+            "title": "\u65af\u7ef4\u56e0",
+            "trait": {
+                "zd": {
+                    "add-point": "EWQEEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3027;3111;3157",
+                        "3111;3027;3157;3089;3135;3065",
+                        "3111;3027;3157;3116;3143;3065"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

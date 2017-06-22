@@ -1,0 +1,181 @@
+{
+    "data": [
+        {
+            "id": "Tryndamere",
+            "image": {
+                "full": "Tryndamere.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 192,
+                "y": 0
+            },
+            "info": {
+                "attack": 10,
+                "defense": 5,
+                "difficulty": 6,
+                "magic": 2
+            },
+            "key": "23",
+            "name": "\u86ee\u65cf\u4e4b\u738b",
+            "passive": {
+                "description": "\u6cf0\u8fbe\u7c73\u5c14\u51fb\u4e2d\u4e00\u4e2a\u5355\u4f4d\u83b7\u5f975\u70b9\u6012\u6c14\uff1b\u6bcf\u6b21\u66b4\u51fb\u83b7\u5f9710\u70b9\u6012\u6c14\uff0c\u51fb\u6740\u4e00\u4e2a\u5355\u4f4d\u989d\u5916\u83b7\u5f9710\u70b9\u6012\u6c14<br><br>\u6bcf\u70b9\u6012\u6c14\u589e\u52a00.35%\u7684\u66b4\u51fb\u51e0\u7387",
+                "image": {
+                    "full": "DarkChampion_Fury.png"
+                },
+                "name": "\u6218\u6597\u72c2\u6012\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/k/6/7jpFar1JJk6.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7jpFar1JJk6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_b0010GhffrZ.html",
+                    "id": "001",
+                    "name": "\u52c7\u6562\u7684\u5fc3 \u6cf0\u8fbe\u7c73\u5c14",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=b0010GhffrZ&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/v/0/7/v0104hd4cr7.html",
+                    "id": "002",
+                    "name": "\u56fd\u738b \u6cf0\u8fbe\u7c73\u5c14",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=v0104hd4cr7&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/f/y0112iwzyuf.html",
+                    "id": "003",
+                    "name": "\u8bf8\u795e\u7684\u9ec4\u660f \u6cf0\u8fbe\u7c73\u5c14",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0112iwzyuf&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_F0010UKANtx.html",
+                    "id": "004",
+                    "name": "\u6076\u9b54\u4e4b\u5203 \u6cf0\u8fbe\u7c73\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=F0010UKANtx&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNjExMjM5MDEy.html?from=y1.2-1-99.3.1-1.1-1-1-0",
+                    "id": "005",
+                    "name": "\u5965\u65af\u66fc\u5927\u5e1d \u6cf0\u8fbe\u7c73\u5c14",
+                    "num": 5,
+                    "source": "http://player.youku.com/player.php/sid/XNjExMjM5MDEy/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/w/0/2/w00136d4gj2.html",
+                    "id": "006",
+                    "name": "\u5173\u7fbd \u4e91\u957f",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w00136d4gj2&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=n0153xgbddm",
+                    "id": "007",
+                    "name": "\u68a6\u9b47 \u6cf0\u8fbe\u7c73\u5c14",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0153xgbddm&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/y/0/w/y01800tm82w.html ",
+                    "id": "008",
+                    "name": "\u91ce\u517d\u730e\u4eba \u6cf0\u8fbe\u7c73\u5c14",
+                    "num": 8,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y01800tm82w&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Bloodlust",
+                    "image": {
+                        "full": "Bloodlust.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u55dc\u8840\u6740\u622e\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u6cf0\u8fbe\u7c73\u5c14\u55dc\u8840\u6210\u6027\uff0c\u83b7\u5f975/10/15/20/25\u653b\u51fb\u529b\uff0c\u6bcf\u635f\u59311%\u751f\u547d\u503c\u989d\u5916\u589e\u52a00.15/0.2/0.25/0.3/0.35\u653b\u51fb\u529b\u3002<br><br>\u4e3b\u52a8\uff1a\u6cf0\u8fbe\u7c73\u5c14\u6d88\u8017\u6012\u6c14\uff0c\u56de\u590d30/40/50/60/70(+0.3*AP)\u751f\u547d\u503c\uff0c\u6bcf1\u70b9\u6012\u6c14\u989d\u5916\u56de\u590d0.5/0.95/1.4/1.85/2.3(+0.012*AP)\u751f\u547d\u503c\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "MockingShout",
+                    "image": {
+                        "full": "MockingShout.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8511\u89c6\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u51cf\u5c11\u8eab\u8fb9\u654c\u65b9\u82f1\u96c420/35/50/65/80\u7684\u653b\u51fb\u529b\uff0c\u6301\u7eed4\u79d2\uff0c\u8f6c\u8eab\u9003\u8dd1\u7684\u654c\u4eba\u4f1a\u88ab\u51cf\u901f30/37.5/45/52.5/60%\u3002<br>\u8ddd\u79bb\uff1a850<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/14/14/14/14\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "slashCast",
+                    "image": {
+                        "full": "slashCast.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u65cb\u98ce\u65a9\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cf0\u8fbe\u7c73\u5c14\u6325\u821e\u5927\u5251\u51b2\u5411\u76ee\u6807\uff0c\u5bf9\u51b2\u950b\u8def\u7ebf\u4e0a\u6240\u6709\u654c\u4eba\u9020\u621070/100/130/160/190(+1.2*\u989d\u5916AD)(+1*AP)\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u6bcf\u5f53\u6cf0\u8fbe\u7c73\u5c14\u6253\u51fa\u66b4\u51fb\u65f6\uff0c\u65cb\u98ce\u65a9\u7684\u51b7\u5374\u65f6\u95f4\u5c31\u4f1a\u51cf\u5c111\u79d2\u3002\u8fd9\u4e2a\u6548\u679c\u5728\u653b\u51fb\u82f1\u96c4\u65f6\u7ffb\u500d\u3002<br>\u8ddd\u79bb\uff1a650<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/12/11/10/9\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "UndyingRage",
+                    "image": {
+                        "full": "UndyingRage.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u65e0\u5c3d\u6012\u706b\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cf0\u8fbe\u7c73\u5c14\u57285/5/5\u79d2\u5185\u5bf9\u6b7b\u4ea1\u514d\u75ab\uff0c\u751f\u547d\u503c\u6700\u4f4e\u4e3a30/50/70\uff0c\u5e76\u77ac\u95f4\u83b7\u5f9750/75/100\u6012\u6c14\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a110/100/90\u79d2<br>"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Assassin"
+            ],
+            "title": "\u6cf0\u8fbe\u7c73\u5c14",
+            "trait": {
+                "dy": {
+                    "add-point": "QEQWQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3006;3714",
+                        "3006;3714;3046;3031;3153;3035",
+                        "3006;3714;3046;3031;3153;3026"
+                    ]
+                },
+                "sd": {
+                    "add-point": "EQQWQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "1055;3087;3006",
+                        "3006;3087;3031;3035;3153;3072",
+                        "3006;3087;3031;3035;3153;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

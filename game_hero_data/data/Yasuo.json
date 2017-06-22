@@ -1,0 +1,146 @@
+{
+    "data": [
+        {
+            "id": "Yasuo",
+            "image": {
+                "full": "Yasuo.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 288,
+                "y": 96
+            },
+            "info": {
+                "attack": 8,
+                "defense": 4,
+                "difficulty": 8,
+                "magic": 4
+            },
+            "key": "157",
+            "name": "\u75be\u98ce\u5251\u8c6a",
+            "passive": {
+                "description": "\u767e\u6298\u4e0d\u5c48\uff1a\u4e9a\u7d22\u5728\u79fb\u52a8\u7684\u540c\u65f6\u4f1a\u79ef\u6512\u5251\u610f\u2014\u2014\u79fb\u52a8\u5f97\u8d8a\u5feb\uff0c\u5251\u610f\u7684\u83b7\u53d6\u5c31\u8d8a\u5feb\u3002\u5f53\u5251\u610f\u69fd\u88ab\u5145\u6ee1\u65f6\uff0c\u5728\u53d7\u5230\u6765\u81ea\u82f1\u96c4\u6216\u91ce\u602a\u7684\u4f24\u5bb3\u7684\u540c\u65f6\uff0c\u4e9a\u7d22\u83b7\u5f97\u4e00\u5c42\u5438\u6536100 - 510\u4f24\u5bb3\uff08\u968f\u82f1\u96c4\u7b49\u7ea7\u6210\u957f\uff09\u7684\u62a4\u76fe\u3002<br><br>\u5411\u6b7b\u800c\u751f\uff1a\u4e9a\u7d22\u7684\u66b4\u51fb\u51e0\u7387\u7ffb\u500d\uff0c\u4f46\u66b4\u51fb\u9020\u6210\u7684\u4f24\u5bb3\u51cf\u5c1110%\u3002<br><br>\u5251\u610f\u503c\u5145\u80fd\u6bd4\u7387: 78/89/100% \u6548\u679c (\u5728\u7b49\u7ea71/7/13\u65f6\u53d8\u5316)",
+                "image": {
+                    "full": "Yasuo_Passive.png"
+                },
+                "name": "\u6d6a\u5ba2\u4e4b\u9053\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=x00132dwr0h",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://player.youku.com/player.php/sid/XNjU4MDY3MjAw/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNjQ4MDMzNjc2.html",
+                    "id": "001",
+                    "name": "\u897f\u90e8\u725b\u4ed4 \u4e9a\u7d22",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNjQ4MDMzNjc2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/5/5a67f1138afvvp2.html?vid=p013688t19k",
+                    "id": "002",
+                    "name": "\u6e90\u8ba1\u5212\uff1a\u98ce",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p013688t19k&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/0/o/f01855df80o.html",
+                    "id": "003",
+                    "name": "\u8165\u7ea2\u4e4b\u6708 \u4e9a\u7d22",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f01855df80o&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "YasuoQW",
+                    "image": {
+                        "full": "YasuoQW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u65a9\u94a2\u95ea\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5411\u524d\u51fa\u5251\uff0c\u9020\u621020/40/60/80/100(+1*\u603bAD)\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u5728\u547d\u4e2d\u65f6\uff0c\u65a9\u94a2\u95ea\u4f1a\u83b7\u5f97\u4e00\u5c42\u65cb\u98ce\u70c8\u65a9\u6548\u679c\uff0c\u6301\u7eed10\u79d2\u3002\u5728\u79ef\u65122\u5c42\u65cb\u98ce\u70c8\u65a9\u6548\u679c\u540e\uff0c\u65a9\u94a2\u95ea\u4f1a\u5f62\u6210\u4e00\u9635\u80fd\u591f\u51fb\u98de\u654c\u4eba\u7684\u65cb\u98ce\u3002<br><br>\u65a9\u94a2\u95ea\u88ab\u89c6\u4e3a\u666e\u901a\u653b\u51fb\uff1a\u5b83\u53ef\u4ee5\u66b4\u51fb\uff0c\u9644\u5e26\u653b\u51fb\u7279\u6548\uff0c\u5e76\u4e14\u5b83\u7684\u51b7\u5374\u65f6\u95f4\u548c\u65bd\u6cd5\u65f6\u95f4\u90fd\u4f1a\u4ece\u653b\u51fb\u901f\u5ea6\u4e0a\u83b7\u5f97\u6536\u76ca\u3002<br><br>\u5982\u679c\u5728\u7a81\u8fdb\u7684\u8fc7\u7a0b\u4e2d\u65bd\u653e\u65a9\u94a2\u95ea\uff0c\u90a3\u4e48\u65a9\u94a2\u95ea\u5c31\u4f1a\u5448\u73af\u72b6\u51fa\u5251\u3002<br><br>\u8ddd\u79bb\uff1a\u523a475\uff0c\u5706\u5708375\uff0c\u65cb\u98ce900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4/4/4\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "YasuoWMovingWall",
+                    "image": {
+                        "full": "YasuoWMovingWall.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u98ce\u4e4b\u969c\u58c1\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5f62\u6210\u4e00\u4e2a\u6c14\u6d41\u4e4b\u5899\uff0c\u53ef\u4ee5\u963b\u6321\u654c\u65b9\u7684\u6240\u6709\u98de\u884c\u9053\u5177\uff0c\u6301\u7eed4\u79d2\u3002<br>\u5899\u7684\u5bbd\u5ea6\uff1a300/350/400/450/500<br>\u65bd\u6cd5\u8ddd\u79bb\uff1a400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a26/24/22/20/18\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "YasuoDashWrapper",
+                    "image": {
+                        "full": "YasuoDashWrapper.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8e0f\u524d\u65a9\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5411\u76ee\u6807\u654c\u4eba\u7a81\u8fdb\uff0c\u9020\u621070/90/110/130/150 (+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u6bcf\u6b21\u65bd\u6cd5\u90fd\u4f1a\u63d0\u5347\u4f60\u7684\u4e0b\u4e00\u6b21\u7a81\u8fdb\u7684\u57fa\u7840\u4f24\u5bb3\u63d0\u534725%\uff0c\u6700\u591a\u63d0\u534750%\u3002<br><br>\u572810/9/8/7/6\u79d2\u5185\u65e0\u6cd5\u5bf9\u76f8\u540c\u654c\u4eba\u91cd\u590d\u65bd\u653e\u3002<br><br>\u5982\u679c\u5728\u7a81\u8fdb\u7684\u8fc7\u7a0b\u4e2d\u65bd\u653e\u65a9\u94a2\u95ea\uff0c\u90a3\u4e48\u65a9\u94a2\u95ea\u5c31\u4f1a\u5448\u73af\u72b6\u51fa\u5251\u3002<br>\u8ddd\u79bb\uff1a475<br><br>\u51b7\u5374\u65f6\u95f4\uff1a0.5/0.4/0.3/0.2/0.1\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "YasuoRKnockUpComboW",
+                    "image": {
+                        "full": "YasuoRKnockUpComboW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u72c2\u98ce\u7edd\u606f\u65a9\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5bf9\u4e00\u4e2a\u88ab\u51fb\u98de\u7684\u654c\u65b9\u82f1\u96c4\u51b2\u53bb\uff0c\u9020\u6210200/300/400(+1.5*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u4f7f\u8303\u56f4\u5185\u7684\u6240\u6709\u88ab\u51fb\u98de\u7684\u654c\u4eba\u5728\u7a7a\u4e2d\u591a\u505c\u75591\u79d2\u3002\u80fd\u591f\u91cd\u7f6e\u65ad\u94a2\u95ea\u7684\u65cb\u98ce\u70c8\u65a9\u5c42\u6570\u3002<br><br>\u5728\u63a5\u4e0b\u6765\u768415\u79d2\u91cc\uff0c\u4e9a\u7d22\u4f1a\u83b7\u5f9750%\u7684\u62a4\u7532\u7a7f\u900f\u52a0\u6210\u2014\u2014\u8fd9\u4e2a\u6548\u679c\u80fd\u591f\u65e0\u89c6\u76ee\u6807\u7684\u6765\u81ea\u88c5\u5907\u3001\u589e\u76ca\u3001\u7b26\u6587\u548c\u5929\u8d4b\u7684\u62a4\u7532\u503c\u3002<br>\u8ddd\u79bb\uff1a1200<br><br>\u51b7\u5374\u65f6\u95f4\uff1a80/55/30\u79d2<br>"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Assassin"
+            ],
+            "title": "\u4e9a\u7d22",
+            "trait": {
+                "dy": {
+                    "add-point": "QEQEQRQQWEREEWWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3111;3725;3087;1053",
+                        "3111;3725;3087;3072;3078;3074",
+                        "3111;3725;3087;3078;3072;3035"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QEQWQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3006;1053;3087;3031",
+                        "3087;3006;3031;3072;3074;3026",
+                        "3087;3006;3031;3035;3065;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

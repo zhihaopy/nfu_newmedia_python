@@ -1,0 +1,158 @@
+{
+    "data": [
+        {
+            "id": "Poppy",
+            "image": {
+                "full": "Poppy.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 384,
+                "y": 0
+            },
+            "info": {
+                "attack": 6,
+                "defense": 6,
+                "difficulty": 7,
+                "magic": 5
+            },
+            "key": "78",
+            "name": "\u5723\u9524\u4e4b\u6bc5",
+            "passive": {
+                "description": "\u6ce2\u6bd4\u7684\u666e\u653b\u4f1a\u5c06\u5979\u7684\u5706\u76fe\u7ed9\u6295\u63b7\u51fa\u53bb\uff0c\u83b7\u5f97400\u653b\u51fb\u8ddd\u79bb\u548c10-180 (\u4e8e1-18\u7ea7)\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a20-190 (\u4e8e1-18\u7ea7) \uff09\u989d\u5916\u9b54\u6cd5\u4f24\u5bb316/13/10 \u79d2 (\u4e8e1/7/13\u7ea7)\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a18/14/10 \u79d2 (\u4e8e1/7/13\u7ea7)\uff09\u3002<br><br>\u5706\u76fe\u4f1a\u843d\u5728\u9644\u8fd1\u7684\u4e00\u4e2a\u533a\u57df\u5e76\u4e14\u6ce2\u6bd4\u53ef\u4ee5\u628a\u5b83\u6361\u8d77\u6765\uff0c\u4ee5\u63d0\u4f9b\u4e00\u4e2a\u62a4\u76fe\uff0c\u8fd9\u4e2a\u62a4\u76fe\u53ef\u5438\u653615/17.5/20% (\u4e8e1/7/13\u7ea7)\u6ce2\u6bd4\u7684\u6700\u5927\u751f\u547d\u503c\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a\u6ce2\u6bd415%\u6700\u5927\u751f\u547d\u503c\uff09\u4f24\u5bb3\uff0c\u5e76\u6301\u7eed5\u79d2\u3002\u654c\u4eba\u53ef\u901a\u8fc7\u8e29\u5728\u5706\u76fe\u4e0a\u6765\u5c06\u5b83\u6467\u6bc1\u3002<br><br>\u5982\u679c\u653b\u51fb\u51fb\u6740\u4e86\u76ee\u6807\uff0c\u90a3\u4e48\u5706\u76fe\u4f1a\u81ea\u52a8\u56de\u5230\u6ce2\u6bd4\u8eab\u4e0a\u3002<br><br>\u5c04\u7a0b\uff1a425",
+                "image": {
+                    "full": "Poppy_ValiantFighter.png"
+                },
+                "name": "\u94a2\u94c1\u5927\u4f7f\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/7/v/3/7bdpGemWdv3.html?start=1",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7bdpGemWdv3&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/0/k0104x0jjw0.html",
+                    "id": "001",
+                    "name": "\u8bfa\u514b\u8428\u65af \u6ce2\u6bd4",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0104x0jjw0&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/h/0/t/h01123pxpft.html",
+                    "id": "002",
+                    "name": "\u6ce2\u6bd4\u7684\u5de7\u514b\u529b\u5de5\u574a",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h01123pxpft&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/0/k/d01048em3gk.html",
+                    "id": "003",
+                    "name": "\u5b97\u5e08\u7ea7\u953b\u9020\u8bad\u7ec3\u5e08",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d01048em3gk&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/t/i0112d5jlct.html",
+                    "id": "004",
+                    "name": "\u5723\u8bde\u73a9\u5076 \u6ce2\u6bd4",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0112d5jlct&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_w0100cdo624.html",
+                    "id": "005",
+                    "name": "\u519b\u795e\u6218\u7532 \u6ce2\u6bd4",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w0100cdo624&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_t0101mtmntn.html",
+                    "id": "006",
+                    "name": "\u8840\u8272\u4e4b\u9524 \u6ce2\u6bd4",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=t0101mtmntn&auto=1"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "PoppyDevastatingBlow",
+                    "image": {
+                        "full": "PoppyDevastatingBlow.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5723\u9524\u731b\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u6ce2\u6bd4\u731b\u7838\u5730\u9762\uff0c\u9020\u621035/55/75/95/115(+0.8*\u989d\u5916AD)\u52a0\u4e0a\u654c\u4eba7%\uff084\u670812\u65e56.7\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a6%\uff09\u6700\u5927\u751f\u547d\u503c\u7684\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u7559\u4e0b\u4e00\u4e2a\u4e0d\u7a33\u5b9a\u533a\u57df\u3002<br><br>\u8fd9\u4e2a\u533a\u57df\u4f1a\u4f7f\u8303\u56f4\u5185\u7684\u654c\u4eba\u51cf\u901f20%/25%/30%/40%/50%\u5e76\u5728\u79d2\u540e\u55b7\u53d1\uff0c\u518d\u6b21\u9020\u6210\u521d\u59cb\u4f24\u5bb3\u3002 <br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/8/7/6/5\u79d2<br>\u6d88\u8017\uff1a35/40/45/50/55/ \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "PoppyParagonOfDemacia",
+                    "image": {
+                        "full": "PoppyParagonOfDemacia.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u575a\u5b9a\u98ce\u91c7\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u6ce2\u6bd4\u83b7\u5f97\u62a4\u7532\u548c\u9b54\u6297(12%\u7684\u62a4\u7532\u548c\u9b54\u6297)\u3002 \u8fd9\u4e2a\u52a0\u6210\u4f1a\u5728\u6ce2\u6bd4\u7684\u751f\u547d\u503c\u4f4e\u4e8e40%\u65f6\u7ffb\u500d\u3002 <br><br>\u4e3b\u52a8\uff1a\u5728\u63a5\u4e0b\u6765\u7684\u79d2\u91cc\uff0c\u6ce2\u6bd4\u83b7\u5f9732/34/36/38/40%\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a27/29/31/33/35%\uff09\u79fb\u52a8\u901f\u5ea6\u3002\u5f53\u575a\u5b9a\u98ce\u91c7\u6fc0\u6d3b\u65f6\uff0c\u5979\u4f1a\u963b\u6321\u654c\u4eba\u5728\u5979\u8eab\u8fb9\u8fdb\u884c\u7684\u7a81\u8fdb\uff0c\u540c\u65f6\u9020\u621070/110/140/170/200(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a24/22/20/18/16\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "PoppyHeroicCharge",
+                    "image": {
+                        "full": "PoppyHeroicCharge.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u82f1\u52c7\u51b2\u950b\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u6ce2\u6bd4\u64d2\u62b1\u4e00\u540d\u654c\u4eba\uff0c\u9020\u621050/70/90/110/130(+0.5*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u5e76\u5c06\u8be5\u654c\u4eba\u63a8\u5411\u524d\u65b9\u3002\u5982\u679c\u6ce2\u6bd4\u5c06\u76ee\u6807\u63a8\u5230\u5730\u5f62\u4e0a\uff0c\u90a3\u4e48\u654c\u4eba\u4f1a\u53d7\u5230\u989d\u5916\u768450/70/90/110/130(+0.5*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u5e76\u88ab\u6655\u77291.6/1.7/1.8/1.9/2\u79d2\u3002<br><br>\u5c04\u7a0b\uff1a425\uff084\u670812\u65e56.7\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a525\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/13/12/11/10\u79d2<br>\u6d88\u8017\uff1a70/70/70/70/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "PoppyDiplomaticImmunity",
+                    "image": {
+                        "full": "PoppyDiplomaticImmunity.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6301\u536b\u7684\u88c1\u51b3\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u9996\u6b21\u65bd\u653e\uff1a\u6ce2\u6bd4\u5f15\u5bfc\u6700\u591a\u79d2\uff0c\u540c\u65f6\u4f7f\u5979\u81ea\u8eab\u51cf\u901f15%\u3002 <br><br>\u518d\u6b21\u65bd\u653e\uff1a\u6ce2\u6bd4\u731b\u7838\u5730\u9762\uff0c\u53d1\u51fa\u4e00\u9053\u51b2\u51fb\u6ce2\uff0c\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u82f1\u96c4\u8eab\u8fb9\u7684\u654c\u4eba\u9020\u6210200/300/400(+0.9*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u671d\u7740\u4ed6\u4eec\u7684\u53ec\u5524\u5e08\u5e73\u53f0\u51fb\u9000\u4ed6\u4eec\u4e00\u5927\u6bb5\u8ddd\u79bb\u3002\u5f15\u5bfc\u65f6\u95f4\u8d8a\u4e45\uff0c\u5219\u51b2\u51fb\u6ce2\u7684\u957f\u5ea6\u548c\u51fb\u9000\u8ddd\u79bb\u8d8a\u957f\u3002 <br><br>\u5728\u88ab\u51fb\u9000\u72b6\u6001\u4e0b\uff0c\u654c\u4eba\u65e0\u6cd5\u88ab\u9009\u4e3a\u76ee\u6807\u3002<br><br>\u77ac\u53d1\u65f6\u7684\u51fb\u98de\u65f6\u957f\uff1a1\u79d2<br><br>\u51b7\u5374\u65f6\u95f4\uff1a140/120/100\u79d2<br>\u6d88\u8017:100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Assassin"
+            ],
+            "title": "\u6ce2\u6bd4",
+            "trait": {
+                "sd": {
+                    "add-point": "QEQWQRWQWQRWWEEREE",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "1054;3078",
+                        "3065;3078;3146;3068;3111;3143",
+                        "3065;3078;3026;3068;3111;3143"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

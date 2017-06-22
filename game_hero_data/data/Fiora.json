@@ -1,0 +1,151 @@
+{
+    "data": [
+        {
+            "id": "Fiora",
+            "image": {
+                "full": "Fiora.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 96,
+                "y": 96
+            },
+            "info": {
+                "attack": 10,
+                "defense": 4,
+                "difficulty": 5,
+                "magic": 2
+            },
+            "key": "114",
+            "name": "\u65e0\u53cc\u5251\u59ec",
+            "passive": {
+                "description": "\u83f2\u5965\u5a1c\u53ef\u4ee5\u5bdf\u89c9\u51fa\u9644\u8fd1\u654c\u65b9\u82f1\u96c4\u7684\u7834\u7efd\u3002\u5728\u5bf9\u4e00\u4e2a\u7834\u7efd\u8fdb\u884c\u6253\u51fb\u6216\u8005\u7b49\u5f8515\u79d2\u540e\uff0c\u83f2\u5965\u5a1c\u4f1a\u6807\u51fa\u4e00\u4e2a\u65b0\u7684\u7834\u7efd\u3002<br><br>\u7834\u7efd\u65b9\u5411\u9009\u62e9\uff1a\u5de6\u4e0b\u4fa7\u548c\u53f3\u4e0a\u4fa7\u4e4b\u95f4\u8f6e\u6362<br><br>\u5f53\u83f2\u5965\u5a1c\u5bf9\u4e00\u4e2a\u7834\u7efd\u8fdb\u884c\u6253\u51fb\u65f6\uff0c\u5979\u4f1a\u9020\u62102%\uff08+0.045*\u989d\u5916AD\uff09\u76ee\u6807\u6700\u5927\u751f\u547d\u503c\u7684\u771f\u5b9e\u4f24\u5bb3\uff0c\u83b7\u5f97\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\uff08\u5c06\u57281.75\u79d2\u91cc\u6301\u7eed\u8870\u51cf\uff09\uff0c\u5e76\u56de\u590d\u751f\u547d\u503c30-115 (\u4e8e1-18\u7ea7)\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a25-110 (\u4e8e1-18\u7ea7) \uff09\u3002",
+                "image": {
+                    "full": "Fiora_Duelist.png"
+                },
+                "name": "\u51b3\u6597\u4e4b\u821e\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/d/0/k/d01090qcbwk.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d01090qcbwk&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_x01000eryi8.html",
+                    "id": "001",
+                    "name": "\u7687\u5bb6\u5b88\u536b \u83f2\u5965\u5a1c",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x01000eryi8&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_w0100f2h5mm.html",
+                    "id": "002",
+                    "name": "\u591c\u9e26 \u83f2\u5965\u5a1c",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w0100f2h5mm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/e/0/n/e0112qpleln.html",
+                    "id": "003",
+                    "name": "\u5973\u6821\u957f \u83f2\u5965\u5a1c",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0112qpleln&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/i/0/x/i01634prl9x.html",
+                    "id": "004",
+                    "name": "\u6e90\u8ba1\u5212\uff1a\u706b",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i01634prl9x&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/r/b/3/r0309f52qb3.html?start=27",
+                    "id": "005",
+                    "name": "\u6cf3\u6c60\u6d3e\u5bf9 \u83f2\u5965\u5a1c",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0309f52qb3&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "FioraQ",
+                    "image": {
+                        "full": "FioraQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7834\u7a7a\u65a9\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u83f2\u5965\u5a1c\u5411\u4e00\u4e2a\u65b9\u5411\u8fdb\u884c\u7a81\u523a\u5e76\u65a9\u51fb\u4e00\u4e2a\u9644\u8fd1\u7684\u654c\u4eba\uff0c\u9020\u621065/75/85/95/105(+0.95/1/1.05/1.1/1.15\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a0.55/0.7/0.85/1/1.15\uff09*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u5e76\u65bd\u52a0\u653b\u51fb\u7279\u6548\u3002\u8fd9\u4e2a\u6280\u80fd\u4f1a\u4f18\u5148\u653b\u51fb\u5e26\u6709\u7834\u7efd\u5e76\u5728\u51fb\u6740\u8ddd\u79bb\u5185\u7684\u654c\u4eba\u3002 <br><br>\u5982\u679c\u8fd9\u4e2a\u6280\u80fd\u547d\u4e2d\u4e86\u4e00\u4e2a\u654c\u4eba\uff0c\u90a3\u4e48\u5c31\u4f1a\u8fd4\u8fd860/60/60/60/60%\u7684\u51b7\u5374\u65f6\u95f4\u3002<br><br>\u5f53\u83f2\u5965\u5a1c\u4ece\u6218\u4e89\u8ff7\u96fe\u4e2d\u7528\u3010Q\u7834\u7a7a\u65a9\u3011\u547d\u4e2d\u654c\u4eba\u65f6\uff0c\u4f1a\u628a\u81ea\u8eab\u663e\u793a\u7ed9\u76ee\u6807<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/16/14/12/10\u79d2<br>\u6d88\u8017\uff1a25/30/35/40/45 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FioraRiposte",
+                    "image": {
+                        "full": "FioraRiposte.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u52b3\u4f26\u7279\u5fc3\u773c\u5200\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u83f2\u5965\u5a1c\u5bf9\u5373\u5c06\u5230\u6765\u7684\u6240\u6709\u4f24\u5bb3\u548c\u63a7\u5236\u6548\u679c\u8fdb\u884c\u62db\u67b6\uff0c\u6301\u7eed0.75/0.75/0.75/0.75/0.75\u79d2\uff0c\u7136\u540e\u671d\u76ee\u6807\u65b9\u5411\u8fdb\u884c\u523a\u51fb\u3002 <br><br>\u523a\u51fb\u4f1a\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u654c\u65b9\u82f1\u96c4\u9020\u621090/130/170/210/250(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4f7f\u76ee\u6807\u7684\u653b\u51fb\u901f\u5ea6\u548c\u79fb\u52a8\u901f\u5ea6\u51cf\u5c1150/50/50/50/50%\uff0c\u6301\u7eed1.5/1.5/1.5/1.5/1.5\u79d2\u3002 <br><br>\u5982\u679c\u83f2\u5965\u5a1c\u62db\u67b6\u6389\u4e00\u4e2a\u7981\u9522\u7c7b\u7684\u9650\u5236\u6548\u679c\uff0c\u90a3\u4e48\u5979\u4f1a\u5bf9\u76ee\u6807\u9020\u6210\u6655\u7729\u6548\u679c\u800c\u4e0d\u662f\u51cf\u901f\u6548\u679c\u3002<br><br>\u73b0\u5728\u4f1a\u6b63\u786e\u5730\u62db\u67b6\u9524\u77f3\u7684\u3010Q\u6b7b\u4ea1\u5224\u51b3\u3011<br><br>\u51b7\u5374\u65f6\u95f4\uff1a 24/22/20/18/16\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FioraFlurry",
+                    "image": {
+                        "full": "FioraFlurry.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u593a\u547d\u8fde\u523a\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u83f2\u5965\u5a1c\u7684\u4e0b\u4e24\u6b21\u653b\u51fb\u63d0\u534750/50/50/50/50%\u653b\u51fb\u901f\u5ea6\u3002\u7b2c\u4e00\u6b21\u653b\u51fb\u65e0\u6cd5\u4ea7\u751f\u66b4\u51fb\uff0c\u4f46\u4f1a\u65bd\u52a0\u4e00\u4e2a30%\u51cf\u901f\u6548\u679c\uff0c\u6301\u7eed1/1/1/1/1\u79d2\u3002\u7b2c\u4e8c\u6b21\u653b\u51fb\u5fc5\u5b9a\u4f1a\u4ea7\u751f\u66b4\u51fb\uff0c\u9020\u6210140%/155%/170%/185%/200%\u4f24\u5bb3\u3002<br><br>\u653b\u51fb\u8ddd\u79bb\u52a0\u6210\uff1a25<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/11/9/7/5\u79d2<br>\u6d88\u8017\uff1a40/45/50/55/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FioraDance",
+                    "image": {
+                        "full": "FioraDance.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u65e0\u53cc\u6311\u6218\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u83f2\u5965\u5a1c\u6807\u51fa\u76ee\u6807\u82f1\u96c4\u8eab\u4e0a\u7684\u5168\u90e8\u56db\u5904\u7834\u7efd\uff0c\u6700\u591a\u53ef\u9020\u6210%\u6700\u5927\u751f\u547d\u503c\u7684\u771f\u5b9e\u4f24\u5bb3\u3002\u6b64\u5916\uff0c\u83f2\u5965\u5a1c\u5728\u654c\u65b9\u82f1\u96c4\u9644\u8fd1\u65f6\uff0c\u4f1a\u83b7\u5f97\u3010\u51b3\u6597\u4e4b\u821e\u3011\u63d0\u4f9b\u7684\u79fb\u52a8\u901f\u5ea6\u52a0\u6210(%)\u3002 <br><br>\u5982\u679c\u83f2\u5965\u5a1c\u57288/8/8\u79d2\u5185\u547d\u4e2d\u4e86\u5168\u90e8\u56db\u5904\u7834\u7efd\uff0c\u6216\u8005\u5728\u76ee\u6807\u6b7b\u524d\u81f3\u5c11\u547d\u4e2d\u4e00\u5904\uff0c\u90a3\u4e48\u83f2\u5965\u5a1c\u548c\u8303\u56f4\u5185\u7684\u53cb\u519b\u5c31\u4f1a\u6bcf\u79d2\u56de\u590d80/110/140(+0.6*\u989d\u5916AD)\u751f\u547d\u503c\uff0c\u6301\u7eed2-5\u79d2\uff0c\u7b2c\u4e00\u4e2a\u7834\u7efd\u4e4b\u540e\uff0c\u83f2\u5965\u5a1c\u6bcf\u51fb\u7834\u4e00\u4e2a\u7834\u7efd\uff0c\u5c31\u4f1a\u4f7f\u6cbb\u7597\u6301\u7eed\u65f6\u957f\u5ef6\u957f1\u79d2\u3002<br>\u8ddd\u79bb\uff1a400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a130/120/110\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Assassin"
+            ],
+            "title": "\u83f2\u5965\u5a1c",
+            "trait": {
+                "sd": {
+                    "add-point": "WQEWERWWEWREQEQRQQ",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3134;3077;3009;1053",
+                        "3142;3074;3035;3153;3026;3111",
+                        "3074;3111;3035;3143;3102;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}
