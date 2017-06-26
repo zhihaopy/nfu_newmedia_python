@@ -1,0 +1,27 @@
+
+
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/search_province'>
+<table>
+<tr><p>使用此窗口提交搜索请求：</p></tr>
+<tr><td>选取省份/直辖市：</td></td>
+<td><select name='province'>
+     {% for item in the_user_province %}
+	 
+       <option value="{{item}}">{{item}}</option> 
+ 
+     {% endfor %}
+
+</select>
+</td></tr>
+</table>
+<p>准备就绪后, 单击此按钮：</p>
+<p><input value='提交' type='SUBMIT'></p>
+</form>
+
+{% endblock %}

@@ -1,4 +1,4 @@
-﻿import urllib.request, json
+import urllib.request, json
 
 def get_weather(city_name):
     print ('''

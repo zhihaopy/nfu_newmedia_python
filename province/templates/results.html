@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<p>您获取了以下的数据：</p>
+</table>
+<table  style="table-layout:fixed;" align="center" border="1px" cellspacing="0px" bordercolor="white" >
+<tr bgcolor="#2ca9e1">
+	<th width="100">年份</th>
+	<th width="150">2006年</th>
+	<th width="150">2007年</th>
+	<th width="150">2008年</th>
+        <th width="150">2009年</th>
+	<th width="150">2010年</th>
+	<th width="150">2011年</th>
+	<th width="150">2012年</th>
+	<th width="150">2013年</th>
+	<th width="150">2014年</th>
+	<th width="150">2015年</th>
+<tr bgcolor="#89c3eb">
+<th width="100">省份互联网普及率（单位：百分比）</th>
+	<th width="150">{{the_results_1}}%</th>
+	<th width="150">{{the_results_2}}%</th>
+        <th width="150">{{the_results_3}}%</th>
+	<th width="150">{{the_results_4}}%</th>
+	<th width="150">{{the_results_5}}%</th>
+	<th width="150">{{the_results_6}}%</th>
+	<th width="150">{{the_results_7}}%</th>
+	<th width="150">{{the_results_8}}%</th>
+	<th width="150">{{the_results_9}}%</th>
+	<th width="150">{{the_results_10}}%</th>
+</tr>	
+
+
+{% endblock %}
