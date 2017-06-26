@@ -9,9 +9,15 @@
 <th colspan="2">使用此窗体提交搜索请求：</th>
 <tr><td>月份：</td><td><input name='user_birthday_month' type='TEXT' value='输入你的出生月份'></td></tr>
 <tr><td>日子：</td><td><input name='user_birthday_day' type='TEXT' value='输入你的出生日'></td></tr>
+<form method='POST' action='/pick_a_blood'>
+  {% for item in the_list_items %}
+    <option value="{{item}}">{{item}}</option>
+  {% endfor %}
 </table>
 <p>准备就绪后, 单击此按钮：</p>
 <p><input value='开始' type='SUBMIT'></p>
 </form>
 
 {% endblock %}
+
+
