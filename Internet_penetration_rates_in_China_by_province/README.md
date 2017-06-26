@@ -1,5 +1,5 @@
-province
-英文名字为province
+Internet_penetration_rates_in_China_by_province
+英文名字为Internet_penetration_rates_in_China_by_province,中文名字为中国省份互联网普及率。
 		
 # 简介 
 选取省份，输入方面为省份的名称，输出方面则是省份的10年互联网普及率，可查省份34个，数据来源为从国家数据统计局官网取得的tsv档和json档。
@@ -23,7 +23,7 @@ province
 
 1.以下按web 请求（web request） - web 响应 时序说明
 
-2.後端伺服器启动：执行 province.py 启动後端伺服器，等待web 请求。启动成功应出现： * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2.後端伺服器启动：执行 Internet_penetration_rates_in_China_by_province.py 启动後端伺服器，等待web 请求。启动成功应出现： * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 3.前端浏览器web 请求：访问 http://127.0.0.1:5000/ 启动前端web 请求
 
@@ -35,7 +35,7 @@ province
 
 7.後端服务器收到用户web 请求，匹配到@app.route('/search_province', methods=['POST'])的函数 do_search()
 
-8.[proince.py](province.py) 中 def do_search() 函数，把用户提交的数据，以flask 模块request.form['province']	取到Web 请求中，HTML表单变数名称province的值，存放在province这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中the_province的值，用province这变数之值，其他10项值如此类推。
+8.[Internet_penetration_rates_in_China_by_province.py](Internet_penetration_rates_in_China_by_province.py) 中 def do_search() 函数，把用户提交的数据，以flask 模块request.form['province']	取到Web 请求中，HTML表单变数名称province的值，存放在province这Python变数下，再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出），其中模版中the_province的值，用province这变数之值，其他10项值如此类推。
 
 9.前端浏览器收到web 响应：模版中[templates/results.html](templates/results.html) 的变数值正确的产生的话，前端浏览器会收到正确响应，看到省份的互联网普及率。
 
