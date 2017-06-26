@@ -8,9 +8,9 @@ Internet penetration rate in provinces
 		
 
 ## 输入：
-省份的名字(https://github.com/Baizui/nfu_newmedia_python/blob/master/province/templates/entry.html)
+[省份的名字](https://github.com/Baizui/nfu_newmedia_python/blob/master/province/templates/entry.html)
 ## 输出：
-该省份互联网普及率最近十年的数据(https://github.com/Baizui/nfu_newmedia_python/blob/master/province/templates/results.html)
+[该省份互联网普及率最近十年的数据](https://github.com/Baizui/nfu_newmedia_python/blob/master/province/templates/results.html)
 ## 从输入到输出，本组作品使用了：
 ### 模块
 * pandas 大数据，将数据转化为tsv档,再将它转为字典。弄成列表，将每个省份与十年数据对接起来。
