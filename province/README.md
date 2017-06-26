@@ -1,6 +1,5 @@
-
-Internet penetration rate in provinces 
-
+province
+英文名称为province，中文意思是省份
 		
 # 简介 
 输入方面是选取省份，输出方面则是输出省份10年互联网普及率数据，可查省份为32个，数据来源为教师从国家数据统计局官网抓取的tsv档和json档。
