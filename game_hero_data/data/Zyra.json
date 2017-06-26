@@ -1,0 +1,146 @@
+{
+    "data": [
+        {
+            "id": "Zyra",
+            "image": {
+                "full": "Zyra.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 192,
+                "y": 96
+            },
+            "info": {
+                "attack": 4,
+                "defense": 3,
+                "difficulty": 7,
+                "magic": 8
+            },
+            "key": "143",
+            "name": "\u8346\u68d8\u4e4b\u5174",
+            "passive": {
+                "description": "\u79cd\u5b50\u4f1a\u5468\u671f\u6027\u7684\u5728\u5a55\u62c9\u8eab\u8fb9\u751f\u6210\uff0c\u751f\u6210\u901f\u5ea6\u968f\u7b49\u7ea7\u63d0\u5347\uff0c\u5e76\u4e14\u79cd\u5b50\u6301\u7eed45\u79d2\uff08\u6700\u591a\u53ef\u64ad\u4e0b8\u9897\u79cd\u5b50\uff09\u3002\u79cd\u5b50\u88ab\u654c\u65b9\u82f1\u96c4\u8e29\u4e2d\u5c31\u4f1a\u6b7b\u4ea1\u3002\u5982\u679c\u5a55\u62c9\u8eb2\u5728\u8349\u4e1b\u91cc\uff0c\u79cd\u5b50\u5c31\u4e0d\u4f1a\u751f\u6210\uff0c\u76f4\u5230\u5a55\u62c9\u5c06\u81ea\u5df1\u66b4\u9732\u5728\u654c\u65b9\u89c6\u91ce\u5185\u4e3a\u6b62\u3002<br><br>\u5728\u79cd\u5b50\u9644\u8fd1\u65bd\u653e\u3010Q\u81f4\u547d\u8346\u68d8\u3011\u6216\u3010E\u7f20\u7ed5\u4e4b\u6839\u3011\u4f1a\u8ba9\u79cd\u5b50\u957f\u6210\u690d\u7269\u3002\u989d\u5916\u7684\u690d\u7269\u5728\u653b\u51fb\u76f8\u540c\u76ee\u6807\u65f6\u53ea\u9020\u621050%\u4f24\u5bb3\u3002<br><br>\u79cd\u5b50\u5237\u65b0\u65f6\u95f4\uff1a 13 - 8.5 \u79d2 (\u4e8e1-18\u7ea7)",
+                "image": {
+                    "full": "ZyraP.png"
+                },
+                "name": "\u8346\u68d8\u82b1\u56ed\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/p/a/q/p0103cz48aq.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p0103cz48aq&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/m/y0112fo0kqm.html",
+                    "id": "001",
+                    "name": "\u91ce\u706b\u4e4b\u85e4 \u5a55\u62c9",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0112fo0kqm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/j/y0122mdca7j.html",
+                    "id": "002",
+                    "name": "\u9b3c\u5f71\u68ee\u68ee \u5a55\u62c9",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0122mdca7j&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/j/y0122mdca7j.html",
+                    "id": "003",
+                    "name": "SKT T1 \u5a55\u62c9",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a0127azq3ze&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "ZyraQFissure",
+                    "image": {
+                        "full": "ZyraQFissure.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u81f4\u547d\u8346\u68d8\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7c97\u58ee\u7684\u85e4\u8513\u5728\u5730\u9762\u8513\u5ef6\uff0c\u5e76\u7206\u70b8\u6210\u8346\u68d8\uff0c\u5bf9\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u621060/95/130/165/200 \uff08+0.6*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8346\u68d8\u82b1\u56ed\uff1a\u5982\u679c\u3010Q\u81f4\u547d\u8346\u68d8\u3011\u5728\u4e00\u9897\u79cd\u5b50\u9644\u8fd1\u65bd\u653e\uff0c\u90a3\u4e48\u8fd9\u9897\u79cd\u5b50\u5c31\u4f1a\u957f\u6210\u8346\u68d8\u55b7\u5c04\u8005\uff0c\u9020\u621019-127 (\u4e8e1-18\u7ea7)\uff08+0.15*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u3002\u8346\u68d8\u55b7\u5c04\u8005\u62e5\u6709750\u653b\u51fb\u8ddd\u79bb\uff0c\u5e76\u4e14\u53ef\u6301\u7eed4.9(+0.1*\u5f53\u524d\u7b49\u7ea7)\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/6.5/6/5.5/5\u79d2<br>\u6d88\u8017\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "ZyraSeed",
+                    "image": {
+                        "full": "ZyraSeed.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8fc5\u731b\u6210\u957f\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u64ad\u4e0b\u4e00\u9897\u79cd\u5b50\uff0c\u6301\u7eed60\u79d2\u3002\u79cd\u5b50\u4f1a\u5728\u88ab\u654c\u65b9\u8e29\u4e2d\u65f6\u6b7b\u4ea1\u3002\u8fd9\u4e2a\u6280\u80fd\u64ad\u4e0b\u7684\u79cd\u5b50\u53ef\u4ee5\u63d0\u4f9b\u5c0f\u5e45\u89c6\u91ce\uff0c\u5e76\u4e14\u5728\u88ab\u654c\u65b9\u82f1\u96c4\u8e29\u5230\u65f6\u4f1a\u63d0\u4f9b\u8be5\u82f1\u96c4\u7684\u89c6\u91ce\uff0c\u6301\u7eed2\u79d2\u3002<br><br>\u5a55\u62c9\u6bcf20/18/16/14/12 \u79d2\u4f1a\u50a8\u5b58\u4e00\u9897\u79cd\u5b50\uff08\u6700\u591a\u53ef\u64ad\u4e0b8\u9897\u79cd\u5b50\uff09\u3002<br><br>\u88ab\u52a8\uff1a\u5a55\u62c9\u7684\u690d\u7269\u83b7\u5f9710%/20%/30%/40%/50%\u989d\u5916\u6700\u5927\u751f\u547d\u503c\u3002<br><br>\u65e0\u51b7\u5374<br>\u6d88\u8017:1\u9897\u79cd\u5b50"
+                },
+                {
+                    "description": "",
+                    "id": "ZyraGraspingRoots",
+                    "image": {
+                        "full": "ZyraGraspingRoots.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7f20\u7ed5\u4e4b\u6839\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5411\u524d\u65b9\u653e\u51fa\u85e4\u8513\uff0c\u5bf9\u654c\u4eba\u9020\u6210 60/95/130/165/200(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u548c0.75/1/1.25/1.5/1.75 \u79d2\u675f\u7f1a\u6548\u679c\u3002<br><br>\u8346\u68d8\u82b1\u56ed\uff1a\u5982\u679c\u3010E\u7f20\u7ed5\u4e4b\u6839\u3011\u5728\u4e00\u9897\u79cd\u5b50\u9644\u8fd1\u7ecf\u8fc7\uff0c\u90a3\u4e48\u8fd9\u9897\u79cd\u5b50\u5c31\u4f1a\u957f\u6210\u85e4\u8513\u97ad\u51fb\u8005\uff0c\u9020\u621019-127 (\u4e8e1-18\u7ea7)\uff08+0.15*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u5e76\u7ed9\u654c\u4eba\u65bd\u52a0\u6301\u7eed2\u79d2\u768430%\u51cf\u901f\u6548\u679c\u3002\u85e4\u8513\u97ad\u51fb\u8005\u62e5\u6709400\u653b\u51fb\u8ddd\u79bb\uff0c\u5e76\u4e14\u53ef\u6301\u7eed4.9(+0.1*\u5f53\u524d\u7b49\u7ea7)\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2<br>\u6d88\u8017\uff1a70/75/80/85/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "ZyraBrambleZone",
+                    "image": {
+                        "full": "ZyraBrambleZone.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7ede\u6740\u4e4b\u85e4\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u53ec\u5524\u81ea\u7136\u7684\u72c2\u6012\uff0c\u8ba9\u4e00\u4e2a\u626d\u66f2\u7684\u5bc6\u6797\u5728\u76ee\u6807\u533a\u57df\u6210\u957f\uff0c\u5728\u5b83\u8513\u5ef6\u65f6\u5bf9\u533a\u57df\u5185\u7684\u6240\u6709\u654c\u4eba\u9020\u6210 180/265/350(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u57282\u79d2\u4e4b\u540e\uff0c\u85e4\u8513\u4f1a\u5c06\u654c\u4eba\u51fb\u98de\u81f3\u7a7a\u4e2d1\u79d2\u3002<br><br>\u8346\u68d8\u82b1\u56ed\uff1a\u5bc6\u6797\u5185\u7684\u654c\u4eba\u4f1a\u88ab\u6fc0\u6012\uff0c\u72c2\u98ce\u822c\u7684\u653b\u51fb\u4f1a\u9020\u6210150%\u603b\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a130/120/110\u79d2<br>\u6d88\u8017\uff1a100/120/140 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Support"
+            ],
+            "title": "\u5a55\u62c9",
+            "trait": {
+                "fz": {
+                    "add-point": "EWQQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "3301;2043;2003;3340",
+                        "3020;2045;3069",
+                        "3020;3089;3116;3151;2045;3069",
+                        "3020;3190;3116;3151;2045;3069"
+                    ]
+                },
+                "zd": {
+                    "add-point": "EWQQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3151;3116;3020;1056",
+                        "3151;3116;3089;3135;3165;3020",
+                        "3151;3116;3089;3135;3157;3020"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

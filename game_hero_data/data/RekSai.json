@@ -1,0 +1,128 @@
+{
+    "data": [
+        {
+            "id": "RekSai",
+            "image": {
+                "full": "RekSai.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 48,
+                "y": 0
+            },
+            "info": {
+                "attack": 8,
+                "defense": 5,
+                "difficulty": 3,
+                "magic": 2
+            },
+            "key": "421",
+            "name": "\u865a\u7a7a\u9041\u5730\u517d",
+            "passive": {
+                "description": "\u96f7\u514b\u585e\u5728\u5730\u8868\u65f6\uff0c\u5979\u7684\u666e\u653b\u548c\u6280\u80fd\u4f1a\u4ea7\u751f\u6012\u6c14\u3002<br><br>\u96f7\u514b\u585e\u5728\u5730\u5e95\u65f6\u4f1a\u6d88\u8017\u6012\u6c14\uff0c\u5e76\u57285\u79d2\u91cc\u6700\u591a\u56de\u590d\uff08\u5f53\u524d\u7b49\u7ea7*25\uff09\u70b9\u751f\u547d\u503c\u3002<br><br>\u96f7\u514b\u585e\u5728\u9041\u5730\u540e5\u79d2\u5185\u7684\u7b2c\u4e00\u6b21\u653b\u51fb\u4e0d\u518d\u63d0\u4f9b15\u989d\u5916\u6012\u6c14\u3002",
+                "image": {
+                    "full": "RekSai_Passive.png"
+                },
+                "name": "\u827e\u514b\u585e\u4e4b\u6012\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/cover/w/wozi182asnu8yo2.html?vid=r0141pk3w6u",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0141pk3w6u&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/w/wozi182asnu8yo2.html?vid=g014108py3y",
+                    "id": "001",
+                    "name": "\u4e0a\u53e4\u6218\u9b42 \u96f7\u514b\u585e",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g014108py3y&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=i0156opbs3d",
+                    "id": "002",
+                    "name": "\u6cf3\u6c60\u6d3e\u5bf9 \u96f7\u514b\u585e",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0156opbs3d&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "RekSai_Q1",
+                    "image": {
+                        "full": "RekSai_Q1.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5973\u738b\u4e4b\u6012 / \u730e\u7269\u641c\u5bfb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f4d\u4e8e\u5730\u8868\uff1a\u96f7\u514b\u585e\u57285\u79d2\u91cc\u7684\u4e0b3\u6b21\u666e\u653b\u4f1a\u5bf9\u9644\u8fd1\u7684\u654c\u4eba\u9020\u621015/25/35/45/55(+0.2*\u989d\u5916AD)\u70b9\u989d\u5916\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u4f4d\u4e8e\u5730\u4e0b\uff1a\u96f7\u514b\u585e\u53d1\u5c04\u4e00\u675f\u5145\u6ee1\u865a\u7a7a\u80fd\u91cf\u7684\u51b2\u51fb\u6ce2\uff0c\u5f15\u7206\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u5355\u4f4d\uff0c\u9020\u621060/90/120/150/180(+0.7*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u66b4\u9732\u88ab\u547d\u4e2d\u7684\u975e\u6f5c\u884c\u654c\u4eba\uff0c\u6301\u7eed2.5/2.5/2.5/2.5/2.5\u79d2\u3002<br>\u8ddd\u79bb\uff1a325<br>\u51b7\u5374\u65f6\u95f4\uff1a11/10/9/8/7\u79d2\uff08\u730e\u7269\u641c\u5bfb\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4/4/4\u79d2  \uff08\u5973\u738b\u4e4b\u6012\uff09 <br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "RekSai_W1",
+                    "image": {
+                        "full": "RekSai_W1.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9041\u5730 / \u7834\u571f\u800c\u51fa\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f4d\u4e8e\u5730\u8868\uff1a\u6f5c\u5230\u571f\u5730\u4e4b\u4e2d\u3002<br><br>\u4f4d\u4e8e\u5730\u4e0b\uff1a\u94bb\u51fa\u5730\u9762\uff0c\u5bf9\u9644\u8fd1\u7684\u654c\u4eba\u9020\u621040/80/120/160/200(+0.4*\u989d\u5916AD)\u70b9\u7269\u7406\u4f24\u5bb3\u548c\u51fb\u98de\u6548\u679c\uff0c\u51fb\u98de\u65f6\u957f\u53d6\u51b3\u4e8e\u76ee\u6807\u4e0e\u96f7\u514b\u585e\u6709\u591a\u8fd1\uff0c\u6700\u591a\u6301\u7eed1\u79d2\u3002\u3010W\u7834\u571f\u800c\u51fa\u3011\u65e0\u6cd5\u572810/9.5/9/8.5/8 \u79d2\u5185\u91cd\u590d\u547d\u4e2d\u76f8\u540c\u7684\u76ee\u6807\u3002<br><br>\u4f4d\u4e8e\u5730\u4e0b\u7684\u6548\u679c\uff1a\u4e00\u5957\u65b0\u6280\u80fd\uff0c+15/20/25/30(\u5728\u7b49\u7ea71/6/11/16\u65f6\u6539\u53d8)\u79fb\u52a8\u901f\u5ea6\uff0c\u964d\u4f4e\u89c6\u91ce\u8303\u56f4\uff0c\u65e0\u6cd5\u8fdb\u884c\u666e\u653b\uff0c\u5e76\u83b7\u5f97\u5730\u542c\u80fd\u529b\uff1a\u5982\u679c\u9644\u8fd1\u7684\u6218\u4e89\u8ff7\u96fe\u4e2d\u6709\u654c\u4eba\u5728\u79fb\u52a8\uff0c\u90a3\u4e48\u96f7\u514b\u585e\u4f1a\u5c06\u8fd9\u4e9b\u654c\u4eba\u7684\u4f4d\u7f6e\u66b4\u9732\u7ed9\u81ea\u5df1\u548c\u53cb\u65b9\u3002<br><br>\u5730\u542c\u672f\u5bf9\u6bcf\u4e2a\u5355\u4f4d\u7684\u5237\u65b0\u65f6\u95f4\uff1a1.5\u79d2\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a0.75\u79d2\uff09<br><br>7\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff1a\u5982\u679c\u654c\u4eba\u7565\u5fae\u6539\u53d8\u671d\u5411\uff0c\u5730\u542c\u672f\u5c06\u4e0d\u8b66\u544a\u96f7\u514b\u585e<br>\u51fb\u98de\u534a\u5f84\uff1a160<br>\u8ddd\u79bb\uff1a1650<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4/4/4\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "RekSai_E1",
+                    "image": {
+                        "full": "RekSai_E1.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u72c2\u91ce\u4e4b\u566c / \u6316\u6398\u96a7\u9053\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f4d\u4e8e\u5730\u8868\uff1a\u96f7\u514b\u585e\u566c\u54ac\u4e00\u4e2a\u76ee\u6807\uff0c\u9020\u6210\uff080.8/0.9/1/1.1/1.2*\u603bAD\uff09\u70b9\u7269\u7406\u4f24\u5bb3\uff0c\u4f24\u5bb3\u503c\u968f\u6012\u6c14\u63d0\u5347\uff0c\u6700\u591a\u53ef\u5728100\u70b9\u6012\u6c14\u65f6\u63d0\u5347100%\u4f24\u5bb3\u3002\u5982\u679c\u96f7\u514b\u585e\u62e5\u6709100\u70b9\u6012\u6c14\uff0c\u90a3\u4e48\u3010E\u72c2\u91ce\u4e4b\u566c\u3011\u4f1a\u9020\u6210\u771f\u5b9e\u4f24\u5bb3\u3002<br><br>\u6700\u5927\u4f24\u5bb3\u503c\uff1a\uff081.6/1.8/2/2.2/2.4*\u603bAD\uff09<br><br>\u4f4d\u4e8e\u5730\u4e0b\uff1a\u96f7\u514b\u585e\u5411\u524d\u6398\u5730\uff0c\u7559\u4e0b\u4e24\u4e2a\u76f8\u8fde\u7684\u96a7\u9053\u5165\u53e3\u3002\u70b9\u51fb\u4e00\u4e2a\u96a7\u9053\u5165\u53e3\u5c06\u4f7f\u96f7\u514b\u585e\u6f5c\u79fb\u5230\u53e6\u4e00\u4e2a\u5165\u53e3\u5904\u3002<br><br>\u96a7\u9053\u5165\u53e3\u6301\u7eed10/10/10/10/10\u5206\u949f\uff0c\u5e76\u4e14\u53ef\u88ab\u654c\u4eba\u6467\u6bc1\u3002\u96f7\u514b\u585e\u53ef\u540c\u65f6\u62e5\u67098/8/8/8/8\u6761\u96a7\u9053\u3002<br><br>\u91cd\u65b0\u4f7f\u7528\u96a7\u9053\u7684\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u8ddd\u79bb\uff1a250<br>\u51b7\u5374\u65f6\u95f4\uff1a20/19.5/19/18.5/18\u79d2\uff08\u6316\u6398\u96a7\u9053\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2(\u72c2\u91ce\u4e4b\u566c)<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "RekSai_R",
+                    "image": {
+                        "full": "RekSai_R.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u865a\u7a7a\u731b\u51b2\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u63d0\u4f9b20/40/60%\u653b\u51fb\u901f\u5ea6\u3002<br><br>\u4e3b\u52a8\uff1a\u57281.5\u79d2\u7684\u5f15\u5bfc\u540e\uff0c\u96f7\u514b\u585e\u4f1a\u8fdb\u5165\u4e0d\u53ef\u88ab\u9009\u53d6\u72b6\u6001\uff0c\u5e76\u4f4d\u79fb\u5230\u76ee\u6807\u96a7\u9053\u5165\u53e3\u65c1\u8fb9\u3002\u6765\u81ea\u82f1\u96c4\u6216\u9632\u5fa1\u5854\u7684\u653b\u51fb\u90fd\u4f1a\u6253\u65ad\u5f15\u5bfc\u8fc7\u7a0b\u3002<br>\u8ddd\u79bb\uff1a25000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a150/110/70\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Fighter"
+            ],
+            "title": "\u96f7\u514b\u585e",
+            "trait": {
+                "dy": {
+                    "add-point": "QEQWQRQWQWWWREEREE",
+                    "eq-recommond": [
+                        "3725;3068;3067",
+                        "3725;3068;3067",
+                        "3111;3725;3068;3065;3143;3151"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

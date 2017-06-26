@@ -1,0 +1,128 @@
+{
+    "data": [
+        {
+            "id": "Bard",
+            "image": {
+                "full": "Bard.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 48,
+                "y": 0
+            },
+            "info": {
+                "attack": 3,
+                "defense": 4,
+                "difficulty": 9,
+                "magic": 5
+            },
+            "key": "432",
+            "name": "\u661f\u754c\u6e38\u795e",
+            "passive": {
+                "description": "\u5df4\u5fb7\u7684\u5b58\u5728\u4f1a\u5bfc\u81f4\u795e\u5947\u7684\u8c03\u548c\u4e4b\u97f3\u51fa\u73b0\uff0c\u8fd9\u4e9b\u8c03\u548c\u4e4b\u97f3\u4f1a\u4e3a\u5df4\u5fb7\u63d0\u4f9b\u7ecf\u9a8c\u503c\uff0c\u6cd5\u529b\u548c\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\u3002\u6b64\u5916\uff0c\u5c0f\u578b\u7075\u4f53\u4f1a\u8ddf\u968f\u5df4\u5fb7\u5e76\u534f\u52a9\u4ed6\u8fdb\u884c\u653b\u51fb\u2014\u2014\u6536\u96c6\u8c03\u548c\u4e4b\u97f3\u4f1a\u8ba9\u8fd9\u4e9b\u6728\u7075\u4eec\u968f\u7740\u6e38\u620f\u8fdb\u7a0b\u4e0d\u65ad\u5730\u83b7\u53d6\u80fd\u91cf\u3002<br>\u6728\u7075\u91cd\u751f\u65f6\u95f4\uff1a8/7/6/5/4\u79d2 (\u4f34\u968f\u8c03\u548c\u4e4b\u97f3)<br>\u5728\u6e38\u620f\u5230\u8fbe5\u5206\u949f\u524d\uff0c\u8c03\u548c\u4e4b\u97f3\u5c06\u4e0d\u4f1a\u5728\u654c\u65b9\u91ce\u533a\u5237\u65b0<br>\u6bcf\u4e2a\u8c03\u548c\u4e4b\u97f3\u7684\u7ecf\u9a8c: 20+1 \u70b9\u7ecf\u9a8c\u503c\u6bcf\u7ea7 (\u57285\u5206\u949f\u540e)<br><br>\u8c03\u548c\u4e4b\u97f3\u7684\u751f\u6210\u65f6\u95f4\u70b9\uff1a35\u79d2",
+                "image": {
+                    "full": "Bard_Passive.png"
+                },
+                "name": "\u65c5\u8005\u7684\u53ec\u5524\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/w/0/6/w0149bazrp6.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w0149bazrp6&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/d/0/x/d0147azbjhx.html",
+                    "id": "001",
+                    "name": "\u957f\u8005\u4e4b\u68ee \u5df4\u5fb7",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0147azbjhx&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/o/0/a/o0173mtc0qa.html",
+                    "id": "005",
+                    "name": "\u51b0\u96ea\u6e38\u795e \u5df4\u5fb7",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0173mtc0qa&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Bard_Q",
+                    "image": {
+                        "full": "Bard_Q.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u661f\u754c\u675f\u7f1a\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5df4\u5fb7\u53d1\u5c04\u4e00\u675f\u80fd\u91cf\u7bad\uff0c\u5bf91\u62162\u540d\u654c\u4eba\u9020\u621080/125/170/215/260 (+0.65*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u88ab\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u76ee\u6807\u4f1a\u88ab\u51cf\u901f60/60/60/60/60%\uff0c\u6301\u7eed1/1.2/1.4/1.6/1.8\u79d2\u3002<br><br>\u5982\u679c\u80fd\u91cf\u7bad\u547d\u4e2d\u4e86\u53e6\u4e00\u4e2a\u654c\u4eba\u6216\u5899\u4f53\uff0c\u5219\u88ab\u547d\u4e2d\u7684\u654c\u4eba\u90fd\u4f1a\u88ab\u6655\u77291/1.2/1.4/1.6/1.8\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a11/10/9/8/7\u79d2   <br>\u6d88\u8017\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Bard_W",
+                    "image": {
+                        "full": "Bard_W.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6e38\u795e\u5723\u575b\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5df4\u5fb7\u5347\u8d77\u4e00\u5ea7\u6cbb\u7597\u5723\u575b\uff0c\u5723\u575b\u4f1a\u4e3a\u524d\u6765\u62dc\u8bbf\u7684\u53cb\u519b\u56de\u590d30/60/90/120/150(+0.2*AP)\u523070/110/150/190/230(+0.45*AP)\u751f\u547d\uff08\u5728\u5723\u575b\u51fa\u73b010\u79d2\u65f6\u8fbe\u5230\u6700\u5927\u503c\uff09\u3002\u5723\u575b\u8fd8\u4f1a\u4e3a\u53d7\u5f71\u54cd\u7684\u82f1\u96c4\u63d0\u4f9b50/50/50/50/50%\u7684\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\uff0c\u8fd9\u4e2a\u52a0\u6210\u4f1a\u57281.5/1.5/1.5/1.5/1.5\u79d2\u91cc\u6301\u7eed\u8870\u51cf\u3002<br><br>\u8ddd\u79bb\uff1a800<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2<br>\u6d88\u8017\uff1a90/90/90/90/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Bard_E",
+                    "image": {
+                        "full": "Bard_E.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u795e\u5947\u65c5\u7a0b\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5df4\u5fb7\u5728\u9644\u8fd1\u7684\u5730\u5f62\u4e0a\u5f00\u542f\u4e00\u9053\u5355\u5411\u4f20\u9001\u5e26\u3002\u53cb\u519b\u548c\u654c\u4eba\u90fd\u53ef\u4ee5\u5728\u9760\u8fd1\u5165\u53e3\u65f6\u901a\u8fc7\u53f3\u952e\u70b9\u51fb\u6765\u4f7f\u7528\u4f20\u9001\u5e26\uff0c\u4f46\u53cb\u519b\u7684\u4f20\u9001\u901f\u5ea6\u6bd4\u654c\u4eba\u5feb10/20/30/40/50%\u3002<br><br>\u4f20\u9001\u5e26\u4f1a\u572810/10/10/10/10\u79d2\u540e\u6d88\u5931\u3002<br><br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/17/16/15/14\u79d2<br>\u6d88\u8017\uff1a30/30/30/30/30 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Bard_R",
+                    "image": {
+                        "full": "Bard_R.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8c03\u548c\u547d\u8fd0\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5df4\u5fb7\u671d\u76ee\u6807\u533a\u57df\u53d1\u51fa\u4e00\u9053\u9b54\u6cd5\u80fd\u91cf\u5f27\u5149\u3002\u5728\u5f27\u5149\u7740\u9646\u540e\uff0c\u76ee\u6807\u533a\u57df\u5185\u7684\u6240\u6709\u82f1\u96c4\u3001\u5c0f\u5175\u3001\u91ce\u602a\u3001\u9632\u5fa1\u5854\u90fd\u4f1a\u8fdb\u5165\u51dd\u6ede\u72b6\u6001\uff0c\u53d8\u5f97\u514d\u75ab\u4f24\u5bb3\u3001\u65e0\u6cd5\u88ab\u9009\u53d6\u5e76\u4e14\u65e0\u6cd5\u8fdb\u884c\u4efb\u4f55\u52a8\u4f5c\uff0c\u6301\u7eed2.5/2.5/2.5\u79d2\u3002<br><br>\u5c31\u8fde\u53f2\u8bd7\u7ea7\u91ce\u602a\u4e5f\u4f1a\u8fdb\u5165\u51dd\u6ede\u72b6\u6001\uff0c\u5c3d\u7ba1\u5b83\u4eec\u514d\u75ab\u63a7\u5236\u6548\u679c\u3002<br><br>\u8ddd\u79bb\uff1a3400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a130/115/90\u79d2<br>\u6d88\u8017100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Support"
+            ],
+            "title": "\u5df4\u5fb7",
+            "trait": {
+                "fz": {
+                    "add-point": "QEQWQRQWQWWWREEREE",
+                    "eq-recommond": [
+                        "3301;2043;2003;3340",
+                        "3069;3190;2049;3117",
+                        "3117;3087;3143;2045;3069;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

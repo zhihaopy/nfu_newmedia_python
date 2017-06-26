@@ -1,0 +1,144 @@
+{
+    "data": [
+        {
+            "id": "Xerath",
+            "image": {
+                "full": "Xerath.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 336,
+                "y": 48
+            },
+            "info": {
+                "attack": 1,
+                "defense": 3,
+                "difficulty": 6,
+                "magic": 10
+            },
+            "key": "101",
+            "name": "\u8fdc\u53e4\u5deb\u7075",
+            "passive": {
+                "description": "\u6bcf\u8fc712\u79d2\uff0c\u6cfd\u62c9\u65af\u7684\u4e0b\u6b21\u666e\u901a\u653b\u51fb\u5c31\u4f1a\u6062\u590d18\uff08+6*\u5f53\u524d\u7b49\u7ea7\uff09\u6cd5\u529b\u3002\u5728\u6cfd\u62c9\u65af\u653b\u51fb\u654c\u65b9\u82f1\u96c4\u65f6\uff0c\u6cd5\u529b\u6f8e\u6e43\u4f1a\u4e3a\u6cfd\u62c9\u65af\u56de\u590d36\uff08+12*\u5f53\u524d\u7b49\u7ea7\uff09\u6cd5\u529b\u3002",
+                "image": {
+                    "full": "Xerath_Passive1.png"
+                },
+                "name": "\u6cd5\u529b\u6f8e\u6e43\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/m/0/8/m00135m7z78.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m00135m7z78&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNjcxOTk2MzE2.html",
+                    "id": "001",
+                    "name": "\u7b26\u6587\u751f\u7269 \u6cfd\u62c9\u65af",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNjcxOTk2MzE2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNjcxOTk2ODU2.html",
+                    "id": "002",
+                    "name": "\u6218\u5730\u6cd5\u5e08 \u6cfd\u62c9\u65af",
+                    "num": 2,
+                    "source": "http://player.youku.com/player.php/sid/XNjcxOTk2ODU2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNjcxOTk3MDc2.html",
+                    "id": "003",
+                    "name": "\u67af\u840e\u4e4b\u58e4 \u6cfd\u62c9\u65af",
+                    "num": 3,
+                    "source": "http://player.youku.com/player.php/sid/XNjcxOTk3MDc2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/a/0/v/a0149ax3cfv.html",
+                    "id": "004",
+                    "name": "\u5723\u91d1\u5deb\u7075 \u6cfd\u62c9\u65af",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a0149ax3cfv&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "XerathArcanopulseChargeUp",
+                    "image": {
+                        "full": "XerathArcanopulseChargeUp.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u80fd\u8109\u51b2\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7b2c\u4e00\u6bb5\u65bd\u653e\uff1a\u6cfd\u62c9\u65af\u5f00\u59cb\u4e3a\u5965\u80fd\u8109\u51b2\u5145\u80fd\uff0c\u9010\u6e10\u964d\u4f4e\u4ed6\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u540c\u65f6\u63d0\u5347\u6b64\u6280\u80fd\u7684\u65bd\u6cd5\u8ddd\u79bb\u3002<br><br>\u7b2c\u4e8c\u6bb5\u65bd\u653e\uff1a\u6cfd\u62c9\u65af\u53d1\u5c04\u5965\u80fd\u8109\u51b2\uff0c\u5bf9\u4e00\u6761\u76f4\u7ebf\u4e0a\u7684\u6240\u6709\u654c\u4eba\u9020\u621080/120/160/200/240(+0.75*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u5728\u6cfd\u62c9\u65af\u4e3a\u5965\u80fd\u8109\u51b2\u5145\u80fd\u65f6\uff0c\u4ed6\u4e0d\u80fd\u653b\u51fb\u6216\u8005\u65bd\u653e\u5176\u5b83\u6280\u80fd\u3002\u5982\u679c\u6cfd\u62c9\u65af\u5728\u6301\u7eed\u65f6\u95f4\u91cc\u6ca1\u6709\u5c06\u5965\u80fd\u8109\u51b2\u53d1\u5c04\u51fa\u53bb\uff0c\u90a3\u4e48\u5c31\u4f1a\u8fd4\u8fd8\u4e00\u534a\u7684\u6cd5\u529b\u6d88\u8017\u3002<br>\u8ddd\u79bb\uff1a700-1400<br>\u5bbd\u5ea6\uff1a145<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/8/7/6/5\u79d2<br>\u6d88\u8017\uff1a80/90/100/110/120 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "XerathArcaneBarrage2",
+                    "image": {
+                        "full": "XerathArcaneBarrage2.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6bc1\u706d\u4e4b\u773c\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cfd\u62c9\u65af\u5f15\u7206\u76ee\u6807\u533a\u57df\u7684\u5965\u672f\u80fd\u91cf\uff0c\u5bf9\u533a\u57df\u5185\u7684\u6240\u6709\u654c\u4eba\u9020\u621060/90/120/150/180(+0.6*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4f7f\u4ed6\u4eec\u51cf\u901f10%\uff0c\u6301\u7eed2.5\u79d2\u3002\u533a\u57df\u4e2d\u5fc3\u7684\u654c\u4eba\u4f1a\u53d7\u5230(+0.9*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u88ab\u51cf\u901f60/65/70/75/80%\u3002\u8fd9\u4e2a\u51cf\u901f\u6548\u679c\u4f1a\u6025\u901f\u8870\u51cf\u3002<br>\u8ddd\u79bb\uff1a1100<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/13/12/11/10\u79d2<br>\u6d88\u8017\uff1a70/80/90/100/110\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "XerathMageSpear",
+                    "image": {
+                        "full": "XerathMageSpear.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u51b2\u51fb\u6cd5\u7403\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cfd\u62c9\u65af\u53d1\u5c04\u4e00\u675f\u539f\u751f\u6cd5\u7403\u3002\u88ab\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u654c\u4eba\u4f1a\u53d7\u523080/110/140/170/200(+0.45*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4f1a\u88ab\u6655\u77290.5 - 2 \u79d2 (\u57fa\u4e8e\u8ddd\u79bb)\u3002\u6655\u7729\u65f6\u957f\u548c\u6cd5\u7403\u98de\u884c\u7684\u8ddd\u79bb\u6210\u6b63\u6bd4\u3002<br>\u8ddd\u79bb\uff1a1050<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/12.5/12/11.5/11\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "XerathLocusOfPower2",
+                    "image": {
+                        "full": "XerathLocusOfPower2.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u672f\u4eea\u5f0f\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u6cfd\u62c9\u65af\u98de\u5347\u4e3a\u4ed6\u7684\u771f\u5b9e\u5f62\u6001\uff0c\u56fa\u5b9a\u5728\u539f\u5730\uff0c\u5e76\u83b7\u5f973/4/5\u53d1\u5965\u672f\u5f39\u5e55\u3002\u5965\u672f\u5f39\u5e55\u53ef\u4ee5\u5bf9\u547d\u4e2d\u7684\u6240\u6709\u654c\u4eba\u9020\u6210200/230/260(+0.43*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u4e00\u65e6\u6ee1\u8db3\u4ee5\u4e0b\u6761\u4ef6\u4e4b\u4e00\uff0c\u56fa\u5b9a\u6548\u679c\u5c31\u4f1a\u7ed3\u675f\uff1a10\u79d2\u7684\u6709\u6548\u671f\u7ed3\u675f\uff1b\u6240\u6709\u5965\u672f\u5f39\u5e55\u53d1\u5c04\u5b8c\u6bd5\uff1b\u4e0b\u8fbe\u79fb\u52a8\u6307\u4ee4\u5c06\u6b64\u6548\u679c\u624b\u52a8\u64a4\u9500\u3002\u5982\u679c\u4e00\u53d1\u5965\u672f\u5f39\u5e55\u90fd\u6ca1\u6709\u53d1\u5c04\u51fa\u53bb\uff0c\u90a3\u4e48\u4f1a\u8fd4\u8fd8\u4e00\u534a\u7684\u51b7\u5374\u65f6\u95f4\u3002<br>\u8ddd\u79bb\uff1a3200/4400/5600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a130/115/100\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Assassin"
+            ],
+            "title": "\u6cfd\u62c9\u65af",
+            "trait": {
+                "zd": {
+                    "add-point": "QEWQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3165;3020;3089",
+                        "3089;3135;3020;3157;3165;3151",
+                        "3089;3135;3020;3116;3165;3151"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

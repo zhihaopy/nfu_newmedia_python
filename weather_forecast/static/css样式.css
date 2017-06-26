@@ -19,12 +19,12 @@
             transform: translateY(-50%);
         }
         a{
-
-            color:whitesmoke;
+         color:whitesmoke;
             border:1px solid whitesmoke;
             border-radius:3px;
             padding:6px 16px;
             text-decoration:none;
+            
         }
 #login_form input {
     border: 0;

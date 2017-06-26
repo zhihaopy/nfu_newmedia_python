@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+
+<form method='POST' action='/search4'>
+<table>
+	<div style="width:200px;height:180px">
+		<tr><td><input name='input_hero_name' type='TEXT' list="name" value='{{ the_output_prompt }}{{ the_output_prompt_error }}'></td></tr>
+		<datalist id="name">
+			{% for name in the_list_name %}
+			<option value='{{name}}'>{{name}}</option>
+			{% endfor %}
+		</datalist>
+	</div>
+</table>
+	<p><input value='搜索' type='SUBMIT'></p>
+</form>
+
+{% endblock %}

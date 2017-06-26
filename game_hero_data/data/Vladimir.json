@@ -1,0 +1,174 @@
+{
+    "data": [
+        {
+            "id": "Vladimir",
+            "image": {
+                "full": "Vladimir.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 192,
+                "y": 48
+            },
+            "info": {
+                "attack": 2,
+                "defense": 6,
+                "difficulty": 2,
+                "magic": 8
+            },
+            "key": "8",
+            "name": "\u7329\u7ea2\u6536\u5272\u8005",
+            "passive": {
+                "description": "\u6bcf40\u70b9\u751f\u547d\u503c\u52a0\u6210\u7ed9\u4e88\u5f17\u62c9\u57fa\u7c73\u5c141\u70b9\u6cd5\u672f\u5f3a\u5ea6\uff0c\u6bcf1\u70b9\u6cd5\u672f\u5f3a\u5ea6\u7ed9\u4e88\u5f17\u62c9\u57fa\u7c73\u5c141.4\u70b9\u751f\u547d\u503c\uff08\u4e0d\u4f1a\u5faa\u73af\u53e0\u52a0\uff09\u3002",
+                "image": {
+                    "full": "Vladimir_BloodGorged.png"
+                },
+                "name": "\u8840\u8272\u5951\u7ea6\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/s/m/7xwi46xK9sm.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7xwi46xK9sm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_g0100df4h8d.html",
+                    "id": "001",
+                    "name": "\u5f17\u62c9\u57fa\u7c73\u5c14\u4f2f\u7235",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0100df4h8d&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/a/0/w/a01124wwylw.html",
+                    "id": "002",
+                    "name": "\u5f17\u62c9\u57fa\u7c73\u5c14\u4faf\u7235",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a01124wwylw&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNjExMzA0NDgw.html",
+                    "id": "003",
+                    "name": "\u8bfa\u65af\u8d39\u62c9\u56fe  \u5f17\u62c9\u57fa\u7c73\u5c14",
+                    "num": 3,
+                    "source": "http://player.youku.com/player.php/sid/XNjExMzA0NDgw/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_x0101wfd776.html",
+                    "id": "004",
+                    "name": "\u9739\u96f3\u6e38\u4fa0 \u5f17\u62c9\u57fa\u7c73\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x0101wfd776&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_e0100m3eapu.html",
+                    "id": "005",
+                    "name": "\u9c9c\u8840\u9886\u4e3b \u5f17\u62c9\u57fa\u7c73\u5c14",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0100m3eapu&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/a/0/u/a00147ni3uu.html",
+                    "id": "006",
+                    "name": "\u6444\u9b42\u7537\u7235 \u5f17\u62c9\u57fa\u7c73\u5c14",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a00147ni3uu&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/n/k016109sqwn.html",
+                    "id": "007",
+                    "name": "\u5b66\u751f\u4f1a\u957f \u5f17\u62c9\u57fa\u7c73\u5c14",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k016109sqwn&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "VladimirTransfusion",
+                    "image": {
+                        "full": "VladimirTransfusion.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9c9c\u8840\u8f6c\u6362\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5f17\u62c9\u57fa\u7c73\u5c14\u5438\u53d6\u76ee\u6807\u654c\u4eba\u7684\u751f\u547d\u529b\uff0c\u9020\u6210 75/90/105/120/135(+0.55*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u56de\u590d\u81ea\u5df1 20/25/30/35/40(+0.15*AP)\u7684\u751f\u547d\u3002\u5728\u65bd\u653e\u4e24\u6b21\u3010Q\u9c9c\u8840\u8f6c\u6362\u3011\u540e\uff0c\u5f17\u62c9\u57fa\u7c73\u5c14\u4f1a\u5728\u4e0b\u4e00\u4e2a\u3010Q\u9c9c\u8840\u8f6c\u6362\u3011\u53d8\u5f97\u53ef\u4ee5\u65bd\u653e\u65f6\u83b7\u5f97\u7329\u7ea2\u51b2\u523a\u3002<br><br>\u7329\u7ea2\u51b2\u523a\uff1a\u5f17\u62c9\u57fa\u7c73\u5c14\u6682\u65f6\u83b7\u5f97\u52a0\u901f\u6548\u679c\uff0c\u5e76\u5728\u63a5\u4e0b\u6765\u76842.5\u79d2\u91cc\uff0c\u3010Q\u9c9c\u8840\u8f6c\u6362\u3011\u4f1a\u9020\u6210100%\u989d\u5916\u4f24\u5bb3\uff0c\u5e76\u9020\u6210\u989d\u5916\u6cbb\u7597\u6548\u679c\uff0c\u6cbb\u7597\u6548\u679c\u7b49\u4e8e70\u52a0\u5f17\u62c9\u57fa\u7c73\u5c145%\uff08+0.04*AP%\uff09\u5df2\u635f\u5931\u751f\u547d\u503c\uff08\u5bf9\u5c0f\u5175\u65bd\u653e\u7684\u6cbb\u7597\u6548\u679c\u51cf\u534a\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/8/7/6/5\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "VladimirSanguinePool",
+                    "image": {
+                        "full": "VladimirSanguinePool.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8840\u7ea2\u4e4b\u6c60\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5f17\u62c9\u57fa\u7c73\u5c14\u5316\u6210\u4e00\u6ee9\u6301\u7eed2\u79d2\u7684\u8840\u6c60\uff0c\u83b7\u5f97\u77ed\u6682\u7684\u52a0\u901f\u6548\u679c\u5e76\u5728\u671f\u95f4\u65e0\u6cd5\u88ab\u9009\u4f5c\u76ee\u6807\uff0c\u8840\u6c60\u4e0a\u65b9\u7684\u654c\u4eba\u4f1a\u88ab\u51cf\u901f40%\u3002<br><br>\u5f17\u62c9\u57fa\u7c73\u5c14\u5728\u6280\u80fd\u6301\u7eed\u671f\u95f4\u4f1a\u5bf9\u8840\u6c60\u4e0a\u7684\u654c\u4eba\u9020\u621080/135/190/245/300(+[10%\u989d\u5916\u751f\u547d])\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e3a\u5f17\u62c9\u57fa\u7c73\u5c14\u63d0\u4f9b15%\u8be5\u4f24\u5bb3\u503c\u7684\u6cbb\u7597\u6548\u679c\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a28/25/22/19/16\u79d2<br>\u6d88\u8017\uff1a20/20/20/20/20%\u5f53\u524d\u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "VladimirTidesofBlood",
+                    "image": {
+                        "full": "VladimirTidesofBlood.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8840\u4e4b\u6f6e\u6c50\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u7b2c\u4e00\u6bb5\u65bd\u653e\uff1a\u5f17\u62c9\u57fa\u7c73\u5c14\u7528\u9c9c\u8840\u6301\u7eed\u704c\u6ce8\u4e00\u4e2a\u84c4\u8840\u5e93\uff0c\u6d88\u8017\u6700\u591a10%\u6700\u5927\u751f\u547d\u503c\u6765\u4f7f\u8fd9\u4e2a\u6280\u80fd\u7684\u4f24\u5bb3\u83b7\u5f97\u7b49\u989d\u63d0\u5347\u3002\u5728\u5b8c\u5168\u5145\u80fd\u540e\uff0c\u5f17\u62c9\u57fa\u7c73\u5c14\u4f1a\u88ab\u51cf\u901f\u3002<br><br>\u7b2c\u4e8c\u6bb5\u65bd\u653e\uff1a\u5f17\u62c9\u57fa\u7c73\u5c14\u5bf9\u5468\u56f4\u7684\u654c\u4eba\u653e\u51fa\u4e00\u4e2a\u9c9c\u8840\u65b0\u661f\uff0c\u53ef\u9020\u621030/40/50/60/70\uff08+2.5%\u6700\u5927\u751f\u547d\u503c\uff09\uff08+0.35*AP\uff09\u523060/80/100/120/140\uff08+10%\u6700\u5927\u751f\u547d\u503c\uff09\uff08+0.7*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5728\u5b8c\u5168\u5145\u80fd\u540e\uff0c\u4f7f\u654c\u4eba\u6682\u65f6\u51cf\u901f40%/45%/50%/55%/60%\u3002\u88ab\u547d\u4e2d\u7684\u654c\u4eba\u53ef\u963b\u6321\u4e00\u90e8\u5206\u65b0\u661f\u3002<br><br>\u3010E\u8840\u4e4b\u6f6e\u6c50\u3011\u4f1a\u5728\u84c4\u6ee11.5\u79d2\u540e\u81ea\u52a8\u65bd\u653e\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/8/7/6/5\u79d2<br>\u5f15\u5bfc\u9700\u6d88\u801710%\u6700\u5927\u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "VladimirHemoplague",
+                    "image": {
+                        "full": "VladimirHemoplague.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8840\u4e4b\u761f\u75ab\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5f17\u62c9\u57fa\u7c73\u5c14\u5411\u76ee\u6807\u533a\u57df\u6ce8\u5165\u5267\u6bd2\u761f\u75ab\uff0c\u88ab\u611f\u67d3\u7684\u76ee\u6807\u6240\u53d7\u4f24\u5bb3\u63d0\u9ad810%\uff0c\u6301\u7eed4\u79d2\u3002<br><br>4\u79d2\u540e\uff0c\u5f17\u62c9\u57fa\u7c73\u5c14\u5bf9\u88ab\u611f\u67d3\u7684\u76ee\u6807\u9020\u6210150/250/350(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5982\u679c\u3010R\u8840\u4e4b\u761f\u75ab\u3011\u4f24\u5bb3\u4e86\u4e00\u540d\u654c\u65b9\u82f1\u96c4\uff0c\u90a3\u4e48\u5f17\u62c9\u57fa\u7c73\u5c14\u5c31\u4f1a\u6cbb\u7597\u81ea\u8eab150/250/350\uff08+ 0.7*AP\uff09\u751f\u547d\u503c\uff0c\u5e76\u4e14\u5982\u679c\u4f24\u5bb3\u4e86\u591a\u540d\u654c\u65b9\u82f1\u96c4\uff0c\u90a3\u4e48\u9664\u7b2c\u4e00\u4e2a\u88ab\u547d\u4e2d\u7684\u82f1\u96c4\u5916\uff0c\u6bcf\u540d\u654c\u65b9\u82f1\u96c4\u90fd\u4f1a\u4f7f\u6cbb\u7597\u91cf\u589e\u52a050/50/50%\u3002<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a150/135/120\u79d2<br>"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Tank"
+            ],
+            "title": "\u5f17\u62c9\u57fa\u7c73\u5c14",
+            "trait": {
+                "sd": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1001;2003:4;3340",
+                        "3020;3145;2043",
+                        "3020;3206;3157;3089;3135;3026",
+                        "3158;3152;3065;3089;3157;3026"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3020;3206;3116;3136",
+                        "3206;3116;3151;3020;3089;3157",
+                        "3206;3116;3151;3158;3083;3157"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

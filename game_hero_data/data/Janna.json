@@ -1,0 +1,167 @@
+{
+    "data": [
+        {
+            "id": "Janna",
+            "image": {
+                "full": "Janna.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 96,
+                "y": 0
+            },
+            "info": {
+                "attack": 3,
+                "defense": 5,
+                "difficulty": 9,
+                "magic": 7
+            },
+            "key": "40",
+            "name": "\u98ce\u66b4\u4e4b\u6012",
+            "passive": {
+                "description": "\u8fe6\u5a1c\u9644\u8fd1\u7684\u53cb\u65b9\u82f1\u96c4\u5728\u671d\u5979\u79fb\u52a8\u65f6\u4f1a\u63d0\u53478%\u79fb\u52a8\u901f\u5ea6\u3002<br>\u65bd\u6cd5\u8ddd\u79bb\uff1a1250",
+                "image": {
+                    "full": "Janna_Tailwind.png"
+                },
+                "name": "\u987a\u98ce\u800c\u884c\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/O/g/7zWjhPk12Og.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7zWjhPk12Og&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/s/i0122jfrk1s.html",
+                    "id": "001",
+                    "name": "\u66b4\u98ce\u5973\u795e \u8fe6\u5a1c",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0122jfrk1s&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_x0102by4euf.html",
+                    "id": "002",
+                    "name": "\u6d77\u514b\u65af\u79d1\u6280 \u8fe6\u5a1c",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x0102by4euf&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/q/i0106tj2b0q.html",
+                    "id": "003",
+                    "name": "\u5bd2\u51b0\u5973\u7687 \u8fe6\u5a1c",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0106tj2b0q&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/h/0/6/h0112mvrmt6.html",
+                    "id": "004",
+                    "name": "\u80dc\u5229\u5973\u795e \u8fe6\u5a1c",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0112mvrmt6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/t/0/i/t0013a7zzli.html",
+                    "id": "005",
+                    "name": "\u5973\u4e3b\u64ad \u8fe6\u5a1c",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=t0013a7zzli&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/v/vguai2rs4a7q3ch.html?vid=i01366b6ezm",
+                    "id": "006",
+                    "name": "Fnatic \u8fe6\u5a1c",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i01366b6ezm&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "HowlingGale",
+                    "image": {
+                        "full": "HowlingGale.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u98d3\u98ce\u547c\u5578\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u8fe6\u5a1c\u805a\u96c6\u4e00\u80a1\u5f3a\u529b\u7684\u65cb\u98ce\uff0c\u5728\u91ca\u653e\u540e\u4f1a\u5bf9\u5176\u7ecf\u8fc7\u8def\u7ebf\u4e0a\u7684\u6240\u6709\u654c\u4eba\u9020\u621060/85/110/135/160(+0.35*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5c06\u4ed6\u4eec\u51fb\u98de\u3002\u6bcf\u5145\u80fd\u4e00\u79d2\uff08\u6700\u591a\u53ef\u5145\u80fd3\u79d2\uff09\uff0c\u65cb\u98ce\u5c31\u80fd\u98d8\u5f97\u66f4\u8fdc\uff0c\u9020\u621015/20/25/30/35(+0.1*AP)\u70b9\u989d\u5916\u4f24\u5bb3\uff0c\u5e76\u5c06\u654c\u4eba\u51fb\u98de\u5f97\u66f4\u9ad8\u3002<br><br>\u518d\u6b21\u6fc0\u6d3b\u6b64\u6280\u80fd\uff0c\u5c31\u80fd\u65e9\u70b9\u5c06\u65cb\u98ce\u653e\u51fa\u53bb\u3002<br>\u51fb\u98de\u65f6\u957f\uff1a 0.5 - 1.25\u79d2<br>\u5f39\u4f53\u5bbd\u5ea6\uff1a120<br>\u8ddd\u79bb\uff1a1700<br>\u6700\u5c0f\u8ddd\u79bb\uff1a850<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/13/12/11/10\u79d2<br>\u6d88\u8017\uff1a90/105/120/135/150 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "SowTheWind",
+                    "image": {
+                        "full": "SowTheWind.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u548c\u98ce\u5b88\u62a4\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u63d0\u9ad8\u8fe6\u5a1c 9/11/13/15/17%(+0.02%AP) \u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u5e76\u4f7f\u5979\u5728\u79fb\u52a8\u65f6\u65e0\u89c6\u5355\u4f4d\u7684\u78b0\u649e\u4f53\u79ef\u3002<br><br>\u4e3b\u52a8\uff1a\u8fe6\u5a1c\u5c06\u5979\u7684\u7a7a\u6c14\u5143\u7d20\u7075\u65bd\u653e\u5728\u76ee\u6807\u8eab\u4e0a\uff0c\u5bf9\u76ee\u6807\u9020\u6210 60/115/170/225/280(+0.5*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\u5e76\u4f7f\u76ee\u6807\u51cf\u901f 24/28/32/36/40%(+0.06%*AP)\uff0c\u6301\u7eed 3 \u79d2\u3002\u5728\u6280\u80fd\u51b7\u5374\u9636\u6bb5\uff0c\u8fe6\u5a1c\u4f1a\u5931\u53bb\u548c\u98ce\u5b88\u62a4\u7684\u88ab\u52a8\u589e\u76ca\u6548\u679c\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/12/12/12/12\u79d2<br>\u6d88\u8017\uff1a40/50/60/70/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "EyeOfTheStorm",
+                    "image": {
+                        "full": "EyeOfTheStorm.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u98ce\u66b4\u4e4b\u773c\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u8fe6\u5a1c\u4e3a\u76ee\u6807\u53cb\u519b\u82f1\u96c4\u6216\u9632\u5fa1\u5854\u65bd\u653e\u4e00\u4e2a\u62a4\u76fe\uff0c\u62a4\u76fe\u6700\u591a\u53ef\u6301\u7eed 5 \u79d2\u3002\u62a4\u76fe\u6700\u591a\u53ef\u4ee5\u5438\u6536 80/120/160/200/240(+0.7*AP)\u70b9\u4f24\u5bb3\uff0c\u5e76\u80fd\u4e3a\u76ee\u6807\u63d0\u4f9b 10/17.5/25/32.5/40(+0.1*AP) \u7684\u653b\u51fb\u529b\u52a0\u6210\uff0c\u76f4\u5230\u5b83\u88ab\u7834\u574f\u4e3a\u6b62\u3002<br>\u8ddd\u79bb\uff1a800<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a70/80/90/100/110 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "ReapTheWhirlwind",
+                    "image": {
+                        "full": "ReapTheWhirlwind.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u590d\u82cf\u5b63\u98ce\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u8fe6\u5a1c\u53ec\u5524\u98ce\u4e4b\u529b\uff0c\u5c06\u654c\u4eba\u51fb\u9000\uff0c\u5e76\u4e14\u6bcf\u79d2\u4e3a\u5468\u56f4\u7684\u53cb\u519b\u56de\u590d100/150/200(+0.5*AP)\u751f\u547d\u503c\uff0c\u6301\u7eed3\u79d2\u3002<br><br>\u63a7\u5236\u65f6\u95f4\uff1a0.5\u79d2<br>\u8ddd\u79bb\uff1a725<br><br>\u51b7\u5374\u65f6\u95f4\uff1a150/135/120\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Support",
+                "Mage"
+            ],
+            "title": "\u8fe6\u5a1c",
+            "trait": {
+                "fz": {
+                    "add-point": "EQWEEREWQERWWWQRQQ",
+                    "eq-recommond": [
+                        "3301;2043;2003;3340",
+                        "2045;3190;3069",
+                        "3290;3158;2045;3190;3222;3069",
+                        "3143;3158;2045;3190;3222;3069"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QWQEQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3020;3027",
+                        "3020;3027;3089;3135;3151;3157",
+                        "3020;3027;3089;3135;3026;3157"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

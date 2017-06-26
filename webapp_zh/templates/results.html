@@ -4,13 +4,10 @@
 
 <h2>{{ the_title }}</h2>
 
-<p>您提交了以下数据：</p>
+<p>您选取的是：</p>
 <table>
-<tr><td>短语：</td><td>{{ the_phrase }}</td></tr>
-<tr><td>介词：</td><td>{{ the_letters }}</td></tr>
+<tr><td>课程名称：</td><td>{{ the_classtime_name }}</td></tr>
+<tr><td>对应老师：</td><td>{{ the_classtime_code }}</td></tr>
 </table>
-
-<p>在"{{the_phrase }}" 中搜索 "{{ the_letters }}",返回以下结果：</p>
-<h3>{{ the_results }}</h3>
 
 {% endblock %}

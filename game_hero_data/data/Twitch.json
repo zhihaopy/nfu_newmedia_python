@@ -1,0 +1,174 @@
+{
+    "data": [
+        {
+            "id": "Twitch",
+            "image": {
+                "full": "Twitch.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 288,
+                "y": 0
+            },
+            "info": {
+                "attack": 9,
+                "defense": 2,
+                "difficulty": 8,
+                "magic": 3
+            },
+            "key": "29",
+            "name": "\u761f\u75ab\u4e4b\u6e90",
+            "passive": {
+                "description": "\u56fe\u5947\u7684\u666e\u901a\u653b\u51fb\u4f1a\u4f7f\u76ee\u6807\u67d3\u6bd2\uff0c\u57286\u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\u9020\u62102/3/4/5/6/7 (\u57281/4/7/10/13/16\u7ea7\u65f6\u53d8\u5316)\u771f\u5b9e\u4f24\u5bb3\uff0c\u6700\u591a\u53ef\u53e0\u52a06\u5c42\u3002",
+                "image": {
+                    "full": "Twitch_DeadlyVenom.png"
+                },
+                "name": "\u6b7b\u4ea1\u6bd2\u6db2\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/7/q/n/7BHFP3jBDqn.html?start=1",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0127b1n23e&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/u/0/2/u0102mp2ts2.html",
+                    "id": "001",
+                    "name": "\u9996\u9886 \u56fe\u5947",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=b00148zi3o0&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/q/0/i/q0102kvasxi.html",
+                    "id": "002",
+                    "name": "\u5317\u98ce\u51bb\u539f \u56fe\u5947",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w0014gq2r4e&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/w/0/a/w0112vbotha.html",
+                    "id": "003",
+                    "name": "\u90fd\u94ce\u738b\u671d \u56fe\u5947",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=t00144nhqog&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/e/0/d/e01824arr4d.html",
+                    "id": "004",
+                    "name": "\u9ed1\u91d1\u8bf1\u60d1 \u56fe\u5947",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e01824arr4d&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/y/0/n/y0104mvd0pn.html",
+                    "id": "005",
+                    "name": "\u6a2a\u884c\u9738\u9053 \u56fe\u5947",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0127nh7vss&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=c0140iipu8t",
+                    "id": "006",
+                    "name": "\u7edd\u5f71\u795e\u5077 \u56fe\u5947",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0140iipu8t&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/s/0/d/s0153cxs48d.html",
+                    "id": "007",
+                    "name": "SSW \u56fe\u5947",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0153cxs48d&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "HideInShadows",
+                    "image": {
+                        "full": "HideInShadows.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u57cb\u4f0f\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a<br>\u57281.5/1.5/1.5/1.5/1.5\u79d2\u540e\uff08\u5982\u679c\u6ca1\u6709\u53d7\u5230\u4f24\u5bb3\uff09\uff0c\u56fe\u5947\u4f1a\u8fdb\u5165\u6f5c\u884c\u72b6\u6001\u5e76\u83b7\u5f9720/20/20/20/20%\u7684\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\uff0c\u6301\u7eed4/5/6/7/8\u79d2\u3002\u5728\u79bb\u5f00\u6f5c\u884c\u72b6\u6001\u540e\uff0c\u4ed6\u4f1a\u83b7\u5f9730/40/50/60/70%\u7684\u653b\u51fb\u901f\u5ea6\u52a0\u6210\uff0c\u6301\u7eed5\u79d2\u3002<br><br>\u5f53\u4e00\u540d\u611f\u67d3\u4e86\u3010\u6b7b\u4ea1\u6bd2\u6db2\u3011\u7684\u654c\u65b9\u82f1\u96c4\u6b7b\u4ea1\u65f6\uff0c\u3010\u57cb\u4f0f\u3011\u7684\u51b7\u5374\u65f6\u95f4\u4f1a\u91cd\u7f6e\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/16/16/16/16\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TwitchVenomCask",
+                    "image": {
+                        "full": "TwitchVenomCask.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5267\u6bd2\u4e4b\u6876\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u56fe\u5947\u6254\u51fa\u4e00\u4e2a\u6bd2\u6027\u4e4b\u6876\u6765\u5f15\u7206\u4e00\u4e2a\u533a\u57df\uff0c\u5bf9\u8303\u56f4\u5185\u7684\u654c\u4eba\u65bd\u52a02/2/2/2/2\u5c42\u6b7b\u4ea1\u6bd2\u6db2\u6548\u679c\uff0c\u5e76\u51cf\u5c11\u4ed6\u4eec25/30/35/40/45%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed3/3/3/3/3\u79d2\u3002<br>\u8ddd\u79bb\uff1a1400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/12/11/10/9\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Expunge",
+                    "image": {
+                        "full": "Expunge.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6bd2\u6027\u7206\u53d1\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5bf9\u9644\u8fd1\u611f\u67d3\u4e86\u6b7b\u4ea1\u6bd2\u6db2\u7684\u6240\u6709\u654c\u4eba\u9020\u621020/35/50/65/80\u7269\u7406\u4f24\u5bb3\uff0c\u6b64\u5916\uff0c\u6bcf\u5c42\u6b7b\u4ea1\u6bd2\u6db2\u6548\u679c\u8fd8\u4f1a\u5bf9\u76ee\u6807\u9020\u621015/20/25/30/35 (+0.2*AP)(+0.25*\u989d\u5916AD)\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a1200<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/11/10/9/8\u79d2<br>\u6d88\u8017\uff1a50/60/70/80/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "FullAutomatic",
+                    "image": {
+                        "full": "FullAutomatic.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u706b\u529b\u5168\u5f00\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u57285\u79d2\uff0811\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a7\u79d2\uff09\u7684\u6301\u7eed\u65f6\u95f4\u91cc\uff0c\u56fe\u5947\u4f1a\u83b7\u5f97300/300/300\u70b9\u989d\u5916\u7684\u653b\u51fb\u8ddd\u79bb\uff0c20/30/40\u7684\u653b\u51fb\u529b<br><br>\u5728\u6b64\u671f\u95f4\uff0c\u4ed6\u7684\u666e\u901a\u653b\u51fb\u9644\u5e26\u7a7f\u523a\u6548\u679c\uff0c\u5bf9\u540e\u7eed\u7684\u76ee\u6807\u6240\u9020\u6210\u7684\u4f24\u5bb3\u51cf\u5c1120/20/20%\uff0c\u4f24\u5bb3\u4e0b\u9650\u4e3a40/40/40%\u3002<br><br>11\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff1a\u5728\u3010Q-\u57cb\u4f0f\u3011\u7684\u6f5c\u884c\u72b6\u6001\u4e0b\u4f7f\u7528\u3010R-\u706b\u529b\u5168\u5f00\u3011\u5c06\u4e0d\u518d\u53d6\u6d88\u6f5c\u884c\u72b6\u6001<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/110/100\u79d2\uff0811\u670817\u65e54.42\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a100/125/150\u6cd5\u529b\uff09<br>\u6d88\u8017\uff1a100/125/150 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman",
+                "Assassin"
+            ],
+            "title": "\u56fe\u5947",
+            "trait": {
+                "adc": {
+                    "add-point": "EWEQEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3153;3046;3006",
+                        "3046;3139;3153;3035;3031;3006",
+                        "3046;3031;3153;3035;3026;3006"
+                    ]
+                },
+                "dy": {
+                    "add-point": "EWQEEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3714;3006;3153",
+                        "3714;3006;3153;3085;3031;3102",
+                        "3714;3006;3153;3035;3031;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

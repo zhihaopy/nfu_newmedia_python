@@ -1,0 +1,153 @@
+{
+    "data": [
+        {
+            "id": "Udyr",
+            "image": {
+                "full": "Udyr.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 336,
+                "y": 0
+            },
+            "info": {
+                "attack": 8,
+                "defense": 7,
+                "difficulty": 5,
+                "magic": 4
+            },
+            "key": "77",
+            "name": "\u517d\u7075\u884c\u8005",
+            "passive": {
+                "description": "\u8f6c\u6362\u59ff\u6001\u65f6\uff0c\u4e4c\u8fea\u5c14\u63d0\u534710%\u653b\u51fb\u901f\u5ea6\u548c5\u79fb\u52a8\u901f\u5ea6\uff08\u8be5\u6548\u679c\u53ef\u4ee5\u53e0\u52a03\u6b21\uff09\uff0c\u6301\u7eed5\u79d2\u3002",
+                "image": {
+                    "full": "Udyr_MonkeysAgility.png"
+                },
+                "name": "\u7075\u7334\u654f\u6377\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/play/7/a/W/7QTV5rLBdaW.html?start=1",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7QTV5rLBdaW&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/s/0/b/s0104si74rb.html",
+                    "id": "001",
+                    "name": "\u6b66\u529b\u5168\u5f00 \u4e4c\u8fea\u5c14",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0104si74rb&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_y0100uptdp7.html",
+                    "id": "002",
+                    "name": "\u56db\u795e\u4e4b\u529b \u4e4c\u8fea\u5c14",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0100uptdp7&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTg2NjYzODc2.html",
+                    "id": "003",
+                    "name": "\u7075\u9b42\u5b88\u536b \u4e4c\u8fea\u5c14",
+                    "num": 3,
+                    "source": "http://player.youku.com/player.php/sid/XNTg2NjYzODc2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/3/3wl6c6syay942h3.html?vid=r01486fu65t",
+                    "id": "004",
+                    "name": "\u8fd9\u8d27\u4e0d\u662f\u4e4c\u8fea\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r01486fu65t&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "UdyrTigerStance",
+                    "image": {
+                        "full": "UdyrTigerStance.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u731b\u864e\u59ff\u6001\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u6301\u7eed\u6548\u679c\uff1a\u666e\u901a\u653b\u51fb\u9020\u6210(0.15*\u603bAD)\u989d\u5916\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u4e14\u4e4c\u8fea\u5c14\u7684\u9996\u6b21\u653b\u51fb\u5c06\u4f1a\u8fdb\u884c\u731b\u864e\u4e00\u51fb\uff0c\u57282\u79d2\u5185\u6301\u7eed\u9020\u6210\u989d\u5916\u768430/80/130/180/230(+1.2/1.3/1.4/1.5/1.6*\u603bAD)\u70b9\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u6fc0\u6d3b\u6548\u679c\uff1a\u4e4c\u8fea\u5c14\u7684\u653b\u51fb\u901f\u5ea6\u63d0\u534730/40/50/60/70%\uff0c\u6301\u7eed5\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>\u6d88\u8017\uff1a47/44/41/38/35 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "UdyrTurtleStance",
+                    "image": {
+                        "full": "UdyrTurtleStance.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7075\u9f9f\u59ff\u6001\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u6301\u7eed\u6548\u679c\uff1a\u4e4c\u8fea\u5c14\u83b7\u5f9710/12/14/16/18%\u751f\u547d\u5077\u53d6\u3002<br><br>\u4e3b\u52a8\u6548\u679c\uff1a\u4e4c\u8fea\u5c14\u83b7\u5f97\u4e00\u4e2a\u4e34\u65f6\u7684\uff0c\u53ef\u4ee5\u5438\u653660/95/130/165/200(+0.5*AP)\u70b9\u4f24\u5bb3\u7684\u62a4\u76fe\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>\u6d88\u8017\uff1a47/44/41/38/35 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "UdyrBearStance",
+                    "image": {
+                        "full": "UdyrBearStance.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5de8\u718a\u59ff\u6001\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u6301\u7eed\u6548\u679c\uff1a\u4e4c\u8fea\u5c14\u62a8\u51fb\u4ed6\u7684\u76ee\u6807\uff0c\u9020\u62101\u79d2\u6655\u7729\u3002\u8be5\u6548\u679c\u65e0\u6cd5\u57285\u79d2\u5185\u540c\u65f6\u4f5c\u7528\u4e8e\u540c\u4e00\u4e2a\u76ee\u6807\u3002<br><br>\u4e3b\u52a8\u6548\u679c\uff1a\u4e4c\u8fea\u5c14\u83b7\u5f9715/20/25/30/35%\u79fb\u52a8\u901f\u5ea6\u63d0\u5347\uff0c\u6301\u7eed2/2.25/2.5/2.75/3\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>\u6d88\u8017\uff1a47/44/41/38/35 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "UdyrPhoenixStance",
+                    "image": {
+                        "full": "UdyrPhoenixStance.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u706b\u51e4\u59ff\u6001\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u6301\u7eed\u6548\u679c\uff1a\u4e4c\u8fea\u5c14\u7684\u7b2c\u4e00\u6b21\u653b\u51fb\u548c\u4e4b\u540e\u7684\u6bcf\u7b2c3\u6b21\u653b\u51fb\uff0c\u5c06\u4f1a\u707c\u70e7\u9762\u524d\u7684\u654c\u4eba\uff0c\u9020\u621025/60/95/130/165\uff084\u670812\u65e56.7\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a40/75/110/145/180\uff09(+0.45AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u6fc0\u6d3b\uff1a\u4e4c\u8fea\u5c14\u55b7\u5c04\u70c8\u7130\u6ce2\uff0c\u6bcf\u79d2\u5bf9\u9644\u8fd1\u654c\u4eba\u9020\u621010/20/30/40/50\uff084\u670812\u65e56.7\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a15/25/35/45/55\uff09(+0.25*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6301\u7eed5\u79d2\u3002<br>\u8ddd\u79bb\uff1a325<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>\u6d88\u8017\uff1a47/44/41/38/35 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "title": "\u4e4c\u8fea\u5c14",
+            "trait": {
+                "dy": {
+                    "add-point": "QWEQQWQWQWEWEEERRR",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3725;3068;3117",
+                        "3725;3153;3117;3068;3065;3143",
+                        "3725;3022;3117;3083;3065;3143"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWEQQWQWQWEWEEERRR",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3153;3111",
+                        "3153;3111;3143;3091;3065;3025",
+                        "3153;3111;3143;3025;3065;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

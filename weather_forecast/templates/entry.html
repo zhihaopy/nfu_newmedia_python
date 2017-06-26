@@ -7,10 +7,27 @@
 <form method='POST' action='/content'>
 <table align="center">
 	<tr>
-		<td><input name='city' type='TEXT' width='60' placeholder="请输入城市名" style="width:250px;height:25px;">&nbsp;<input value='查询' type='SUBMIT' ></td>
+		<td><input name='city' type='TEXT' width='60' placeholder="请输入城市名字" style="width:250px;height:25px;">&nbsp;<input value='查询' type='SUBMIT' style="background: rgba(255, 255, 255, 0.7);"></td>
 	</tr>
 </table>
 
 </form>
 
+
+<form method='POST'action='/content'>
+<table align="center">
+<th colspan="2">·———————————————————·</th>
+<tr><td>&nbsp;&nbsp;&nbsp;</td><td>
+  <select name='city' style="width:150px;height:20px; >
+  
+  {% for city in the_city_list %}
+    <option value="{{city}}">{{city}}</option>
+  {% endfor %}
+
+  </select>
+  
+  <input value='查询' type='SUBMIT' style="background: rgba(255, 255, 255, 0.7);" >
+</td></tr>
+</table>
+</form>
 {% endblock %}

@@ -1,0 +1,157 @@
+{
+    "data": [
+        {
+            "id": "Graves",
+            "image": {
+                "full": "Graves.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 384,
+                "y": 96
+            },
+            "info": {
+                "attack": 8,
+                "defense": 5,
+                "difficulty": 4,
+                "magic": 3
+            },
+            "key": "104",
+            "name": "\u6cd5\u5916\u72c2\u5f92",
+            "passive": {
+                "description": "\u683c\u96f7\u798f\u65af\u7684\u6563\u5f39\u67aa\u62e5\u6709\u4e00\u4e9b\u72ec\u7279\u6027\u80fd\uff1a<br><br>\u53cc\u67aa\u7ba1\uff1a\u683c\u96f7\u798f\u65af\u7684\u5f39\u836f\u6253\u5149\u540e\u5c31\u5fc5\u987b\u91cd\u65b0\u88c5\u5f39\u3002\u653b\u51fb\u901f\u5ea6\u53ea\u4f1a\u7565\u5fae\u51cf\u5c11\u88c5\u5f39\u65f6\u95f4\uff0c\u4f46\u4f1a\u663e\u8457\u51cf\u5c11\u4e24\u6b21\u653b\u51fb\u65f6\u95f4\u3002<br><br>12\u53f7\u89c4\u683c\uff1a\u6bcf\u6b21\u653b\u51fb\u4f1a\u53d1\u5c044\u9897\u5f39\u4e38\uff08\u66b4\u51fb\u65f6\u53d1\u5c048\u9897\uff09\uff0c\u547d\u4e2d\u76f8\u540c\u76ee\u6807\u7684\u6bcf\u9897\u989d\u5916\u5f39\u4e38\u9020\u621075%\uff08\u968f\u7740\u7b49\u7ea7\u63d0\u5347\uff09\u603b\u653b\u51fb\u529b+26%\uff08\u968f\u7740\u7b49\u7ea7\u63d0\u5347\uff09\u989d\u5916\u4f24\u5bb3\u3002\u5bf9\u5efa\u7b51\u9020\u6210\u7684\u4f24\u5bb3\u51cf\u5c1125%\u3002<br><br>\u5927\u53f7\u94c5\u5f39\uff1a\u5f39\u4e38\u65e0\u6cd5\u7a7f\u900f\u5355\u4f4d\u3002\u4f1a\u51fb\u9000\u88ab\u591a\u9897\u5f39\u4e38\u547d\u4e2d\u7684\u975e\u82f1\u96c4\u5355\u4f4d\u3002<br><br>4\u670826\u65e56.8\u7248\u672c\u66f4\u65b0\uff1a\u6bcf\u9897\u66b4\u51fb\u5f39\u4e38\u9020\u6210140%\u4f24\u5bb3(\u3010\u65e0\u5c3d\u4e4b\u5203\u3011\u4f1a\u5c06\u8fd9\u4e2a\u4f24\u5bb3\u63d0\u5347\u81f3160%)<br>4\u670826\u65e56.8\u7248\u672c\u66f4\u65b0\uff1a\u9996\u6b21\u547d\u4e2d\u7684\u6536\u76ca\u65b9\u5f0f\uff1a0.7 \u2013 1.0\u603b\u653b\u51fb\u529b(\u4e8e1-18\u7ea7)\uff08\u6b64\u524d\u4e3a0.75 \u2013 1.1\u603b\u653b\u51fb\u529b(\u4e8e1-18\u7ea7)\uff09<br>4\u670826\u65e56.8\u7248\u672c\u66f4\u65b0\uff1a\u66b4\u51fb\u65f6\u7684\u5f39\u4e38\u6570\uff1a6\uff08\u6b64\u524d\u4e3a8\uff09",
+                "image": {
+                    "full": "GravesTrueGrit.png"
+                },
+                "name": "\u65b0\u547d\u8fd0\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/8/i/u/83kDf58Htiu.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=83kDf58Htiu&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_g0102kyrn5f.html",
+                    "id": "001",
+                    "name": "\u6012\u4e4b\u706b\u70ae \u683c\u96f7\u798f\u65af",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0102kyrn5f&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_c0102qa9qlz.html",
+                    "id": "002",
+                    "name": "\u6740\u51fa\u91cd\u56f4 \u683c\u96f7\u798f\u65af",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0102qa9qlz&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_p0101j87dmi.html",
+                    "id": "003",
+                    "name": "\u9ed1\u5e2e\u6559\u7236 \u683c\u96f7\u798f\u65af",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p0101j87dmi&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/p/0/5/p01125q99m5.html",
+                    "id": "004",
+                    "name": "\u9632\u66b4\u58eb\u5175 \u683c\u96f7\u798f\u65af",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p01125q99m5&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/z/0/0/z0013wdggx0.html",
+                    "id": "005",
+                    "name": "\u6cf3\u6c60\u6d3e\u5bf9 \u683c\u96f7\u798f\u65af",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=z0013wdggx0&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=c015994f021",
+                    "id": "006",
+                    "name": "\u65e0\u60c5\u91cd\u70ae \u683c\u96f7\u798f\u65af",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c015994f021&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "GravesClusterShot",
+                    "image": {
+                        "full": "GravesClusterShot.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5927\u53f7\u94c5\u5f39\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u683c\u96f7\u798f\u65af\u53d1\u5c04\u4e00\u9897\u706b\u836f\u5f39\uff0c\u5bf9\u4e00\u6761\u76f4\u7ebf\u4e0a\u7684\u654c\u4eba\u9020\u621060/80/100/120/140(+0.75*\u989d\u5916AD)\u70b9\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u57282\u79d2\u540e\uff0c\u6216\u4e0e\u5730\u5f62\u4ea7\u751f\u78b0\u649e\u540e\uff0c\u706b\u836f\u5f39\u4f1a\u7206\u70b8\uff0c\u5bf9\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u621080/125/170/215/260 (+0.4/0.6/0.8/1/1.2*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/13/12/11/10\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "GravesSmokeGrenade",
+                    "image": {
+                        "full": "GravesSmokeGrenade.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u70df\u5e55\u5f39\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u683c\u96f7\u798f\u65af\u53d1\u5c04\u4e00\u679a\u70df\u96fe\u5f39\uff0c\u6765\u5236\u9020\u4e00\u56e2\u6301\u7eed4\u79d2\u7684\u9ed1\u8272\u70df\u5e55\u3002\u5728\u9ed1\u8272\u70df\u5e55\u4e2d\u7684\u654c\u4eba\u65e0\u6cd5\u770b\u5230\u70df\u5e55\u4e4b\u5916\u3002<br><br>\u5728\u70df\u5e55\u5f39\u7206\u5f00\u65f6\u9020\u621060/110/160/210/260(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u548c15%\u51cf\u901f\u6548\u679c\u3002<br>\u683c\u96f7\u798f\u65af\u53d1\u5c04\u4e00\u679a\u70df\u96fe\u5f39\uff0c\u5728\u649e\u51fb\u65f6\u9020\u621060/110/160/210/260(+0.6*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5728\u6307\u5b9a\u533a\u57df\u4ea7\u751f\u4e00\u56e2\u70df\u96fe\uff0c\u6301\u7eed4/4/4/4/4\u79d2\u3002\u5982\u679c\u654c\u4eba\u6301\u7eed\u5904\u5728\u70df\u5e55\u4e4b\u4e2d\uff0c\u5219\u4ed6\u4eec\u7684\u89c6\u91ce\u548c\u79fb\u52a8\u901f\u5ea6\u90fd\u5c06\u88ab\u51cf\u5c1115/20/25/30/35%\u3002<br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a26/24/22/20/18\u79d2<br>\u6d88\u8017\uff1a70/75/80/85/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "GravesMove",
+                    "image": {
+                        "full": "GravesMove.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5feb\u901f\u62d4\u67aa\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u683c\u96f7\u798f\u65af\u5411\u76ee\u6807\u533a\u57df\u51b2\u523a\uff0c\u5728\u79fb\u52a8\u65f6\u8fdb\u884c\u4e00\u6b21\u5feb\u901f\u88c5\u5f39\u3002\u63a5\u4e0b\u6765\u76844\u79d2\u91cc\uff0c\u683c\u96f7\u798f\u65af\u83b7\u5f97\u4e00\u5c42\u7eaf\u7237\u4eec\u6548\u679c\uff08\u53ef\u53e0\u52a0\uff09\u3002<br><br>\u6bcf\u6b21\u666e\u653b\u5728\u547d\u4e2d\u975e\u5c0f\u5175\u5355\u4f4d\u540e\u4f1a\u4f7f\u3010\u5feb\u901f\u62d4\u67aa\u3011\u7684\u51b7\u5374\u65f6\u95f4\u7f29\u77ed0.5\u79d2\uff0c\u5e76\u5237\u65b0\u7eaf\u7237\u4eec\u3002<br><br>\u7eaf\u7237\u4eec\u63d0\u4f9b10/15/20/25/30\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\uff08\u6700\u591a\u53ef\u53e0\u52a04\u6b21\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/17/16/15/14\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "GravesChargeShot",
+                    "image": {
+                        "full": "GravesChargeShot.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7ec8\u6781\u7206\u5f39\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u683c\u96f7\u798f\u65af\u5c04\u51fa\u4e00\u679a\u7206\u7834\u5f39\uff0c\u5e76\u56e0\u53d1\u5c04\u65f6\u7684\u8d85\u5f3a\u540e\u5750\u529b\u800c\u88ab\u51fb\u9000\u3002\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u654c\u4eba\u9020\u6210250/400/550(+0.75*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002\u5728\u547d\u4e2d\u4e00\u540d\u654c\u65b9\u82f1\u96c4\uff0c\u6216\u8005\u8fbe\u5230\u6700\u5927\u5c04\u7a0b\u4e4b\u540e\uff0c\u7ec8\u6781\u7206\u5f39\u5c06\u4f1a\u5206\u88c2\uff0c\u5bf9\u76ee\u6807\u4e4b\u540e\u9525\u5f62\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u6210200/320/440(+0.6*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/90/80\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman"
+            ],
+            "title": "\u683c\u96f7\u798f\u65af",
+            "trait": {
+                "adc": {
+                    "add-point": "QEQWQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3006;3072;3046",
+                        "3006;3072;3031;3035;3046;3139",
+                        "3006;3072;3031;3035;3046;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

@@ -1,0 +1,158 @@
+{
+    "data": [
+        {
+            "id": "Orianna",
+            "image": {
+                "full": "Orianna.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 288,
+                "y": 0
+            },
+            "info": {
+                "attack": 4,
+                "defense": 3,
+                "difficulty": 10,
+                "magic": 9
+            },
+            "key": "61",
+            "name": "\u53d1\u6761\u9b54\u7075",
+            "passive": {
+                "description": "\u5965\u8389\u5b89\u5a1c\u7684\u9b54\u5076\u662f\u5176\u65bd\u653e\u6280\u80fd\u548c\u653b\u51fb\u7684\u7126\u70b9\u3002\u5982\u679c\u5965\u8389\u5b89\u5a1c\u548c\u9b54\u5076\u76f8\u8ddd\u592a\u8fdc\uff0c\u9b54\u5076\u4f1a\u81ea\u52a8\u56de\u5230\u5979\u8eab\u8fb9\u3002<br><br>\u5965\u8389\u5b89\u5a1c\u7684\u666e\u901a\u653b\u51fb\u9020\u6210\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\uff0c\u4f24\u5bb3\u503c\u4e3a10/18/26/34/42/50\uff08\u5728\u7b49\u7ea71/4/7/10/13/16\u65f6\u53d8\u5316\uff09\uff08+0.15*AP\uff09\u30024\u79d2\u5185\u5bf9\u540c\u4e2a\u76ee\u6807\u7684\u8fde\u7eed\u653b\u51fb\u4f1a\u9020\u6210\u989d\u591620%\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6700\u591a\u53ef\u53e0\u52a02\u6b21\u3002",
+                "image": {
+                    "full": "OriannaPassive.png"
+                },
+                "name": "\u53d1\u6761\u534f\u594f\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/8/E/I/83pNr56ljEI.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=83pNr56ljEI&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_v0102ypi8ut.html",
+                    "id": "001",
+                    "name": "\u54e5\u7279\u5973\u4ec6 \u5965\u8389\u5b89\u5a1c",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=v0102ypi8ut&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/e/g0112l9iure.html",
+                    "id": "002",
+                    "name": "\u6728\u5076\u5947\u9047\u8bb0 \u5965\u8389\u5b89\u5a1c",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0112l9iure&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_u0101jwxru1.html",
+                    "id": "003",
+                    "name": "\u7075\u9aa8\u5de5\u5320 \u5965\u8389\u5b89\u5a1c",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0101jwxru1&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/y/0/3/y0012lwhgi3.html",
+                    "id": "004",
+                    "name": "\u6697\u6740\u661f \u5965\u8389\u5b89\u5a1c",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0012lwhgi3&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/p/0/6/p0142mawcb6.html",
+                    "id": "005",
+                    "name": "\u51ac\u5b63\u4ed9\u5883 \u5965\u8389\u5b89\u5a1c",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p0142mawcb6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/t/0/p/t0182hu2czp.html",
+                    "id": "006",
+                    "name": "\u89c5\u5fc3\u9b54\u7075 \u5965\u8389\u5b89\u5a1c",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=t0182hu2czp&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "OrianaIzunaCommand",
+                    "image": {
+                        "full": "OrianaIzunaCommand.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6307\u4ee4\uff1a\u653b\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5965\u8389\u5b89\u5a1c\u6307\u6325\u5979\u7684\u9b54\u5076\uff0c\u5bf9\u76ee\u6807\u533a\u57df\u53d1\u5c04\uff0c\u5bf9\u6cbf\u8def\u76ee\u6807\u9020\u621060/90/120/150/180(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002 \u6bcf\u51fb\u4e2d\u4e00\u4e2a\u76ee\u6807\uff0c\u4f24\u5bb3\u51cf\u5c1110/10/10/10/10%\uff08\u6700\u5c11\u9020\u621040/40/40/40/40%\uff09\u3002<br><br>\u6307\u4ee4\u7ed3\u675f\u540e\uff0c\u9b54\u5076\u4f1a\u7559\u5728\u76ee\u6807\u533a\u57df\u3002<br>\u8ddd\u79bb\uff1a815<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/5.25/4.5/3.75/3\u79d2<br>\u6d88\u8017\uff1a30/35/40/45/50\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "OrianaDissonanceCommand",
+                    "image": {
+                        "full": "OrianaDissonanceCommand.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6307\u4ee4\uff1a\u6742\u97f3\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5965\u8389\u5b89\u5a1c\u6307\u6325\u5979\u7684\u9b54\u5076\uff0c\u91ca\u653e\u4e00\u80a1\u7535\u8109\u51b2\uff0c\u5bf9\u5468\u56f4\u654c\u519b\u9020\u621070/115/160/205/250(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u6b64\u7535\u8109\u51b2\u7559\u4e0b\u6301\u7eed3/3/3/3/3\u79d2\u7684\u80fd\u91cf\u573a\uff0c\u964d\u4f4e\u654c\u4eba20/25/30/35/40%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u589e\u52a0\u53cb\u519b20/25/30/35/40%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed2/2/2/2/2\u79d2\u3002\u6b64\u6548\u679c\u968f\u65f6\u95f4\u51cf\u5f31\u3002<br>\u8ddd\u79bb\uff1a255<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/9/9/9/9\u79d2<br>\u6d88\u8017\uff1a70/80/90/100/110 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "OrianaRedactCommand",
+                    "image": {
+                        "full": "OrianaRedactCommand.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6307\u4ee4\uff1a\u9632\u536b\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u9b54\u5076\u4e3a\u9644\u5c5e\u7684\u53cb\u519b\u82f1\u96c4\u589e\u52a010/15/20/25/30\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\u3002<br><br>\u4e3b\u52a8\uff1a\u5965\u8389\u5b89\u5a1c\u6307\u6325\u5979\u7684\u9b54\u5076\u524d\u5f80\u5e76\u9644\u5c5e\u5728\u53cb\u519b\u82f1\u96c4\u8eab\u4e0a\uff0c\u4fdd\u62a4\u4ed6\u4eec\u5728\u63a5\u4e0b\u67654/4/4/4/4\u79d2\u514d\u53d780/120/160/200/240(+0.4*AP)\u4f24\u5bb3\u3002\u9b54\u5076\u7ecf\u8fc7\u7684\u654c\u65b9\u5355\u4f4d\u53d7\u5230\u62a4\u76fe\u503c75/75/75/75/75%\u7684\u4f24\u5bb3\uff1a60/90/120/150/180(+0.3*AP)\u3002<br>\u8ddd\u79bb\uff1a1095<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/9/9/9/9\u79d2<br>\u6d88\u8017\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "OrianaDetonateCommand",
+                    "image": {
+                        "full": "OrianaDetonateCommand.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6307\u4ee4\uff1a\u51b2\u51fb\u6ce2\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5965\u8389\u5b89\u5a1c\u6307\u6325\u5979\u7684\u9b54\u5076\uff0c\u5728\u77ed\u6682\u7684\u5ef6\u8fdf\u540e\u91ca\u653e\u4e00\u80a1\u51b2\u51fb\u6ce2\uff0c\u5bf9\u5468\u56f4\u654c\u519b\u9020\u6210150/225/300(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u5e76\u5c06\u4ed6\u4eec\u671d\u9b54\u5076\u7684\u65b9\u5411\u51fb\u98de\u3002<br><br>\u8ddd\u79bb\uff1a410<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/105/90\u79d2<br>\u6d88\u8017\uff1a100/125/150 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage",
+                "Support"
+            ],
+            "title": "\u5965\u8389\u5b89\u5a1c",
+            "trait": {
+                "zd": {
+                    "add-point": "QWEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3028;1056;3020",
+                        "3174;3020;3089;3157;3135;3026",
+                        "3174;3020;3089;3157;3026;3135"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

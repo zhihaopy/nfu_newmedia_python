@@ -1,0 +1,151 @@
+{
+    "data": [
+        {
+            "id": "Kassadin",
+            "image": {
+                "full": "Kassadin.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 384,
+                "y": 0
+            },
+            "info": {
+                "attack": 3,
+                "defense": 5,
+                "difficulty": 8,
+                "magic": 8
+            },
+            "key": "38",
+            "name": "\u865a\u7a7a\u884c\u8005",
+            "passive": {
+                "description": "\u5361\u8428\u4e01\u6240\u53d7\u7684\u9b54\u6cd5\u4f24\u5bb3\u51cf\u5c1115%\uff0c\u5e76\u65e0\u89c6\u5355\u4f4d\u7684\u78b0\u649e\u4f53\u79ef\u3002",
+                "image": {
+                    "full": "Kassadin_Passive.png"
+                },
+                "name": "\u865a\u7a7a\u4e4b\u77f3\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/t/8/7EKnoDgO7t8.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7EKnoDgO7t8&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/d/g0112o3woqd.html",
+                    "id": "001",
+                    "name": "\u5bd2\u51b0\u738b\u5ea7 \u5361\u8428\u4e01",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0112o3woqd&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_k0102hxfe4k.html",
+                    "id": "002",
+                    "name": "\u6df1\u6d77\u4e00\u53f7 \u5361\u8428\u4e01",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0102hxfe4k&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/q/0/g/q010424wp9g.html",
+                    "id": "003",
+                    "name": "\u865a\u7a7a\u524d\u4e16 \u5361\u8428\u4e01",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q010424wp9g&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_h0101ms8en3.html",
+                    "id": "004",
+                    "name": "\u5148\u9a71\u884c\u8005 \u5361\u8428\u4e01",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0101ms8en3&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/h/0/x/h0167yplmpx.html",
+                    "id": "005",
+                    "name": "\u63a0\u661f\u9b54\u5203 \u5361\u8428\u4e01",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0167yplmpx&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Kassadin_Q",
+                    "image": {
+                        "full": "Kassadin_Q.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u865a\u65e0\u6cd5\u7403\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5361\u8428\u4e01\u5411\u76ee\u6807\u53d1\u5c04\u865a\u65e0\u6cd5\u7403\uff0c\u9020\u621065/95/125/155/185(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u5e76\u6253\u65ad\u76ee\u6807\u7684\u6280\u80fd\u5f15\u5bfc\u3002<br><br>\u6ee1\u6ea2\u7684\u80fd\u91cf\u4f1a\u73af\u7ed5\u4e8e\u5361\u8428\u4e01\uff0c\u63d0\u4f9b\u4e00\u4e2a\u53ef\u4ee5\u5438\u653640/70/100/130/160(+0.3*AP)\u9b54\u6cd5\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u62a4\u76fe\u6301\u7eed1.5/1.5/1.5/1.5/1.5\u79d2\u3002<br>\u8ddd\u79bb\uff1a650<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/9/9/9/9\u79d2<br>\u6d88\u8017\uff1a70/75/80/85/90 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kassadin_W",
+                    "image": {
+                        "full": "Kassadin_W.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u865a\u7a7a\u4e4b\u5203\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u5361\u8428\u4e01\u7684\u666e\u901a\u653b\u51fb\u4ece\u865a\u7a7a\u4e2d\u5438\u53d6\u6cd5\u529b\uff0c\u9020\u621020/20/20/20/20(+0.1*AP)\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u4e3b\u52a8\uff1a\u5361\u8428\u4e01\u7ed9\u4ed6\u7684\u865a\u7a7a\u4e4b\u5203\u5145\u80fd\uff0c\u4f7f\u4ed6\u7684\u4e0b\u6b21\u666e\u901a\u653b\u51fb\u9020\u621040/65/90/115/140(+0.7*AP)\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u56de\u590d4/5/6/7/8%\u7684\u5df2\u635f\u5931\u6cd5\u529b\u503c\uff08\u5982\u679c\u653b\u51fb\u7684\u5bf9\u8c61\u662f\u654c\u65b9\u82f1\u96c4\uff0c\u90a3\u4e48\u6cd5\u529b\u56de\u590d\u63d0\u5347\u81f320/25/30/35/40%\uff09\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/7/7/7/7\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "Kassadin_E",
+                    "image": {
+                        "full": "Kassadin_E.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u80fd\u91cf\u8109\u51b2\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5361\u8428\u4e01\u4f1a\u4ece\u4e34\u8fd1\u7684\u6bcf\u6b21\u65bd\u6cd5\u4e2d\u5438\u6536\u80fd\u91cf\uff0c\u9644\u8fd1\u6bcf\u6709\u4e00\u6b21\u6280\u80fd\u65bd\u653e\uff0c\u5c31\u4f1a\u83b7\u5f97\u4e00\u5c42\u6548\u679c\u3002<br><br>\u5f53\u6548\u679c\u5230\u8fbe6\u5c42\u540e\uff0c\u5361\u8428\u4e01\u5c31\u53ef\u4ee5\u4f7f\u7528\u80fd\u91cf\u8109\u51b2\uff0c\u6765\u5bf9\u524d\u65b9\u9525\u5f62\u8303\u56f4\u5185\u7684\u654c\u4eba\u9020\u621080/105/130/155/180(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u4ee5\u53ca50/60/70/80/90%\u51cf\u901f\u6548\u679c\uff0c\u51cf\u901f\u6301\u7eed1\u79d2\u3002<br>\u8ddd\u79bb\uff1a400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/6/6/6/6\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kassadin_R",
+                    "image": {
+                        "full": "Kassadin_R.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u865a\u7a7a\u884c\u8d70\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5361\u8428\u4e01\u4f20\u9001\u5230\u9644\u8fd1\u7684\u76ee\u6807\u533a\u57df\uff0c\u7740\u9646\u65f6\u5bf9\u8eab\u8fb9\u7684\u6240\u6709\u654c\u65b9\u5355\u4f4d\u9020\u621080/100/120(+2%\u6700\u5927\u6cd5\u529b\u503c)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u6bcf\u572815\u79d2\u5185\u8fde\u7eed\u65bd\u653e\u4e00\u6b21\u865a\u7a7a\u884c\u8d70\uff0c\u6cd5\u529b\u6d88\u8017\u5c31\u4f1a\u7ffb\u500d\uff0c\u6bcf\u5c42\u6548\u679c\u9020\u6210\u989d\u5916\u768440/50/60(+1%\u6700\u5927\u6cd5\u529b\u503c)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6700\u591a\u53ef\u53e0\u52a04\u5c42\u3002<br>\u8ddd\u79bb\uff1a500<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/4/2 \u79d2<br>\u6d88\u8017\uff1a50/50/50 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Assassin",
+                "Mage"
+            ],
+            "title": "\u5361\u8428\u4e01",
+            "trait": {
+                "zd": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "2041;2003:3;3340",
+                        "3070;3020;3027",
+                        "3020;3041;3003;3089;3135;3157",
+                        "3020;3157;3041;3027;3003;3001"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

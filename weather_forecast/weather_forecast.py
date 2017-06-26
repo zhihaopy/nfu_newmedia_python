@@ -21,12 +21,12 @@ def get_weather(city_name):
         weather_html = response.read()
         json_data = json.loads(weather_html)
         #print(json_data)
+        
         #生活指数api
         url_life = ('https://free-api.heweather.com/v5/suggestion?city=CN{code}&key=50246ea62fbd405c9315e51d2a1d29c0'.format(code=city_code))
         response_life = urllib.request.urlopen(url_life)
         weather_html_life = response_life.read()
         json_data_life = json.loads(weather_html_life)
-
 
         data_life = json_data_life['HeWeather5'][0]
         '''
@@ -104,10 +104,99 @@ def get_weather(city_name):
         spd = wind['spd']
 
 
-            
-        return [city,float(lat),float(lon),day_weather,night_weather,max,min,hum,pop,pcpn,dir,sc,sun_rise,sun_set,comf,comf_txt,drsg,drsg_txt,flu,flu_txt,sport,sport_txt,trav,trav_txt,uv,uv_txt,update,]
+                    #预报日期2
+        date2 = data['daily_forecast'][1]['date']
 
+            #天文数值
+        astro2 = data['daily_forecast'][1]['astro']
+                #日出/日落时间
+        sun_rise2 = astro2['sr']
+        sun_set2 = astro2['ss']
+
+            #天气状况
+        cond2 = data['daily_forecast'][1]['cond']
+                #白天与夜晚的天气状况
+        day_weather2 = cond2['txt_d']
+        night_weather2 = cond2['txt_n']
+
+            #相对湿度
+        hum2 = data['daily_forecast'][1]['hum']
+            #降水量
+        pcpn2 = data['daily_forecast'][1]['pcpn']
+            #降水概率
+        pop2 = data['daily_forecast'][1]['pop']
+            #温度
+        tmp2 = data['daily_forecast'][1]['tmp']
+                #最高/最低温度
+        max2 = tmp2['max']
+        min2 = tmp2['min']
+            #能见度
+        vis2 = data['daily_forecast'][1]['vis']
+            #风力风向
+        wind2 = data['daily_forecast'][1]['wind']
+                #风向
+        dir2 = wind2['dir']
+                #风力等级
+        sc2 = wind2['sc']
+                #风速
+        spd2 = wind2['spd']
+
+                    #预报日期2
+        date3 = data['daily_forecast'][2]['date']
+
+            #天文数值
+        astro3 = data['daily_forecast'][2]['astro']
+                #日出/日落时间
+        sun_rise3 = astro3['sr']
+        sun_set3 = astro3['ss']
+
+            #天气状况
+        cond3 = data['daily_forecast'][2]['cond']
+                #白天与夜晚的天气状况
+        day_weather3 = cond3['txt_d']
+        night_weather3 = cond3['txt_n']
+
+            #相对湿度
+        hum3 = data['daily_forecast'][2]['hum']
+            #降水量
+        pcpn3 = data['daily_forecast'][2]['pcpn']
+            #降水概率
+        pop3 = data['daily_forecast'][2]['pop']
+            #温度
+        tmp3 = data['daily_forecast'][2]['tmp']
+                #最高/最低温度
+        max3 = tmp3['max']
+        min3 = tmp3['min']
+            #能见度
+        vis3 = data['daily_forecast'][2]['vis']
+            #风力风向
+        wind3 = data['daily_forecast'][2]['wind']
+                #风向
+        dir3 = wind3['dir']
+                #风力等级
+        sc3 = wind3['sc']
+                #风速
+        spd3 = wind3['spd']
+
+
+            
+        return (city,float(lat),float(lon),day_weather,night_weather,max,min,hum,pop,pcpn,dir,sc,sun_rise,sun_set,comf,comf_txt,drsg,drsg_txt,flu,flu_txt,sport,sport_txt,trav,trav_txt,uv,uv_txt,update,
+                       day_weather2, night_weather2, max2, min2, hum2, pop2, pcpn2, dir2, sc2, sun_rise2, sun_set2,
+                            day_weather3, night_weather3, max3, min3, hum3, pop3, pcpn3, dir3, sc3, sun_rise3, sun_set3,
+                                str(date),str(date2),str(date3),)
+                
 
     except NameError :
         print('不存在此城市或暂无数据')
 
+
+def get_form():
+    with open('city.txt', 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        city_list = ['北京']
+        for line in lines:
+            if line != '\n' :
+                city = line.split('=')[1].strip()
+            city_list.append(city)
+            
+    return city_list

@@ -1,0 +1,158 @@
+{
+    "data": [
+        {
+            "id": "Riven",
+            "image": {
+                "full": "Riven.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 144,
+                "y": 48
+            },
+            "info": {
+                "attack": 8,
+                "defense": 5,
+                "difficulty": 4,
+                "magic": 1
+            },
+            "key": "92",
+            "name": "\u653e\u9010\u4e4b\u5203",
+            "passive": {
+                "description": "\u9510\u96ef\u7684\u6280\u80fd\u5c06\u4e3a\u5979\u7684\u5251\u5203\u5145\u80fd\uff0c\u4ee5\u4f7f\u5979\u7684\u4e0b\u4e00\u6b21\u666e\u901a\u653b\u51fb\u9020\u62100.25-0.5*\u603bAD\uff08\u4e8e1-18\u7ea7\uff09\u989d\u5916\u7684\u4f24\u5bb3\u3002\u9510\u96ef\u6700\u591a\u53ef\u4ee5\u5145\u80fd3\u6b21\uff0c\u4f46\u6bcf\u6b21\u653b\u51fb\u53ea\u4f1a\u6d88\u8017\u6389\u4e00\u5c42\u5145\u80fd\u3002",
+                "image": {
+                    "full": "RivenRunicBlades.png"
+                },
+                "name": "\u7b26\u6587\u4e4b\u5203\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/9/b/i/9e8wHx8v3bi.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=9e8wHx8v3bi&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_u0101ypida6.html",
+                    "id": "001",
+                    "name": "\u523a\u5ba2\u4fe1\u6761 \u9510\u96ef",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0101ypida6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_n0101epbvr5.html",
+                    "id": "002",
+                    "name": "\u8840\u8272\u7cbe\u9510 \u9510\u96ef",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0101epbvr5&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_t0100bk6lgu.html",
+                    "id": "003",
+                    "name": "\u5154\u5973\u90ce \u9510\u96ef",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=t0100bk6lgu&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/n/0/u/n0112o589fu.html",
+                    "id": "004",
+                    "name": "\u51a0\u519b\u4e4b\u5203 \u9510\u96ef",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0112o589fu&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/m/0/k/m0125o0yusk.html",
+                    "id": "005",
+                    "name": "\u66ff\u7236\u4ece\u519b \u82b1\u6728\u5170",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0125o0yusk&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/h/h7bh1r0bbcx53b9.html?vid=e0161gwuw40",
+                    "id": "006",
+                    "name": "\u7535\u73a9\u52c7\u8005 \u9510\u96ef",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0161gwuw40&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "RivenTriCleave",
+                    "image": {
+                        "full": "RivenTriCleave.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6298\u7ffc\u4e4b\u821e\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u9510\u96ef\u5411\u524d\u76f4\u51b2\uff0c\u53d1\u8d77\u7a81\u88ad\u3002\u8fd9\u4e2a\u6280\u80fd\u53ef\u4ee5\u91cd\u590d\u6fc0\u6d3b\u53e6\u5916\u76842\u6b21\u3002<br><br>\u7b2c\u4e00\u51fb\u548c\u7b2c\u4e8c\u51fb\uff1a\u5411\u524d\u65a9\u51fb\uff0c\u5bf9\u63a5\u89e6\u5230\u7684\u6240\u6709\u654c\u4eba\u9020\u621010/30/50/70/90(+0.4/0.45/0.5/0.55/0.6*\u603bAD)\u70b9\u7269\u7406\u4f24\u5bb3\u3002<br>\u7b2c\u4e09\u51fb\uff1a\u8dc3\u5411\u7a7a\u4e2d\uff0c\u968f\u540e\u731b\u51fb\u5730\u9762\uff0c\u9020\u621010/30/50/70/90(+0.4/0.45/0.5/0.55/0.6*\u603bAD)\u70b9\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u4e14\u4ee5\u51b2\u51fb\u70b9\u4e3a\u4e2d\u5fc3\uff0c\u5c06\u5468\u56f4\u7684\u654c\u4eba\u51fb\u98de\u3002<br><br>\u9510\u96ef\u5c06\u4f1a\u4ee5\u4f60\u9f20\u6807\u60ac\u505c\u7684\u5355\u4f4d\u4e3a\u76ee\u6807\uff0c\u5047\u5982\u9f20\u6807\u60ac\u505c\u5904\u6ca1\u6709\u76ee\u6807\uff0c\u9510\u96ef\u4f1a\u671d\u7740\u5979\u73b0\u5728\u9762\u5411\u7684\u533a\u57df\u53d1\u8d77\u7a81\u51fb\u3002<br>\u8ddd\u79bb\uff1a275<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/13/13/13/13\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "RivenMartyr",
+                    "image": {
+                        "full": "RivenMartyr.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9707\u9b42\u6012\u543c\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u9510\u96ef\u7684\u5251\u7206\u53d1\u51fa\u4e00\u80a1\u7b26\u6587\u80fd\u91cf\uff0c\u6765\u9707\u6151\u4f4f\u5468\u56f4\u7684\u654c\u4eba\uff0c\u5bf9\u4ed6\u4eec\u9020\u621050/80/110/140/170(+1*\u989d\u5916AD)\u70b9\u7269\u7406\u4f24\u5bb3\u548c0.75/0.75/0.75/0.75/0.75\u79d2\u7684\u6655\u7729\u6548\u679c\u3002<br>\u8ddd\u79bb\uff1a260<br><br>\u51b7\u5374\u65f6\u95f4\uff1a11/10/9/8/7\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "RivenFeint",
+                    "image": {
+                        "full": "RivenFeint.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u52c7\u5f80\u76f4\u524d\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u9510\u96ef\u671d\u7740\u4f60\u7684\u9f20\u6807\u60ac\u505c\u4f4d\u7f6e\u8fdb\u884c\u4e00\u6b21\u5feb\u901f\u51b2\u523a\uff0c\u5e76\u4e14\u6b66\u88c5\u4e0a\u4e00\u5c42\u62a4\u76fe\uff0c\u683c\u6321\u5c06\u8981\u6765\u4e34\u7684\u6700\u591a90/120/150/180/210(+1*\u989d\u5916AD)\u70b9\u4f24\u5bb3\uff0c\u62a4\u76fe\u6301\u7eed1.5\u79d2\u3002<br>\u8ddd\u79bb\uff1a325<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9/8/7/6\u79d2<br>\u65e0\u6d88\u8017"
+                },
+                {
+                    "description": "",
+                    "id": "RivenFengShuiEngine",
+                    "image": {
+                        "full": "RivenFengShuiEngine.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u653e\u9010\u4e4b\u950b\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u9510\u96ef\u7684\u6b66\u5668\u6fc0\u8361\u7740\u5723\u7075\u7684\u80fd\u91cf\uff0c\u572815\u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\uff0c\u7ed9\u4e88\u597920%\u7684\u653b\u51fb\u529b\u52a0\u6210(+0.2*\u603bAD)\uff0c\u5e76\u63d0\u9ad8\u5979\u7684\u653b\u51fb\u8ddd\u79bb\uff0c\u4ee5\u53ca\u4f24\u5bb3\u7c7b\u6280\u80fd\u7684\u65bd\u6cd5\u8303\u56f4\uff0c\u5e76\u62e5\u6709\u4e00\u6b21\u4f7f\u7528\u75be\u98ce\u65a9\u7684\u80fd\u529b\u3002<br><br>\u75be\u98ce\u65a9\uff1a\u9510\u96ef\u6325\u51fa\u4e00\u9053\u51b2\u51fb\u6ce2\uff0c\u80fd\u591f\u5bf9\u88ab\u5b83\u547d\u4e2d\u7684\u654c\u4eba\u9020\u621080/120/160(+0.6*\u989d\u5916AD)\u5230240/360/480(+1.8*\u989d\u5916AD)\u70b9\u7269\u7406\u4f24\u5bb3\uff0c\u654c\u4eba\u7684\u4f24\u52bf\u8d8a\u91cd\uff0c\u5219\u8be5\u6280\u80fd\u7684\u4f24\u5bb3\u503c\u8d8a\u9ad8\u3002<br><br>\u5f39\u4f53\u901f\u5ea6\uff1a1600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a130/95/60\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Assassin"
+            ],
+            "title": "\u9510\u96ef",
+            "trait": {
+                "sd": {
+                    "add-point": "QWEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3072;3134;1001",
+                        "3072;3071;3074;3035;3026;3158",
+                        "3071;3035;3143;3083;3158;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

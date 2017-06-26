@@ -1,0 +1,146 @@
+{
+    "data": [
+        {
+            "id": "Aatrox",
+            "image": {
+                "full": "Aatrox.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 0,
+                "y": 0
+            },
+            "info": {
+                "attack": 8,
+                "defense": 4,
+                "difficulty": 6,
+                "magic": 3
+            },
+            "key": "266",
+            "name": "\u6697\u88d4\u5251\u9b54",
+            "passive": {
+                "description": "\u5728\u53d7\u5230\u81f4\u547d\u4f24\u5bb3\u540e\uff0c\u4e9a\u6258\u514b\u65af\u4f1a\u4ece\u9c9c\u8840\u9b54\u4e95\u4e2d\u63d0\u53d6\u5df2\u50a8\u5b58\u7684\u8840\u6db2\uff0c\u57283\u79d2\u91cc\u6301\u7eed\u6062\u590d\u751f\u547d\u503c\uff0c\u56de\u590d\u7684\u751f\u547d\u503c\u76f8\u5f53\u4e8e\u9b54\u4e95\u5f53\u524d\u6240\u50a8\u84c4\u7684\u751f\u547d\u503c\u52a0\u4e0a\u9b54\u4e95\u6700\u5927\u50a8\u84c4\u503c\u768435%<br><br>\u5f53\u4f7f\u7528\u6d88\u8017\u751f\u547d\u503c\u7684\u6280\u80fd\u65f6\uff0c\u4e9a\u6258\u514b\u65af\u4f1a\u5c06\u751f\u547d\u6d88\u8017\u7684100%\u8840\u91cf\u50a8\u5b58\u5728\u9c9c\u8840\u9b54\u4e95\u4e2d\uff0c\u5e76\u6839\u636e\u9b54\u4e95\u88ab\u586b\u6ee1\u7684\u7a0b\u5ea6\u6765\u83b7\u5f97\u653b\u51fb\u901f\u5ea6\u52a0\u6210\uff0c\u6700\u591a\u53ef\u83b7\u5f97 30%/35%/40%/45%/50%/55%(\u5728\u7b49\u7ea71/4/7/10/13/16\u65f6\u53d8\u5316)\u653b\u51fb\u901f\u5ea6\u52a0\u6210\u3002<br><br>\u8131\u79bb\u6218\u6597\u540e\u9c9c\u8840\u9b54\u4e95\u91cc\u7684\u8840\u6db2\u4f1a\u6bcf\u79d2\u8870\u51cf2%<br><br>\u51b7\u5374\u65f6\u95f4\uff1a225/200/175/150 (\u5728\u7b49\u7ea7 1/6/11/16\u65f6\u53d8\u5316)",
+                "image": {
+                    "full": "Aatrox_Passive.png"
+                },
+                "name": "\u9c9c\u8840\u9b54\u4e95\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/z/b/a/z01141wqaba.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://player.youku.com/player.php/sid/XNTY5OTQyNDI4/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTY5OTQwMTc2.html",
+                    "id": "001",
+                    "name": "\u4ef2\u88c1\u5723\u9a91 \u4e9a\u6258\u514b\u65af",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNTY5OTQwMTc2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/5/5ieprrdejqzxbu4.html?vid=j0014d49wmx",
+                    "id": "002",
+                    "name": "\u9738\u5929\u5251\u9b54 \u4e9a\u6258\u514b\u65af",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j0014d49wmx&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/5/5ieprrdejqzxbu4.html?vid=j0014d49wmx",
+                    "id": "003",
+                    "name": "\u72c2\u9ca8 \u4e9a\u6258\u514b\u65af",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j0014d49wmx&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "AatroxQ",
+                    "image": {
+                        "full": "AatroxQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9ed1\u6697\u4e4b\u8dc3\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e9a\u6258\u514b\u65af\u5411\u76ee\u6807\u4f4d\u7f6e\u7eb5\u8eab\u4e00\u8dc3\u5e76\u731b\u51fb\uff0c\u5bf9\u843d\u70b9\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u621070/115/160/205/250 (+0.6*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u51fb\u98de\u4f4d\u4e8e\u51b2\u51fb\u4e2d\u5fc3\u7684\u654c\u4eba\uff0c\u6301\u7eed1/1/1/1/1\u79d2\u3002<br>\u8ddd\u79bb\uff1a650<br><br>\u6d88\u8017\uff1a10/10/10/10/10 %\u5f53\u524d\u751f\u547d\u503c<br>\u51b7\u5374\u65f6\u95f4\uff1a16/15/14/13/12\u79d2"
+                },
+                {
+                    "description": "",
+                    "id": "AatroxW",
+                    "image": {
+                        "full": "AatroxW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u8840\u4e4b\u6e34\u671b/\u8840\u4e4b\u62a5\u507f\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5728\u5173\u95ed\u65f6\uff0c\u4e9a\u6258\u514b\u65af\u4f1a\u4ece\u8840\u4e4b\u6e34\u671b\u4e2d\u6536\u76ca\uff0c\u800c\u5f00\u542f\u65f6\uff0c\u4f1a\u6fc0\u6d3b\u8840\u4e4b\u62a5\u507f\uff0c\u5e76\u79fb\u9664\u8840\u4e4b\u6e34\u671b\u7684\u6548\u679c\u3002<br><br>\u8840\u4e4b\u6e34\u671b\uff1a\u4e9a\u6258\u514b\u65af\u6bcf\u7b2c\u4e09\u6b21\u653b\u51fb\u4f1a\u56de\u590d20/25/30/35/40(+0.25*\u989d\u5916AD)\u751f\u547d\u503c\uff0c\u5728\u534a\u8840\u4ee5\u4e0b\u65f6\u63d0\u5347200%\u3002<br><br>\u8840\u4e4b\u62a5\u507f\uff1a\u4e9a\u6258\u514b\u65af\u6bcf\u7b2c\u4e09\u6b21\u653b\u51fb\u4f1a\u9020\u621060/95/130/165/200(+1*\u989d\u5916AD)\u989d\u5916\u7269\u7406\u4f24\u5bb3\uff0c\u540c\u65f6\u4ed6\u81ea\u8eab\u635f\u5931\uff080.25*\u8840\u4e4b\u62a5\u507f\u7b2c\u4e09\u6b21\u653b\u51fb\u9020\u6210\u7684\u989d\u5916\u7269\u7406\u603b\u4f24\u5bb3\uff09\u751f\u547d\u503c\u3002<br>\u8ddd\u79bb\uff1a1000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a0.5/0.5/0.5/0.5/0.5\u79d2<br>"
+                },
+                {
+                    "description": "",
+                    "id": "AatroxE",
+                    "image": {
+                        "full": "AatroxE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u75db\u82e6\u5229\u5203\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e9a\u6258\u514b\u65af\u5411\u524d\u65b9\u91ca\u653e\u5251\u6c14\uff0c\u5bf9\u547d\u4e2d\u7684\u6240\u6709\u654c\u4eba\u9020\u621075/110/145/180/215(+0.6*AP)(+0.6*\u989d\u5916AD)\u70b9\u9b54\u6cd5\u4f24\u5bb3\u5e76\u51cf\u5c11\u4ed6\u4eec40/40/40/40/40%\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed1.75/2/2.25/2.5/2.75\u79d2\u3002<br>\u8ddd\u79bb\uff1a1000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/11/10/9/8\u79d2<br>\u6d88\u8017\uff1a5/5/5/5/5 %\u5f53\u524d\u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "AatroxR",
+                    "image": {
+                        "full": "AatroxR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6d74\u8840\u5c60\u622e\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e9a\u6258\u514b\u65af\u4ece\u654c\u4eba\u8eab\u4e0a\u62bd\u53d6\u8840\u6db2\uff0c\u5bf9\u4ed6\u8eab\u8fb9\u7684\u6240\u6709\u654c\u65b9\u82f1\u96c4\u9020\u6210200/300/400(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u540c\u65f6\u4e9a\u6258\u514b\u65af\u7684\u653b\u51fb\u901f\u5ea6\u4f1a\u63d0\u534740/50/60%\uff0c\u5e76\u4e14\u4ed6\u7684\u653b\u51fb\u8ddd\u79bb\u4f1a\u63d0\u5347175\uff0c\u6301\u7eed12\u79d2\u3002<br><br>\u3010R\u6d74\u8840\u5c60\u622e\u3011\u6bcf\u51fb\u4e2d\u4e00\u4e2a\u654c\u4eba\uff0c\u90fd\u4f1a\u4e3a\u9c9c\u8840\u9b54\u4e95\u704c\u5165\u76f8\u5f53\u4e8e\u5b8320%\u4e0a\u9650\u7684\u9c9c\u8840\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/85/70\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "title": "\u4e9a\u6258\u514b\u65af",
+            "trait": {
+                "dy": {
+                    "add-point": "QWEEEREWEWRWWQQRQQ",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3725;1001;3105",
+                        "3725;3074;3065;3111;3143;3153",
+                        "3725;3190;3065;3111;3143;3083"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWEEEREWEWRWWQQRQQ",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "3153;1011;3074",
+                        "3074;3153;3035;3111;3143;3065",
+                        "3153;3083;3143;3065;3074;3111"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

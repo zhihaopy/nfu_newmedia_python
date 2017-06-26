@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "id": "Volibear",
+            "image": {
+                "full": "Volibear.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 240,
+                "y": 48
+            },
+            "info": {
+                "attack": 7,
+                "defense": 7,
+                "difficulty": 2,
+                "magic": 4
+            },
+            "key": "106",
+            "name": "\u96f7\u9706\u5486\u54ee",
+            "passive": {
+                "description": "\u5f53\u4f60\u7684\u751f\u547d\u503c\u8dcc\u843d30%\u4ee5\u4e0b\u65f6\uff0c\u5c06\u5728\u63a5\u4e0b\u6765\u76846\u79d2\u91cc\u6301\u7eed\u56de\u590d\u751f\u547d\u503c\uff0c\u603b\u989d\u4e3a\u4f60\u6700\u5927\u751f\u547d\u503c\u768430%\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120\u79d2\u3002",
+                "image": {
+                    "full": "VolibearPassive.png"
+                },
+                "name": "\u98ce\u66b4\u7684\u6289\u62e9\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/9/o/8/9ovqwnS9UW8.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=9ovqwnS9UW8&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_d0100hktnl3.html",
+                    "id": "001",
+                    "name": "\u96f7\u9706\u9886\u4e3b \u6c83\u5229\u8d1d\u5c14",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0100hktnl3&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_p0102vghk1u.html",
+                    "id": "002",
+                    "name": "\u5317\u5730\u98ce\u66b4 \u6c83\u5229\u8d1d\u5c14",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p0102vghk1u&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/w/e/j/w001223ugej.html",
+                    "id": "003",
+                    "name": "\u7b26\u6587\u6218\u718a \u6c83\u5229\u8d1d\u5c14",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=w001223ugej&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/p/pg9mclcy1ev59zu.html?vid=r0015jvamwx",
+                    "id": "004",
+                    "name": "\u8b66\u957f \u6c83\u5229\u8d1d\u5c14",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r0015jvamwx&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/m/0/c/m0301d40m5c.html",
+                    "id": "005",
+                    "name": "\u6012\u718a \u6c83\u5229\u8d1d\u5c14",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m0301d40m5c&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "VolibearQ",
+                    "image": {
+                        "full": "VolibearQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6eda\u6eda\u96f7\u9706\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u6c83\u5229\u8d1d\u5c14\u56db\u811a\u7740\u5730\uff0c\u51c6\u5907\u730e\u6740\u654c\u4eba\uff0c\u589e\u52a0 15% \u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed 4 \u79d2\u3002\u8be5\u901f\u5ea6\u52a0\u6210\u4f1a\u5728\u8dd1\u5411\u654c\u65b9\u82f1\u96c4\u65f6\u589e\u52a0\u81f3 30/35/40/45/50%\u3002<br><br>\u6c83\u5229\u8d1d\u5c14\u7684\u4e0b\u4e00\u6b21\u653b\u51fb\u4f1a\u9020\u6210\u989d\u5916\u7684 30/60/90/120/150 \u70b9\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u5c06\u76ee\u6807\u6454\u5230\u6c83\u5229\u8d1d\u5c14\u7684\u8eab\u540e\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a12/11/10/9/8\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VolibearW",
+                    "image": {
+                        "full": "VolibearW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u72c2\u91ce\u6012\u610f\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\u6548\u679c\uff1a\u6c83\u5229\u8d1d\u5c14\u7684\u6bcf\u6b21\u653b\u51fb\u90fd\u4f1a\u83b7\u5f97 4/8/12/16/20%\uff087\u67085\u65e56.13\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a 8/11/14/17/20%\uff09\u7684\u653b\u901f\u52a0\u6210\u3002\u6700\u591a\u53ef\u5806\u53e0 3 \u6b21\u3002<br><br>\u4e3b\u52a8\u6548\u679c\uff1a\u5f53\u6c83\u5229\u8d1d\u5c14\u62e5\u6709 3 \u5c42\u72c2\u91ce\u6012\u610f\u65f6\uff0c\u4ed6\u53ef\u4ee5\u6495\u54ac\u4e00\u540d\u654c\u4eba\uff0c\u9020\u6210 60/110/160/210/260\uff087\u67085\u65e56.13\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a80/125/170/215/260\uff09(+[\u751f\u547d\u503c\u52a0\u6210\u7684 15%])\u70b9\u7269\u7406\u4f24\u5bb3\uff0c\u5e76\u4e14\u76ee\u6807\u6bcf\u5931\u53bb 1% \u7684\u6700\u5927\u751f\u547d\u503c\uff0c\u6b64\u4f24\u5bb3\u503c\u5c31\u4f1a\u63d0\u5347 1%\u3002<br><br>\u5bf9\u91ce\u602a\u4f7f\u7528\u5c06\u8fd4\u8fd8\u4e00\u534a\u7684\u51b7\u5374\u65f6\u95f4<br>\u8ddd\u79bb\uff1a400<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/18/18/18/18\u79d2<br>\u6d88\u8017\uff1a35/35/35/35/35 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VolibearE",
+                    "image": {
+                        "full": "VolibearE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u81f3\u5c0a\u5486\u54ee\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u6c83\u5229\u8d1d\u5c14\u5bf9\u5468\u56f4\u7684\u654c\u519b\u9020\u6210 60/105/150/195/240(+0.6*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u4ed6\u4eec 30/35/40/45/50% \u7684\u901f\u5ea6\uff0c\u6301\u7eed 3 \u79d2\u3002<br><br>\u8be5\u6280\u80fd\u8fd8\u4f1a\u5bf9\u5c0f\u5175\u548c\u91ce\u602a\u65bd\u52a0\u6050\u60e7\u6548\u679c\u3002<br>\u8ddd\u79bb\uff1a425<br><br>\u51b7\u5374\u65f6\u95f4\uff1a11/11/11/11/11\u79d2<br>\u6d88\u801760/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VolibearR",
+                    "image": {
+                        "full": "VolibearR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u96f7\u9706\u6012\u722a\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u6c83\u5229\u8d1d\u5c14\u4e0e\u98ce\u66b4\u8fde\u63a5\uff0c\u5728 12 \u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\uff0c\u4ed6\u7684\u6240\u6709\u666e\u901a\u653b\u51fb\u90fd\u4f1a\u9020\u6210 75/115/155(+0.3*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u80fd\u5bf9\u5468\u56f4\u6700\u591a 4 \u4e2a\u654c\u4eba\u9020\u6210\u8fde\u9501\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a300<br>\u5728\u6fc0\u6d3b\u65f6\uff0c\u95ea\u7535\u94fe\u4f1a\u4ece\u6c83\u5229\u8d1d\u5c14\u8eab\u4e0a\u5c04\u51fa\uff0c\u5e76\u9020\u6210\u4f24\u5bb3<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/90/80\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "title": "\u6c83\u5229\u8d1d\u5c14",
+            "trait": {
+                "dy": {
+                    "add-point": "EWQWWRWEWEREEQQRQQ",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3068;3117;3725",
+                        "3117;3068;3143;3083;3725;3065",
+                        "3111;3068;3143;3083;3075;3065"
+                    ]
+                },
+                "sd": {
+                    "add-point": "WEWQWRWEWEREEQQRQQ",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3111;3065;3068",
+                        "3111;3065;3083;3143;3068;3074",
+                        "3111;3143;3065;3083;3068;3075"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

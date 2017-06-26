@@ -1,0 +1,171 @@
+{
+    "data": [
+        {
+            "id": "Veigar",
+            "image": {
+                "full": "Veigar.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 48,
+                "y": 48
+            },
+            "info": {
+                "attack": 2,
+                "defense": 2,
+                "difficulty": 6,
+                "magic": 10
+            },
+            "key": "45",
+            "name": "\u90aa\u6076\u5c0f\u6cd5\u5e08",
+            "passive": {
+                "description": "\u7ef4\u8fe6\u662f\u6700\u5f3a\u5927\u7684\u6076\u9b54\uff0c\u751a\u81f3\u80fd\u5bf9\u7b26\u6587\u4e4b\u5730\u4e4b\u5fc3\u53d1\u8d77\u653b\u51fb\u2014\u2014\u5e76\u4e14\u4ed6\u53ea\u4f1a\u8d8a\u6765\u8d8a\u5f3a\u5927\uff01\u7528\u6280\u80fd\u653b\u51fb\u4e00\u540d\u654c\u4eba\u3001\u51fb\u6740\u5355\u4f4d\u6216\u62c6\u6bc1\u9632\u5fa1\u5854\u90fd\u4f1a\u4e3a\u7ef4\u8fe6\u6c38\u4e45\u63d0\u5347\u6cd5\u672f\u5f3a\u5ea6\u52a0\u6210\u3002",
+                "image": {
+                    "full": "Veigar_Entropy.png"
+                },
+                "name": "\u5747\u8861\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/2/P/74bmJpDun2P.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=74bmJpDun2P&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_f010200dasp.html",
+                    "id": "001",
+                    "name": "\u767d\u9b54\u6cd5\u5e08 \u7ef4\u8fe6",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f010200dasp&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/s/0/3/s0104bslie3.html",
+                    "id": "002",
+                    "name": "\u51b0\u58f6\u9009\u624b \u7ef4\u8fe6",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0104bslie3&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/4/o0104ah4g54.html",
+                    "id": "003",
+                    "name": "\u7070\u80e1\u5b50\u9b54\u6cd5\u5e08 \u7ef4\u8fe6",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0104ah4g54&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_h0100o3mflo.html",
+                    "id": "004",
+                    "name": "\u7eff\u91ce\u4ed9\u8e2a \u7ef4\u8fe6",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0100o3mflo&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_b0102mnzvrq.html",
+                    "id": "005",
+                    "name": "\u9b54\u5bfc\u7ec5\u58eb \u7ef4\u8fe6",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=b0102mnzvrq&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_u01016j6kzi.html",
+                    "id": "006",
+                    "name": "\u7a7f\u7740\u6b63\u88c5\u7684\u6076\u9b54 \u7ef4\u8fe6",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u01016j6kzi&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/g/k0112fdeesg.html",
+                    "id": "007",
+                    "name": "\u90aa\u6076\u5723\u8bde\u8001\u4eba \u7ef4\u8fe6",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0112fdeesg&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/6/63flezhe4iwjz39.html?vid=z0135jn5jxf",
+                    "id": "008",
+                    "name": "\u6700\u7ec8BOSS \u7ef4\u8fe6",
+                    "num": 8,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=z0135jn5jxf&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "VeigarBalefulStrike",
+                    "image": {
+                        "full": "VeigarBalefulStrike.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9ed1\u6697\u796d\u7940\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u91ca\u653e\u4e00\u675f\u9ed1\u6697\u80fd\u91cf\uff0c\u5bf9\u547d\u4e2d\u7684\u59342\u4e2a\u654c\u4eba\u9020\u621070/110/150/190/230(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u7528\u6b64\u6280\u80fd\u51fb\u6740\u4e00\u4e2a\u5355\u4f4d\uff0c\u8fd8\u4f1a\u4e3a\u7ef4\u8fe6\u63d0\u4f9b\u4e00\u5c42\u8d85\u51e1\u90aa\u6076\u6548\u679c\u3002\u5927\u578b\u5c0f\u5175\u548c\u5927\u578b\u91ce\u602a\u4f1a\u63d0\u4f9b2\u5c42\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a 7/6.5/6/5.5/5\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VeigarDarkMatter",
+                    "image": {
+                        "full": "VeigarDarkMatter.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u9ed1\u6697\u7269\u8d28\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "1.2 \u79d2\u540e\uff0c\u9ed1\u6697\u7269\u8d28\u5c06\u4ece\u5929\u800c\u964d\uff0c\u5bf9\u76ee\u6807\u533a\u57df\u7684\u5355\u4f4d\u9020\u6210 100/150/200/250/300(+1*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8ddd\u79bb\uff1a900<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/9.5/9/8.5/8\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VeigarEventHorizon",
+                    "image": {
+                        "full": "VeigarEventHorizon.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u626d\u66f2\u7a7a\u95f4\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u57280.5\u79d2\u5ef6\u8fdf\u540e\uff0c\u7ef4\u8fe6\u4f1a\u5728\u76ee\u6807\u533a\u57df\u521b\u9020\u4e00\u4e2a\u80fd\u591f\u7ef4\u6301 3 \u79d2\u7684\u626d\u66f2\u7a7a\u95f4\uff0c\u7a7f\u8fc7\u6b64\u533a\u57df\u8fb9\u754c\u7684\u654c\u4eba\u5c06\u4f1a\u53d7\u52301.5/1.75/2/2.25/2.5\u79d2\u7684\u6655\u7729\u6548\u679c\u3002<br><br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/17/16/15/14\u79d2<br>\u6cd5\u529b\uff1a70/75/80/85/90\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "VeigarPrimordialBurst",
+                    "image": {
+                        "full": "VeigarPrimordialBurst.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u80fd\u91cf\u7206\u88c2\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u7528\u6e90\u529b\u9b54\u6cd5\u5f15\u7206\u76ee\u6807\uff0c\u9020\u6210175/250/325(+0.75*AP)\u5230350/500/650(+1.5*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u4f24\u5bb3\u63d0\u5347\u5e45\u5ea6\u57fa\u4e8e\u76ee\u6807\u7684\u5df2\u635f\u5931\u751f\u547d\u503c\u3002<br><br>\u76ee\u6807\u751f\u547d\u503c\u572833%\u4ee5\u4e0b\u5373\u53ef\u9020\u6210\u6700\u5927\u4f24\u5bb3\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/100/80\u79d2<br>\u6d88\u8017\uff1a125/125/125 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage"
+            ],
+            "title": "\u7ef4\u8fe6",
+            "trait": {
+                "zd": {
+                    "add-point": "QEWQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3020;1056;3128",
+                        "3020;3128;3089;3157;3165;3135",
+                        "3020;3128;3089;3157;3026;3135"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

@@ -1,0 +1,143 @@
+{
+    "data": [
+        {
+            "id": "Cassiopeia",
+            "image": {
+                "full": "Cassiopeia.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 48,
+                "y": 48
+            },
+            "info": {
+                "attack": 2,
+                "defense": 3,
+                "difficulty": 10,
+                "magic": 9
+            },
+            "key": "69",
+            "name": "\u9b54\u86c7\u4e4b\u62e5",
+            "passive": {
+                "description": "\u5361\u897f\u5965\u4f69\u5a05\u83b7\u5f97\uff084*\u7b49\u7ea7\uff09\u79fb\u52a8\u901f\u5ea6<br><br>\u5361\u897f\u5965\u4f69\u5a05\u65e0\u6cd5\u8d2d\u4e70\u978b\u5b50\u7c7b\u88c5\u5907",
+                "image": {
+                    "full": "Cassiopeia_DeadlyCadence.png"
+                },
+                "name": "\u4f18\u96c5\u86c7\u884c\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/8/a/v/8JMj0skDvav.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=8JMj0skDvav&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/v/0/q/v010429knvq.html",
+                    "id": "001",
+                    "name": "\u8352\u6f20\u4e4b\u54ac \u5361\u897f\u5965\u4f69\u5a05",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=v010429knvq&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_k0101ovr0av.html",
+                    "id": "002",
+                    "name": "\u6df1\u6d77\u5996\u59ec \u5361\u897f\u5965\u4f69\u5a05",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0101ovr0av&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/e/0/e/e0105crf3ee.html",
+                    "id": "003",
+                    "name": "\u86c7\u53d1\u5973\u5996 \u5361\u897f\u5965\u4f69\u5a05",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=e0105crf3ee&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/c/0/m/c0011efor1m.html",
+                    "id": "004",
+                    "name": "\u78a7\u7389\u4e4b\u7259 \u5361\u897f\u5965\u4f69\u5a05",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=c0011efor1m&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "CassiopeiaNoxiousBlast",
+                    "image": {
+                        "full": "CassiopeiaNoxiousBlast.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u761f\u6bd2\u7206\u70b8\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7528\u761f\u6bd2\u5f15\u7206\u4e00\u7247\u533a\u57df\u5185\u7684\u654c\u4eba\u3002\u5982\u679c\u547d\u4e2d\u4e86\u4e00\u540d\u654c\u65b9\u82f1\u96c4\uff0c\u5361\u897f\u5965\u4f69\u5a05\u4f1a\u83b7\u5f9730%/35%/40%/45%/50%\u79fb\u52a8\u901f\u5ea6\uff0c\u52a0\u901f\u6548\u679c\u4f1a\u57283\u79d2\u91cc\u6301\u7eed\u8870\u51cf\u3002<br><br>\u761f\u6bd2\u57283\u79d2\u91cc\u6301\u7eed\u9020\u6210\u517175/120/165/210/255(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u65bd\u6cd5\u8ddd\u79bb\uff1a850<br><br>\u51b7\u5374\u65f6\u95f4\uff1a3.5/3.5/3.5/3.5/3.5\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "CassiopeiaMiasma",
+                    "image": {
+                        "full": "CassiopeiaMiasma.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5267\u6bd2\u8ff7\u96fe\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u5361\u897f\u5965\u4f69\u5a05\u5448\u5f27\u5ea6\u55b7\u51fa\u6bd2\u6db2\uff0c\u7559\u4e0b\u6301\u7eed5\u79d2\u7684\u6bd2\u4e91\u3002<br><br>\u5728\u6bd2\u4e91\u5185\u7684\u654c\u4eba\u4f1a\u6301\u7eed\u53d7\u5230\u8870\u5f31\u4e4b\u6bd2\uff0c\u548c\u4e00\u4e2a\u6301\u7eed\u8870\u51cf\u768440%/50%/60%/70%/80%\u51cf\u901f\u6548\u679c\uff0c\u5e76\u53d7\u5230\u7f1a\u5730\u6548\u679c\u800c\u7981\u6b62\u4f7f\u7528\u4f4d\u79fb\u6280\u80fd\u3002\u6bd2\u4e91\u5185\u7684\u654c\u4eba\u4e5f\u4f1a\u6bcf\u79d2\u6536\u523020/35/50/65/80\uff08+0.15*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u8fd9\u4e2a\u6280\u80fd\u6709\u6700\u5c0f\u65bd\u653e\u8ddd\u79bb\uff0c\u5e76\u4e14\u4f1a\u5728\u9996\u6b21\u547d\u4e2d\u5730\u5f62\u65f6\u505c\u4e0b\u3002<br><br>\u6700\u5c0f\u8ddd\u79bb\uff1a500\uff085\u670824\u65e56.10\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a550\uff09<br>\u6700\u5927\u8ddd\u79bb\uff1a900\uff085\u670824\u65e56.10\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a800\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/17/16/15/14 \u79d2<br>\u6d88\u8017\uff1a70/70/70/70/70\u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "CassiopeiaTwinFang",
+                    "image": {
+                        "full": "CassiopeiaTwinFang.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u53cc\u751f\u6bd2\u7259\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5bf9\u76ee\u6807\u9020\u621052-120 (\u4e8e1-18\u7ea7)\uff08+0.10*AP\uff09\u9b54\u6cd5\u4f24\u5bb3\u3002\u5982\u679c\u76ee\u6807\u88ab\u3010E\u53cc\u751f\u6bd2\u7259\u3011\u6240\u6740\uff0c\u6216\u5728\u6b64\u6280\u80fd\u5f39\u9053\u7684\u98de\u884c\u671f\u95f4\u9635\u4ea1\uff0c\u5361\u897f\u5965\u4f69\u5a05\u83b7\u5f9760\u6cd5\u529b\u503c\u3002<br><br>\u5982\u679c\u3010E\u53cc\u751f\u6bd2\u7259\u3011\u547d\u4e2d\u4e86\u4e2d\u6bd2\u7684\u76ee\u6807\uff0c\u90a3\u4e48\u5b83\u4f1a\u9020\u621010/40/70/100/130\uff08+0.35*AP\uff09\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\u5e76\u4e3a\u5361\u897f\u5965\u4f69\u5a05\u6cbb\u75975/10/15/20/25\uff08+0.1*AP\uff09\u751f\u547d\u503c\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a0.9/0.9/0.9/0.9/0.9\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "CassiopeiaPetrifyingGaze",
+                    "image": {
+                        "full": "CassiopeiaPetrifyingGaze.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u77f3\u5316\u51dd\u89c6\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5361\u897f\u5965\u4f69\u5a05\u5bf9\u524d\u65b9\u6240\u6709\u654c\u4eba\u9020\u6210150/250/350(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002\u9762\u5bf9\u5979\u7684\u654c\u4eba\u4f1a\u56e0\u77f3\u5316\u800c\u88ab\u6655\u77292\u79d2\uff0c\u800c\u80cc\u671d\u5979\u7684\u654c\u4eba\u4f1a\u88ab\u51cf\u901f40%<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/100/80 \u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Mage"
+            ],
+            "title": "\u5361\u897f\u5965\u4f69\u5a05",
+            "trait": {
+                "zd": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3116;3136;3020;1056",
+                        "3089;3003;3116;3135;3157;3020",
+                        "3089;3151;3116;3135;3157;3020"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

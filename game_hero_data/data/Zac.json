@@ -1,0 +1,139 @@
+{
+    "data": [
+        {
+            "id": "Zac",
+            "image": {
+                "full": "Zac.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 0,
+                "y": 96
+            },
+            "info": {
+                "attack": 3,
+                "defense": 7,
+                "difficulty": 6,
+                "magic": 7
+            },
+            "key": "154",
+            "name": "\u751f\u5316\u9b54\u4eba",
+            "passive": {
+                "description": "\u624e\u514b\u6bcf\u7528\u6280\u80fd\u547d\u4e2d\u4e00\u6b21\u654c\u4eba\uff0c\u81ea\u5df1\u7684\u4e00\u5c0f\u5757\u7c98\u6db2\u5c31\u4f1a\u98de\u6e85\u51fa\u53bb\u3002\u624e\u514b\u53ef\u4ee5\u91cd\u65b0\u5438\u6536\u8fd9\u4e9b\u7c98\u6db2\uff0c\u6765\u4e3a\u81ea\u5df1\u56de\u590d\u3010\u6700\u5927\u751f\u547d\u503c\u76844%\u3011\u751f\u547d\u503c\u3002<br><br>\u5728\u627f\u53d7\u81f4\u547d\u4f24\u5bb3\u65f6\uff0c\u624e\u514b\u4f1a\u5206\u88c2\u6210\u56db\u5757\u7ec6\u80de\u7ec4\u7ec7\uff0c\u5e76\u8bd5\u56fe\u91cd\u65b0\u7ed3\u5408\u3002<br>\u5982\u679c\u57288/7/6/5/4\u79d2(\u57281/5/9/13/17\u7ea7)\u540e\uff0c\u4ecd\u7136\u6709\u7ec6\u80de\u7ec4\u7ec7\u5b58\u6d3b\uff0c\u90a3\u4e48\u4ed6\u5c31\u4f1a\u91cd\u751f\uff0c\u91cd\u751f\u65f6\u7684\u751f\u547d\u503c\u4e3a10%-50%\uff08\u53d6\u51b3\u4e8e\u5b58\u6d3b\u7684\u7ec6\u80de\u7ec4\u7ec7\u6570\u91cf\uff09\u3002\u6bcf\u4e2a\u7ec6\u80de\u7ec4\u7ec7\u62e5\u6709\u624e\u514b12.5%\u7684\u6700\u5927\u751f\u547d\u503c\uff0c\u4ee5\u53ca50%\u7684\u62a4\u7532\u548c\u9b54\u6cd5\u6297\u6027\u3002\u8fd9\u4e2a\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u4e3a5\u5206\u949f\u3002",
+                "image": {
+                    "full": "ZacPassive.png"
+                },
+                "name": "\u7ec6\u80de\u5206\u88c2\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/k/k0114rhp4lk.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0114rhp4lk&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTM2MzAzNzE2.html",
+                    "id": "001",
+                    "name": "\u90aa\u6076\u9b54\u4eba \u624e\u514b",
+                    "num": 1,
+                    "source": "http://player.youku.com/player.php/sid/XNTM2MzAzNzE2/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=r01560bdnu3",
+                    "id": "002",
+                    "name": "\u6cf3\u6c60\u6d3e\u5bf9 \u624e\u514b",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=r01560bdnu3&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "ZacQ",
+                    "image": {
+                        "full": "ZacQ.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5ef6\u4f38\u6253\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u731b\u51fb\u654c\u4eba\uff0c\u9020\u6210 70/110/150/190/230(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u5c06\u654c\u4eba\u51cf\u901f 20/25/30/35/40%\uff0c\u6301\u7eed 2/2/2/2/2 \u79d2\u3002<br>\u8ddd\u79bb\uff1a550<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/8.5/8/7.5/7\u79d2<br>\u6d88\u8017\uff1a4%/4%/4%/4%/4%\u5f53\u524d\u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "ZacW",
+                    "image": {
+                        "full": "ZacW.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u4e0d\u7a33\u5b9a\u7269\u8d28\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u624e\u514b\u7684\u8eab\u4f53\u7206\u53d1\uff0c\u5bf9\u9644\u8fd1\u7684\u6240\u6709\u654c\u4eba\u9020\u6210 40/55/70/85/100 + \u4ed6\u4eec\u6700\u5927\u751f\u547d\u503c\u7684 4/5/6/7/8(+0.02*AP)%\u7684\u9b54\u6cd5\u4f24\u5bb3\u3002(\u5bf9\u5c0f\u5175\u548c\u91ce\u602a\u7684\u6700\u5927\u4f24\u5bb3\uff1a200/200/200/200/200)\u3002<br><br>\u5f53\u624e\u514b\u91cd\u65b0\u5438\u65361\u4e2a\u6389\u843d\u7684\u7ec4\u7ec7\u65f6\uff0c\u8fd9\u4e2a\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u4f1a\u51cf\u5c111\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a5/5/5/5/5\u79d2<br>\u6d88\u8017\uff1a4%/4%/4%/4%/4%\u5f53\u524d\u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "ZacE",
+                    "image": {
+                        "full": "ZacE.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6a61\u7b4b\u5f39\u5f13\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5145\u80fd\u5e76\u5411\u76ee\u6807\u533a\u57df\u884c\u8fdb\uff0c\u540c\u65f6\u51fb\u98de\u654c\u4eba\u3002<br>\u624e\u514b\u4f1a\u9762\u5411\u9f20\u6807\u6307\u9488\u6301\u7eed\u5145\u80fd 0.9/1/1.1/1.2/1.3 \u79d2\u3002\u518d\u6b21\u6fc0\u6d3b\u8be5\u6280\u80fd\u4f1a\u8ba9\u4ed6\u5411\u76ee\u6807\u884c\u8fdb\uff0c\u5bf9\u547d\u4e2d\u7684\u6240\u6709\u654c\u4eba\u9020\u6210 80/130/180/230/280(+0.7*AP)\u9b54\u6cd5\u4f24\u5bb3\u548c 1 \u79d2\u51fb\u98de\u6548\u679c\u3002<br><br>\u53ef\u4ee5\u901a\u8fc7\u79fb\u52a8\u6765\u53d6\u6d88\u65bd\u653e\uff0c\u5e76\u8fd4\u8fd8\u4e00\u534a\u7684\u6280\u80fd\u6d88\u8017\u548c\u51b7\u5374\u65f6\u95f4\u3002<br>\u8ddd\u79bb\uff1a 1200/1350/1500/1650/1800<br><br>\u51b7\u5374\u65f6\u95f4\uff1a24/21/18/15/12\u79d2<br>\u6d88\u8017\uff1a4%/4%/4%/4%/4%\u5f53\u524d\u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "ZacR",
+                    "image": {
+                        "full": "ZacR.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u52a8\u611f\u5f39\u7403\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u624e\u514b\u8fde\u7eed\u5f39\u8df3 4 \u6b21\uff0c\u51fb\u98de\u5e76\u51cf\u901f\u654c\u4eba\u3002<br>\u6bcf\u6b21\u5f39\u8df3\u4f1a\u5bf9\u5468\u56f4\u654c\u4eba\u9020\u6210 140/210/280(+0.4*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5c06\u4ed6\u4eec\u51fb\u98de 1 \u79d2\uff0c\u5e76\u51cf\u5c11\u4ed6\u4eec20% \u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed 1 \u79d2\u3002\u88ab\u547d\u4e2d\u4e24\u6b21\u4ee5\u4e0a\u7684\u654c\u4eba\u4ec5\u4f1a\u53d7\u5230\u4e00\u534a\u4f24\u5bb3\uff0c\u4e14\u4e0d\u4f1a\u88ab\u51fb\u98de\u3002\u624e\u514b\u4f1a\u5728\u6fc0\u6d3b\u8be5\u6280\u80fd\u65f6\u79fb\u9664\u8eab\u4e0a\u7684\u6240\u6709\u51cf\u901f\u6548\u679c\uff0c\u5e76\u83b7\u5f97\u4e00\u4e2a\u4e0d\u65ad\u589e\u52a0\u7684\u52a0\u901f\u6548\u679c(20-50%)\u3002<br><br>\u624e\u514b\u5728\u7a7a\u4e2d\u65f6\uff0c\u53ef\u4ee5\u70b9\u51fb\u9f20\u6807\u53f3\u952e\u6765\u79fb\u52a8\uff0c\u5e76\u80fd\u6fc0\u6d3b\u4e0d\u7a33\u5b9a\u7269\u8d28\u3002<br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a130/115/100\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Tank",
+                "Fighter"
+            ],
+            "title": "\u624e\u514b",
+            "trait": {
+                "dy": {
+                    "add-point": "WEQEEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3725;3068;3067;3111",
+                        "3111;3725;3068;3065;3143;3151",
+                        "3111;3725;3068;3065;3143;3102"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWEQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3047;3068",
+                        "3111;3151;3068;3065;3143;3001",
+                        "3111;3083;3068;3065;3143;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

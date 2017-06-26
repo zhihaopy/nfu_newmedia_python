@@ -1,0 +1,164 @@
+{
+    "data": [
+        {
+            "id": "Shaco",
+            "image": {
+                "full": "Shaco.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion2.png",
+                "w": 48,
+                "x": 336,
+                "y": 48
+            },
+            "info": {
+                "attack": 8,
+                "defense": 4,
+                "difficulty": 9,
+                "magic": 6
+            },
+            "key": "35",
+            "name": "\u6076\u9b54\u5c0f\u4e11",
+            "passive": {
+                "description": "\u8428\u79d1\u4ece\u80cc\u540e\u53d1\u52a8\u653b\u51fb\u65f6\u9020\u6210\u989d\u591620%\u4f24\u5bb3\u3002",
+                "image": {
+                    "full": "Jester_CarefulStrikes.png"
+                },
+                "name": "\u80cc\u523a\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/z/m/7RS988c36zm.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7RS988c36zm&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/s/0/f/s010475ylvf.html",
+                    "id": "001",
+                    "name": "\u6050\u6016\u4e4b\u6e90 \u8428\u79d1",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s010475ylvf&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_x0100dibnx7.html",
+                    "id": "002",
+                    "name": "\u8d35\u65cf\u8840\u7edf \u8428\u79d1",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x0100dibnx7&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/a/0/l/a01129i6mvl.html",
+                    "id": "003",
+                    "name": "\u80e1\u6843\u5939\u5b50 \u8428\u79d1",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=a01129i6mvl&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/j/0/t/j010226gwft.html",
+                    "id": "004",
+                    "name": "\u5c0f\u4e11\u5de5\u4f5c\u574a \u8428\u79d1",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j010226gwft&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_d01016wy9ef.html",
+                    "id": "005",
+                    "name": "\u98de\u8d8a\u75af\u4eba\u9662 \u8428\u79d1",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d01016wy9ef&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.youku.com/v_show/id_XNTM0NjQ3MDA4.html",
+                    "id": "006",
+                    "name": "\u6b66\u52a8\u5dc5\u5cf0 \u8428\u79d1",
+                    "num": 6,
+                    "source": "http://player.youku.com/player.php/sid/XNTM0NjQ3MDA4/v.swf"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/n/0/f/n01534f38sf.html",
+                    "id": "007",
+                    "name": "\u4e07\u80fd\u5c0f\u4e11 \u8428\u79d1",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n01534f38sf&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Deceive",
+                    "image": {
+                        "full": "Deceive.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6b3a\u8bc8\u9b54\u672f\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u8428\u79d1\u7acb\u5373\u8fdb\u5165\u6301\u7eed3.5\u79d2\u7684\u9690\u5f62\u72b6\u6001\uff0c\u5e76\u4f20\u9001\u5230\u76ee\u6807\u533a\u57df\u3002<br><br>\u5728\u63a5\u4e0b\u6765\u7684\u516d\u79d2\u5185\uff0c\u4ed6\u7684\u4e0b\u4e00\u6b21\u666e\u901a\u653b\u51fb\u5c06\u5fc5\u5b9a\u66b4\u51fb\uff0c\u9020\u6210140/160/180/200/220%\u7684\u4f24\u5bb3\uff08\u5e38\u89c4\u7684\u66b4\u51fb\u4f1a\u9020\u6210200%\u7684\u4f24\u5bb3\uff09\u3002<br>\u8ddd\u79bb\uff1a400<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a11/11/11/11/11\u79d2<br>\u6d88\u8017\uff1a90/80/70/60/50 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "JackInTheBox",
+                    "image": {
+                        "full": "JackInTheBox.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u60ca\u5413\u9b54\u76d2\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u8428\u79d1\u5728\u76ee\u6807\u533a\u57df\u5236\u9020\u4e00\u4e2a\u60ca\u5413\u9b54\u76d2\uff0c\u5b83\u4f1a\u57282\u79d2\u540e\u8fdb\u5165\u9690\u5f62\u72b6\u6001\uff0c\u5e76\u5728\u654c\u4eba\u7ecf\u8fc7\u65f6\u5f39\u51fa\u6765\uff0c\u5bf9\u5468\u56f4\u7684\u654c\u4eba\u9020\u62100.5/0.75/1/1.25/1.5\u79d2\u7684\u6050\u60e7\u6548\u679c\u5e76\u4e14\u653b\u51fb\u4ed6\u4eec\u3002<br><br>\u5b83\u7684\u653b\u51fb\u9020\u621035/50/65/80/95(+0.2*AP)\u70b9\u7684\u9b54\u6cd5\u4f24\u5bb3\uff0c\u6f5c\u884c\u72b6\u6001\u4e0b\u53ef\u6301\u7eed60/60/60/60/60\u79d2\u3002\u653b\u51fb\u72b6\u6001\u4e0b\u53ef\u6301\u7eed5\u79d2\u3002<br>\u8ddd\u79bb\uff1a425<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/16/16/16/16\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "TwoShivPoison",
+                    "image": {
+                        "full": "TwoShivPoison.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u53cc\u9762\u6bd2\u5203\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u5f53\u53cc\u9762\u6bd2\u5203\u51c6\u5907\u5c31\u7eea\u65f6\uff0c\u8428\u79d1\u7684\u666e\u901a\u653b\u51fb\u4f1a\u51cf\u6162\u76ee\u680710/15/20/25/30%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u5982\u679c\u76ee\u6807\u662f\u5c0f\u5175\u548c\u91ce\u602a\u7684\u8bdd\uff0c\u4e5f\u4f1a\u51cf\u5c11\u76ee\u680720/22.5/25/27.5/30%\u7684\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed2\u79d2\u3002<br><br>\u4e3b\u52a8\uff1a\u5bf9\u76ee\u6807\u654c\u4eba\u9020\u621050/90/130/170/210(+1*\u989d\u5916AD)(+1*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u76ee\u680710/15/20/25/30%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed3\u79d2\u3002<br>\u8ddd\u79bb\uff1a625<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/8/8/8/8\u79d2<br>\u6cd5\u529b\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "HallucinateFull",
+                    "image": {
+                        "full": "HallucinateFull.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5e7b\u50cf\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u8428\u79d1\u5236\u9020\u4e00\u4e2a\u81ea\u5df1\u7684\u5e7b\u50cf\uff0c\u5e7b\u50cf\u6700\u591a\u53ef\u6301\u7eed18\u79d2\u3002\u5e7b\u50cf\u62e5\u6709\u672c\u4f5375%\u7684\u653b\u51fb\uff08\u5bf9\u9632\u5fa1\u5854\u9020\u6210\u4e00\u534a\u4f24\u5bb3\uff09\uff0c\u627f\u53d750%\u989d\u5916\u4f24\u5bb3\u3002<br><br>\u5e7b\u50cf\u5728\u6b7b\u4ea1\u65f6\u4f1a\u7206\u70b8\uff0c\u5bf9\u5468\u56f4\u7684\u654c\u4eba\u9020\u6210300/450/600(+1*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u4f60\u53ef\u4ee5\u901a\u8fc7\u6309\u4f4fALT\u952e\u4e0d\u653e\uff0c\u7136\u540e\u70b9\u51fb\u9f20\u6807\u53f3\u952e\u7684\u65b9\u5f0f\uff0c\u6216\u8005\u91cd\u65b0\u6fc0\u6d3b\u6b64\u6280\u80fd\u7684\u65b9\u5f0f\u6765\u63a7\u5236\u955c\u50cf\u3002<br>\u65bd\u6cd5\u8ddd\u79bb\uff1a500<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/90/80\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Assassin"
+            ],
+            "title": "\u8428\u79d1",
+            "trait": {
+                "dy": {
+                    "add-point": "WQEEEREQEQRQQWWRWW",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3715;3117;3087",
+                        "3117;3078;3087;3153;3031;3026",
+                        "3117;3143;3087;3153;3031;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

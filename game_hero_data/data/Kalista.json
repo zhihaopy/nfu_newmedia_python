@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "id": "Kalista",
+            "image": {
+                "full": "Kalista.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion3.png",
+                "w": 48,
+                "x": 48,
+                "y": 0
+            },
+            "info": {
+                "attack": 8,
+                "defense": 2,
+                "difficulty": 7,
+                "magic": 4
+            },
+            "key": "429",
+            "name": "\u590d\u4ec7\u4e4b\u77db",
+            "passive": {
+                "description": "\u5982\u679c\u5361\u8389\u4e1d\u5854\u5728\u8fdb\u884c\u666e\u653b\u6216\u7a7f\u523a\u7684\u8d77\u624b\u9636\u6bb5\u88ab\u4e0b\u8fbe\u4e86\u79fb\u52a8\u6307\u4ee4\uff0c\u90a3\u4e48\u5979\u4f1a\u5728\u53d1\u8d77\u8fdb\u653b\u7684\u540c\u65f6\u671d\u7740\u8fd9\u4e2a\u79fb\u52a8\u6307\u4ee4\u7684\u65b9\u5411\u4f4d\u79fb\u5c0f\u6bb5\u8ddd\u79bb\u3002<br><br>\u4f4d\u79fb\u8ddd\u79bb\u4f1a\u968f\u7740\u978b\u5b50\u54c1\u8d28\u7684\u63d0\u9ad8\u800c\u6210\u957f\u3002<br><br>\u5361\u8389\u4e1d\u5854\u7684\u666e\u653b\u6709\u4e00\u4e9b\u72ec\u7279\u7684\u7f3a\u70b9\u3002\u5b83\u4eec\uff1a<br>\u65e0\u6cd5\u88ab\u53d6\u6d88\uff1b<br>\u4f1a\u5728\u76ee\u6807\u79bb\u5f00\u89c6\u91ce\u540e\u843d\u7a7a\uff1b<br>\u9020\u6210\u7684\u4f24\u5bb3\u81f3\u6709\u603b\u653b\u51fb\u529b\u768490%\u3002<br><br>\u3010\u6b66\u672f\u59ff\u6001\u3011\u7684\u8df3\u8dc3\u901f\u5ea6\u53ea\u4f1a\u968f\u7740\u653b\u901f\u6765\u589e\u957f\uff08\u80fd\u88ab\u51cf\u5c11\u653b\u901f\u7684\u6548\u679c\u65bd\u52a0\u8d1f\u9762\u5f71\u54cd\uff09",
+                "image": {
+                    "full": "Kalista_Passive.png"
+                },
+                "name": "\u6b66\u672f\u59ff\u6001\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/cover/k/k0o3hupr35gwuhe.html?vid=y0140can766",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=y0140can766&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/f/o0140f1qbyf.html",
+                    "id": "001",
+                    "name": "\u8165\u7ea2\u4e4b\u6708 \u5361\u8389\u4e1d\u5854",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0140f1qbyf&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/s/0/n/s0164835mfn.html",
+                    "id": "002",
+                    "name": "\u51a0\u519b\u4e4b\u77db \u5361\u8389\u4e1d\u5854",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0164835mfn&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/x/page/p0318mqt8c1.html",
+                    "id": "003",
+                    "name": "SKT T1 \u5361\u8389\u4e1d\u5854",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p0318mqt8c1&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Kalista_Q",
+                    "image": {
+                        "full": "Kalista_Q.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7a7f\u523a\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u4e00\u6839\u7ec6\u957f\u3001\u5feb\u901f\u7684\u8fdc\u7a0b\u98de\u884c\u9053\u5177\uff0c\u5bf9\u547d\u4e2d\u7684\u7b2c\u4e00\u4e2a\u654c\u4eba\u9020\u621010/70/130/190/250(+1*\u603bAD)\u7269\u7406\u4f24\u5bb3\u3002\u89e6\u53d1\u6b66\u672f\u59ff\u6001(\u88ab\u52a8)\uff0c\u54e8\u5175(W)\uff0c\u6495\u88c2(E)<br><br>\u5982\u679c\u51fb\u6740\u4e86\u4e00\u4e2a\u76ee\u6807\uff0c\u7a7f\u523a\u7684\u98de\u884c\u9053\u5177\u5c31\u4f1a\u7ee7\u7eed\u5411\u524d\u98de\u884c\uff0c\u5c06\u6495\u88c2\u6548\u679c\u7684\u6240\u6709\u5c42\u6570\u4f20\u9012\u7ed9\u4e0b\u4e2a\u76ee\u6807\u3002<br>\u8ddd\u79bb\uff1a1150<br><br>\u51b7\u5374\u65f6\u95f4\uff1a8/8/8/8/8\u79d2<br>\u6d88\u8017\uff1a50/55/60/65/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kalista_W",
+                    "image": {
+                        "full": "Kalista_W.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u54e8\u5175\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u88ab\u52a8\uff1a\u5f53\u5361\u8389\u4e1d\u5854\u5728\u5979\u7684\u8a93\u7ea6\u8005\u9644\u8fd1\u65f6\uff0c\u5979\u4f1a\u83b7\u5f979-27%\u7684\u653b\u51fb\u901f\u5ea6(\u6839\u636e\u5979\u7684\u7b49\u7ea7)\u3002\u5f53\u5361\u8389\u4e1d\u5854\u548c\u5979\u7684\u8a93\u7ea6\u8005\u57282\u79d2\u5185\u90fd\u7528\u666e\u653b\u51fb\u4e2d\u4e86\u76f8\u540c\u7684\u76ee\u6807\u65f6\uff0c\u5979\u4f1a\u9020\u6210\u76f8\u5f53\u4e8e\u76ee\u68075/7.5/10/12.5/15%\u6700\u5927\u751f\u547d\u503c\u7684\u9b54\u6cd5\u4f24\u5bb3\uff08\u5bf9\u5c0f\u5175\u7684\u6700\u5c0f\u4f24\u5bb3\u4e3a100/125/150/175/200\uff09\u300210\u79d2\u5185\u65e0\u6cd5\u91cd\u590d\u4f5c\u7528\u4e8e\u76f8\u540c\u76ee\u6807\u3002<br><br>\u4e3b\u52a8\uff1a\u6d3e\u51fa\u4e00\u4e2a\u7075\u9b42\u54e8\u5175\u53bb\u5de1\u89c6\u4e00\u4e2a\u4e0d\u53ef\u89c1\u7684\u5730\u533a\u3002\u88ab\u53d1\u73b0\u7684\u654c\u65b9\u82f1\u96c4\u4f1a\u88ab\u66b4\u97324\u79d2\u3002\u54e8\u5175\u6301\u7eed3\u4e2a\u6765\u56de\u3002<br><br>\u5361\u8389\u4e1d\u5854\u6bcf90/80/70/60/50\u79d2\u83b7\u5f97\u4e00\u5c42\u54e8\u5175\u5145\u80fd\u3002<br><br>\u8ddd\u79bb\uff1a5000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a30/30/30/30/30\u79d2<br>\u6d88\u8017\uff1a20/20/20/20/20 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kalista_E",
+                    "image": {
+                        "full": "Kalista_E.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6495\u88c2\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5728\u672a\u8fdb\u5165\u51b7\u5374\u9636\u6bb5\u65f6\uff0c\u5361\u8389\u4e1d\u5854\u7684\u957f\u77db\u4f1a\u523a\u7a7f\u5979\u4eec\u7684\u76ee\u6807\uff0c\u5e76\u5728\u76ee\u6807\u8eab\u4e0a\u505c\u75594\u79d2\u3002<br><br>\u4e3b\u52a8\uff1a\u5361\u8389\u4e1d\u5854\u5c06\u957f\u77db\u4ece\u9644\u8fd1\u76ee\u6807\u8eab\u4e0a\u626f\u51fa\uff0c\u9020\u621020/30/40/50/60(+0.6*\u603bAD)\u7269\u7406\u4f24\u5bb3\u5e76\u51cf\u5c11\u4ed6\u4eec25/30/35/40/45%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed2\u79d2\u3002\u6bcf\u6839\u989d\u5916\u7684\u957f\u77db\u4f1a\u63d0\u534710/14/19/25/32\uff08+0.2/0.225/0.25/0.275/0.3*\u603bAD\uff09\uff0c\u4f46\u4e0d\u63d0\u5347\u51cf\u901f\u6548\u679c\u3002<br><br>\u5982\u679c\u6495\u88c2\u51fb\u6740\u4e86\u81f3\u5c11\u4e00\u4e2a\u5355\u4f4d\uff0c\u90a3\u4e48\u5b83\u7684\u51b7\u5374\u65f6\u95f4\u4f1a\u5f97\u5230\u91cd\u7f6e\u3002 \u5982\u679c\u6495\u88c2\u51fb\u6740\u4e862\u4e2a\u6216\u4ee5\u4e0a\u7684\u5355\u4f4d\uff0c\u90a3\u4e48\u5b83\u7684\u6cd5\u529b\u6d88\u8017\u4f1a\u5f97\u5230\u8fd4\u8fd8\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/12.5/11/9.5/8\u79d2<br>\u6d88\u8017\uff1a30/30/30/30/30 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kalista_R",
+                    "image": {
+                        "full": "Kalista_R.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u547d\u8fd0\u7684\u53ec\u5524\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u5c06\u5361\u8389\u4e1d\u5854\u7684\u8a93\u7ea6\u8005\u62c9\u5411\u5979\u3002\u5728\u6700\u591a4\u79d2\u7684\u6301\u7eed\u65f6\u95f4\u91cc\uff0c\u8a93\u7ea6\u8005\u4e0d\u53ef\u88ab\u9009\u53d6\u4f46\u8fdb\u5165\u5e73\u9759\u72b6\u6001\u3002<br><br>\u8a93\u7ea6\u8005\u53ef\u4ee5\u901a\u8fc7\u9f20\u6807\u70b9\u51fb\u6765\u98de\u5411\u76ee\u6807\u533a\u57df\uff0c\u5728\u547d\u4e2d\u7b2c\u4e00\u4e2a\u654c\u65b9\u82f1\u96c4\u65f6\u505c\u4e0b\uff0c\u5c06\u5c0f\u8303\u56f4\u5185\u7684\u6240\u6709\u654c\u4eba\u51fb\u9000\uff0c\u5e76\u5c06\u8a93\u7ea6\u8005\u653e\u7f6e\u5728\u4e00\u4e2a\u4e0e\u654c\u65b9\u95f4\u9694\u4e3a\u8a93\u7ea6\u8005\u81ea\u8eab\u6700\u5927\u653b\u51fb\u8ddd\u79bb\u7684\u5730\u65b9\u3002<br><br>\u5361\u8389\u4e1d\u5854\u7684\u8a93\u7ea6\u8005\u5fc5\u987b\u5728\u51761100\u5355\u4f4d\u8ddd\u79bb\u5185\u6b64\u6280\u80fd\u624d\u80fd\u65bd\u653e\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a120/90/60\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman"
+            ],
+            "title": "\u5361\u8389\u4e1d\u5854",
+            "trait": {
+                "adc": {
+                    "add-point": "QEWQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1055;2003;3340",
+                        "1055;1037;1038",
+                        "3006;3031;3087;3035;3153;3102",
+                        "3111;3078;3153;3035;3031;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

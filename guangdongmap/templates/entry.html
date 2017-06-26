@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1 align="center">{{ the_title }}</h1>
+
+<form method='POST' action='/pick_city'>
+<table align="center">
+<th colspan="2">请输入城市：</th>
+
+<td>
+<select name="city">
+  {% for item in the_user_city %}
+  
+    <option value="{{item}}">{{item}}</option>
+
+  {% endfor %}
+</select>
+
+	<tr>
+
+		 <td>请您确认搜寻</td>
+	</tr>
+
+	<tr>
+		 <td><input value='搜寻！' type='SUBMIT'></td>
+	</tr>
+</form>
+
+{% endblock %}

@@ -1,0 +1,174 @@
+{
+    "data": [
+        {
+            "id": "LeeSin",
+            "image": {
+                "full": "LeeSin.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 240,
+                "y": 48
+            },
+            "info": {
+                "attack": 8,
+                "defense": 5,
+                "difficulty": 9,
+                "magic": 3
+            },
+            "key": "64",
+            "name": "\u76f2\u50e7",
+            "passive": {
+                "description": "\u9752\u65bd\u653e\u6280\u80fd\u540e\uff0c\u63a5\u4e0b\u6765\u76842\u6b21\u57fa\u7840\u653b\u51fb\u589e\u52a040%\u653b\u51fb\u901f\u5ea6\u7b2c\u4e00\u6b21\u653b\u51fb\u56de\u590d20\u80fd\u91cf\uff0c\u7b2c\u4e8c\u6b21\u56de\u590d10\u80fd\u91cf<br>\uff088\u670825\u65e54.36\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a\u6bcf\u6b21\u653b\u51fb\u56de\u590d15\u80fd\u91cf\uff09\u3002",
+                "image": {
+                    "full": "LeeSinPassive.png"
+                },
+                "name": "\u75be\u98ce\u9aa4\u96e8\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/page/8/o/u/8nmuJjPqeou.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=8nmuJjPqeou&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_u01001mdjsr.html",
+                    "id": "001",
+                    "name": "\u4f20\u7edf\u50e7\u4fa3 \u674e\u9752",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u01001mdjsr&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/i/0/9/i0102hlicf9.html",
+                    "id": "002",
+                    "name": "\u9632\u5f39\u6b66\u50e7 \u674e\u9752",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=i0102hlicf9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/g/0/9/g0112c3l1g9.html",
+                    "id": "003",
+                    "name": "\u9f99\u7684\u4f20\u4eba \u674e\u9752",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=g0112c3l1g9&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/h/0/v/h0105buhhnv.html",
+                    "id": "004",
+                    "name": "\u81f3\u9ad8\u4e4b\u62f3 \u674e\u9752",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0105buhhnv&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/g/0/w/g0013tfm6dw.html",
+                    "id": "005",
+                    "name": "\u6cf3\u6c60\u6d3e\u5bf9 \u674e\u9752",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s01162hivp3&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/g/0/w/g0013tfm6dw.html",
+                    "id": "006",
+                    "name": "SKT T1 \u674e\u9752",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=z0127dt16nk&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/s/0/i/s01535c5xei.html",
+                    "id": "007",
+                    "name": "\u5730\u4e0b\u62f3\u738b \u674e\u9752",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s01535c5xei&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "BlindMonkQOne",
+                    "image": {
+                        "full": "BlindMonkQOne.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5929\u97f3\u6ce2/\u56de\u97f3\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u5929\u97f3\u6ce2\uff1a\u674e\u9752\u53d1\u51fa\u523a\u8033\u7684\u58f0\u6ce2\u5b9a\u4f4d\u654c\u4eba\uff0c\u5bf9\u9996\u4e2a\u654c\u4eba\u9020\u621050/80/110/140/170(+0.9*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002\u5982\u679c\u5929\u97f3\u6ce2\u51fb\u4e2d\u654c\u4eba\uff0c\u674e\u9752\u5728\u63a5\u4e0b\u67653\u79d2\u53ef\u65bd\u653e\u56de\u97f3\u51fb\u3002<br><br>\u56de\u97f3\u51fb\uff1a\u674e\u9752\u51b2\u5411\u88ab\u5929\u97f3\u6ce2\u51fb\u4e2d\u7684\u654c\u4eba\uff0c\u9020\u621050/80/110/140/170(+0.9*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u5e76\u9644\u52a0\u654c\u4eba\u635f\u5931\u751f\u547d\u503c8%\u7684\u4f24\u5bb3\u3002\uff08\u5bf9\u91ce\u602a\u6700\u591a\u9644\u52a0400\u70b9\u4f24\u5bb3\uff09\u3002<br>\u8ddd\u79bb\uff1a1000<br><br>\u51b7\u5374\u65f6\u95f4\uff1a11/10/9/8/7\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u80fd\u91cf|30/30/30/30/30\u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "BlindMonkWOne",
+                    "image": {
+                        "full": "BlindMonkWOne.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u91d1\u949f\u7f69/\u94c1\u5e03\u886b\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u91d1\u949f\u7f69\uff1a\u674e\u9752\u7a81\u8fdb\u5230\u4e00\u540d\u53cb\u519b\u65c1\u8fb9\u3002\u5982\u679c\u76ee\u6807\u53cb\u519b\u662f\u4e00\u540d\u82f1\u96c4\uff0c\u674e\u9752\u4f1a\u4e3a\u81ea\u5df1\u548c\u76ee\u6807\u63d0\u4f9b\u4e00\u5c42\u5438\u653640/100/160/220/280\uff087\u670819\u65e56.14\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a40/80/120/160/200\uff09(+0.8*AP)\u4f24\u5bb3\u7684\u62a4\u76fe\uff0c\u6301\u7eed2/2/2/2/2\u79d2\uff0c\u5e76\u4e14\u3010\u91d1\u949f\u7f69\u3011\u7684\u51b7\u5374\u65f6\u95f4\u4f1a\u51cf\u5c1150/50/50/50/50%\uff0c\u65bd\u653e\u91d1\u949f\u7f69\u540e\u63a5\u4e0b\u67653\u79d2\uff0c\u674e\u9752\u53ef\u65bd\u653e\u94c1\u5e03\u886b\u3002<br><br>\u94c1\u5e03\u886b\uff1a\u674e\u9752\u9ad8\u5f3a\u5ea6\u7684\u8bad\u7ec3\u8ba9\u4ed6\u5728\u6218\u6597\u4e2d\u6fc0\u53d1\u6f5c\u80fd\u3002\u674e\u9752\u53ef\u4ee5\u57284\u79d2\u91cc\u83b7\u5f975/10/15/20/25%\u751f\u547d\u5077\u53d6\u548c\u6cd5\u672f\u5438\u8840\u3002<br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a14/14/14/14/14\u79d2\u3002<br>\u6d88\u8017\uff1a50/50/50/50/50 \u80fd\u91cf|30/30/30/30/30\u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "BlindMonkEOne",
+                    "image": {
+                        "full": "BlindMonkEOne.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5929\u96f7\u7834/\u6467\u7b4b\u65ad\u9aa8\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u5929\u96f7\u7834\uff1a\u674e\u9752\u649e\u51fb\u5730\u9762\uff0c\u65bd\u653e\u51b2\u51fb\u6ce2\uff0c\u9020\u621060/95/130/165/200(+1*\u989d\u5916AD)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4f7f\u88ab\u51fb\u4e2d\u5355\u4f4d\u66b4\u9732\uff0c\u6301\u7eed4\u79d2\u3002\u5982\u679c\u5929\u96f7\u7834\u51fb\u4e2d\u654c\u4eba\uff0c\u674e\u9752\u53ef\u4ee5\u5728\u63a5\u4e0b\u6765\u76843\u79d2\u5185\u65bd\u653e\u6467\u7b4b\u65ad\u9aa8\u3002<br><br>\u6467\u7b4b\u65ad\u9aa8\uff1a\u674e\u9752\u81f4\u6b8b\u88ab\u5929\u96f7\u7834\u4fa6\u67e5\u5230\u7684\u654c\u4eba\uff0c\u6301\u7eed4\u79d2\uff0c\u51cf\u5c11\u654c\u4eba\u7684\u79fb\u52a8\u901f\u5ea620/30/40/50/60%\u3002\u6301\u7eed\u671f\u95f4\u53d7\u5f71\u54cd\u5355\u4f4d\u7684\u653b\u901f\u548c\u79fb\u52a8\u901f\u5ea6\u4f1a\u9010\u6e10\u6062\u590d\u6b63\u5e38\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a10/10/10/10/10\u79d2<br>\u6d88\u8017\uff1a50/50/50/50/50 \u80fd\u91cf|30/30/30/30/30\u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "BlindMonkRKick",
+                    "image": {
+                        "full": "BlindMonkRKick.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u731b\u9f99\u6446\u5c3e\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u674e\u9752\u7528\u5f3a\u529b\u7684\u56de\u65cb\u8e22\u51fb\u9000\u654c\u65b9\u82f1\u96c4\uff0c\u5bf9\u76ee\u6807\u4ee5\u53ca\u88ab\u76ee\u6807\u649e\u5230\u7684\u4efb\u4f55\u654c\u4eba\u9020\u6210200/400/600(+2*\u989d\u5916AD)\u7269\u7406\u4f24\u5bb3\u3002\u88ab\u76ee\u6807\u649e\u5230\u7684\u654c\u65b9\u82f1\u96c4\u4f1a\u88ab\u77ed\u6682\u51fb\u98de\u3002<br>\u8ddd\u79bb\uff1a375<br><br>\u51b7\u5374\u65f6\u95f4\uff1a90/75/60\u79d2<br>\u65e0\u6d88\u8017"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Assassin"
+            ],
+            "title": "\u674e\u9752",
+            "trait": {
+                "dy": {
+                    "add-point": "QEWQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3117;2049;3725",
+                        "2049;3725;3074;3143;3035;3117",
+                        "2049;3725;3068;3143;3026;3117"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QEWQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3047;3074;1054",
+                        "3074;3035;3156;3065;3143;3111",
+                        "3074;3026;3068;3065;3143;3111"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

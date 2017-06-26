@@ -1,0 +1,128 @@
+{
+    "data": [
+        {
+            "id": "Kindred",
+            "image": {
+                "full": "Kindred.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion1.png",
+                "w": 48,
+                "x": 48,
+                "y": 0
+            },
+            "info": {
+                "attack": 8,
+                "defense": 2,
+                "difficulty": 4,
+                "magic": 2
+            },
+            "key": "203",
+            "name": "\u6c38\u730e\u53cc\u5b50",
+            "passive": {
+                "description": "\u7f8a\u7075\u53ef\u901a\u8fc7\u70b9\u51fb\u7269\u54c1\u680f\u4e0a\u65b9\u7684\u82f1\u96c4\u8096\u50cf\u6765\u9009\u62e9\u4e00\u4e2a\u82f1\u96c4\u8fdb\u884c\u72e9\u730e\u3002<br><br>\u72fc\u7075\u4f1a\u5468\u671f\u6027\u5730\u9677\u5165\u9965\u997f\u72b6\u6001\u5e76\u72e9\u730e\u654c\u65b9\u91ce\u533a\u7684\u91ce\u602a\u3002<br><br>\u5728\u51fb\u6740\u6216\u53c2\u4e0e\u51fb\u6740\u88ab\u72e9\u730e\u7684\u76ee\u6807\u7684\u540c\u65f6\uff0c\u5343\u73cf\u5bf9\u6240\u6709\u76ee\u6807\u7684\u653b\u51fb\u4f1a\u5f97\u5230\u6c38\u4e45\u5f3a\u5316\uff0c\u5728\u653b\u51fb\u65f6\u591a\u9020\u6210\u76f8\u5f53\u4e8e\u76ee\u6807\u5f53\u524d\u751f\u547d\u503c1.25%\u7684\u989d\u5916\u7269\u7406\u4f24\u5bb3\uff08\u89c6\u4e3a\u653b\u51fb\u7279\u6548\uff09\u3002<br><br>\u72fc\u7075\u73b0\u5728\u4f1a\u6839\u636e\u5343\u73cf\u5f53\u524d\u7684\u5c42\u6570\u6807\u8bb0\u6807\u8bb0\u91ce\u602a\uff1a<br>0-2 \u5c42\u5370\u8bb0\uff1a\u5ce1\u8c37\u8fc5\u6377\u87f9\u6216\u950b\u5599\u9e1f<br>3-4\u5c42\u5370\u8bb0\uff1a\u8fdc\u53e4\u77f3\u7532\u866b\uff0c\u950b\u5599\u9e1f\uff0c\u9b54\u6cbc\u86d9\u6216\u6697\u5f71\u72fc<br>5-7\u5c42\u5370\u8bb0\uff1a\u82cd\u84dd\u96d5\u7eb9\u9b54\u50cf\uff0c\u7eef\u7ea2\u5370\u8bb0\u6811\u602a\uff0c\u5ce1\u8c37\u5148\u950b\u6216\u5143\u7d20\u4e9a\u9f99<br>7+\u5c42\u5370\u8bb0\uff1a\u7eb3\u4ec0\u7537\u7235\u6216\u8fdc\u53e4\u5de8\u9f99",
+                "image": {
+                    "full": "Kindred_Passive.png.png"
+                },
+                "name": "\u5343\u73cf\u4e4b\u5370\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/f/0/m/f016654zn9m.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=f016654zn9m&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/l/0/v/l01664n4c8v.html",
+                    "id": "001",
+                    "name": "\u9eef\u7130\u53cc\u9b42 \u5343\u73cf",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l01664n4c8v&auto=0"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/page/l/0/a/l0197o8vaza.html",
+                    "id": "002",
+                    "name": "\u94f6\u6cb3\u9b54\u88c5\u673a\u795e \u5343\u73cf",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=l0197o8vaza&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "Kindred_Q",
+                    "image": {
+                        "full": "Kindred_Q.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u4e71\u7bad\u4e4b\u821e\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u7f8a\u7075\u8fdb\u884c\u7ffb\u6eda\uff0c\u5e76\u671d\u9644\u8fd1\u7684\u654c\u4eba\u53d1\u5c04\u6700\u591a3\u652f\u7bad\u77e2\uff0c\u9020\u621055/75/95/115/135(+0.2*AD)\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u65bd\u653e\u72fc\u7075\u72c2\u70ed\u6216\u7ffb\u6eda\u5230\u5b83\u7684\u6548\u679c\u5185\uff0c\u4f1a\u4f7f\u8fd9\u4e2a\u6280\u80fd\u7684\u51b7\u5374\u65f6\u95f4\u51cf\u5c11\u81f34/3.5/3/2.5/2\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a9/9/9/9/9\u79d2<br>\u6cd5\u529b\u6d88\u8017\uff1a35/35/35/35/35 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kindred_W",
+                    "image": {
+                        "full": "Kindred_W.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u72fc\u7075\u72c2\u70ed\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "7\u67085\u65e56.13\u7248\u672c\u66f4\u65b0\uff1a<br>\u72fc\u7075\u5212\u51fa\u4e00\u5757\u9886\u5730\uff0c\u5e76\u653b\u51fb\u9886\u5730\u5185\u7684\u6240\u6709\u9644\u8fd1\u7684\u654c\u4eba\uff0c\u6301\u7eed8.5/8.5/8.5/8.5/8.5\u79d2\u3002\u72fc\u7075\u4f1a\u653b\u51fb\u7f8a\u7075\u6b63\u5728\u653b\u51fb\u7684\u76ee\u6807\u3002\u5982\u679c\u7f8a\u7075\u79bb\u5f00\u4e86\u72fc\u7075\u7684\u9886\u5730\uff0c\u90a3\u4e48\u72fc\u7075\u5c31\u4f1a\u7ec8\u6b62\u653b\u51fb\u5e76\u56de\u5230\u7f8a\u7075\u7684\u8eab\u4e0a\u3002<br><br>\u72fc\u7075\u7684\u653b\u51fb\u4f1a\u9020\u6210\u7269\u7406\u4f24\u5bb3\uff0c\u4f24\u5bb3\u503c\u76f8\u5f53\u4e8e25/30/35/40/45(+0.4*AD)\u52a0\u4e0a\u5343\u73cf\u4e4b\u5370\u768440/40/40/40/40%\u4f24\u5bb3\u3002<br><br>\u72fc\u7075\u4f1a\u6253\u6b8b\u91ce\u602a\uff0c\u5bf9\u5176\u9020\u621050%\u63d0\u5347\u4f24\u5bb3\u5e76\u51cf\u5c11\u517650%\u7684\u79fb\u52a8\u901f\u5ea6\u548c\u653b\u51fb\u901f\u5ea6\uff0c\u6301\u7eed2\u79d2\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a18/17/16/15/14\u79d2<br>\u6cd5\u529b\u6d88\u8017\uff1a40/40/40/40/40 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kindred_E",
+                    "image": {
+                        "full": "Kindred_E.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6a2a\u751f\u60e7\u610f\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u4f7f\u4e00\u540d\u654c\u4eba\u81f4\u6b8b\uff0c\u8ba9\u76ee\u6807\u7684\u79fb\u52a8\u901f\u5ea6\u51cf\u5c1150%\uff0c\u6301\u7eed1/1/1/1/1\u79d2\u3002<br><br>\u5728\u7f8a\u7075\u5bf9\u76ee\u6807\u53c8\u8fdb\u884c\u4e86\u4e24\u6b21\u653b\u51fb\u540e\uff0c\u5979\u7684\u7b2c\u4e09\u6b21\u653b\u51fb\u4f1a\u6307\u6325\u72fc\u7075\u6251\u5411\u654c\u4eba\uff0c\u9020\u6210\u5de8\u91cf\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u72fc\u7075\u9020\u6210\u7684\u7269\u7406\u4f24\u5bb3\u76f8\u5f53\u4e8e40/75/110/145/180(+0.2*AD)+\u76ee\u68075/5/5/5/5%\u6700\u5927\u751f\u547d\u503c\u3002[\u5bf9\u91ce\u602a\u7684\u6700\u5927\u4f24\u5bb3\uff1a300/300/300/300/300]<br><br>\u51b7\u5374\u65f6\u95f4\uff1a16/15/14/13/12\u79d2<br>\u6cd5\u529b\u6d88\u8017\uff1a70/70/70/70/70 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "Kindred_R.png",
+                    "image": {
+                        "full": "Kindred_R.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u7f8a\u7075\u751f\u606f\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u7f8a\u7075\u671d\u811a\u4e0b\u7684\u571f\u5730\u8fdb\u884c\u4e3a\u65f64/4/4\u79d2\u7684\u8d50\u798f\uff0c\u521b\u9020\u4e00\u4e2a\u65e0\u8bba\u662f\u6211\u65b9\u7684\u8fd8\u662f\u654c\u65b9\u7684\u751f\u7075\u4eec\u90fd\u4e0d\u4f1a\u6b7b\u4ea1\u7684\u533a\u57df\u3002\u8303\u56f4\u5185\u7684\u5355\u4f4d\u5728\u751f\u547d\u503c\u964d\u81f310%\u540e\uff0c\u90fd\u4f1a\u514d\u75ab\u4efb\u4f55\u8fdb\u4e00\u6b65\u7684\u4f24\u5bb3\u6216\u6cbb\u7597\u6548\u679c\u3002<br><br>\u5f53\u8d50\u798f\u7ed3\u675f\u540e\uff0c\u8303\u56f4\u5185\u7684\u6240\u6709\u751f\u7075\u90fd\u4f1a\u83b7\u5f97200/250/300\u6cbb\u7597\u6548\u679c\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a160/130/100\u79d2<br>\u6cd5\u529b\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Marksman"
+            ],
+            "title": "\u5343\u73cf",
+            "trait": {
+                "dy": {
+                    "add-point": "qwewwrwweereeqqrqq",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3707;3071;3117",
+                        "3142;3071;3117;3035;3707;3102"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

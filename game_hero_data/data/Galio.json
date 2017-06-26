@@ -1,0 +1,160 @@
+{
+    "data": [
+        {
+            "id": "Galio",
+            "image": {
+                "full": "Galio.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 192,
+                "y": 96
+            },
+            "info": {
+                "attack": 3,
+                "defense": 7,
+                "difficulty": 4,
+                "magic": 6
+            },
+            "key": "3",
+            "name": "\u54e8\u5175\u4e4b\u6b87",
+            "passive": {
+                "description": "\u52a0\u91cc\u5965\u5c06\u81ea\u5df150%\u7684\u9b54\u6cd5\u6297\u6027\u7684\u8f6c\u5316\u6210\u6cd5\u672f\u5f3a\u5ea6\u3002",
+                "image": {
+                    "full": "Galio_RunicSkin.png"
+                },
+                "name": "\u7b26\u6587\u77f3\u80a4\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_d0100ueroye.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=d0100ueroye&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/t/k0102zv9u6t.html",
+                    "id": "001",
+                    "name": "\u5e7d\u84dd\u68a6\u9b47 \u52a0\u91cc\u5965",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0102zv9u6t&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/6/k0112knezl6.html",
+                    "id": "002",
+                    "name": "\u673a\u68b0\u8ff7\u57ce \u52a0\u91cc\u5965",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0112knezl6&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/z/0/c/z0104mwjkcc.html",
+                    "id": "003",
+                    "name": "\u6218\u5730\u4e4b\u738b \u52a0\u91cc\u5965",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=z0104mwjkcc&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/i/k0105jocpwi.html",
+                    "id": "004",
+                    "name": "\u5730\u72f1\u4e4b\u95e8\u536b\u58eb \u52a0\u91cc\u5965",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0105jocpwi&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/b/0/q/b0148n0mtkq.html",
+                    "id": "005",
+                    "name": "\u98ce\u6267\u4e8b \u52a0\u91cc\u5965",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=b0148n0mtkq&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "GalioResoluteSmite",
+                    "image": {
+                        "full": "GalioResoluteSmite.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u575a\u5b9a\u91cd\u51fb\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u52a0\u91cc\u5965\u4ece\u4ed6\u7684\u773c\u775b\u53d1\u5c04\u51fa\u9707\u8361\u51b2\u51fb\u6ce2\uff0c\u5bf9\u51b2\u51fb\u6ce2\u843d\u70b9\u9644\u8fd1\u7684\u654c\u4eba\u9020\u621080/135/190/245/300(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u964d\u4f4e\u4ed6\u4eec24/28/32/36/40%\u7684\u79fb\u52a8\u901f\u5ea6\uff0c\u6301\u7eed2.5/2.5/2.5/2.5/2.5\u79d2\u3002<br>\u8ddd\u79bb\uff1a940<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/7/7/7/7\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "GalioBulwark",
+                    "image": {
+                        "full": "GalioBulwark.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u575a\u5f3a\u58c1\u5792\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u52a0\u91cc\u5965\u4e3a\u53cb\u519b\u82f1\u96c4\u63d0\u4f9b\u62a4\u76fe\uff0c\u6301\u7eed4/4/4/4/4\u79d2\uff0c\u589e\u52a0\u4ed6\u4eec\u7684\u62a4\u7532\u548c\u9b54\u629730/45/60/75/90\u3002\u6bcf\u5f53\u88ab\u62a4\u76fe\u4fdd\u62a4\u7684\u82f1\u96c4\u53d7\u5230\u4f24\u5bb3\uff0c\u4f1a\u6cbb\u7597\u52a0\u91cc\u596525/40/55/70/85(+0.3*AP)\u751f\u547d\u503c\u3002\uff08\u8fde\u7eed\u88ab\u51fb\u65f6-20%\u7684\u6cbb\u7597\uff09\u3002<br>\u8ddd\u79bb\uff1a800<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/13/13/13/13\u79d2<br>\u6d88\u8017\uff1a60/60/60/60/60 \u6cd5\u529b"
+                },
+                {
+                    "description": "",
+                    "id": "GalioRighteousGust",
+                    "image": {
+                        "full": "GalioRighteousGust.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6b63\u4e49\u7f61\u98ce\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u52a0\u91cc\u5965\u91ca\u653e\u51fa\u4e00\u80a1\u9707\u8361\u5f3a\u98ce\uff0c\u5bf9\u5f3a\u98ce\u9014\u4e2d\u7684\u654c\u4eba\u9020\u6210 60/105/150/195/240(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002 \u5728\u6b64\u4e4b\u540e\u4f1a\u6709\u6301\u7eed5\u79d2\u7684\u6307\u5411\u6c14\u6d41\uff0c\u6240\u6709\u7ecf\u8fc7\u6c14\u6d41\u7684\u53cb\u519b\uff0c\u90fd\u4f1a\u63d0\u534730/35/40/45/50%\uff084\u670826\u65e56.8\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a20/28/36/44/52%\uff09\u79fb\u52a8\u901f\u5ea6\u3002<br>\u8ddd\u79bb\uff1a1180<br><br>\u51b7\u5374\u65f6\u95f4\uff1a13/12/11/10/9\u79d2<br>\u6d88\u8017\uff1a60/65/70/75/80\u6cd5\u529b\uff084\u670826\u65e56.8\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a70/75/80/85/90 \u6cd5\u529b\uff09"
+                },
+                {
+                    "description": "",
+                    "id": "GalioIdolOfDurand",
+                    "image": {
+                        "full": "GalioIdolOfDurand.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u675c\u6717\u77f3\u50cf\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u52a0\u91cc\u5965\u5f15\u5bfc2\u79d2\uff0c\u5632\u8bbd\u5468\u56f4\u654c\u65b9\u5355\u4f4d\u5e76\u51cf\u4f4e50/50/50%\u53d7\u5230\u7684\u4f24\u5bb3\u3002<br><br>\u5f15\u5bfc\u5b8c\u6bd5\u540e\uff0c\u52a0\u91cc\u5965\u5bf9\u5468\u56f4\u654c\u65b9\u5355\u4f4d\u9020\u6210200/300/400(+0.6*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u4ed6\u5f15\u5bfc\u65f6\u6bcf\u53d7\u52301\u6b21\u653b\u51fb\u589e\u52a010%/10%/10%\u989d\u5916\u4f24\u5bb3\u3002\u6700\u591a80%/80%/80%\u7684\u989d\u5916\u4f24\u5bb3\u3002<br>\u8ddd\u79bb\uff1a560<br><br>\u51b7\u5374\u65f6\u95f4\uff1a150/135/120\u79d2<br>\u6d88\u8017\uff1a100/100/100 \u6cd5\u529b"
+                }
+            ],
+            "tags": [
+                "Tank",
+                "Mage"
+            ],
+            "title": "\u52a0\u91cc\u5965",
+            "trait": {
+                "fz": {
+                    "add-point": "QWQEQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "2041;2003:3;3340",
+                        "3111;2045;3069",
+                        "3111;2045;3069;3190;3001;3102",
+                        "3111;2045;3069;3190;3222;3102"
+                    ]
+                },
+                "zd": {
+                    "add-point": "QEWQQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1056;2003:2;3340",
+                        "3111;3028;3001",
+                        "3111;3174;3089;3157;3151;3001",
+                        "3111;3174;3089;3157;3102;3001"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

@@ -1,0 +1,188 @@
+{
+    "data": [
+        {
+            "id": "DrMundo",
+            "image": {
+                "full": "DrMundo.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 336,
+                "y": 48
+            },
+            "info": {
+                "attack": 5,
+                "defense": 7,
+                "difficulty": 4,
+                "magic": 6
+            },
+            "key": "36",
+            "name": "\u7956\u5b89\u72c2\u4eba",
+            "passive": {
+                "description": "\u8499\u591a\u533b\u751f\u6bcf5\u79d2\u56de\u590d1.5%\u7684\u6700\u5927\u751f\u547d\u503c\u3002",
+                "image": {
+                    "full": "DrMundo_AdrenalineRush2.png"
+                },
+                "name": "\u80be\u4e0a\u817a\u6fc0\u7d20\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/t/D/7LrqL7g8itD.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7LrqL7g8itD&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/b/0/h/b01024wba7h.html",
+                    "id": "001",
+                    "name": "\u6218\u6817\u4e4b\u6bd2 \u8499\u591a",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=b01024wba7h&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/n/0/j/n0112xors7j.html",
+                    "id": "002",
+                    "name": "\u5065\u7f8e\u6559\u7ec3 \u8499\u591a",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=n0112xors7j&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_b01000kg172.html",
+                    "id": "003",
+                    "name": "\u5f8b\u653f\u5927\u4ea8 \u8499\u591a",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=b01000kg172&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/r/o01124tdlmr.html",
+                    "id": "004",
+                    "name": "\u8499\u591a\u8499\u591a",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o01124tdlmr&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_x0102tvi4z8.html",
+                    "id": "005",
+                    "name": "\u55dc\u8840\u884c\u5211 \u8499\u591a",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=x0102tvi4z8&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/q/0/e/q0103xgmgte.html",
+                    "id": "006",
+                    "name": "\u6218\u4e89\u8840\u7edf \u8499\u591a",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=q0103xgmgte&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/p/0/l/p0119eyqn2l.html",
+                    "id": "007",
+                    "name": "\u6697\u6740\u661f \u8499\u591a",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=p0119eyqn2l&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/cover/9/9gpm7j20lfki97s.html?vid=h0156c1bcz3",
+                    "id": "008",
+                    "name": "\u6cf3\u6c60\u6d3e\u5bf9 \u8499\u591a",
+                    "num": 8,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=h0156c1bcz3&auto=0"
+                },
+                {
+                    "displayUrl": "hhttp://v.qq.com/page/s/0/e/s0300s9od5e.html",
+                    "id": "009",
+                    "name": "\u786c\u6c49 \u8499\u591a",
+                    "num": 9,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0300s9od5e&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "InfectedCleaverMissileCast",
+                    "image": {
+                        "full": "InfectedCleaverMissileCast.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u75c5\u6bd2\u5c60\u5200\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u8499\u591a\u533b\u751f\u6295\u63b7\u75c5\u6bd2\u5c60\u5200\uff0c\u5bf9\u76ee\u6807\u9020\u6210\u76f8\u5f53\u4e8e\u76ee\u6807\u5f53\u524d\u751f\u547d\u503c\u7684 15/17.5/20/22.5/25%\u7684\u9b54\u6cd5\u4f24\u5bb3(\u6700\u5c1180/130/180/230/280\u4f24\u5bb3)\uff0c\u5e76\u4f7f\u76ee\u6807\u51cf\u901f40/40/40/40/40%\uff0c\u51cf\u901f\u6548\u679c\u6301\u7eed2/2/2/2/2\u79d2\u3002<br><br>\u5bf9\u91ce\u602a\u7684\u6700\u5927\u4f24\u5bb3\uff1a300/350/400/450/500<br><br>\u5982\u679c\u5c60\u5200\u51fb\u4e2d\u76ee\u6807\uff0c\u5219\u56de\u590d\u4e00\u534a\u7684\u751f\u547d\u6d88\u8017\uff08\u5728\u5b8c\u6210\u81f4\u547d\u4e00\u51fb\u65f6\u53ef\u56de\u590d\u5168\u90e8\u751f\u547d\u6d88\u8017\uff09\u3002<br>\u8ddd\u79bb\uff1a975<br><br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4/4/4\u79d2<br>\u6d88\u8017\uff1a50/60/70/80/90 \u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "BurningAgony",
+                    "image": {
+                        "full": "BurningAgony.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u75db\u82e6\u71c3\u70e7\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u6fc0\u6d3b\uff1a\u8499\u591a\u533b\u751f\u5bf9\u5468\u56f4\u654c\u4eba\u9020\u6210\u6bcf\u79d235/50/65/80/95(+0.2*AP)\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u51cf\u5c11\u6240\u53d7\u63a7\u5236\u6280\u80fd\u6548\u679c10/15/20/25/30%\u7684\u6301\u7eed\u65f6\u95f4\u3002<br>\u8ddd\u79bb\uff1a325<br><br>\u51b7\u5374\u65f6\u95f4\uff1a4/4/4/4/4\u79d2<br>\u6bcf\u79d2\u6d88\u8017\uff1a10/15/20/25/30 \u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "Masochism",
+                    "image": {
+                        "full": "Masochism.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u6f5c\u80fd\u6fc0\u53d1\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u8499\u591a\u533b\u751f\u7684\u4e0b\u6b21\u666e\u901a\u653b\u51fb\u9020\u6210\u989d\u5916\u7684\uff08+3/3.5/4/4.5/5%\u6700\u5927\u751f\u547d\u503c\uff09\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u63d0\u534720/40/60/80/100\uff082\u670818\u65e56.3\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a40/55/70/85/100\uff09\u653b\u51fb\u529b\uff0c\u6301\u7eed5/5/5/5/5\u79d2\u3002\u6b64\u5916\u6bcf\u635f\u59311%\u751f\u547d\u503c\u4f1a\u989d\u5916\u589e\u52a00.4/0.55/0.7/0.85/1\u7269\u7406\u653b\u51fb\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a7/7/7/7/7\u79d2<br>\u6d88\u8017\uff1a25/35/45/55/65 \u751f\u547d\u503c"
+                },
+                {
+                    "description": "",
+                    "id": "Sadism",
+                    "image": {
+                        "full": "Sadism.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u80cc\u6c34\u4e00\u6218\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u8499\u591a\u533b\u751f\u572812/12/12\u79d2\u5185\u56de\u590d40/50/60%\u6700\u5927\u751f\u547d\u503c\u3002\u6b64\u5916\uff0c\u4ed6\u8fd8\u83b7\u5f9715/25/35%\u79fb\u52a8\u901f\u5ea6\u3002<br><br>\u51b7\u5374\u65f6\u95f4\uff1a100/85/70\u79d2<br>\u6d88\u8017\uff1a20/20/20 %\u5f53\u524d\u751f\u547d\u503c"
+                }
+            ],
+            "tags": [
+                "Fighter",
+                "Tank"
+            ],
+            "title": "\u8499\u591a\u533b\u751f",
+            "trait": {
+                "dy": {
+                    "add-point": "WQEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1039;2003:2;3340",
+                        "3047;3725;3068",
+                        "3047;3725;3083;3065;3068;3151",
+                        "3047;3725;3083;3065;3068;3143"
+                    ]
+                },
+                "sd": {
+                    "add-point": "QWEQQRQWQWRWWEEREE",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3065;3068;3111",
+                        "3111;3065;3068;3143;3151;3075",
+                        "3111;3065;3068;3143;3083;3075"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}

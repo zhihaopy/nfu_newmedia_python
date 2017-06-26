@@ -1,0 +1,164 @@
+{
+    "data": [
+        {
+            "id": "Akali",
+            "image": {
+                "full": "Akali.png",
+                "group": "champion",
+                "h": 48,
+                "sprite": "champion0.png",
+                "w": 48,
+                "x": 96,
+                "y": 0
+            },
+            "info": {
+                "attack": 5,
+                "defense": 3,
+                "difficulty": 6,
+                "magic": 8
+            },
+            "key": "84",
+            "name": "\u6697\u5f71\u4e4b\u62f3",
+            "passive": {
+                "description": "\u7eef\u7ea2\u4e4b\u5370\uff1a\u963f\u5361\u4e3d\u7684\u653b\u51fb\u80fd\u591f\u9020\u62106%\u7684\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e14\u5728\u6b64\u4e4b\u540e\uff0c\u6bcf\u83b7\u5f976\u70b9\u6cd5\u672f\u5f3a\u5ea6\uff0c\u5c31\u4f1a\u589e\u52a01%\u7684\u989d\u5916\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u82cd\u7fe0\u4e4b\u5370\uff1a\u963f\u5361\u4e3d\u80fd\u591f\u83b7\u5f976%\u7684\u6cd5\u672f\u5438\u8840\uff0c\u5e76\u4e14\u5728\u6b64\u4e4b\u540e\uff0c\u6bcf\u83b7\u5f976\u70b9\u653b\u51fb\u529b\u52a0\u6210\uff0c\u5c31\u4f1a\u589e\u52a01%\u7684\u6cd5\u672f\u5438\u8840\u3002",
+                "image": {
+                    "full": "AkaliTwinDisciplines.png"
+                },
+                "name": "\u5fcd\u6cd5\uff01\u82cd\u7eef\u5370\uff08\u88ab\u52a8\uff09"
+            },
+            "skins": [
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/7/G/u/7q8j1QEDDGu.html",
+                    "id": "000",
+                    "name": "\u9ed8\u8ba4\u76ae\u80a4",
+                    "num": 0,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=7q8j1QEDDGu&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/o/0/h/o0104dftbph.html",
+                    "id": "001",
+                    "name": "\u8702\u523a \u963f\u5361\u4e3d",
+                    "num": 1,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=o0104dftbph&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/s/0/w/s0104nrv9iw.html",
+                    "id": "002",
+                    "name": "\u7eef\u7ea2 \u963f\u5361\u4e3d",
+                    "num": 2,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=s0104nrv9iw&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/k/0/g/k0104dvgtgg.html",
+                    "id": "003",
+                    "name": "\u8db3\u7403\u5b9d\u8d1d \u963f\u5361\u4e3d",
+                    "num": 3,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=k0104dvgtgg&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/j/4/d/j0103bv1r4d.html",
+                    "id": "004",
+                    "name": "\u5b9e\u4e60\u62a4\u58eb \u963f\u5361\u4e3d",
+                    "num": 4,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=j0103bv1r4d&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_z0100dokx76.html",
+                    "id": "005",
+                    "name": "\u9b3c\u6b66\u59ec \u963f\u5361\u4e3d",
+                    "num": 5,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=z0100dokx76&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/gplay/431fafbe820562c6d198c58fb86eb4dc_7dde620de5162007c27de70203d389f5_u0100bzgy7j.html",
+                    "id": "006",
+                    "name": "\u94f6\u8272\u4e4b\u7259 \u963f\u5361\u4e3d",
+                    "num": 6,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=u0100bzgy7j&auto=1"
+                },
+                {
+                    "displayUrl": "http://v.qq.com/boke/page/m/0/l/m01489q1yol.html",
+                    "id": "007",
+                    "name": "\u94c1\u8840\u5973\u5fcd \u963f\u5361\u4e3d",
+                    "num": 7,
+                    "source": "http://static.video.qq.com/TPout.swf?vid=m01489q1yol&auto=0"
+                }
+            ],
+            "spells": [
+                {
+                    "description": "",
+                    "id": "AkaliMota",
+                    "image": {
+                        "full": "AkaliMota.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u7eef\u53f6\uff08Q\uff09",
+                    "resource": "",
+                    "tooltip": "\u963f\u5361\u4e3d\u5411\u76ee\u6807\u6295\u63b7\u5341\u5b57\u9570\uff0c\u9020\u621035/55/75/95/115(+0.4*AP)\u70b9\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u4e3a\u76ee\u6807\u65bd\u52a0\u4e00\u4e2a\u6301\u7eed6\u79d2\u7684\u7eef\u53f6\u5370\u3002<br><br>\u5f53\u963f\u5361\u4e3d\u5bf9\u88ab\u9644\u52a0\u4e86\u7eef\u53f6\u5370\u7684\u5355\u4f4d\u8fdb\u884c\u8fd1\u6218\u653b\u51fb\u65f6\uff0c\u5370\u8bb0\u4f1a\u89e6\u53d1\u5e76\u6d88\u8017\uff0c\u4ee5\u9020\u621045/70/95/120/145(+0.4*AP)\u70b9\u989d\u5916\u7684\u9b54\u6cd5\u4f24\u5bb3\uff0c\u5e76\u56de\u590d20/25/30/35/40\u70b9\u80fd\u91cf\u503c\u3002<br>\u8ddd\u79bb\uff1a600<br><br>\u51b7\u5374\u65f6\u95f4\uff1a6/5.5/5/4.5/4\u79d2<br>\u6d88\u8017\uff1a40/40/40/40/40 \u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "AkaliSmokeBomb",
+                    "image": {
+                        "full": "AkaliSmokeBomb.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u971e\u9635\uff08W\uff09",
+                    "resource": "",
+                    "tooltip": "\u963f\u5361\u4e3d\u6254\u4e0b\u4e00\u679a\u70df\u5e55\u5f39\uff0c\u70df\u5e55\u5c06\u6301\u7eed8/8/8/8/8\u79d2\u3002\u5f53\u963f\u5361\u4e3d\u5904\u4e8e\u70df\u5e55\u5f39\u7684\u4f5c\u7528\u8303\u56f4\u5185\u7684\u65f6\u5019\uff0c\u5979\u4f1a\u8fdb\u5165\u9690\u5f62\u72b6\u6001\uff0c\u5e76\u83b7\u5f9720/40/60/80/100%\u7684\u7206\u53d1\u6027\u79fb\u52a8\u901f\u5ea6\u52a0\u6210\uff0c\u8fd9\u4e2a\u52a0\u6210\u4f1a\u57281\u79d2\u91cc\u6301\u7eed\u8870\u51cf\u3002\u653b\u51fb\u6216\u65bd\u6cd5\u5c06\u4f7f\u963f\u5361\u4e3d\u77ed\u6682\u5730\u73b0\u8eab\u3002<br><br>\u88ab\u70df\u5e55\u6240\u7b3c\u7f69\u7684\u654c\u4eba\uff0c\u79fb\u52a8\u901f\u5ea6\u5c06\u4f1a\u88ab\u51cf\u5c1114/18/22/26/30%\u3002<br>\u8ddd\u79bb\uff1a700<br><br>\u51b7\u5374\u65f6\u95f4\uff1a20/20/20/20/20\u79d2<br>\u6d88\u8017\uff1a80/75/70/65/60 \u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "AkaliShadowSwipe",
+                    "image": {
+                        "full": "AkaliShadowSwipe.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u5965\u4e49\uff01\u6563\u534e\uff08E\uff09",
+                    "resource": "",
+                    "tooltip": "\u963f\u5361\u4e3d\u821e\u52a8\u5341\u5b57\u9570\uff0c\u5bf9\u9644\u8fd1\u5355\u4f4d\u9020\u621030/55/80/105/130(+0.6*\u603bAD)(+0.4*AP)\u70b9\u7269\u7406\u4f24\u5bb3\u3002<br><br>\u3010\u5965\u4e49\uff01\u6563\u534e\u3011\u4e0d\u518d\u5f15\u7206\u5370\u8bb0<br>\u8ddd\u79bb\uff1a325<br><br>\u51b7\u5374\u65f6\u95f4\uff1a5/4/3/2/1 \u79d2<br>\u6d88\u8017\uff1a60/55/50/45/40\u80fd\u91cf"
+                },
+                {
+                    "description": "",
+                    "id": "AkaliShadowDance",
+                    "image": {
+                        "full": "AkaliShadowDance.png"
+                    },
+                    "leveltip": {
+                        "effect": [],
+                        "label": []
+                    },
+                    "name": "\u79d8\u5965\u4e49\uff01\u5e7b\u6a31\u6740\u7f2d\u4e71\uff08R\uff09",
+                    "resource": "",
+                    "tooltip": "\u963f\u5361\u4e3d\u7a7f\u8fc7\u9634\u5f71\u5bf9\u76ee\u6807\u53d1\u52a8\u5feb\u901f\u653b\u51fb\uff0c\u9020\u6210100/175/250(+0.5*AP)\u9b54\u6cd5\u4f24\u5bb3\u3002<br><br>\u963f\u5361\u4e3d\u6bcf30,22.5,15\u79d2\u83b7\u5f97\u4e00\u4e2a\u5e7b\u6a31\u4e4b\u534e\uff0c\u6700\u591a\u50a8\u5b583\u4e2a\u3002<br><br>\u73b0\u5728\u5bf9\u88ab\u523a\u5ba2\u5370\u8bb0\u6807\u8bb0\u7684\u654c\u4eba\u4f7f\u7528\u5c06\u51cf\u5c1150%\u7684\u7a7f\u8d8a\u8ddd\u79bb<br>\u6700\u5c0f\u7a7f\u8d8a\u8ddd\u79bb\uff1a100<br>\u6700\u5927\u7a7f\u8d8a\u8ddd\u79bb\uff1a200<br>\u8ddd\u79bb\uff1a700<br> \u7a81\u8fdb\u901f\u5ea6\uff1a2000\uff082\u670818\u65e56.3\u7248\u672c\u66f4\u65b0\uff0c\u6b64\u524d\u4e3a1600\uff09<br><br>\u51b7\u5374\u65f6\u95f4\uff1a2/1.5/1\u79d2<br>"
+                }
+            ],
+            "tags": [
+                "Assassin"
+            ],
+            "title": "\u963f\u5361\u4e3d",
+            "trait": {
+                "zd": {
+                    "add-point": "QWQEQRQEQEREEWWRWW",
+                    "eq-recommond": [
+                        "1054;2003;3340",
+                        "3020;3145;3136",
+                        "3020;3146;3116;3151;3128;3089",
+                        "3020;3146;3001;3143;3157;3026"
+                    ]
+                }
+            }
+        }
+    ],
+    "code": 0,
+    "msg": "ok"
+}
