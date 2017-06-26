@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<table>
+<tr><td>生日：</td><td>{{ the_user_birthday_month }}月{{ the_user_birthday_day }}日</td></tr>
+<tr><td>星座：</td><td>{{ the_user_astro }}</td></tr>
+</table>
+
+
+{% endblock %}
