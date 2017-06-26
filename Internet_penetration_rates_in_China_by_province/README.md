@@ -1,4 +1,5 @@
 Internet_penetration_rates_in_China_by_province
+
 英文名字为Internet_penetration_rates_in_China_by_province,中文名字为中国省份互联网普及率。
 		
 # 简介 
@@ -27,7 +28,7 @@ Internet_penetration_rates_in_China_by_province
 
 3.前端浏览器web 请求：访问 http://127.0.0.1:5000/ 启动前端web 请求
 
-4.後端伺服器web 响应：province.py 中 执行 了@app.route('/') 下的 entry_code()函数，以HTML模版[templates/entry.html](templates/entry.html)及一个含省份名称的列表（见代码 the_user_province=list_province）产出的产生《欢迎来到网上省份互联网普及率搜索！》的HTML页面
+4.後端伺服器web 响应：Internet_penetration_rates_in_China_by_province.py 中 执行 了@app.route('/') 下的 entry_code()函数，以HTML模版[templates/entry.html](templates/entry.html)及一个含省份名称的列表（见代码 the_user_province=list_province）产出的产生《欢迎来到网上省份互联网普及率搜索！》的HTML页面
 
 5.前端浏览器收到web 响应：出现HTML页面有HTML表单的输入，变数名称(name)为'province'，使用了HTML5的select 定义在 name='province' 及 select标签，详见HTML模版[templates/entry.html](templates/entry.html)
 
