@@ -62,7 +62,7 @@ Zita08</br>
 Bangajeong</br>
 zhongqiuru</br>
 kusumuxi</br>
-fungchup</br>
+fungchu</br>
 
 
 Web App动作描述
