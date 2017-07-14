@@ -17,26 +17,26 @@ pick_a_astro.py
 ## 从输入到输出，除了flask模块，本组作品还使用了：
 
 ### 模块
-*[datetime](https://docs.python.org/2/library/datetime.html?highlight=datetime#module-datetime)</br>
+* [datetime](https://docs.python.org/2/library/datetime.html?highlight=datetime#module-datetime)</br>
 * [requests](http://docs.python-requests.org/zh_CN/latest/user/quickstart.html)
 * [json](https://docs.python.org/2/library/json.html)
 
 ### 数据
-> 在astro_notebooks.py中，用requests模块从[星座运势api]读取数据，把十二星座输出成json档，在文件中读入，并做成字典读出相对应的内容。资料类型：以星座区间为键，星座为值的字典。
-> 从[星座运势api]读取数据星座运势，提取星座运势概述储存在 data\\blood.tsv。
+*在astro_notebooks.py中，用requests模块从[星座运势api]读取数据，把十二星座输出成json档，在文件中读入，并做成字典读出相对应的内容。资料类型：以星座区间为键，星座为值的字典。
+*从[星座运势api]读取数据星座运势，提取星座运势概述储存在 data\\blood.tsv。
 
 ### API
-> -[星座运势api](http://api.jisuapi.com/astro/all)十二星座都做出字典。
-> -[星座运势api](http://api.jisuapi.com/astro/fortune)用字典把数据做出以星座为键，星座运势概述（’summary‘）为值的字典。
+*[星座运势api](http://api.jisuapi.com/astro/all) 把十二星座，以星座区间为键、星座为值做出字典。
+*[星座运势api](http://api.jisuapi.com/astro/fortune)用字典把数据做出以星座为键，星座运势概述（’summary‘）为值的字典。
 
 
 ###Web App动作描述
 
  以下是web请求前的准备工作
 
-1. 在[astro]astro_notebooks.py)中，调用api，生成一个含有所有星座的json档，用def find_astro(month, day)函数， datetime拆分生日以方便处理。
+1. 在[astro](astro_notebooks.py)中，调用api，生成一个含有所有星座的json档，用def find_astro(month, day)函数， datetime拆分生日以方便处理。
 
-2. 在[astro]glblood.py)中，def get_blood_name()函数，打开[data/blood.tsv](data/blood.tsv)，返回一个以星座为键，星座运势概述为值的字典(data = {d['c_code']:d['c_name'] for d in list_dict_blood})，目标是用户输入生日不但得到星座，并且得到星座运势概述。
+2. 在[astro](glblood.py)中，def get_blood_name()函数，打开[data/blood.tsv](data/blood.tsv)，返回一个以星座为键，星座运势概述为值的字典(data = {d['c_code']:d['c_name'] for d in list_dict_blood})，目标是用户输入生日不但得到星座，并且得到星座运势概述。
 
 以下按web 请求（web request） - web 响应 时序说明
 1.後端伺服器启动：执行 pick_a_astro.py 启动後端伺服器，等待web 请求。启动成功应出现： * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
@@ -51,7 +51,7 @@ pick_a_astro.py
 
 6.後端服务器收到用户web 请求，匹配到@app.route('/pick_a_astro', methods=['POST'])的函数 pick_a_astro()
 
-7.[pick_a_astro.py](pick_a_astro.py) 中 def pick_a_astro() 函数，把用户提交的数据，以flask 模块  user_birthday_month = request.form["user_birthday_month"]	，user_birthday_day =request.form["user_birthday_day"]取到Web 请求中，通过pick_a_astro 函数，得出用户所属星座，再通过 user_blood_code = c[user_astro] 把用户的的星座当键，对应输出星座运势。再使用flask模块render_template 函数以templates/results.html模版为基础（输出）。
+7.[pick_a_astro.py](pick_a_astro.py) 中 def pick_a_astro() 函数，把用户提交的数据，以flask 模块  user_birthday_month = request.form["user_birthday_month"]	，user_birthday_day =request.form["user_birthday_day"]取到Web 请求中，通过pick_a_astro 函数，得出用户所属星座，再通过 user_blood_code = c[user_astro] 把用户的的星座当键，对应输出星座运势。再使用flask模块render_template 函数以[templates/results.html](templates/results.html)模版为基础（输出）。
 
 8.前端浏览器收到web 响应：模版中[templates/results.html](templates/results.html)的变数值正确的产生的话，前端浏览器会收到正确响应，看到星座和星座运势。
 
