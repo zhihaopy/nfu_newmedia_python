@@ -24,7 +24,7 @@ pick_a_astro.py
 ### 数据
 *在[astro_notebooks.py](astro_notebooks.py)中，用[星座运势api](http://api.jisuapi.com/astro/all)读取数据，把十二星座输出成json档，在文件中读入，并做成字典读出相对应的内容。
 *资料类型：以星座区间为键，星座为值的字典。
-*从[星座运势api](http://api.jisuapi.com/astro/fortune)读取数据星座运势，提取星座运势概述储存在 [data\\blood.tsv](data\\blood.tsv)
+*从[星座运势api](http://api.jisuapi.com/astro/fortune)读取数据星座运势，提取星座运势概述储存在[data/blood.tsv]
 
 ### API
 *[星座运势api](http://api.jisuapi.com/astro/all) 把十二星座，以星座区间为键、星座为值做出字典。
