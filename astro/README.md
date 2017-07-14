@@ -8,6 +8,7 @@ pick_a_astro.py
 登陆web网址，输入用户生日的月，日与星座时间所属区间，进行运算，计算出用户所对应星座。并输出星座的运势概述**</br>
 
 ## 输入：
+交互界面使用到HTML5之input标签
 用户输入生日的方式为分别输入：月份（）、日子（）**</br>
 用户输入生日，使用html </td><td><input name='user_birthday_day' type='TEXT' value='输入你的出生日'></td></tr>，详情见[templates/entry.html](templates/entry.html)
 
