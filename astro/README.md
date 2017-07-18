@@ -23,8 +23,8 @@ pick_a_astro.py
 * [json](https://docs.python.org/2/library/json.html)
 
 ### 数据
-*在astro_notebooks.py中，用requests模块从[星座运势api]读取数据，把十二星座输出成json档，在文件中读入，并做成字典读出相对应的内容。资料类型：以星座区间为键，星座为值的字典。
-*从[星座运势api]读取数据星座运势，提取星座运势概述储存在 [data/blood.tsv](data/blood.tsv)。
+*在[astro_notebooks.py](astro_notebooks.py)中，用requests模块从[星座运势api](https://www.jisuapi.com/api/astro/)读取数据，把十二星座输出成json档，在文件中读入，并做成字典读出相对应的内容。资料类型：以星座区间为键，星座为值的字典。
+*从[星座运势api](https://www.jisuapi.com/api/astro/)读取数据星座运势，提取星座运势概述储存在 [data/blood.tsv](data/blood.tsv)。
 
 ### API
 *[星座运势api](https://www.jisuapi.com/api/astro/) 把十二星座，以星座区间为键、星座为值做出字典。
@@ -58,4 +58,4 @@ pick_a_astro.py
 
 ## 作者成员：
 
- 见[_team_.tsv](_team_/_team_.tsv)
+ 见[_team_/_team_.tsv](_team_/_team_.tsv)
