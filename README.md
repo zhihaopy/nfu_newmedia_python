@@ -8,6 +8,7 @@ pick_a_astro.py
 登陆web网址，输入用户生日的月，日与星座时间所属区间，进行运算，计算出用户所对应星座。并输出星座的运势概述**</br>
 
 ## 输入：
+交互界面使用到HTML5之input标签
 用户输入生日的方式为分别输入：月份（）、日子（）**</br>
 用户输入生日，使用html </td><td><input name='user_birthday_day' type='TEXT' value='输入你的出生日'></td></tr>，详情见[templates/entry.html](templates/entry.html)
 
@@ -22,13 +23,12 @@ pick_a_astro.py
 * [json](https://docs.python.org/2/library/json.html)
 
 ### 数据
-*在[astro_notebooks.py](astro_notebooks.py)中，用[星座运势api](http://api.jisuapi.com/astro/all)读取数据，把十二星座输出成json档，在文件中读入，并做成字典读出相对应的内容。
-*资料类型：以星座区间为键，星座为值的字典。
-*从[星座运势api](http://api.jisuapi.com/astro/fortune)读取数据星座运势，提取星座运势概述储存在[data/blood.tsv](data/blood.tsv)
+*在astro_notebooks.py中，用requests模块从[星座运势api]读取数据，把十二星座输出成json档，在文件中读入，并做成字典读出相对应的内容。资料类型：以星座区间为键，星座为值的字典。
+*从[星座运势api]读取数据星座运势，提取星座运势概述储存在 [data/blood.tsv](data/blood.tsv)。
 
 ### API
-*[星座运势api](http://api.jisuapi.com/astro/all) 把十二星座，以星座区间为键、星座为值做出字典。
-*[星座运势api](http://api.jisuapi.com/astro/fortune)用字典把数据做出以星座为键，星座运势概述（’summary‘）为值的字典。
+*[星座运势api](https://www.jisuapi.com/api/astro/) 把十二星座，以星座区间为键、星座为值做出字典。
+*[星座运势api](https://www.jisuapi.com/api/astro/)用字典把数据做出以星座为键，星座运势概述（’summary‘）为值的字典。
 
 
 ###Web App动作描述
