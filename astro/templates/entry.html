@@ -6,15 +6,10 @@
 
 <form method='POST' action='/pick_a_astro'>
 <table>
-
-  {% for item in the_list_items %}
+<tr><td>生日：</td><td><input name = 'user_birthdate' type='date' value='輸入你的生日'></td></tr>
+{% for item in the_list_items %}
     <option value="{{item}}">{{item}}</option>
   {% endfor %}
-
-<tr><td>生日：</td><td><input name = 'user_birthdate' type='date' value='輸入你的生日'></td></tr>
-<input type="submit" />
-</form>
-
 </table>
 <p>准备就绪后, 单击此按钮：</p>
 <p><input value='开始' type='SUBMIT'></p>
