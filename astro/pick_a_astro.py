@@ -23,7 +23,7 @@ def pick_a_astro() -> 'html':
     user_birthday_month = user_birthdate.split("-")[1]
     user_birthday_day = user_birthdate.split("-")[2]
     user_astro = find_astro(user_birthday_month,user_birthday_day) 
-    user_blood_code = c[user_astro]
+    user_astro_fortune = c[user_astro]['summary']
     return render_template('results.html',
                            the_title = '以下是您的星座：',
                            the_user_birthday_month = user_birthday_month,
